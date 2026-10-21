@@ -8,15 +8,16 @@ from pathlib import Path
 
 from .builder import USER_VERSION, build_sqlite
 
-_TABLES = ("word", "word_kanji", "word_example", "sentence", "sentence_token")
+_TABLES = ("word", "word_kanji", "word_example", "sentence", "sentence_token", "jlpt_word")
 
 
 def _cmd_build(args: argparse.Namespace) -> None:
+    jlpt_dir = Path(args.input_jlpt_dir) if args.input_jlpt_dir else None
     stats = build_sqlite(
-        Path(args.input_jmdict), Path(args.input_examples), Path(args.db)
+        Path(args.input_jmdict), Path(args.input_examples), Path(args.db), jlpt_dir
     )
     print(f"Built {args.db}")
-    for key in ("entries", "words", "words_with_examples", "sentences", "sentences_with_tokens", "tokens", "user_version"):
+    for key in ("entries", "words", "words_with_examples", "sentences", "sentences_with_tokens", "tokens", "jlpt_words", "user_version"):
         print(f"  {key}: {stats[key]}")
 
 
@@ -39,6 +40,10 @@ def app(argv: list[str] | None = None) -> None:
     b = sub.add_parser("build", help="build the SQLite database from the dated snapshots")
     b.add_argument("--input-jmdict", default="data/JMdict_e_examp.gz")
     b.add_argument("--input-examples", default="data/examples.utf.gz")
+    b.add_argument(
+        "--input-jlpt-dir", default="data",
+        help="directory with the OpenJLPT vocabulary snapshots (openjlpt-vocab-n*.json)",
+    )
     b.add_argument("--db", default="output/tangobon.sqlite")
     b.set_defaults(func=_cmd_build)
 

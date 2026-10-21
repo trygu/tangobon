@@ -7,3 +7,12 @@ examples.utf.gz
   snapshot: 2026-10-21
   license:  EDRDG distribution of the Tatoeba-fed Tanaka sentence collection
             (redistribution terms: kanjifuda evidence register E027)
+openjlpt-vocab-n5.json openjlpt-vocab-n4.json openjlpt-vocab-n3.json
+openjlpt-vocab-n2.json openjlpt-vocab-n1.json openjlpt-meta.json
+  source:   https://github.com/evanclan/OpenJLPT
+  commit:   0d1d3410bec90bd4098a7c72de820543cb4f707c (2026-10-02)
+  snapshot: 2026-10-21
+  license:  CC BY-SA 4.0 (OpenJLPT dataset; level assignments are Jonathan
+            Waller's community lists, CC BY — unofficial JLPT approximations;
+            attribution per OpenJLPT NOTICE.md, kanjifuda evidence register
+            E059/E060)

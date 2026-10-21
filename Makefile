@@ -7,6 +7,7 @@ build:
 	uv run tangobon build \
 		--input-jmdict data/JMdict_e_examp.gz \
 		--input-examples data/examples.utf.gz \
+		--input-jlpt-dir data/ \
 		--db output/tangobon.sqlite
 
 stats:

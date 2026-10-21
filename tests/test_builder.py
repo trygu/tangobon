@@ -17,7 +17,9 @@ DATA = Path(__file__).resolve().parents[1] / "data"
 @pytest.fixture(scope="module")
 def db(tmp_path_factory) -> Path:
     target = tmp_path_factory.mktemp("tangobon") / "tangobon.sqlite"
-    build_sqlite(DATA / "JMdict_e_examp.gz", DATA / "examples.utf.gz", target)
+    build_sqlite(
+        DATA / "JMdict_e_examp.gz", DATA / "examples.utf.gz", target, jlpt_dir=DATA
+    )
     return target
 
 
@@ -140,3 +142,48 @@ def test_readings_are_optional(conn):
     without = conn.execute("SELECT COUNT(*) FROM word WHERE reading IS NULL").fetchone()[0]
     assert with_read > 0
     assert without > 0
+
+
+def test_jlpt_words_contract(conn):
+    # Counts are pinned to the 2026-10-21 OpenJLPT snapshot (commit 0d1d341).
+    n = conn.execute("SELECT COUNT(*) FROM jlpt_words").fetchone()[0]
+    assert n == 7811
+    by_level = dict(conn.execute("SELECT level, COUNT(*) FROM jlpt_words GROUP BY level"))
+    assert by_level == {5: 674, 4: 630, 3: 1659, 2: 1778, 1: 3070}
+    no_reading = conn.execute(
+        "SELECT COUNT(*) FROM jlpt_word WHERE reading IS NULL OR reading = ''"
+    ).fetchone()[0]
+    assert no_reading == 0
+
+
+def test_jlpt_levels_are_reading_specific(conn):
+    # The level attaches to the (word, reading) pair, not the surface:
+    # 明日 is N5 as あした but N4 as あす; 人 is N5 as ひと but N1 as じん.
+    asashita = dict(conn.execute(
+        "SELECT reading, level FROM jlpt_words WHERE word = '明日'"
+    ))
+    assert asashita == {"あした": 5, "あす": 4}
+    hito = dict(conn.execute(
+        "SELECT reading, level FROM jlpt_words WHERE word = '人'"
+    ))
+    assert hito == {"ひと": 5, "じん": 1}
+
+
+def test_jlpt_joins_to_word_table(conn):
+    # Every JLPT word with kanji must resolve in the word table via
+    # jmdict_id = ent_seq; only kana-only words (skipped by the word table)
+    # stay unresolved.
+    total = conn.execute(
+        "SELECT COUNT(*) FROM jlpt_word WHERE jmdict_id IS NOT NULL"
+    ).fetchone()[0]
+    joined = conn.execute(
+        "SELECT COUNT(*) FROM jlpt_word j JOIN word w ON w.ent_seq = j.jmdict_id"
+    ).fetchone()[0]
+    assert total >= 7700
+    assert total - joined <= 700  # kana-only words (アパート, カメラ, ...)
+    # Spot check through the contract views: 食べる is an N5 word in the table.
+    row = conn.execute(
+        "SELECT j.level FROM jlpt_words j JOIN word w ON w.ent_seq = j.jmdict_id"
+        " WHERE j.word = '食べる' AND w.surface = '食べる'"
+    ).fetchone()
+    assert row is not None and row[0] == 5

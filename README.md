@@ -2,12 +2,14 @@
 
 "the word book" — the word/sentence layer for kanjifuda.
 
-tangobon converts two dated EDRDG snapshots into a single SQLite database
-with a small set of contract views for the app:
+tangobon converts dated snapshots into a single SQLite database with a
+small set of contract views for the app:
 
 - **JMdict_e_examp.gz** — words: surface (`keb`), dictionary reading,
   primary English gloss, and the link to Tanaka example sentences.
 - **examples.utf.gz** — Tanaka-style bilingual sentence pairs (Tatoeba-fed).
+- **openjlpt-vocab-n5..n1.json** — the OpenJLPT vocabulary lists: a JLPT
+  level for each word (see "JLPT levels" below).
 
 The character layer (kanji, readings, strokes, JLPT estimates) lives in the
 sibling project [kanjibon](https://github.com/trygu/kanjibon). tangobon is
@@ -24,6 +26,11 @@ Builds use these files, not the live network.
 - `examples.utf.gz` — EDRDG distribution of the Tanaka sentence collection,
   which is Tatoeba-fed; sentences are subject to the Tatoeba/EDRDG
   redistribution terms recorded in the kanjifuda evidence register (E027).
+- `openjlpt-vocab-n5..n1.json` + `openjlpt-meta.json` — the [OpenJLPT]
+  (https://github.com/evanclan/OpenJLPT) vocabulary lists, CC BY-SA 4.0
+  (snapshot of commit `0d1d341`, fetched 2026-10-21). Attribution per
+  OpenJLPT's NOTICE: it uses JMdict and KANJIDIC2 (EDRDG), Jonathan
+  Waller's JLPT lists (CC BY), and Tatoeba.
 
 ## Build
 
@@ -33,10 +40,14 @@ Requires Python ≥ 3.10 and [uv](https://docs.astral.sh/uv/).
     make stats     # row counts
     make test      # pytest (one build, contract-view checks)
 
+Builds pass `--input-jlpt-dir data` (the default), so the JLPT level table
+is loaded whenever the `openjlpt-vocab-n*.json` snapshots are present.
+
 ## Schema and contract views
 
-Tables: `word`, `word_kanji`, `word_example`, `sentence`, `sentence_token`.
-`PRAGMA user_version` is 1003 and must be bumped on any schema change.
+Tables: `word`, `word_kanji`, `word_example`, `sentence`, `sentence_token`,
+`jlpt_word`. `PRAGMA user_version` is 1004 and must be bumped on any schema
+change.
 
 Contract views (what the app may rely on):
 
@@ -53,8 +64,27 @@ Contract views (what the app may rely on):
   annotation (the occurrence reading, kept distinct from the dictionary
   reading), and `entry_ref` the `(#NNN)` dictionary reference, which is the
   JMdict `ent_seq` wherever it resolves.
+- `jlpt_words(word, reading, level, jmdict_id, openjlpt_id)` — the JLPT
+  level of a word (see below).
 
 Row order in all views is incidental; never assume it.
+
+## JLPT levels
+
+`jlpt_words` maps a `(word, reading)` pair to a JLPT level, from the
+OpenJLPT vocabulary lists (7,811 words). `level` is an integer with
+`5` = N5 (easiest) and `1` = N1; a word "fits" a learner at level L when
+`level >= L`. Notes that matter for consumers:
+
+- **The level attaches to the `(word, reading)` pair, not the surface**:
+  明日 is N5 as あした but N4 as あす.
+- **The levels are estimates.** The Japan Foundation publishes no official
+  vocabulary lists; the assignments are Jonathan Waller's community lists
+  (the ones Jisho.org uses). They are a level-fit *filter input*, not a
+  statement about any individual word.
+- **Joining to the word table** is by `jmdict_id = word.ent_seq`. It is NULL
+  for kana-only words (アパート, カメラ, ...), which the word table
+  intentionally skips; every JLPT word that contains kanji joins.
 
 ## Scope decisions (what is deliberately not here)
 

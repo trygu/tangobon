@@ -7,6 +7,7 @@ flat word/sentence database with two contract views for the app:
   * ``kanji_words(kanji, surface, reading, gloss, ke_pri, ent_seq)``
   * ``word_sentences(word_id, surface, sent_id, text, translation)``
   * ``sentence_tokens(sent_id, pos, lemma, form, reading, entry_ref)``
+  * ``jlpt_words(word, reading, level, jmdict_id, openjlpt_id)``
 
 Word importance:
 
@@ -39,17 +40,33 @@ Sentence join:
     Tanaka entry number referenced by JMdict ``<ex_srce exsrc_type="tat">``.
   * ``examples.utf`` ``B:`` lines (morphological analysis) are not stored.
   * A: lines without a ``#ID=`` tag cannot be joined and are skipped.
+
+JLPT levels:
+
+  * ``openjlpt-vocab-n5.json`` ... ``openjlpt-vocab-n1.json`` (the OpenJLPT
+    dataset, CC BY-SA 4.0; level assignments are Jonathan Waller's community
+    lists — unofficial approximations, not an official JLPT syllabus) are
+    loaded into ``jlpt_word``.
+  * ``level`` is stored as an integer: 5 = N5 (easiest) ... 1 = N1. A word
+    "fits" a learner at level L when ``level >= L`` (e.g. N4 and below is
+    ``level >= 4``).
+  * The level attaches to the ``(word, reading)`` pair, not the surface:
+    明日 is N5 as あした but N4 as あす.
+  * ``jmdict_id`` is the JMdict ``ent_seq`` where resolvable; it is NULL for
+    kana-only words, which the word table intentionally skips, so every
+    JLPT word with kanji joins ``word`` exactly.
 """
 
 from __future__ import annotations
 
 import gzip
+import json
 import re
 import sqlite3
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-USER_VERSION = 1003
+USER_VERSION = 1004
 
 # CJK ideographs (main block, Extension A, compatibility block). Surfaces
 # outside these ranges are treated as non-kanji.
@@ -135,13 +152,39 @@ SELECT st.sent_id AS sent_id,
        st.reading AS reading,
        st.entry_ref AS entry_ref
 FROM sentence_token AS st;
+
+CREATE TABLE jlpt_word(
+    word TEXT NOT NULL,
+    reading TEXT NOT NULL,
+    level INTEGER NOT NULL,  -- 5 = N5 (easiest) ... 1 = N1; Waller community lists
+    jmdict_id TEXT,          -- JMdict ent_seq where resolvable; NULL for kana-only words
+    openjlpt_id TEXT,        -- stable id from the OpenJLPT dataset
+    PRIMARY KEY(word, reading)
+);
+CREATE INDEX idx_jlpt_level ON jlpt_word(level);
+
+CREATE VIEW jlpt_words AS
+SELECT j.word AS word,
+       j.reading AS reading,
+       j.level AS level,
+       j.jmdict_id AS jmdict_id,
+       j.openjlpt_id AS openjlpt_id
+FROM jlpt_word AS j;
 """
 
 
 def build_sqlite(
-    jmdict_path: str | Path, examples_path: str | Path, db_path: str | Path
+    jmdict_path: str | Path,
+    examples_path: str | Path,
+    db_path: str | Path,
+    jlpt_dir: str | Path | None = None,
 ) -> dict:
-    """Build the word/sentence database from the two dated snapshots."""
+    """Build the word/sentence database from the dated snapshots.
+
+    ``jlpt_dir`` (optional) holds the OpenJLPT vocabulary snapshots
+    (``openjlpt-vocab-n5.json`` ... ``openjlpt-vocab-n1.json``); when given,
+    the JLPT level table is loaded as well.
+    """
     db_path = Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
     if db_path.exists():
@@ -154,10 +197,12 @@ def build_sqlite(
         "words": 0,
         "words_with_examples": 0,
         "sentences": 0,
+        "jlpt_words": 0,
         "user_version": USER_VERSION,
     }
     _build_words(conn, jmdict_path, stats)
     _build_sentences(conn, examples_path, stats)
+    _build_jlpt(conn, jlpt_dir, stats)
     conn.commit()
 
     stats["words"] = conn.execute("SELECT COUNT(*) FROM word").fetchone()[0]
@@ -318,3 +363,35 @@ def _build_sentences(conn: sqlite3.Connection, examples_path: str | Path, stats:
                 continue
             pending = None
         conn.commit()
+
+
+def _build_jlpt(
+    conn: sqlite3.Connection, jlpt_dir: str | Path | None, stats: dict
+) -> None:
+    """Load the OpenJLPT vocabulary snapshots into jlpt_word.
+
+    The files are small (a few MB total), so they are read in full; the
+    streaming rule applies to the large gz snapshots. ``level`` is stored
+    as an integer with 5 = N5 (easiest) and 1 = N1.
+    """
+    if jlpt_dir is None:
+        return
+    jlpt_dir = Path(jlpt_dir)
+    for level, name in ((5, "n5"), (4, "n4"), (3, "n3"), (2, "n2"), (1, "n1")):
+        path = jlpt_dir / f"openjlpt-vocab-{name}.json"
+        if not path.exists():
+            continue
+        for entry in json.loads(path.read_text(encoding="utf-8")):
+            conn.execute(
+                "INSERT INTO jlpt_word(word, reading, level, jmdict_id,"
+                " openjlpt_id) VALUES(?,?,?,?,?)",
+                (
+                    entry["word"],
+                    entry["reading"],
+                    level,
+                    str(entry["jmdict_id"]) if entry.get("jmdict_id") else None,
+                    entry.get("id"),
+                ),
+            )
+            stats["jlpt_words"] += 1
+    conn.commit()

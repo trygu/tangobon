@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tangobon"
+version = "0.1.0"
+description = "JMdict + Tanaka word and sentence layer → SQLite (streaming)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "pytest>=8",
+  "ruff",
+]
+
+[project.scripts]
+tangobon = "tangobon.cli:app"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

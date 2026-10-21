@@ -85,6 +85,53 @@ def test_sentences_are_complete(conn):
     assert empty == 0
 
 
+def test_sentence_tokens_contract(conn):
+    q = (
+        "SELECT t.lemma, t.form, t.reading FROM sentence_tokens t"
+        " JOIN sentence s ON s.sent_id = t.sent_id WHERE s.text = ?"
+    )
+    rows = conn.execute(q, ("この学校はたくさんの生徒がいます。",)).fetchall()
+    assert any(r[0] == "学校" for r in rows)  # the 学校 token is present
+    inf = conn.execute(
+        q + " AND t.lemma = '居る'", ("この学校はたくさんの生徒がいます。",)
+    ).fetchone()
+    assert inf == ("居る", "います", "いる")  # lemma / form / occurrence reading
+
+
+def test_token_form_distinguishes_homographs(conn):
+    # The 遭った sentence is linked to the 会う entry: the B: line gives lemma
+    # 会う but form 遭った, and the sentence text never contains 会う. The
+    # identity filter must be able to see both facts.
+    rows = conn.execute(
+        "SELECT t.lemma, t.form FROM sentence_tokens t"
+        " JOIN sentence s ON s.sent_id = t.sent_id"
+        " WHERE s.text = '駅へ行く途中でにわか雨に遭った。'"
+    ).fetchall()
+    assert ("会う", "遭った") in rows
+    assert "会う" not in "駅へ行く途中でにわか雨に遭った。"
+
+
+def test_entry_refs_match_ent_seq(conn):
+    # Wherever a token's lemma is a word in the word table and carries an
+    # entry_ref, the ref must be one of that surface's JMdict ent_seqs.
+    bad = conn.execute(
+        "SELECT COUNT(*) FROM sentence_token t"
+        " WHERE t.entry_ref IS NOT NULL"
+        " AND EXISTS (SELECT 1 FROM word w WHERE w.surface = t.lemma)"
+        " AND NOT EXISTS (SELECT 1 FROM word w"
+        "   WHERE w.surface = t.lemma AND w.ent_seq = t.entry_ref)"
+    ).fetchone()[0]
+    assert bad == 0
+
+
+def test_token_coverage(conn):
+    assert conn.execute("SELECT COUNT(*) FROM sentence_token").fetchone()[0] > 1_000_000
+    assert (
+        conn.execute("SELECT COUNT(DISTINCT sent_id) FROM sentence_token").fetchone()[0]
+        > 100_000
+    )
+
+
 def test_readings_are_optional(conn):
     # Some surfaces carry a k_read, some do not; both must be queryable.
     with_read = conn.execute(

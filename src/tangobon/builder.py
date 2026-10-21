@@ -6,6 +6,7 @@ flat word/sentence database with two contract views for the app:
 
   * ``kanji_words(kanji, surface, reading, gloss, ke_pri, ent_seq)``
   * ``word_sentences(word_id, surface, sent_id, text, translation)``
+  * ``sentence_tokens(sent_id, pos, lemma, form, reading, entry_ref)``
 
 Word importance:
 
@@ -13,6 +14,18 @@ Word importance:
     nf01, ...) space-joined and sorted; NULL when the surface has none.
     These are the dictionary's own importance markers and the basis for
     ranking candidate words per kanji.
+
+Morphological tokens:
+
+  * ``examples.utf`` ``B:`` lines are parsed into ``sentence_token`` rows:
+    ``lemma`` (dictionary/base form), ``form`` (the form as written in the
+    sentence — the ``{...}`` part, falling back to the lemma), ``reading``
+    (the ``(kana)`` annotation) and ``entry_ref`` (the ``(#NNN)`` dictionary
+    reference, which is the JMdict ``ent_seq`` where resolvable).
+  * The raw ``B:`` text is not stored; the ``[nn]`` analysis flags are
+    dropped. Note that Tanaka's own lemma mapping can be suspect (e.g.
+    遭った analyzed under 会う), so token evidence is a filter input, not
+    ground truth.
 
 Reading convention:
 
@@ -36,13 +49,17 @@ import sqlite3
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-USER_VERSION = 1002
+USER_VERSION = 1003
 
 # CJK ideographs (main block, Extension A, compatibility block). Surfaces
 # outside these ranges are treated as non-kanji.
 KANJI_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
 A_LINE_RE = re.compile(r"^A:\s(.*?)\t(.*)$")
 ID_TAG_RE = re.compile(r"#ID=(\S+)$")
+BRACE_RE = re.compile(r"\{([^}]*)\}")  # form as written in the sentence
+REF_RE = re.compile(r"\(#(\d+)\)")  # dictionary reference (JMdict ent_seq)
+PAREN_RE = re.compile(r"\(([^)]*)\)")  # kana reading annotation
+FLAG_RE = re.compile(r"\[\d+\]")  # analysis flag (dropped)
 
 _COMMIT_EVERY = 20000
 
@@ -98,6 +115,26 @@ SELECT w.word_id AS word_id,
 FROM word_example AS we
 JOIN word AS w ON w.word_id = we.word_id
 JOIN sentence AS s ON s.tanaka_entry = we.tanaka_entry;
+
+CREATE TABLE sentence_token(
+    sent_id TEXT NOT NULL REFERENCES sentence(sent_id),
+    pos INTEGER NOT NULL,
+    lemma TEXT NOT NULL,  -- base form from the B: line
+    form TEXT NOT NULL,   -- form as written in the sentence ({...} or lemma)
+    reading TEXT,         -- (kana) annotation
+    entry_ref TEXT,       -- (#NNN) reference: the JMdict ent_seq where resolvable
+    PRIMARY KEY(sent_id, pos)
+);
+CREATE INDEX idx_token_ref ON sentence_token(entry_ref);
+
+CREATE VIEW sentence_tokens AS
+SELECT st.sent_id AS sent_id,
+       st.pos AS pos,
+       st.lemma AS lemma,
+       st.form AS form,
+       st.reading AS reading,
+       st.entry_ref AS entry_ref
+FROM sentence_token AS st;
 """
 
 
@@ -107,6 +144,8 @@ def build_sqlite(
     """Build the word/sentence database from the two dated snapshots."""
     db_path = Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
+    if db_path.exists():
+        db_path.unlink()  # builds are reproducible from the snapshots
     conn = sqlite3.connect(db_path)
     conn.executescript(_SCHEMA)
 
@@ -212,29 +251,70 @@ def _build_words(conn: sqlite3.Connection, jmdict_path: str | Path, stats: dict)
     stats["entries"] = entries
 
 
+def _parse_b_line(bline: str) -> list[tuple[str, str, str | None, str | None]]:
+    """Parse one B: line into (lemma, form, reading, entry_ref) tokens."""
+    tokens = []
+    for chunk in bline[3:].split():
+        bm = BRACE_RE.search(chunk)
+        form = bm.group(1).strip() if bm else None
+        rest = BRACE_RE.sub("", chunk)
+        fm = REF_RE.search(rest)
+        entry_ref = fm.group(1) if fm else None
+        rest = REF_RE.sub("", rest)
+        rm = PAREN_RE.search(rest)
+        reading = rm.group(1).strip() if rm else None
+        rest = PAREN_RE.sub("", rest)
+        lemma = FLAG_RE.sub("", rest).rstrip("~").strip()
+        if not lemma and form is None:
+            continue
+        tokens.append((lemma, form if form is not None else lemma, reading, entry_ref))
+    return tokens
+
+
 def _build_sentences(conn: sqlite3.Connection, examples_path: str | Path, stats: dict) -> None:
+    stats["sentences_with_tokens"] = 0
+    stats["tokens"] = 0
+    pending: str | None = None
     with gzip.open(examples_path, "rt", encoding="utf-8") as f:
         for line in f:
-            m = A_LINE_RE.match(line.rstrip("\n"))
-            if not m:
+            line = line.rstrip("\n")
+            if line.startswith("A:"):
+                m = A_LINE_RE.match(line)
+                if m:
+                    jp = m.group(1).strip()
+                    rest = m.group(2)
+                    idm = ID_TAG_RE.search(rest)
+                    if idm is not None:
+                        sent_id = idm.group(1)
+                        translation = rest[: idm.start()].strip()
+                        # #ID=<tatoeba_id>_<tanaka_id>: the second part is the
+                        # Tanaka entry number referenced by JMdict
+                        # <ex_srce exsrc_type="tat">.
+                        tanaka_entry = sent_id.split("_", 1)[1] if "_" in sent_id else None
+                        if jp and translation and tanaka_entry is not None:
+                            conn.execute(
+                                "INSERT OR IGNORE INTO sentence(sent_id,"
+                                " tanaka_entry, text, translation)"
+                                " VALUES(?,?,?,?)",
+                                (sent_id, tanaka_entry, jp, translation),
+                            )
+                            pending = sent_id
                 continue
-            jp = m.group(1).strip()
-            rest = m.group(2)
-            idm = ID_TAG_RE.search(rest)
-            if idm is None:
-                continue  # unnumbered lines cannot be joined to JMdict
-            sent_id = idm.group(1)
-            translation = rest[: idm.start()].strip()
-            if not jp or not translation:
+            if line.startswith("B:"):
+                if pending is not None:
+                    tokens = _parse_b_line(line)
+                    if tokens:
+                        conn.executemany(
+                            "INSERT INTO sentence_token(sent_id, pos, lemma,"
+                            " form, reading, entry_ref) VALUES(?,?,?,?,?,?)",
+                            [
+                                (pending, i, lemma, form, reading, ref)
+                                for i, (lemma, form, reading, ref) in enumerate(tokens)
+                            ],
+                        )
+                        stats["sentences_with_tokens"] += 1
+                        stats["tokens"] += len(tokens)
+                pending = None
                 continue
-            # #ID=<tatoeba_id>_<tanaka_id>: the second part is the Tanaka
-            # entry number referenced by JMdict <ex_srce exsrc_type="tat">.
-            tanaka_entry = sent_id.split("_", 1)[1] if "_" in sent_id else None
-            if tanaka_entry is None:
-                continue
-            conn.execute(
-                "INSERT OR IGNORE INTO sentence(sent_id, tanaka_entry,"
-                " text, translation) VALUES(?,?,?,?)",
-                (sent_id, tanaka_entry, jp, translation),
-            )
+            pending = None
         conn.commit()

@@ -8,7 +8,7 @@ from pathlib import Path
 
 from .builder import USER_VERSION, build_sqlite
 
-_TABLES = ("word", "word_kanji", "word_example", "sentence")
+_TABLES = ("word", "word_kanji", "word_example", "sentence", "sentence_token")
 
 
 def _cmd_build(args: argparse.Namespace) -> None:
@@ -16,7 +16,7 @@ def _cmd_build(args: argparse.Namespace) -> None:
         Path(args.input_jmdict), Path(args.input_examples), Path(args.db)
     )
     print(f"Built {args.db}")
-    for key in ("entries", "words", "words_with_examples", "sentences", "user_version"):
+    for key in ("entries", "words", "words_with_examples", "sentences", "sentences_with_tokens", "tokens", "user_version"):
         print(f"  {key}: {stats[key]}")
 
 

@@ -13,7 +13,7 @@ Word/sentence layer for kanjifuda: JMdict + Tanaka snapshots → SQLite.
 
 - Standard library only. No runtime dependencies.
 - Streaming parses; do not load whole snapshot files into memory.
-- Schema changes require bumping `PRAGMA user_version` (currently 1002) and
+- Schema changes require bumping `PRAGMA user_version` (currently 1003) and
   updating the tests.
 - The contract views (`kanji_words`, `word_sentences`) are the app's
   interface; keep them stable. Extend, don't break.

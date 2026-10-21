@@ -40,11 +40,30 @@ def test_kanji_words_contract(conn):
     n = conn.execute("SELECT COUNT(*) FROM kanji_words WHERE kanji='学'").fetchone()[0]
     assert n > 100
     row = conn.execute(
-        "SELECT surface, reading, gloss FROM kanji_words"
+        "SELECT surface, reading, gloss, ke_pri FROM kanji_words"
         " WHERE kanji='学' AND surface='学校'"
     ).fetchone()
     assert row is not None
     assert row[1] == "がっこう"
+    assert row[3] is not None
+    assert "ichi1" in row[3].split()
+    assert "news1" in row[3].split()
+    assert "nf01" in row[3].split()
+
+
+def test_ke_pri_frequency_ordering(conn):
+    # ke_pri must let "most important words per kanji" be queried: a tagged
+    # top-frequency surface (ichi1) exists for common kanji, and some
+    # surfaces carry no tags at all (NULL, not '').
+    tagged = conn.execute(
+        "SELECT COUNT(*) FROM kanji_words"
+        " WHERE kanji='日' AND ke_pri IS NOT NULL AND ke_pri LIKE '%ichi1%'"
+    ).fetchone()[0]
+    assert tagged > 10
+    untagged = conn.execute(
+        "SELECT COUNT(*) FROM word WHERE ke_pri IS NULL"
+    ).fetchone()[0]
+    assert untagged > 10000
 
 
 def test_word_sentences_contract(conn):

@@ -36,13 +36,15 @@ Requires Python ≥ 3.10 and [uv](https://docs.astral.sh/uv/).
 ## Schema and contract views
 
 Tables: `word`, `word_kanji`, `word_example`, `sentence`.
-`PRAGMA user_version` starts at 1001 and must be bumped on any schema
-change.
+`PRAGMA user_version` is 1002 and must be bumped on any schema change.
 
 Contract views (what the app may rely on):
 
-- `kanji_words(kanji, surface, reading, gloss, ent_seq)` — words containing
-  the given kanji; `reading` is the dictionary reading and may be NULL.
+- `kanji_words(kanji, surface, reading, gloss, ke_pri, ent_seq)` — words
+  containing the given kanji; `reading` is the dictionary reading and may be
+  NULL; `ke_pri` carries the JMdict frequency tags (ichi1, news1, nf01, ...)
+  space-joined, NULL when the surface has none — the dictionary's own
+  importance markers for ranking candidate words per kanji.
 - `word_sentences(word_id, surface, sent_id, text, translation)` — the
   example sentences linked to a word through its Tanaka entry.
 

@@ -4,8 +4,15 @@ Parses the two dated EDRDG snapshots (``JMdict_e_examp.gz`` and
 ``examples.utf.gz``) using only the Python standard library and builds a
 flat word/sentence database with two contract views for the app:
 
-  * ``kanji_words(kanji, surface, reading, gloss, ent_seq)``
+  * ``kanji_words(kanji, surface, reading, gloss, ke_pri, ent_seq)``
   * ``word_sentences(word_id, surface, sent_id, text, translation)``
+
+Word importance:
+
+  * ``ke_pri`` carries the surface's JMdict frequency tags (ichi1, news1,
+    nf01, ...) space-joined and sorted; NULL when the surface has none.
+    These are the dictionary's own importance markers and the basis for
+    ranking candidate words per kanji.
 
 Reading convention:
 
@@ -29,7 +36,7 @@ import sqlite3
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-USER_VERSION = 1001
+USER_VERSION = 1002
 
 # CJK ideographs (main block, Extension A, compatibility block). Surfaces
 # outside these ranges are treated as non-kanji.
@@ -46,6 +53,7 @@ CREATE TABLE word(
     surface TEXT NOT NULL,
     reading TEXT,
     gloss TEXT NOT NULL,
+    ke_pri TEXT,  -- space-joined JMdict frequency tags (ichi1 news1 nf01 ...), NULL if none
     UNIQUE(ent_seq, surface)
 );
 CREATE INDEX idx_word_surface ON word(surface);
@@ -76,6 +84,7 @@ SELECT wk.kanji AS kanji,
        w.surface AS surface,
        w.reading AS reading,
        w.gloss AS gloss,
+       w.ke_pri AS ke_pri,
        w.ent_seq AS ent_seq
 FROM word_kanji AS wk
 JOIN word AS w ON w.word_id = wk.word_id;
@@ -125,7 +134,7 @@ def build_sqlite(
 
 def _build_words(conn: sqlite3.Connection, jmdict_path: str | Path, stats: dict) -> None:
     ent_seq: str | None = None
-    surfaces: list[tuple[str, str | None]] = []
+    surfaces: list[tuple[str, str | None, str | None]] = []
     kana_only: list[str] = []  # r_ele reb values without re_restr
     primary_gloss: str | None = None
     tanaka_entries: list[str] = []
@@ -149,7 +158,14 @@ def _build_words(conn: sqlite3.Connection, jmdict_path: str | Path, stats: dict)
                 keb = (elem.findtext("keb") or "").strip()
                 if keb:
                     kread = (elem.findtext("k_read") or "").strip()
-                    surfaces.append((keb, kread or None))
+                    pri = " ".join(
+                        sorted(
+                            (t.text or "").strip()
+                            for t in elem.findall("ke_pri")
+                            if (t.text or "").strip()
+                        )
+                    )
+                    surfaces.append((keb, kread or None, pri or None))
             elif tag == "r_ele":
                 reb = (elem.findtext("reb") or "").strip()
                 if reb and elem.findtext("re_restr") is None:
@@ -169,11 +185,11 @@ def _build_words(conn: sqlite3.Connection, jmdict_path: str | Path, stats: dict)
                 # Entry-level kana: unique and unambiguous only.
                 entry_kana = kana_only[0] if len(kana_only) == 1 else None
                 if ent_seq and surfaces and primary_gloss:
-                    for surface, reading in surfaces:
+                    for surface, reading, ke_pri in surfaces:
                         cur = conn.execute(
-                            "INSERT INTO word(ent_seq, surface, reading, gloss)"
-                            " VALUES(?,?,?,?)",
-                            (ent_seq, surface, reading or entry_kana, primary_gloss),
+                            "INSERT INTO word(ent_seq, surface, reading, gloss, ke_pri)"
+                            " VALUES(?,?,?,?,?)",
+                            (ent_seq, surface, reading or entry_kana, primary_gloss, ke_pri),
                         )
                         word_id = cur.lastrowid
                         for ch in set(KANJI_RE.findall(surface)):

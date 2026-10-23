@@ -16,3 +16,13 @@ openjlpt-vocab-n2.json openjlpt-vocab-n1.json openjlpt-meta.json
             Waller's community lists, CC BY — unofficial JLPT approximations;
             attribution per OpenJLPT NOTICE.md, kanjifuda evidence register
             E059/E060)
+bonus/drifters-catchphrases-2026-10-23.json
+  source:   ja.wikipedia (『8時だョ!全員集合』, "流行語（出演者別）" section and
+            main text) and the official TBS Channel page (ending chant);
+            manual curation, not a fetch — no network at build time
+  snapshot: 2026-10-23
+  license:  short quoted catchphrases (de minimis text quotation); each
+            phrase carries its verification URL. Personality rights: three of
+            the five are deceased — text only, no likeness or voice; public
+            release is a separate gated content resource (kanjifuda design
+            note design-feedback-2026-10-23-drifters-easter-egg.md)

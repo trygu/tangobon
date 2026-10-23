@@ -10,6 +10,9 @@ small set of contract views for the app:
 - **examples.utf.gz** — Tanaka-style bilingual sentence pairs (Tatoeba-fed).
 - **openjlpt-vocab-n5..n1.json** — the OpenJLPT vocabulary lists: a JLPT
   level for each word (see "JLPT levels" below).
+- **bonus/*.json** — hand-curated bonus phrase sets (currently
+  `drifters-80s`: 1980s ザ・ドリフターズ catchphrases with furigana, see
+  "Bonus phrases" below).
 
 The character layer (kanji, readings, strokes, JLPT estimates) lives in the
 sibling project [kanjibon](https://github.com/trygu/kanjibon). tangobon is
@@ -31,6 +34,14 @@ Builds use these files, not the live network.
   (snapshot of commit `0d1d341`, fetched 2026-10-21). Attribution per
   OpenJLPT's NOTICE: it uses JMdict and KANJIDIC2 (EDRDG), Jonathan
   Waller's JLPT lists (CC BY), and Tatoeba.
+- `bonus/drifters-catchphrases-2026-10-23.json` — hand-curated catchphrase
+  set, not a snapshot: each phrase verified against ja.wikipedia
+  (『8時だョ!全員集合』, "流行語（出演者別）" section) and the official TBS
+  page, with the URL recorded per phrase. Text-only quotation of short
+  catchphrases; the personality-rights considerations are recorded in the
+  kanjifuda design note
+  `docs/kanjifuda/docs/design-feedback-2026-10-23-drifters-easter-egg.md`
+  (public release is a separate gated content resource).
 
 ## Build
 
@@ -40,14 +51,16 @@ Requires Python ≥ 3.10 and [uv](https://docs.astral.sh/uv/).
     make stats     # row counts
     make test      # pytest (one build, contract-view checks)
 
-Builds pass `--input-jlpt-dir data` (the default), so the JLPT level table
-is loaded whenever the `openjlpt-vocab-n*.json` snapshots are present.
+Builds pass `--input-jlpt-dir data` and `--input-bonus-dir data/bonus`
+(the defaults), so the JLPT level table is loaded whenever the
+`openjlpt-vocab-n*.json` snapshots are present and the bonus phrase sets
+whenever `data/bonus/*.json` files exist.
 
 ## Schema and contract views
 
 Tables: `word`, `word_kanji`, `word_example`, `sentence`, `sentence_token`,
-`jlpt_word`. `PRAGMA user_version` is 1004 and must be bumped on any schema
-change.
+`jlpt_word`, `bonus_phrase`. `PRAGMA user_version` is 1005 and must be
+bumped on any schema change.
 
 Contract views (what the app may rely on):
 
@@ -66,8 +79,29 @@ Contract views (what the app may rely on):
   JMdict `ent_seq` wherever it resolves.
 - `jlpt_words(word, reading, level, jmdict_id, openjlpt_id)` — the JLPT
   level of a word (see below).
+- `bonus_phrases(phrase_id, set_name, era, speaker, phrase, reading, show,
+  context, source, verified)` — curated bonus phrase sets (see below).
 
 Row order in all views is incidental; never assume it.
+
+## Bonus phrases
+
+`bonus_phrases` carries hand-curated phrase sets for app-side bonus
+content (easter eggs). One JSON file in `data/bonus/` per set. The current
+set is `drifters-80s` (curated 2026-10-23, 14 phrases): catchphrases of the
+1980s ザ・ドリフターズ five (いかりや長介, 加藤茶, 高木ブー, 仲本工事,
+志村けん) from 『8時だョ!全員集合』 (TBS, 1969–1985) and
+『ドリフ大爆笑』, each with furigana and its verification source. Notes
+that matter for consumers:
+
+- **Kanji-only**: kana-only lines were excluded at curation time —
+  kanjifuda consumes kanji words and sentences only. Member coverage
+  reflects that (仲本工事 and 高木ブー currently have no kanji-bearing
+  personal catchphrase in the pool).
+- `verified` is 1 for phrases documented in the cited `source`, 0 for
+  unverified leads; all rows in the current set are verified.
+- This is content data, not pedagogical review: whether and where the app
+  shows a phrase is a kanjifuda design decision.
 
 ## JLPT levels
 

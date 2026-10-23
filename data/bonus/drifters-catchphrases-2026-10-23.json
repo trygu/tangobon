@@ -1,0 +1,136 @@
+{
+  "set": "drifters-80s",
+  "era": "1980s",
+  "show": "8時だョ！全員集合（TBS, 1969–1985）",
+  "curated": "2026-10-23",
+  "note": "The 80s five of ザ・ドリフターズ: いかりや長介 (leader), 加藤茶, 高木ブー, 仲本工事, 志村けん (lineup verified against the official TBS page and ja.wikipedia). Kanji-only curation: kana-only catchphrases (オィッスー！, アイーン！, はいポーズ！, だめだこりゃ, ...) are deliberately excluded because kanjifuda consumes kanji words and sentences only. Member coverage: 仲本工事 and 高木ブー have no verified kanji-bearing personal catchphrase in this pool (his はいポーズ！ and the エレキバン CM copy are kana-only) — open gap for a future curation round.",
+  "phrases": [
+    {
+      "id": "ikaria-tsugi-itte-miyou",
+      "speaker": "いかりや長介",
+      "phrase": "次いってみよう",
+      "reading": "つぎ いってみよう",
+      "show": "ドリフ大爆笑（フジテレビ）",
+      "context": "Ikaria's morale line; born on ドリフ大爆笑 per the article",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "ikaria-kouhan-shuppatsu",
+      "speaker": "いかりや長介",
+      "phrase": "さあ後半まいりましょう、後半しゅっぱ〜つ！",
+      "reading": "さあ ごかん まいりましょう、ごかん しゅっぱ〜つ！",
+      "context": "Fixed phrase announcing the second-half konpeki; he conducted the band himself",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "group-hachiji-dayo",
+      "speaker": "ザ・ドリフターズ（オープニング）",
+      "phrase": "8時だヨ！全員、集合〜！",
+      "reading": "はちじ だよ！ぜんいん、しゅうごう〜！",
+      "context": "The 8pm opening call-and-response: いかりや「8時だヨ！」+ the other four「全員、集合！」",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "group-ending-chant",
+      "speaker": "ザ・ドリフターズ（エンディング）",
+      "phrase": "風邪ひくなよ～！お風呂入れよ～！頭洗えよ～！歯みがけよ～！宿題やれ～！また来週～！",
+      "reading": "かぜ ひくなよ～！おふろ いれよ～！あたま あらえよ～！は みがけよ～！しゅくだい やれ～！また らいしゅう～！",
+      "context": "The ending / exercise-corner chant, quoted on the official TBS page",
+      "source": "https://www.tbs.co.jp/tbs-ch/item/v2872/",
+      "verified": 1
+    },
+    {
+      "id": "kato-ikkia-ni-okorareta",
+      "speaker": "加藤茶",
+      "phrase": "いっきやに怒られた",
+      "reading": "いっきやに おこられた",
+      "context": "Kato's running victim line after being scolded by いかりや",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "kato-furo-ireyo",
+      "speaker": "加藤茶",
+      "phrase": "風呂入れよ！",
+      "reading": "ふろ いれよ！",
+      "context": "Used in the ending (part of the group chant)",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "kato-itaino",
+      "speaker": "加藤茶",
+      "phrase": "痛いの痛いの飛んでけ〜",
+      "reading": "いたいの いたいの とんでけ〜",
+      "context": "Kato's healing-magic-words line",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "kato-shimura-pikapika",
+      "speaker": "加藤茶・志村けん",
+      "phrase": "ピカピカの一年生",
+      "reading": "ピカピカの いちねんせい",
+      "context": "From the Shogakukan 『小学一年生』 CM (carried in the article with a source note)",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "kato-gobyomae",
+      "speaker": "加藤茶",
+      "phrase": "5秒前、4、3、2、1、デーン",
+      "reading": "ごびょうまえ、よん、さん、に、いち、デーン",
+      "context": "The 「三人ドリフ」 era after the gambling-bet suspension (1981)",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "kato-shimura-mou-sake",
+      "speaker": "加藤茶・志村けん",
+      "phrase": "もう酒／やめますか？やめられない？",
+      "reading": "もう さけ／やめますか？やめられない？",
+      "context": "Pansyrin (Rohto) CM call-and-response; per the article also performed in 全員集合 konpeki",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "shimura-sore-wa-nai-daro",
+      "speaker": "志村けん",
+      "phrase": "お前、それはないだろ〜！",
+      "reading": "おまえ、それはないだろ〜！",
+      "context": "His signature line: talk-back to the overbearing いかりや",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "shimura-isoshiha-goo",
+      "speaker": "志村けん・仲本工事",
+      "phrase": "最初はグー",
+      "reading": "さいしょは グー",
+      "context": "The janken-duel call; per the article this is why janken calls in Japan now start with 「最初はグー」",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "shimura-karasu-no-katte",
+      "speaker": "志村けん",
+      "phrase": "カラスなぜ泣くの カラスの勝手でしょ",
+      "reading": "カラス なぜ なくのか カラスの かってでしょ",
+      "context": "Parody of the children's song 『七つの子』 (a 1980 hit)",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    },
+    {
+      "id": "audience-shimura-ushiro",
+      "speaker": "観客",
+      "phrase": "志村！後ろ！後ろ〜！！",
+      "reading": "しむら！うしろ！うしろ〜！！",
+      "context": "The audience cry when a lone Shimura misses the ghost behind him; documented in Ikaria's book 『だめだこりゃ』",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "verified": 1
+    }
+  ]
+}

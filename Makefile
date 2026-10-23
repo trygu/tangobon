@@ -8,6 +8,7 @@ build:
 		--input-jmdict data/JMdict_e_examp.gz \
 		--input-examples data/examples.utf.gz \
 		--input-jlpt-dir data/ \
+		--input-bonus-dir data/bonus/ \
 		--db output/tangobon.sqlite
 
 stats:

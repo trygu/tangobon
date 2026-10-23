@@ -4,6 +4,7 @@ The build is expensive (a full streaming pass over both snapshots), so the
 database is built once per test module and shared by all tests.
 """
 
+import re
 import sqlite3
 from pathlib import Path
 
@@ -18,7 +19,8 @@ DATA = Path(__file__).resolve().parents[1] / "data"
 def db(tmp_path_factory) -> Path:
     target = tmp_path_factory.mktemp("tangobon") / "tangobon.sqlite"
     build_sqlite(
-        DATA / "JMdict_e_examp.gz", DATA / "examples.utf.gz", target, jlpt_dir=DATA
+        DATA / "JMdict_e_examp.gz", DATA / "examples.utf.gz", target,
+        jlpt_dir=DATA, bonus_dir=DATA / "bonus",
     )
     return target
 
@@ -167,6 +169,44 @@ def test_jlpt_levels_are_reading_specific(conn):
         "SELECT reading, level FROM jlpt_words WHERE word = '人'"
     ))
     assert hito == {"ひと": 5, "じん": 1}
+
+
+def test_bonus_phrases_contract(conn):
+    # Count pinned to the 2026-10-23 Drifters curation (kanjifuda design
+    # note design-feedback-2026-10-23-drifters-easter-egg.md).
+    n = conn.execute(
+        "SELECT COUNT(*) FROM bonus_phrases WHERE set_name = 'drifters-80s'"
+    ).fetchone()[0]
+    assert n == 14
+    empty = conn.execute(
+        "SELECT COUNT(*) FROM bonus_phrase"
+        " WHERE phrase = '' OR reading = '' OR source = '' OR speaker = ''"
+    ).fetchone()[0]
+    assert empty == 0
+    # Kanji-only curation rule: every bonus phrase carries at least one
+    # kanji (kanjifuda consumes kanji words and sentences only).
+    kanji_re = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+    kana_only = [
+        r[0] for (r,) in conn.execute("SELECT phrase FROM bonus_phrase")
+        if not kanji_re.search(r)
+    ]
+    assert kana_only == []
+    # Every row in the set is source-verified.
+    assert conn.execute(
+        "SELECT COUNT(*) FROM bonus_phrase WHERE verified = 0"
+    ).fetchone()[0] == 0
+    row = conn.execute(
+        "SELECT speaker, reading FROM bonus_phrases WHERE phrase = '次いってみよう'"
+    ).fetchone()
+    assert row == ("いかりや長介", "つぎ いってみよう")
+    # Per-phrase show override (ドリフ大爆笑) is kept; the set default applies
+    # elsewhere.
+    assert conn.execute(
+        "SELECT show FROM bonus_phrases WHERE phrase_id = 'ikaria-tsugi-itte-miyou'"
+    ).fetchone()[0] == "ドリフ大爆笑（フジテレビ）"
+    assert conn.execute(
+        "SELECT show FROM bonus_phrases WHERE phrase_id = 'ikaria-kouhan-shuppatsu'"
+    ).fetchone()[0] == "8時だョ！全員集合（TBS, 1969–1985）"
 
 
 def test_jlpt_joins_to_word_table(conn):

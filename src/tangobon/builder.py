@@ -8,6 +8,8 @@ flat word/sentence database with two contract views for the app:
   * ``word_sentences(word_id, surface, sent_id, text, translation)``
   * ``sentence_tokens(sent_id, pos, lemma, form, reading, entry_ref)``
   * ``jlpt_words(word, reading, level, jmdict_id, openjlpt_id)``
+  * ``bonus_phrases(phrase_id, set_name, era, speaker, phrase, reading,
+    show, context, source, verified)``
 
 Word importance:
 
@@ -55,6 +57,18 @@ JLPT levels:
   * ``jmdict_id`` is the JMdict ``ent_seq`` where resolvable; it is NULL for
     kana-only words, which the word table intentionally skips, so every
     JLPT word with kanji joins ``word`` exactly.
+
+Bonus phrases:
+
+  * Hand-curated bonus phrase sets in ``data/bonus/*.json`` (one JSON file
+    per set) are loaded into ``bonus_phrase``. The current set is
+    ``drifters-80s``: 1980s ザ・ドリフターズ catchphrases with furigana,
+    the kanjifuda word-view easter egg (curation record: kanjifuda design
+    note design-feedback-2026-10-23-drifters-easter-egg.md).
+  * Kanji-only by curation rule: kana-only lines are not in the sets because
+    kanjifuda consumes kanji words and sentences only.
+  * ``verified`` is 1 where the phrase is documented in the cited ``source``,
+    0 for unverified leads.
 """
 
 from __future__ import annotations
@@ -66,7 +80,7 @@ import sqlite3
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-USER_VERSION = 1004
+USER_VERSION = 1005
 
 # CJK ideographs (main block, Extension A, compatibility block). Surfaces
 # outside these ranges are treated as non-kanji.
@@ -170,6 +184,33 @@ SELECT j.word AS word,
        j.jmdict_id AS jmdict_id,
        j.openjlpt_id AS openjlpt_id
 FROM jlpt_word AS j;
+
+CREATE TABLE bonus_phrase(
+    phrase_id TEXT PRIMARY KEY,
+    set_name TEXT NOT NULL,  -- bonus set the phrase belongs to (e.g. 'drifters-80s')
+    era TEXT NOT NULL,
+    speaker TEXT NOT NULL,
+    phrase TEXT NOT NULL,
+    reading TEXT NOT NULL,  -- furigana: space-separated readings
+    show TEXT,              -- show of origin (the set's default unless overridden)
+    context TEXT,
+    source TEXT NOT NULL,   -- source the phrase was verified against
+    verified INTEGER NOT NULL  -- 1 = documented in source; 0 = lead
+);
+CREATE INDEX idx_bonus_phrase_set ON bonus_phrase(set_name);
+
+CREATE VIEW bonus_phrases AS
+SELECT b.phrase_id AS phrase_id,
+       b.set_name AS set_name,
+       b.era AS era,
+       b.speaker AS speaker,
+       b.phrase AS phrase,
+       b.reading AS reading,
+       b.show AS show,
+       b.context AS context,
+       b.source AS source,
+       b.verified AS verified
+FROM bonus_phrase AS b;
 """
 
 
@@ -178,12 +219,16 @@ def build_sqlite(
     examples_path: str | Path,
     db_path: str | Path,
     jlpt_dir: str | Path | None = None,
+    bonus_dir: str | Path | None = None,
 ) -> dict:
     """Build the word/sentence database from the dated snapshots.
 
     ``jlpt_dir`` (optional) holds the OpenJLPT vocabulary snapshots
     (``openjlpt-vocab-n5.json`` ... ``openjlpt-vocab-n1.json``); when given,
     the JLPT level table is loaded as well.
+
+    ``bonus_dir`` (optional) holds the curated bonus phrase sets
+    (``*.json``); when given, the bonus phrases are loaded as well.
     """
     db_path = Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
@@ -198,11 +243,13 @@ def build_sqlite(
         "words_with_examples": 0,
         "sentences": 0,
         "jlpt_words": 0,
+        "bonus_phrases": 0,
         "user_version": USER_VERSION,
     }
     _build_words(conn, jmdict_path, stats)
     _build_sentences(conn, examples_path, stats)
     _build_jlpt(conn, jlpt_dir, stats)
+    _build_bonus(conn, bonus_dir, stats)
     conn.commit()
 
     stats["words"] = conn.execute("SELECT COUNT(*) FROM word").fetchone()[0]
@@ -394,4 +441,46 @@ def _build_jlpt(
                 ),
             )
             stats["jlpt_words"] += 1
+    conn.commit()
+
+
+def _build_bonus(
+    conn: sqlite3.Connection, bonus_dir: str | Path | None, stats: dict
+) -> None:
+    """Load the curated bonus phrase sets into bonus_phrase.
+
+    One JSON file per set in ``bonus_dir``: ``{"set", "era", "show"?,
+    "phrases": [{"id", "speaker", "phrase", "reading", "show"?, "context"?,
+    "source", "verified"?}, ...]}``. The files are small hand-curated
+    content, so they are read in full; the streaming rule applies to the
+    large gz snapshots. A phrase ``show`` falls back to the set's default.
+    """
+    if bonus_dir is None:
+        return
+    bonus_dir = Path(bonus_dir)
+    if not bonus_dir.is_dir():
+        return
+    for path in sorted(bonus_dir.glob("*.json")):
+        spec = json.loads(path.read_text(encoding="utf-8"))
+        set_name = spec["set"]
+        era = spec["era"]
+        for p in spec["phrases"]:
+            conn.execute(
+                "INSERT INTO bonus_phrase(phrase_id, set_name, era, speaker,"
+                " phrase, reading, show, context, source, verified)"
+                " VALUES(?,?,?,?,?,?,?,?,?,?)",
+                (
+                    p["id"],
+                    set_name,
+                    era,
+                    p["speaker"],
+                    p["phrase"],
+                    p["reading"],
+                    p.get("show", spec.get("show")),
+                    p.get("context"),
+                    p["source"],
+                    int(p.get("verified", 1)),
+                ),
+            )
+            stats["bonus_phrases"] += 1
     conn.commit()

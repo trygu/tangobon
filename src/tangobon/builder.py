@@ -63,10 +63,9 @@ Bonus phrases:
   * Hand-curated bonus phrase sets in ``data/bonus/*.json`` (one JSON file
     per set) are loaded into ``bonus_phrase``. The current set is
     ``drifters-80s``: 1980s ザ・ドリフターズ catchphrases with furigana,
-    the kanjifuda word-view easter egg (curation record: kanjifuda design
-    note design-feedback-2026-10-23-drifters-easter-egg.md).
+    a word-view easter-egg content set (curation record: data/SNAPSHOTS.txt).
   * Kanji-only by curation rule: kana-only lines are not in the sets because
-    kanjifuda consumes kanji words and sentences only.
+    this project stores kanji words and sentences only.
   * ``verified`` is 1 where the phrase is documented in the cited ``source``,
     0 for unverified leads.
 """

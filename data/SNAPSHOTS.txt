@@ -6,7 +6,8 @@ examples.utf.gz
   source:   https://ftp.edrdg.org/pub/Nihongo/examples.utf.gz
   snapshot: 2026-10-21
   license:  EDRDG distribution of the Tatoeba-fed Tanaka sentence collection
-            (redistribution terms: kanjifuda evidence register E027)
+            (redistribution terms: see the EDRDG distribution notes that
+            accompany the file)
 openjlpt-vocab-n5.json openjlpt-vocab-n4.json openjlpt-vocab-n3.json
 openjlpt-vocab-n2.json openjlpt-vocab-n1.json openjlpt-meta.json
   source:   https://github.com/evanclan/OpenJLPT

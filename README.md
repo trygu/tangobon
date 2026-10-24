@@ -1,9 +1,11 @@
 # tangobon (語本)
 
-"the word book" — the word/sentence layer for kanjifuda.
+![Build Database](https://github.com/trygu/tangobon/actions/workflows/build-database.yml/badge.svg)
+
+"the word book" — the word/sentence layer for kanji learning applications.
 
 tangobon converts dated snapshots into a single SQLite database with a
-small set of contract views for the app:
+small set of contract views for consuming applications:
 
 - **JMdict_e_examp.gz** — words: surface (`keb`), dictionary reading,
   primary English gloss, and the link to Tanaka example sentences.
@@ -15,9 +17,9 @@ small set of contract views for the app:
   "Bonus phrases" below).
 
 The character layer (kanji, readings, strokes, JLPT estimates) lives in the
-sibling project [kanjibon](https://github.com/trygu/kanjibon). tangobon is
-the word/sentence counterpart, pinned alongside kanjibon from the kanjifuda
-orchestration repository.
+sibling project [kanjibon](https://github.com/trygu/kanjibon). The two
+projects are the character and word/sentence halves of one data
+foundation: tangobon words link back to kanjibon kanji on the literal.
 
 ## Data provenance
 
@@ -28,7 +30,8 @@ Builds use these files, not the live network.
 - `JMdict_e_examp.gz` — EDRDG, CC BY-SA 4.0 (snapshot 2026-10-21).
 - `examples.utf.gz` — EDRDG distribution of the Tanaka sentence collection,
   which is Tatoeba-fed; sentences are subject to the Tatoeba/EDRDG
-  redistribution terms recorded in the kanjifuda evidence register (E027).
+  redistribution terms — read the EDRDG distribution notes that accompany
+  the snapshot before redistributing the database.
 - `openjlpt-vocab-n5..n1.json` + `openjlpt-meta.json` — the [OpenJLPT]
   (https://github.com/evanclan/OpenJLPT) vocabulary lists, CC BY-SA 4.0
   (snapshot of commit `0d1d341`, fetched 2026-10-21). Attribution per
@@ -38,10 +41,9 @@ Builds use these files, not the live network.
   set, not a snapshot: each phrase verified against ja.wikipedia
   (『8時だョ!全員集合』, "流行語（出演者別）" section) and the official TBS
   page, with the URL recorded per phrase. Text-only quotation of short
-  catchphrases; the personality-rights considerations are recorded in the
-  kanjifuda design note
-  `docs/kanjifuda/docs/design-feedback-2026-10-23-drifters-easter-egg.md`
-  (public release is a separate gated content resource).
+  catchphrases, each kept with its verification source; use beyond this
+  dataset (audio, imagery, standalone publication) requires a separate
+  rights review.
 
 ## Build
 
@@ -58,11 +60,38 @@ whenever `data/bonus/*.json` files exist.
 
 ## Schema and contract views
 
-Tables: `word`, `word_kanji`, `word_example`, `sentence`, `sentence_token`,
-`jlpt_word`, `bonus_phrase`. `PRAGMA user_version` is 1005 and must be
-bumped on any schema change.
+`PRAGMA user_version` is 1005 and must be bumped on any schema change —
+check it before relying on a specific layout.
 
-Contract views (what the app may rely on):
+### Tables
+
+- **`word`** — one row per (JMdict entry, surface): `word_id`, `ent_seq`
+  (the JMdict entry id), `surface`, `reading` (the dictionary reading, NULL
+  when the entry has none), `gloss` (primary English gloss), `ke_pri`
+  (space-joined JMdict frequency tags such as `ichi1 news1 nf01`, NULL when
+  absent).
+- **`word_kanji`** — the kanji a surface contains: `word_id`, `kanji`.
+  This is the bridge to the kanjibon character layer.
+- **`word_example`** — links a word to the Tanaka entries that carry its
+  example sentences: `word_id`, `tanaka_entry`.
+- **`sentence`** — one row per Tanaka example: `sent_id`
+  (`"<tatoeba_id>_<tanaka_id>"`), `tanaka_entry`, `text` (Japanese),
+  `translation` (English).
+- **`sentence_token`** — the parsed `B:` morphological analysis of a
+  sentence, one row per token: `sent_id`, `pos` (token position), `lemma`
+  (base form), `form` (the form as written in the sentence), `reading` (the
+  token's kana annotation — the *occurrence* reading, kept distinct from
+  the dictionary reading), `entry_ref` (the `(#NNN)` dictionary reference:
+  the JMdict `ent_seq` wherever it resolves).
+- **`jlpt_word`** — `word`, `reading`, `level` (5 = N5, easiest … 1 = N1),
+  `jmdict_id` (NULL for kana-only words), `openjlpt_id`. Primary key is the
+  `(word, reading)` pair.
+- **`bonus_phrase`** — curated bonus phrases: `phrase_id`, `set_name`,
+  `era`, `speaker`, `phrase`, `reading` (space-separated furigana), `show`
+  (show of origin), `context`, `source` (what the phrase was verified
+  against), `verified` (1 = documented in `source`).
+
+### Contract views (what consumers may rely on)
 
 - `kanji_words(kanji, surface, reading, gloss, ke_pri, ent_seq)` — words
   containing the given kanji; `reading` is the dictionary reading and may be
@@ -86,22 +115,22 @@ Row order in all views is incidental; never assume it.
 
 ## Bonus phrases
 
-`bonus_phrases` carries hand-curated phrase sets for app-side bonus
-content (easter eggs). One JSON file in `data/bonus/` per set. The current
+`bonus_phrases` carries hand-curated phrase sets for consumer-side bonus
+content (e.g. easter eggs). One JSON file in `data/bonus/` per set. The current
 set is `drifters-80s` (curated 2026-10-23, 14 phrases): catchphrases of the
 1980s ザ・ドリフターズ five (いかりや長介, 加藤茶, 高木ブー, 仲本工事,
 志村けん) from 『8時だョ!全員集合』 (TBS, 1969–1985) and
 『ドリフ大爆笑』, each with furigana and its verification source. Notes
 that matter for consumers:
 
-- **Kanji-only**: kana-only lines were excluded at curation time —
-  kanjifuda consumes kanji words and sentences only. Member coverage
+- **Kanji-only**: kana-only lines were excluded at curation time — this
+  project stores kanji-bearing words and sentences only. Member coverage
   reflects that (仲本工事 and 高木ブー currently have no kanji-bearing
   personal catchphrase in the pool).
 - `verified` is 1 for phrases documented in the cited `source`, 0 for
   unverified leads; all rows in the current set are verified.
-- This is content data, not pedagogical review: whether and where the app
-  shows a phrase is a kanjifuda design decision.
+- This is content data, not pedagogical review: whether and where a
+  consuming app shows a phrase is a consumer decision.
 
 ## JLPT levels
 
@@ -130,5 +159,37 @@ OpenJLPT vocabulary lists (7,811 words). `level` is an integer with
   not ground truth.
 - Only the primary gloss (first gloss of the first sense) is kept.
 - This is a **raw** word/sentence layer, not pedagogically reviewed content.
-  Review of words/sentences for a specific kanji is a kanjifuda content-pack
-  decision, made on top of these views.
+  Pedagogical review of words/sentences for a specific kanji is left to the
+  consuming project, built on top of these views.
+
+## Example queries
+
+```sql
+-- All words containing a given kanji, as the dictionary ranks them
+SELECT surface, reading, gloss, ke_pri
+FROM kanji_words WHERE kanji = '学' ORDER BY ent_seq LIMIT 20;
+
+-- Example sentences (Japanese + English) linked to one word
+SELECT sent_id, text, translation
+FROM word_sentences WHERE surface = '学生';
+
+-- The morphological analysis of a sentence:
+-- lemma vs. the form as written, with the occurrence reading
+SELECT pos, lemma, form, reading, entry_ref
+FROM sentence_tokens WHERE sent_id = '1660875_2312937' ORDER BY pos;
+
+-- JLPT level of a word+reading pair (明日 is N5 as あした, N4 as あす)
+SELECT word, reading, level FROM jlpt_words WHERE word = '明日';
+
+-- Curated bonus phrases from one set
+SELECT speaker, phrase, reading, show
+FROM bonus_phrases WHERE set_name = 'drifters-80s';
+
+-- Cross-project: attach the kanjibon database and join a kanji's words
+-- to the kanji's JLPT estimate (open both in one connection)
+--   ATTACH 'kanjidic2.sqlite' AS kb;
+SELECT k.lvl, k.main_meaning, kw.surface, kw.reading, kw.gloss
+FROM kanji_words kw
+JOIN kb.kanji_seed k ON k.literal = kw.kanji
+WHERE kw.kanji = '雨' ORDER BY k.lvl;
+```

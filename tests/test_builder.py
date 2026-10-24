@@ -172,8 +172,8 @@ def test_jlpt_levels_are_reading_specific(conn):
 
 
 def test_bonus_phrases_contract(conn):
-    # Count pinned to the 2026-10-23 Drifters curation (kanjifuda design
-    # note design-feedback-2026-10-23-drifters-easter-egg.md).
+    # Count pinned to the 2026-10-23 Drifters curation (provenance in
+    # data/SNAPSHOTS.txt and the data/bonus/ source field per phrase).
     n = conn.execute(
         "SELECT COUNT(*) FROM bonus_phrases WHERE set_name = 'drifters-80s'"
     ).fetchone()[0]
@@ -184,7 +184,7 @@ def test_bonus_phrases_contract(conn):
     ).fetchone()[0]
     assert empty == 0
     # Kanji-only curation rule: every bonus phrase carries at least one
-    # kanji (kanjifuda consumes kanji words and sentences only).
+    # kanji (this project stores kanji words and sentences only).
     kanji_re = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
     kana_only = [
         r[0] for (r,) in conn.execute("SELECT phrase FROM bonus_phrase")

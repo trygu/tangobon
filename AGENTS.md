@@ -1,6 +1,7 @@
 # AGENTS.md — tangobon
 
-Word/sentence layer for kanjifuda: JMdict + Tanaka snapshots → SQLite.
+Word/sentence layer for kanji learning applications: JMdict + Tanaka
+snapshots → SQLite.
 
 ## Overview
 
@@ -13,15 +14,15 @@ Word/sentence layer for kanjifuda: JMdict + Tanaka snapshots → SQLite.
 
 - Standard library only. No runtime dependencies.
 - Streaming parses; do not load whole snapshot files into memory.
-- Schema changes require bumping `PRAGMA user_version` (currently 1004) and
+- Schema changes require bumping `PRAGMA user_version` (currently 1005) and
   updating the tests.
 - The contract views (`kanji_words`, `word_sentences`) are the app's
   interface; keep them stable. Extend, don't break.
 - Re-fetching snapshots: update `data/CHECKSUMS` and `data/SNAPSHOTS.txt`,
-  and record a dated note in the kanjifuda evidence register.
+  and record a dated note in the commit message.
 - Importing data into this database is not a review: pedagogical acceptance
-  of words/sentences for a specific kanji is a kanjifuda content-pack
-  decision.
+  of words/sentences for a specific kanji is a decision of the consuming
+  project.
 
 ## Tooling
 

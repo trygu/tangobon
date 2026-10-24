@@ -35,6 +35,11 @@ Reading convention:
   * A ``k_ele`` surface keeps its ``k_read`` when present; otherwise the
     entry's unique unambiguous kana reading (a single ``r_ele`` without
     ``re_restr``) is used. Ambiguous or restricted readings stay NULL.
+  * Curated supplement: ``data/reading_supplement.tsv`` (project-owned,
+    hand-reviewed) fills NULL readings for explicitly approved
+    (``ent_seq``, ``surface``) pairs — see ``_build_reading_supplement``.
+    It never overrides an existing reading; contested readings are simply
+    never added.
 
 Sentence join:
 
@@ -84,6 +89,7 @@ USER_VERSION = 1005
 # CJK ideographs (main block, Extension A, compatibility block). Surfaces
 # outside these ranges are treated as non-kanji.
 KANJI_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+KANA_RE = re.compile(r"[ぁ-ゖァ-ヺー]+")  # plain hiragana/katakana reading
 A_LINE_RE = re.compile(r"^A:\s(.*?)\t(.*)$")
 ID_TAG_RE = re.compile(r"#ID=(\S+)$")
 BRACE_RE = re.compile(r"\{([^}]*)\}")  # form as written in the sentence
@@ -219,6 +225,7 @@ def build_sqlite(
     db_path: str | Path,
     jlpt_dir: str | Path | None = None,
     bonus_dir: str | Path | None = None,
+    supplement_path: str | Path | None = None,
 ) -> dict:
     """Build the word/sentence database from the dated snapshots.
 
@@ -228,6 +235,10 @@ def build_sqlite(
 
     ``bonus_dir`` (optional) holds the curated bonus phrase sets
     (``*.json``); when given, the bonus phrases are loaded as well.
+
+    ``supplement_path`` (optional) is the curated reading supplement
+    (``reading_supplement.tsv``); when given, approved NULL readings are
+    filled as well.
     """
     db_path = Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
@@ -243,9 +254,11 @@ def build_sqlite(
         "sentences": 0,
         "jlpt_words": 0,
         "bonus_phrases": 0,
+        "supplemented_readings": 0,
         "user_version": USER_VERSION,
     }
     _build_words(conn, jmdict_path, stats)
+    _build_reading_supplement(conn, supplement_path, stats)
     _build_sentences(conn, examples_path, stats)
     _build_jlpt(conn, jlpt_dir, stats)
     _build_bonus(conn, bonus_dir, stats)
@@ -340,6 +353,53 @@ def _build_words(conn: sqlite3.Connection, jmdict_path: str | Path, stats: dict)
                     conn.commit()
                 elem.clear()
     stats["entries"] = entries
+
+
+def _build_reading_supplement(
+    conn: sqlite3.Connection, supplement_path: str | Path | None, stats: dict
+) -> None:
+    """Fill NULL word.reading from the curated supplement.
+
+    Format: ``ent_seq<TAB>surface<TAB>reading[<TAB>evidence]`` per line,
+    ``#`` comment lines allowed. Only NULL readings are filled; an unknown
+    (ent_seq, surface) pair, a non-kana reading or a stale entry (reading
+    already present) fails the build — the file is the project's explicit
+    editorial record and must stay exact.
+    """
+    if supplement_path is None:
+        return
+    path = Path(supplement_path)
+    if not path.exists():
+        raise FileNotFoundError(f"Reading supplement not found: {path}")
+    filled = 0
+    with path.open(encoding="utf-8") as f:
+        for lineno, line in enumerate(f, 1):
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            parts = [p.strip() for p in line.split("\t")]
+            if len(parts) < 3:
+                raise ValueError(f"{path}:{lineno}: expected ent_seq<TAB>surface<TAB>reading")
+            ent_seq, surface, reading = parts[:3]
+            if not KANA_RE.fullmatch(reading):
+                raise ValueError(f"{path}:{lineno}: reading must be plain kana: {reading!r}")
+            row = conn.execute(
+                "SELECT reading FROM word WHERE ent_seq=? AND surface=?",
+                (ent_seq, surface),
+            ).fetchone()
+            if row is None:
+                raise ValueError(f"{path}:{lineno}: no word row for {ent_seq} {surface}")
+            if row[0] is not None:
+                raise ValueError(
+                    f"{path}:{lineno}: {surface} already has reading {row[0]!r};"
+                    " remove the stale supplement entry"
+                )
+            conn.execute(
+                "UPDATE word SET reading=? WHERE ent_seq=? AND surface=?",
+                (reading, ent_seq, surface),
+            )
+            filled += 1
+    stats["supplemented_readings"] = filled
 
 
 def _parse_b_line(bline: str) -> list[tuple[str, str, str | None, str | None]]:

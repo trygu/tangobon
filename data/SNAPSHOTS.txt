@@ -25,3 +25,11 @@ bonus/drifters-catchphrases-2026-10-23.json
             phrase carries its verification URL. Personality rights: three of
             the five are deceased — text only, no likeness or voice; use
             beyond this dataset requires a separate rights review
+reading_supplement.tsv
+  source:   project-owned editorial curation (Q079, 24 October 2026): each
+            row fills one NULL word.reading where the JMdict entry's own
+            priority tags single out one reading; per-row evidence comments
+            cite the alternatives deliberately not chosen. Contested readings
+            (日本, 今日, 行く, 言う, 明日...) are never added
+  snapshot: 2026-10-24 (against JMdict 2026-10-21 snapshot)
+  license:  project curation; JMdict evidence CC BY-SA 4.0 (EDRDG)

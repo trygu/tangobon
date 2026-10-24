@@ -14,12 +14,15 @@ _TABLES = ("word", "word_kanji", "word_example", "sentence", "sentence_token", "
 def _cmd_build(args: argparse.Namespace) -> None:
     jlpt_dir = Path(args.input_jlpt_dir) if args.input_jlpt_dir else None
     bonus_dir = Path(args.input_bonus_dir) if args.input_bonus_dir else None
+    supplement = (
+        Path(args.input_reading_supplement) if args.input_reading_supplement else None
+    )
     stats = build_sqlite(
         Path(args.input_jmdict), Path(args.input_examples), Path(args.db),
-        jlpt_dir, bonus_dir,
+        jlpt_dir, bonus_dir, supplement,
     )
     print(f"Built {args.db}")
-    for key in ("entries", "words", "words_with_examples", "sentences", "sentences_with_tokens", "tokens", "jlpt_words", "bonus_phrases", "user_version"):
+    for key in ("entries", "words", "words_with_examples", "sentences", "sentences_with_tokens", "tokens", "jlpt_words", "bonus_phrases", "supplemented_readings", "user_version"):
         print(f"  {key}: {stats[key]}")
 
 
@@ -49,6 +52,10 @@ def app(argv: list[str] | None = None) -> None:
     b.add_argument(
         "--input-bonus-dir", default="data/bonus",
         help="directory with the curated bonus phrase sets (*.json)",
+    )
+    b.add_argument(
+        "--input-reading-supplement", default="data/reading_supplement.tsv",
+        help="curated reading supplement (TSV); fills approved NULL readings",
     )
     b.add_argument("--db", default="output/tangobon.sqlite")
     b.set_defaults(func=_cmd_build)

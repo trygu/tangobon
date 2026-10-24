@@ -21,6 +21,7 @@ def db(tmp_path_factory) -> Path:
     build_sqlite(
         DATA / "JMdict_e_examp.gz", DATA / "examples.utf.gz", target,
         jlpt_dir=DATA, bonus_dir=DATA / "bonus",
+        supplement_path=DATA / "reading_supplement.tsv",
     )
     return target
 
@@ -144,6 +145,61 @@ def test_readings_are_optional(conn):
     without = conn.execute("SELECT COUNT(*) FROM word WHERE reading IS NULL").fetchone()[0]
     assert with_read > 0
     assert without > 0
+
+
+def test_reading_supplement(conn):
+    # The curated supplement fills approved NULL readings (task 057, Q079).
+    row = conn.execute(
+        "SELECT reading FROM kanji_words WHERE surface='私たち'"
+    ).fetchone()
+    assert row == ("わたしたち",)
+    # Every supplemented row carries its evidence comment in the TSV; spot
+    # check a second filled entry through the contract view.
+    row = conn.execute(
+        "SELECT reading FROM kanji_words WHERE surface='誰'"
+    ).fetchone()
+    assert row == ("だれ",)
+    # Contested readings are never supplemented: 日本 keeps both candidate
+    # readings unresolved (NULL), not a silent pick between にほん/にっぽん.
+    rows = conn.execute(
+        "SELECT reading FROM word WHERE surface='日本'"
+    ).fetchall()
+    assert rows and all(r[0] is None for r in rows)
+
+
+def test_reading_supplement_strictness(tmp_path):
+    # The supplement is an editorial record: unknown pairs, non-kana
+    # readings and stale entries (reading already present) fail the build.
+    from tangobon.builder import _SCHEMA, _build_reading_supplement
+
+    conn = sqlite3.connect(":memory:")
+    conn.executescript(_SCHEMA)
+    conn.execute(
+        "INSERT INTO word(ent_seq, surface, reading, gloss)"
+        " VALUES('1', '私たち', NULL, 'we')"
+    )
+    conn.execute(
+        "INSERT INTO word(ent_seq, surface, reading, gloss)"
+        " VALUES('2', '学校', 'がっこう', 'school')"
+    )
+    stats = {"supplemented_readings": 0}
+
+    def run(lines):
+        path = tmp_path / "sup.tsv"
+        path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        _build_reading_supplement(conn, path, stats)
+
+    run(["1\t私たち\tわたしたち\tevidence note"])  # fills NULL
+    assert conn.execute(
+        "SELECT reading FROM word WHERE ent_seq='1'"
+    ).fetchone() == ("わたしたち",)
+    assert stats["supplemented_readings"] == 1
+    with pytest.raises(ValueError, match="no word row"):
+        run(["9\t幻\tまぼろし"])
+    with pytest.raises(ValueError, match="plain kana"):
+        run(["1\t私たち\twatashi7"])
+    with pytest.raises(ValueError, match="already has reading"):
+        run(["2\t学校\tがくこう"])  # stale: reading already present
 
 
 def test_jlpt_words_contract(conn):

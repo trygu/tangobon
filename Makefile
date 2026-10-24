@@ -9,6 +9,7 @@ build:
 		--input-examples data/examples.utf.gz \
 		--input-jlpt-dir data/ \
 		--input-bonus-dir data/bonus/ \
+		--input-reading-supplement data/reading_supplement.tsv \
 		--db output/tangobon.sqlite
 
 stats:

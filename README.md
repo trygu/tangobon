@@ -44,6 +44,12 @@ Builds use these files, not the live network.
   catchphrases, each kept with its verification source; use beyond this
   dataset (audio, imagery, standalone publication) requires a separate
   rights review.
+- `reading_supplement.tsv` — project-owned curated readings, not a
+  snapshot: each row fills one `word.reading` that the JMdict rule leaves
+  NULL (multi-reading entries), with per-row evidence comments. Seeded
+  2026-10-24 (150 priority-evidence picks) plus 21 contested readings
+  chosen in a user review session the same day (日本→にほん, 今日→きょう…).
+  Contested readings without a user pick are never added.
 
 ## Build
 
@@ -53,10 +59,11 @@ Requires Python ≥ 3.10 and [uv](https://docs.astral.sh/uv/).
     make stats     # row counts
     make test      # pytest (one build, contract-view checks)
 
-Builds pass `--input-jlpt-dir data` and `--input-bonus-dir data/bonus`
-(the defaults), so the JLPT level table is loaded whenever the
-`openjlpt-vocab-n*.json` snapshots are present and the bonus phrase sets
-whenever `data/bonus/*.json` files exist.
+Builds pass `--input-jlpt-dir data`, `--input-bonus-dir data/bonus` and
+`--input-reading-supplement data/reading_supplement.tsv` (the defaults),
+so the JLPT level table is loaded whenever the `openjlpt-vocab-n*.json`
+snapshots are present, the bonus phrase sets whenever `data/bonus/*.json`
+files exist, and the curated reading supplement whenever the TSV exists.
 
 ## Schema and contract views
 
@@ -66,10 +73,11 @@ check it before relying on a specific layout.
 ### Tables
 
 - **`word`** — one row per (JMdict entry, surface): `word_id`, `ent_seq`
-  (the JMdict entry id), `surface`, `reading` (the dictionary reading, NULL
-  when the entry has none), `gloss` (primary English gloss), `ke_pri`
-  (space-joined JMdict frequency tags such as `ichi1 news1 nf01`, NULL when
-  absent).
+  (the JMdict entry id), `surface`, `reading` (the dictionary reading;
+  NULL when the entry has no unique unambiguous reading, unless filled by
+  the curated supplement — see Data provenance), `gloss` (primary English
+  gloss), `ke_pri` (space-joined JMdict frequency tags such as
+  `ichi1 news1 nf01`, NULL when absent).
 - **`word_kanji`** — the kanji a surface contains: `word_id`, `kanji`.
   This is the bridge to the kanjibon character layer.
 - **`word_example`** — links a word to the Tanaka entries that carry its

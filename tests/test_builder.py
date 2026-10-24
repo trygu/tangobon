@@ -159,12 +159,17 @@ def test_reading_supplement(conn):
         "SELECT reading FROM kanji_words WHERE surface='誰'"
     ).fetchone()
     assert row == ("だれ",)
-    # Contested readings are never supplemented: 日本 keeps both candidate
-    # readings unresolved (NULL), not a silent pick between にほん/にっぽん.
-    rows = conn.execute(
-        "SELECT reading FROM word WHERE surface='日本'"
-    ).fetchall()
-    assert rows and all(r[0] is None for r in rows)
+    # Contested readings are never supplemented: 日本 was resolved only by
+    # an explicit user review pick (にほん); multi-entry ambiguities like
+    # 父 (ちち/てて/ちゃん across entries) stay unresolved — no silent pick.
+    assert conn.execute(
+        "SELECT reading FROM kanji_words WHERE surface='日本'"
+    ).fetchone() == ("にほん",)
+    n_father = conn.execute(
+        "SELECT COUNT(DISTINCT reading) FROM word"
+        " WHERE surface='父' AND reading IS NOT NULL"
+    ).fetchone()[0]
+    assert n_father > 1
 
 
 def test_reading_supplement_strictness(tmp_path):

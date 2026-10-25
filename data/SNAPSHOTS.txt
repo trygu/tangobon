@@ -33,3 +33,12 @@ reading_supplement.tsv
             (日本, 今日, 行く, 言う, 明日...) are never added
   snapshot: 2026-10-24 (against JMdict 2026-10-21 snapshot)
   license:  project curation; JMdict evidence CC BY-SA 4.0 (EDRDG)
+reviewed_content.json and reviews/trygve-2026-10-25.json
+  source:   Trygve's explicit editorial review of CR001-CR025, 25 October 2026;
+            original JSON preserved byte-for-byte and SHA-256 checked at build.
+            Original candidate source/IDs and final replacement text are retained.
+            Context token transcription is separate dictionary-bound enrichment.
+  snapshot: 2026-10-25 against the pinned JMdict/Tanaka/OpenJLPT snapshots
+  authorship: project editorial curation; original corpus derivatives retain
+              underlying EDRDG/Tatoeba attribution. No new third-party licence
+              or independent linguistic-review claim is inferred from approval.

@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "review_metadata": {
+    "reviewer": "Trygve",
+    "reviewed_at": "2026-10-25",
+    "source_tangobon": "bc0399062b9d179a061ea336e05dee6b54243390",
+    "audit_ref": "reports/development/060-pre-ship-content-invariants/remaining-context-gaps.json"
+  },
+  "review_sha256": "bcd151ddda8c7203918f27cc39bd0b652cbc2975a84ae66cbf277d67919de492",
+  "annotation_note": "Context tokens are explicit dictionary-bound transcription; sentence, target reading and English approved by Trygve. See original review for authorship/source per item.",
+  "patches": [
+    {
+      "review_id": "CR001",
+      "sent_id": "62001_224666",
+      "expected_text": "ここでお目に掛かれるとは全然予期しませんでした。",
+      "expected_translation": "I little expected to see you here.",
+      "translation": "I never expected to run into you here.",
+      "lemma": "お目に掛かる",
+      "form": "お目に掛かれる",
+      "expected_reading": null,
+      "reading": "おめにかかれる"
+    },
+    {
+      "review_id": "CR002",
+      "sent_id": "304417_99282",
+      "expected_text": "彼は友達の親切な世話でその職に就いた。",
+      "expected_translation": "He obtained the post through the good offices of a friend.",
+      "translation": "He got the job through the kind help of a friend.",
+      "lemma": "親切",
+      "form": "親切な",
+      "expected_reading": null,
+      "reading": "しんせつな"
+    }
+  ],
+  "sentences": [
+    {
+      "review_id": "CR003",
+      "sent_id": "reviewed:trygve:20261025:CR003",
+      "source_sentence_id": null,
+      "source": "agent_draft_2026-10-25",
+      "text": "十日に会いましょう。",
+      "translation": "Let's meet on the tenth.",
+      "ent_seq": "1335000",
+      "surface": "十日",
+      "reading": "とおか",
+      "tokens": [
+        {
+          "lemma": "十日",
+          "form": "十日",
+          "reading": "とおか",
+          "entry_ref": "1335000"
+        },
+        {
+          "lemma": "会う",
+          "form": "会いましょう",
+          "reading": "あいましょう",
+          "entry_ref": "1198180"
+        }
+      ]
+    },
+    {
+      "review_id": "CR004",
+      "sent_id": "reviewed:trygve:20261025:CR004",
+      "source_sentence_id": "239246_175220",
+      "source": "corpus",
+      "text": "かばんの中に本があります。",
+      "translation": "There is a book inside the bag.",
+      "ent_seq": "1423310",
+      "surface": "中",
+      "reading": "なか",
+      "tokens": [
+        {
+          "lemma": "中",
+          "form": "中",
+          "reading": "なか",
+          "entry_ref": "1423310"
+        },
+        {
+          "lemma": "本",
+          "form": "本",
+          "reading": "ほん",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR005",
+      "sent_id": "reviewed:trygve:20261025:CR005",
+      "source_sentence_id": "279702_124292",
+      "source": "corpus",
+      "text": "太陽は東から昇ります。",
+      "translation": "The sun rises in the east.",
+      "ent_seq": "1447440",
+      "surface": "東",
+      "reading": "ひがし",
+      "tokens": [
+        {
+          "lemma": "太陽",
+          "form": "太陽",
+          "reading": "たいよう",
+          "entry_ref": "1408370"
+        },
+        {
+          "lemma": "東",
+          "form": "東",
+          "reading": "ひがし",
+          "entry_ref": "1447440"
+        },
+        {
+          "lemma": "昇る",
+          "form": "昇ります",
+          "reading": "のぼります",
+          "entry_ref": "1352570"
+        }
+      ]
+    },
+    {
+      "review_id": "CR006",
+      "sent_id": "reviewed:trygve:20261025:CR006",
+      "source_sentence_id": null,
+      "source": "agent_draft_2026-10-25",
+      "text": "九日は休みです。",
+      "translation": "The ninth is a day off.",
+      "ent_seq": "1243850",
+      "surface": "九日",
+      "reading": "ここのか",
+      "tokens": [
+        {
+          "lemma": "九日",
+          "form": "九日",
+          "reading": "ここのか",
+          "entry_ref": "1243850"
+        },
+        {
+          "lemma": "休み",
+          "form": "休み",
+          "reading": "やすみ",
+          "entry_ref": "1227500"
+        }
+      ]
+    },
+    {
+      "review_id": "CR007",
+      "sent_id": "reviewed:trygve:20261025:CR007",
+      "source_sentence_id": "25965_188818",
+      "source": "corpus",
+      "text": "このペンは百円です。",
+      "translation": "This pen is 100 yen.",
+      "ent_seq": "1175570",
+      "surface": "円",
+      "reading": "えん",
+      "tokens": [
+        {
+          "lemma": "百",
+          "form": "百",
+          "reading": "ひゃく",
+          "entry_ref": "1488000"
+        },
+        {
+          "lemma": "円",
+          "form": "円",
+          "reading": "えん",
+          "entry_ref": "1175570"
+        }
+      ]
+    },
+    {
+      "review_id": "CR008",
+      "sent_id": "reviewed:trygve:20261025:CR008",
+      "source_sentence_id": "323745_79972",
+      "source": "corpus",
+      "text": "目に砂が入りました。",
+      "translation": "I got some sand in my eye.",
+      "ent_seq": "1604890",
+      "surface": "目",
+      "reading": "め",
+      "tokens": [
+        {
+          "lemma": "目",
+          "form": "目",
+          "reading": "め",
+          "entry_ref": "1604890"
+        },
+        {
+          "lemma": "砂",
+          "form": "砂",
+          "reading": "すな",
+          "entry_ref": "1291500"
+        },
+        {
+          "lemma": "入る",
+          "form": "入りました",
+          "reading": "はいりました",
+          "entry_ref": "1465590"
+        }
+      ]
+    },
+    {
+      "review_id": "CR009",
+      "sent_id": "reviewed:trygve:20261025:CR009",
+      "source_sentence_id": null,
+      "source": "agent_draft_2026-10-25",
+      "text": "六日に帰ります。",
+      "translation": "I'll return on the sixth.",
+      "ent_seq": "1561470",
+      "surface": "六日",
+      "reading": "むいか",
+      "tokens": [
+        {
+          "lemma": "六日",
+          "form": "六日",
+          "reading": "むいか",
+          "entry_ref": "1561470"
+        },
+        {
+          "lemma": "帰る",
+          "form": "帰ります",
+          "reading": "かえります",
+          "entry_ref": "1221270"
+        }
+      ]
+    },
+    {
+      "review_id": "CR010",
+      "sent_id": "reviewed:trygve:20261025:CR010",
+      "source_sentence_id": null,
+      "source": "agent_draft_2026-10-25",
+      "text": "七日は日曜日です。",
+      "translation": "The seventh is a Sunday.",
+      "ent_seq": "1579630",
+      "surface": "七日",
+      "reading": "なのか",
+      "tokens": [
+        {
+          "lemma": "七日",
+          "form": "七日",
+          "reading": "なのか",
+          "entry_ref": "1579630"
+        },
+        {
+          "lemma": "日曜日",
+          "form": "日曜日",
+          "reading": "にちようび",
+          "entry_ref": "1464900"
+        }
+      ]
+    },
+    {
+      "review_id": "CR011",
+      "sent_id": "reviewed:trygve:20261025:CR011",
+      "source_sentence_id": "68395_231026",
+      "source": "corpus",
+      "text": "あそこに高い山が見えます。",
+      "translation": "You can see a tall mountain over there.",
+      "ent_seq": "1302680",
+      "surface": "山",
+      "reading": "やま",
+      "tokens": [
+        {
+          "lemma": "高い",
+          "form": "高い",
+          "reading": "たかい",
+          "entry_ref": "1283190"
+        },
+        {
+          "lemma": "山",
+          "form": "山",
+          "reading": "やま",
+          "entry_ref": "1302680"
+        },
+        {
+          "lemma": "見える",
+          "form": "見えます",
+          "reading": "みえます",
+          "entry_ref": "1259140"
+        }
+      ]
+    },
+    {
+      "review_id": "CR012",
+      "sent_id": "reviewed:trygve:20261025:CR012",
+      "source_sentence_id": "284225_119438",
+      "source": "corpus",
+      "text": "あの女の人は先生です。",
+      "translation": "That woman is a teacher.",
+      "ent_seq": "1344930",
+      "surface": "女",
+      "reading": "おんな",
+      "tokens": [
+        {
+          "lemma": "女",
+          "form": "女",
+          "reading": "おんな",
+          "entry_ref": "1344930"
+        },
+        {
+          "lemma": "人",
+          "form": "人",
+          "reading": "ひと",
+          "entry_ref": "1580640"
+        },
+        {
+          "lemma": "先生",
+          "form": "先生",
+          "reading": "せんせい",
+          "entry_ref": "1387990"
+        }
+      ]
+    },
+    {
+      "review_id": "CR013",
+      "sent_id": "reviewed:trygve:20261025:CR013",
+      "source_sentence_id": "273429_141143",
+      "source": "corpus",
+      "text": "船はまっすぐ北に向かっている。",
+      "translation": "The ship is heading straight north.",
+      "ent_seq": "1520670",
+      "surface": "北",
+      "reading": "きた",
+      "tokens": [
+        {
+          "lemma": "船",
+          "form": "船",
+          "reading": "ふね",
+          "entry_ref": null
+        },
+        {
+          "lemma": "北",
+          "form": "北",
+          "reading": "きた",
+          "entry_ref": "1520670"
+        },
+        {
+          "lemma": "向かう",
+          "form": "向かっている",
+          "reading": "むかっている",
+          "entry_ref": "1604800"
+        }
+      ]
+    },
+    {
+      "review_id": "CR014",
+      "sent_id": "reviewed:trygve:20261025:CR014",
+      "source_sentence_id": "296274_107412",
+      "source": "corpus",
+      "text": "教室に学生が百人います。",
+      "translation": "There are 100 students in the classroom.",
+      "ent_seq": "1488000",
+      "surface": "百",
+      "reading": "ひゃく",
+      "tokens": [
+        {
+          "lemma": "教室",
+          "form": "教室",
+          "reading": "きょうしつ",
+          "entry_ref": "1237150"
+        },
+        {
+          "lemma": "学生",
+          "form": "学生",
+          "reading": "がくせい",
+          "entry_ref": "1206900"
+        },
+        {
+          "lemma": "百",
+          "form": "百",
+          "reading": "ひゃく",
+          "entry_ref": "1488000"
+        },
+        {
+          "lemma": "人",
+          "form": "人",
+          "reading": "にん",
+          "entry_ref": "2149890"
+        }
+      ]
+    },
+    {
+      "review_id": "CR015",
+      "sent_id": "reviewed:trygve:20261025:CR015",
+      "source_sentence_id": "57624_220303",
+      "source": "corpus",
+      "text": "この道をまっすぐ行ってください。",
+      "translation": "Please go straight down this road.",
+      "ent_seq": "1454080",
+      "surface": "道",
+      "reading": "みち",
+      "tokens": [
+        {
+          "lemma": "道",
+          "form": "道",
+          "reading": "みち",
+          "entry_ref": "1454080"
+        },
+        {
+          "lemma": "行く",
+          "form": "行って",
+          "reading": "いって",
+          "entry_ref": "1578850"
+        }
+      ]
+    },
+    {
+      "review_id": "CR016",
+      "sent_id": "reviewed:trygve:20261025:CR016",
+      "source_sentence_id": "276893_127196",
+      "source": "corpus",
+      "text": "あそこにいる男の人は誰ですか。",
+      "translation": "Who is that man over there?",
+      "ent_seq": "1419990",
+      "surface": "男",
+      "reading": "おとこ",
+      "tokens": [
+        {
+          "lemma": "男",
+          "form": "男",
+          "reading": "おとこ",
+          "entry_ref": "1419990"
+        },
+        {
+          "lemma": "人",
+          "form": "人",
+          "reading": "ひと",
+          "entry_ref": "1580640"
+        },
+        {
+          "lemma": "誰",
+          "form": "誰",
+          "reading": "だれ",
+          "entry_ref": "1416830"
+        }
+      ]
+    },
+    {
+      "review_id": "CR017",
+      "sent_id": "reviewed:trygve:20261025:CR017",
+      "source_sentence_id": "326239_77480",
+      "source": "corpus",
+      "text": "列車は西へ走っていた。",
+      "translation": "The train was running west.",
+      "ent_seq": "1380840",
+      "surface": "西",
+      "reading": "にし",
+      "tokens": [
+        {
+          "lemma": "列車",
+          "form": "列車",
+          "reading": "れっしゃ",
+          "entry_ref": "1558370"
+        },
+        {
+          "lemma": "西",
+          "form": "西",
+          "reading": "にし",
+          "entry_ref": "1380840"
+        },
+        {
+          "lemma": "走る",
+          "form": "走っていた",
+          "reading": "はしっていた",
+          "entry_ref": "1402540"
+        }
+      ]
+    },
+    {
+      "review_id": "CR018",
+      "sent_id": "reviewed:trygve:20261025:CR018",
+      "source_sentence_id": "240555_173915",
+      "source": "corpus",
+      "text": "大きく口を開けてください。",
+      "translation": "Please open your mouth wide.",
+      "ent_seq": "1275640",
+      "surface": "口",
+      "reading": "くち",
+      "tokens": [
+        {
+          "lemma": "大きい",
+          "form": "大きく",
+          "reading": "おおきく",
+          "entry_ref": "1588880"
+        },
+        {
+          "lemma": "口",
+          "form": "口",
+          "reading": "くち",
+          "entry_ref": "1275640"
+        },
+        {
+          "lemma": "開ける",
+          "form": "開けて",
+          "reading": "あけて",
+          "entry_ref": "1202450"
+        }
+      ]
+    },
+    {
+      "review_id": "CR019",
+      "sent_id": "reviewed:trygve:20261025:CR019",
+      "source_sentence_id": "29142_191980",
+      "source": "corpus",
+      "text": "ワシが空を飛んでいる。",
+      "translation": "An eagle is flying in the sky.",
+      "ent_seq": "1245290",
+      "surface": "空",
+      "reading": "そら",
+      "tokens": [
+        {
+          "lemma": "空",
+          "form": "空",
+          "reading": "そら",
+          "entry_ref": "1245290"
+        },
+        {
+          "lemma": "飛ぶ",
+          "form": "飛んでいる",
+          "reading": "とんでいる",
+          "entry_ref": "1429700"
+        }
+      ]
+    },
+    {
+      "review_id": "CR020",
+      "sent_id": "reviewed:trygve:20261025:CR020",
+      "source_sentence_id": "268090_146472",
+      "source": "corpus",
+      "text": "床の上に何がありますか。",
+      "translation": "What is on the floor?",
+      "ent_seq": "1577100",
+      "surface": "何",
+      "reading": "なに",
+      "tokens": [
+        {
+          "lemma": "床",
+          "form": "床",
+          "reading": "ゆか",
+          "entry_ref": "1349380"
+        },
+        {
+          "lemma": "上",
+          "form": "上",
+          "reading": "うえ",
+          "entry_ref": "1352130"
+        },
+        {
+          "lemma": "何",
+          "form": "何",
+          "reading": "なに",
+          "entry_ref": "1577100"
+        }
+      ]
+    },
+    {
+      "review_id": "CR021",
+      "sent_id": "reviewed:trygve:20261025:CR021",
+      "source_sentence_id": "34176_196997",
+      "source": "corpus",
+      "text": "フランスはイギリスの南にあります。",
+      "translation": "France is to the south of the UK.",
+      "ent_seq": "1459870",
+      "surface": "南",
+      "reading": "みなみ",
+      "tokens": [
+        {
+          "lemma": "南",
+          "form": "南",
+          "reading": "みなみ",
+          "entry_ref": "1459870"
+        }
+      ]
+    },
+    {
+      "review_id": "CR022",
+      "sent_id": "reviewed:trygve:20261025:CR022",
+      "source_sentence_id": "32588_195414",
+      "source": "corpus",
+      "text": "また足がしびれた。",
+      "translation": "My foot's asleep again!",
+      "ent_seq": "1404630",
+      "surface": "足",
+      "reading": "あし",
+      "tokens": [
+        {
+          "lemma": "足",
+          "form": "足",
+          "reading": "あし",
+          "entry_ref": "1404630"
+        }
+      ]
+    },
+    {
+      "review_id": "CR023",
+      "sent_id": "reviewed:trygve:20261025:CR023",
+      "source_sentence_id": "44856_207603",
+      "source": "corpus",
+      "text": "その店は野菜を売っている。",
+      "translation": "That store sells vegetables.",
+      "ent_seq": "1582120",
+      "surface": "店",
+      "reading": "みせ",
+      "tokens": [
+        {
+          "lemma": "店",
+          "form": "店",
+          "reading": "みせ",
+          "entry_ref": "1582120"
+        },
+        {
+          "lemma": "野菜",
+          "form": "野菜",
+          "reading": "やさい",
+          "entry_ref": "1537370"
+        },
+        {
+          "lemma": "売る",
+          "form": "売っている",
+          "reading": "うっている",
+          "entry_ref": "1473950"
+        }
+      ]
+    },
+    {
+      "review_id": "CR024",
+      "sent_id": "reviewed:trygve:20261025:CR024",
+      "source_sentence_id": "32841_195675",
+      "source": "corpus",
+      "text": "彼は私の大切な友です。",
+      "translation": "He is my dear friend.",
+      "ent_seq": "1539980",
+      "surface": "友",
+      "reading": "とも",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "私",
+          "form": "私",
+          "reading": "わたし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "大切",
+          "form": "大切",
+          "reading": "たいせつ",
+          "entry_ref": "1414340"
+        },
+        {
+          "lemma": "友",
+          "form": "友",
+          "reading": "とも",
+          "entry_ref": "1539980"
+        }
+      ]
+    },
+    {
+      "review_id": "CR025",
+      "sent_id": "reviewed:trygve:20261025:CR025",
+      "source_sentence_id": "49914_212631",
+      "source": "corpus",
+      "text": "次の角を左に曲がってください。",
+      "translation": "Please turn left at the next corner.",
+      "ent_seq": "1290800",
+      "surface": "左",
+      "reading": "ひだり",
+      "tokens": [
+        {
+          "lemma": "次",
+          "form": "次",
+          "reading": "つぎ",
+          "entry_ref": "1316380"
+        },
+        {
+          "lemma": "角",
+          "form": "角",
+          "reading": "かど",
+          "entry_ref": "1206110"
+        },
+        {
+          "lemma": "左",
+          "form": "左",
+          "reading": "ひだり",
+          "entry_ref": "1290800"
+        },
+        {
+          "lemma": "曲がる",
+          "form": "曲がって",
+          "reading": "まがって",
+          "entry_ref": "1239730"
+        }
+      ]
+    }
+  ],
+  "source_review": "reviews/trygve-2026-10-25.json"
+}

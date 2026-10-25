@@ -19,11 +19,14 @@ def _cmd_build(args: argparse.Namespace) -> None:
     )
     stats = build_sqlite(
         Path(args.input_jmdict), Path(args.input_examples), Path(args.db),
-        jlpt_dir, bonus_dir, supplement,
+        jlpt_dir, bonus_dir, supplement, args.input_reviewed_content,
     )
     print(f"Built {args.db}")
     for key in ("entries", "words", "words_with_examples", "sentences", "sentences_with_tokens", "tokens", "jlpt_words", "bonus_phrases", "supplemented_readings", "user_version"):
         print(f"  {key}: {stats[key]}")
+    for key in ("reviewed_sentences", "reviewed_occurrence_repairs"):
+        if key in stats:
+            print(f"  {key}: {stats[key]}")
 
 
 def _cmd_stats(args: argparse.Namespace) -> None:
@@ -58,6 +61,8 @@ def app(argv: list[str] | None = None) -> None:
         help="curated reading supplement (TSV); fills approved NULL readings",
     )
     b.add_argument("--db", default="output/tangobon.sqlite")
+    b.add_argument("--input-reviewed-content", default="data/reviewed_content.json",
+                   help="versioned, approved sentence and occurrence corrections")
     b.set_defaults(func=_cmd_build)
 
     s = sub.add_parser("stats", help="print row counts for a built database")

@@ -201,3 +201,19 @@ FROM kanji_words kw
 JOIN kb.kanji_seed k ON k.literal = kw.kanji
 WHERE kw.kanji = '雨' ORDER BY k.lvl;
 ```
+# Reviewed sentence content
+
+`make build` applies `data/reviewed_content.json` after the pinned snapshots and
+reading supplement. The exact source review is retained under `data/reviews/`
+and verified by SHA-256; all 25 approved answers must match their final Japanese,
+English and occurrence reading. This adds 23 stable `reviewed:` sentence IDs,
+corrects two existing English/token pairs, and leaves dictionary readings intact.
+An approved occurrence does not choose a global default for an ambiguous word.
+It does not alter the upstream snapshots or schema1005.
+
+Every new target has exactly one occurrence, an exact dictionary entry and kana
+reading, and ordered context tokens covering every kanji. Context transcription
+is explicit dictionary-bound enrichment, not an additional human linguistic
+review. Stale corrections, conflicting bindings and incomplete annotations fail
+the editorial pass atomically. `uv run pytest tests/test_reviewed_content.py`
+checks actual snapshot imports plus rejected malformed overlays and rollback.

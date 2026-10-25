@@ -1,0 +1,858 @@
+{
+  "schema_version": 1,
+  "review_metadata": {
+    "reviewer": "Trygve",
+    "reviewed_at": "2026-10-25",
+    "style_policy": "Modern, natural colloquial/everyday Japanese",
+    "batches_included": [
+      "N5 (CR001-CR025)",
+      "N4 (CR026-CR049)"
+    ]
+  },
+  "source_review": "reviews/trygve-n4-2026-10-25.json",
+  "review_sha256": "87958fbd17e6db0b9d71d41133b31ed48b7fa90e8ae489bb9d1c4b19c5e799e9",
+  "submission_sha256": "06545cbc333d7eee646a63d7392f2d3ed23f0b71deb41ea584c13fb768253b3a",
+  "patches": [],
+  "sentences": [
+    {
+      "review_id": "CR026",
+      "sent_id": "reviewed:trygve:20261025:n4:CR026",
+      "focus_kanji": [
+        "回"
+      ],
+      "source_sentence_id": "326588_77131",
+      "text": "お酒を飲みすぎて頭が回らない。",
+      "translation": "I drank too much and can't think straight.",
+      "ent_seq": "1604300",
+      "surface": "回る",
+      "reading": "まわる",
+      "target_form": "回らない",
+      "target_reading": "まわらない",
+      "tokens": [
+        {
+          "lemma": "お酒",
+          "form": "お酒",
+          "reading": "おさけ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "飲みすぎて",
+          "form": "飲みすぎて",
+          "reading": "のみすぎて",
+          "entry_ref": null
+        },
+        {
+          "lemma": "頭",
+          "form": "頭",
+          "reading": "あたま",
+          "entry_ref": "1582310"
+        },
+        {
+          "lemma": "回る",
+          "form": "回らない",
+          "reading": "まわらない",
+          "entry_ref": "1604300"
+        }
+      ],
+      "normalization": {
+        "source_form": "回る",
+        "source_reading": "まわる",
+        "reason": "User accepted normalizing the replacement's actual negative occurrence 回らない to まわらない; lemma remains 回る/まわる."
+      }
+    },
+    {
+      "review_id": "CR027",
+      "sent_id": "reviewed:trygve:20261025:n4:CR027",
+      "focus_kanji": [
+        "力"
+      ],
+      "source_sentence_id": "28718_191556",
+      "text": "愛の力は世界を動かす。",
+      "translation": "The power of love moves the world.",
+      "ent_seq": "1554820",
+      "surface": "力",
+      "reading": "ちから",
+      "target_form": "力",
+      "target_reading": "ちから",
+      "tokens": [
+        {
+          "lemma": "愛",
+          "form": "愛",
+          "reading": "あい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "力",
+          "form": "力",
+          "reading": "ちから",
+          "entry_ref": "1554820"
+        },
+        {
+          "lemma": "世界",
+          "form": "世界",
+          "reading": "せかい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "動かす",
+          "form": "動かす",
+          "reading": "うごかす",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR028",
+      "sent_id": "reviewed:trygve:20261025:n4:CR028",
+      "focus_kanji": [
+        "田"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "春になると田に水を引く。",
+      "translation": "When spring comes, water is drawn into the rice fields.",
+      "ent_seq": "1442730",
+      "surface": "田",
+      "reading": "た",
+      "target_form": "田",
+      "target_reading": "た",
+      "tokens": [
+        {
+          "lemma": "春",
+          "form": "春",
+          "reading": "はる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "田",
+          "form": "田",
+          "reading": "た",
+          "entry_ref": "1442730"
+        },
+        {
+          "lemma": "水",
+          "form": "水",
+          "reading": "みず",
+          "entry_ref": null
+        },
+        {
+          "lemma": "引く",
+          "form": "引く",
+          "reading": "ひく",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR029",
+      "sent_id": "reviewed:trygve:20261025:n4:CR029",
+      "focus_kanji": [
+        "主"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "御主人はお元気ですか。",
+      "translation": "How is your husband doing?",
+      "ent_seq": "1270390",
+      "surface": "御主人",
+      "reading": "ごしゅじん",
+      "target_form": "御主人",
+      "target_reading": "ごしゅじん",
+      "tokens": [
+        {
+          "lemma": "御主人",
+          "form": "御主人",
+          "reading": "ごしゅじん",
+          "entry_ref": "1270390"
+        },
+        {
+          "lemma": "元気",
+          "form": "元気",
+          "reading": "げんき",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR030",
+      "sent_id": "reviewed:trygve:20261025:n4:CR030",
+      "focus_kanji": [
+        "首"
+      ],
+      "source_sentence_id": "1318737_148427",
+      "text": "首を寝違えました。",
+      "translation": "I woke up with a crick in my neck.",
+      "ent_seq": "1592270",
+      "surface": "首",
+      "reading": "くび",
+      "target_form": "首",
+      "target_reading": "くび",
+      "tokens": [
+        {
+          "lemma": "首",
+          "form": "首",
+          "reading": "くび",
+          "entry_ref": "1592270"
+        },
+        {
+          "lemma": "寝違えました",
+          "form": "寝違えました",
+          "reading": "ねちがえました",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR031",
+      "sent_id": "reviewed:trygve:20261025:n4:CR031",
+      "focus_kanji": [
+        "不"
+      ],
+      "source_sentence_id": "61652_224317",
+      "text": "ここは駅から遠くてちょっと不便だね。",
+      "translation": "This place is far from the station, so it's a bit inconvenient.",
+      "ent_seq": "1494860",
+      "surface": "不便",
+      "reading": "ふべん",
+      "target_form": "不便",
+      "target_reading": "ふべん",
+      "tokens": [
+        {
+          "lemma": "駅",
+          "form": "駅",
+          "reading": "えき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "遠くて",
+          "form": "遠くて",
+          "reading": "とおくて",
+          "entry_ref": null
+        },
+        {
+          "lemma": "不便",
+          "form": "不便",
+          "reading": "ふべん",
+          "entry_ref": "1494860"
+        }
+      ]
+    },
+    {
+      "review_id": "CR032",
+      "sent_id": "reviewed:trygve:20261025:n4:CR032",
+      "focus_kanji": [
+        "県"
+      ],
+      "source_sentence_id": "275447_137789",
+      "text": "台風の被害は数県にまたがっていた。",
+      "translation": "The typhoon damage spanned several prefectures.",
+      "ent_seq": "1258810",
+      "surface": "県",
+      "reading": "けん",
+      "target_form": "県",
+      "target_reading": "けん",
+      "tokens": [
+        {
+          "lemma": "台風",
+          "form": "台風",
+          "reading": "たいふう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "被害",
+          "form": "被害",
+          "reading": "ひがい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "数",
+          "form": "数",
+          "reading": "すう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "県",
+          "form": "県",
+          "reading": "けん",
+          "entry_ref": "1258810"
+        }
+      ]
+    },
+    {
+      "review_id": "CR033",
+      "sent_id": "reviewed:trygve:20261025:n4:CR033",
+      "focus_kanji": [
+        "進"
+      ],
+      "source_sentence_id": "25955_188808",
+      "text": "円安が進んでいるね。",
+      "translation": "The yen keeps getting weaker, doesn't it?",
+      "ent_seq": "1365980",
+      "surface": "進む",
+      "reading": "すすむ",
+      "target_form": "進んでいる",
+      "target_reading": "すすんでいる",
+      "tokens": [
+        {
+          "lemma": "円安",
+          "form": "円安",
+          "reading": "えんやす",
+          "entry_ref": null
+        },
+        {
+          "lemma": "進む",
+          "form": "進んでいる",
+          "reading": "すすんでいる",
+          "entry_ref": "1365980"
+        }
+      ]
+    },
+    {
+      "review_id": "CR034",
+      "sent_id": "reviewed:trygve:20261025:n4:CR034",
+      "focus_kanji": [
+        "心"
+      ],
+      "source_sentence_id": "7432606_175100",
+      "text": "彼の言葉が心に残った。",
+      "translation": "His words stayed with me.",
+      "ent_seq": "1360480",
+      "surface": "心",
+      "reading": "こころ",
+      "target_form": "心",
+      "target_reading": "こころ",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "言葉",
+          "form": "言葉",
+          "reading": "ことば",
+          "entry_ref": null
+        },
+        {
+          "lemma": "心",
+          "form": "心",
+          "reading": "こころ",
+          "entry_ref": "1360480"
+        },
+        {
+          "lemma": "残った",
+          "form": "残った",
+          "reading": "のこった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR035",
+      "sent_id": "reviewed:trygve:20261025:n4:CR035",
+      "focus_kanji": [
+        "私"
+      ],
+      "source_sentence_id": "252301_162212",
+      "text": "私は中学生です。",
+      "translation": "I'm a junior high school student.",
+      "ent_seq": "1311110",
+      "surface": "私",
+      "reading": "わたし",
+      "target_form": "私",
+      "target_reading": "わたし",
+      "tokens": [
+        {
+          "lemma": "私",
+          "form": "私",
+          "reading": "わたし",
+          "entry_ref": "1311110"
+        },
+        {
+          "lemma": "中学生",
+          "form": "中学生",
+          "reading": "ちゅうがくせい",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR036",
+      "sent_id": "reviewed:trygve:20261025:n4:CR036",
+      "focus_kanji": [
+        "町"
+      ],
+      "source_sentence_id": "277897_126095",
+      "text": "町全体が水没した。",
+      "translation": "The entire town was flooded.",
+      "ent_seq": "1603990",
+      "surface": "町",
+      "reading": "まち",
+      "target_form": "町",
+      "target_reading": "まち",
+      "tokens": [
+        {
+          "lemma": "町",
+          "form": "町",
+          "reading": "まち",
+          "entry_ref": "1603990"
+        },
+        {
+          "lemma": "全体",
+          "form": "全体",
+          "reading": "ぜんたい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "水没",
+          "form": "水没",
+          "reading": "すいぼつ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR037",
+      "sent_id": "reviewed:trygve:20261025:n4:CR037",
+      "focus_kanji": [
+        "声"
+      ],
+      "source_sentence_id": "286978_116690",
+      "text": "彼の声には底力がある。",
+      "translation": "He has a powerful voice.",
+      "ent_seq": "1380440",
+      "surface": "声",
+      "reading": "こえ",
+      "target_form": "声",
+      "target_reading": "こえ",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "声",
+          "form": "声",
+          "reading": "こえ",
+          "entry_ref": "1380440"
+        },
+        {
+          "lemma": "底力",
+          "form": "底力",
+          "reading": "そこぢから",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR038",
+      "sent_id": "reviewed:trygve:20261025:n4:CR038",
+      "focus_kanji": [
+        "頭"
+      ],
+      "source_sentence_id": "259702_154837",
+      "text": "朝からずっと頭が痛い。",
+      "translation": "I've had a headache all morning.",
+      "ent_seq": "1582310",
+      "surface": "頭",
+      "reading": "あたま",
+      "target_form": "頭",
+      "target_reading": "あたま",
+      "tokens": [
+        {
+          "lemma": "朝",
+          "form": "朝",
+          "reading": "あさ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "頭",
+          "form": "頭",
+          "reading": "あたま",
+          "entry_ref": "1582310"
+        },
+        {
+          "lemma": "痛い",
+          "form": "痛い",
+          "reading": "いたい",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR039",
+      "sent_id": "reviewed:trygve:20261025:n4:CR039",
+      "focus_kanji": [
+        "門"
+      ],
+      "source_sentence_id": "46811_209550",
+      "text": "その車は門を通り抜けた。",
+      "translation": "The car passed through the gate.",
+      "ent_seq": "1584800",
+      "surface": "門",
+      "reading": "もん",
+      "target_form": "門",
+      "target_reading": "もん",
+      "tokens": [
+        {
+          "lemma": "車",
+          "form": "車",
+          "reading": "くるま",
+          "entry_ref": null
+        },
+        {
+          "lemma": "門",
+          "form": "門",
+          "reading": "もん",
+          "entry_ref": "1584800"
+        },
+        {
+          "lemma": "通り抜けた",
+          "form": "通り抜けた",
+          "reading": "とおりぬけた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR040",
+      "sent_id": "reviewed:trygve:20261025:n4:CR040",
+      "focus_kanji": [
+        "岡"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "岡の上にお寺がある。",
+      "translation": "There's a temple on top of the hill.",
+      "ent_seq": "1588920",
+      "surface": "岡",
+      "reading": "おか",
+      "target_form": "岡",
+      "target_reading": "おか",
+      "tokens": [
+        {
+          "lemma": "岡",
+          "form": "岡",
+          "reading": "おか",
+          "entry_ref": "1588920"
+        },
+        {
+          "lemma": "上",
+          "form": "上",
+          "reading": "うえ",
+          "entry_ref": "1352130"
+        },
+        {
+          "lemma": "寺",
+          "form": "寺",
+          "reading": "てら",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR041",
+      "sent_id": "reviewed:trygve:20261025:n4:CR041",
+      "focus_kanji": [
+        "悪"
+      ],
+      "source_sentence_id": "277952_126041",
+      "text": "なんか今日、お腹の調子が悪いんだよね。",
+      "translation": "My stomach's been acting up today.",
+      "ent_seq": "1151260",
+      "surface": "悪い",
+      "reading": "わるい",
+      "target_form": "悪い",
+      "target_reading": "わるい",
+      "tokens": [
+        {
+          "lemma": "今日",
+          "form": "今日",
+          "reading": "きょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "お腹",
+          "form": "お腹",
+          "reading": "おなか",
+          "entry_ref": null
+        },
+        {
+          "lemma": "調子",
+          "form": "調子",
+          "reading": "ちょうし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "悪い",
+          "form": "悪い",
+          "reading": "わるい",
+          "entry_ref": "1151260"
+        }
+      ]
+    },
+    {
+      "review_id": "CR042",
+      "sent_id": "reviewed:trygve:20261025:n4:CR042",
+      "focus_kanji": [
+        "紙"
+      ],
+      "source_sentence_id": "263352_151205",
+      "text": "紙は木から作られる。",
+      "translation": "Paper is made from wood.",
+      "ent_seq": "1311530",
+      "surface": "紙",
+      "reading": "かみ",
+      "target_form": "紙",
+      "target_reading": "かみ",
+      "tokens": [
+        {
+          "lemma": "紙",
+          "form": "紙",
+          "reading": "かみ",
+          "entry_ref": "1311530"
+        },
+        {
+          "lemma": "木",
+          "form": "木",
+          "reading": "き",
+          "entry_ref": null
+        },
+        {
+          "lemma": "作られる",
+          "form": "作られる",
+          "reading": "つくられる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR043",
+      "sent_id": "reviewed:trygve:20261025:n4:CR043",
+      "focus_kanji": [
+        "秋"
+      ],
+      "source_sentence_id": "276923_127166",
+      "text": "すっかり秋らしくなってきたね。",
+      "translation": "It's really starting to feel like autumn, isn't it?",
+      "ent_seq": "1332650",
+      "surface": "秋",
+      "reading": "あき",
+      "target_form": "秋",
+      "target_reading": "あき",
+      "tokens": [
+        {
+          "lemma": "秋",
+          "form": "秋",
+          "reading": "あき",
+          "entry_ref": "1332650"
+        }
+      ]
+    },
+    {
+      "review_id": "CR044",
+      "sent_id": "reviewed:trygve:20261025:n4:CR044",
+      "focus_kanji": [
+        "林"
+      ],
+      "source_sentence_id": "328058_75660",
+      "text": "家の裏に小さな林がある。",
+      "translation": "There are small woods behind the house.",
+      "ent_seq": "1555440",
+      "surface": "林",
+      "reading": "はやし",
+      "target_form": "林",
+      "target_reading": "はやし",
+      "tokens": [
+        {
+          "lemma": "家",
+          "form": "家",
+          "reading": "いえ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "裏",
+          "form": "裏",
+          "reading": "うら",
+          "entry_ref": null
+        },
+        {
+          "lemma": "小さな",
+          "form": "小さな",
+          "reading": "ちいさな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "林",
+          "form": "林",
+          "reading": "はやし",
+          "entry_ref": "1555440"
+        }
+      ]
+    },
+    {
+      "review_id": "CR045",
+      "sent_id": "reviewed:trygve:20261025:n4:CR045",
+      "focus_kanji": [
+        "顔"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "なんか今日、顔付きが険しいね。",
+      "translation": "You look pretty grim today.",
+      "ent_seq": "1217850",
+      "surface": "顔付き",
+      "reading": "かおつき",
+      "target_form": "顔付き",
+      "target_reading": "かおつき",
+      "tokens": [
+        {
+          "lemma": "今日",
+          "form": "今日",
+          "reading": "きょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "顔付き",
+          "form": "顔付き",
+          "reading": "かおつき",
+          "entry_ref": "1217850"
+        },
+        {
+          "lemma": "険しい",
+          "form": "険しい",
+          "reading": "けわしい",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR046",
+      "sent_id": "reviewed:trygve:20261025:n4:CR046",
+      "focus_kanji": [
+        "薬"
+      ],
+      "source_sentence_id": "270957_143609",
+      "text": "食後にこの薬を飲んでね。",
+      "translation": "Take this medicine after eating.",
+      "ent_seq": "1538160",
+      "surface": "薬",
+      "reading": "くすり",
+      "target_form": "薬",
+      "target_reading": "くすり",
+      "tokens": [
+        {
+          "lemma": "食後",
+          "form": "食後",
+          "reading": "しょくご",
+          "entry_ref": null
+        },
+        {
+          "lemma": "薬",
+          "form": "薬",
+          "reading": "くすり",
+          "entry_ref": "1538160"
+        },
+        {
+          "lemma": "飲んで",
+          "form": "飲んで",
+          "reading": "のんで",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR047",
+      "sent_id": "reviewed:trygve:20261025:n4:CR047",
+      "focus_kanji": [
+        "弟",
+        "兄"
+      ],
+      "source_sentence_id": "69564_232196",
+      "text": "何人兄弟ですか。",
+      "translation": "How many siblings do you have?",
+      "ent_seq": "1249960",
+      "surface": "兄弟",
+      "reading": "きょうだい",
+      "target_form": "兄弟",
+      "target_reading": "きょうだい",
+      "tokens": [
+        {
+          "lemma": "何人",
+          "form": "何人",
+          "reading": "なんにん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "兄弟",
+          "form": "兄弟",
+          "reading": "きょうだい",
+          "entry_ref": "1249960"
+        }
+      ]
+    },
+    {
+      "review_id": "CR048",
+      "sent_id": "reviewed:trygve:20261025:n4:CR048",
+      "focus_kanji": [
+        "妹"
+      ],
+      "source_sentence_id": "261776_152773",
+      "text": "私は妹に辞書をあげた。",
+      "translation": "I gave my younger sister a dictionary.",
+      "ent_seq": "1524590",
+      "surface": "妹",
+      "reading": "いもうと",
+      "target_form": "妹",
+      "target_reading": "いもうと",
+      "tokens": [
+        {
+          "lemma": "私",
+          "form": "私",
+          "reading": "わたし",
+          "entry_ref": "1311110"
+        },
+        {
+          "lemma": "妹",
+          "form": "妹",
+          "reading": "いもうと",
+          "entry_ref": "1524590"
+        },
+        {
+          "lemma": "辞書",
+          "form": "辞書",
+          "reading": "じしょ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR049",
+      "sent_id": "reviewed:trygve:20261025:n4:CR049",
+      "focus_kanji": [
+        "姉"
+      ],
+      "source_sentence_id": "245571_237438",
+      "text": "姉はすごく頭がいい。",
+      "translation": "My older sister is super smart.",
+      "ent_seq": "1307630",
+      "surface": "姉",
+      "reading": "あね",
+      "target_form": "姉",
+      "target_reading": "あね",
+      "tokens": [
+        {
+          "lemma": "姉",
+          "form": "姉",
+          "reading": "あね",
+          "entry_ref": "1307630"
+        },
+        {
+          "lemma": "頭",
+          "form": "頭",
+          "reading": "あたま",
+          "entry_ref": "1582310"
+        }
+      ]
+    }
+  ]
+}

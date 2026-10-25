@@ -42,3 +42,14 @@ reviewed_content.json and reviews/trygve-2026-10-25.json
   authorship: project editorial curation; original corpus derivatives retain
               underlying EDRDG/Tatoeba attribution. No new third-party licence
               or independent linguistic-review claim is inferred from approval.
+
+reviewed_n4_content.json; reviews/trygve-n4-2026-10-25.json;
+reviews/trygve-n4-submission-2026-10-25.txt
+  source:   Trygve CR026-CR049, 25 October 2026:24 approved sentence pairs
+            covering25 N4 focus kanji. Exact source submission includes revised
+            N5 answers, explicitly deferred and not applied. Normalized N4-only
+            source is hash-checked and retains original fields. CR026 negative
+            occurrence normalized as explicitly accepted by the user.
+  snapshot: 2026-10-25, existing pinned dictionary/corpus snapshots unchanged
+  authorship: project editorial curation with original candidate source IDs;
+              retain underlying corpus attribution. No new rights grant inferred.

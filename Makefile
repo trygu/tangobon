@@ -11,6 +11,7 @@ build:
 		--input-bonus-dir data/bonus/ \
 		--input-reading-supplement data/reading_supplement.tsv \
 		--input-reviewed-content data/reviewed_content.json \
+		--input-reviewed-content data/reviewed_n4_content.json \
 		--db output/tangobon.sqlite
 
 stats:

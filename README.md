@@ -217,3 +217,11 @@ is explicit dictionary-bound enrichment, not an additional human linguistic
 review. Stale corrections, conflicting bindings and incomplete annotations fail
 the editorial pass atomically. `uv run pytest tests/test_reviewed_content.py`
 checks actual snapshot imports plus rejected malformed overlays and rollback.
+
+The N4 batch is `data/reviewed_n4_content.json`, backed by the normalized N4
+review and original mixed submission under `data/reviews/`. `make build` applies
+N5 then N4; `--input-reviewed-content` is repeatable for explicit batch selection.
+The supplied revised N5 answers are retained for provenance but are not imported.
+CR026's approved normalization is 回らない/まわらない, with dictionary lemma
+回る/まわる. Target form/reading fields also preserve 進んでいる/すすんでいる
+separately from 進む/すすむ. All dictionary defaults remain unchanged.

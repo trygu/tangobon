@@ -19,7 +19,7 @@ def _cmd_build(args: argparse.Namespace) -> None:
     )
     stats = build_sqlite(
         Path(args.input_jmdict), Path(args.input_examples), Path(args.db),
-        jlpt_dir, bonus_dir, supplement, args.input_reviewed_content,
+        jlpt_dir, bonus_dir, supplement, args.input_reviewed_content or ["data/reviewed_content.json", "data/reviewed_n4_content.json"],
     )
     print(f"Built {args.db}")
     for key in ("entries", "words", "words_with_examples", "sentences", "sentences_with_tokens", "tokens", "jlpt_words", "bonus_phrases", "supplemented_readings", "user_version"):
@@ -61,7 +61,7 @@ def app(argv: list[str] | None = None) -> None:
         help="curated reading supplement (TSV); fills approved NULL readings",
     )
     b.add_argument("--db", default="output/tangobon.sqlite")
-    b.add_argument("--input-reviewed-content", default="data/reviewed_content.json",
+    b.add_argument("--input-reviewed-content", action="append",
                    help="versioned, approved sentence and occurrence corrections")
     b.set_defaults(func=_cmd_build)
 

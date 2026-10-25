@@ -226,7 +226,7 @@ def build_sqlite(
     jlpt_dir: str | Path | None = None,
     bonus_dir: str | Path | None = None,
     supplement_path: str | Path | None = None,
-    reviewed_content_path: str | Path | None = None,
+    reviewed_content_path: str | Path | list[str | Path] | None = None,
 ) -> dict:
     """Build the word/sentence database from the dated snapshots.
 
@@ -264,7 +264,8 @@ def build_sqlite(
     _build_jlpt(conn, jlpt_dir, stats)
     _build_bonus(conn, bonus_dir, stats)
     from .reviewed_content import apply_reviewed_content
-    apply_reviewed_content(conn, reviewed_content_path, stats)
+    for reviewed_path in reviewed_content_path if isinstance(reviewed_content_path, list) else [reviewed_content_path]:
+        apply_reviewed_content(conn, reviewed_path, stats)
     conn.commit()
 
     stats["words"] = conn.execute("SELECT COUNT(*) FROM word").fetchone()[0]

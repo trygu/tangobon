@@ -28,7 +28,9 @@ def apply_reviewed_content(conn, path, stats):
         ja = answer.get("replacement_ja") or answer.get("corrected_ja") or answer["original_ja"]
         en = answer.get("replacement_en") or answer.get("corrected_en") or answer["original_en"]
         text = item.get("text", item.get("expected_text"))
-        if (text, item["translation"], item["reading"], item.get("surface", item.get("form"))) != (ja, en, answer["occurrence_reading"], answer["target_surface"]):
+        occurrence = item.get("target_form", item.get("surface", item.get("form")))
+        pronunciation = item.get("target_reading", item["reading"])
+        if (text, item["translation"], pronunciation, occurrence) != (ja, en, answer["occurrence_reading"], answer["target_surface"]):
             raise ValueError(f"Content differs from approved answer: {item['review_id']}")
 
     def kana(value):
@@ -53,7 +55,10 @@ def apply_reviewed_content(conn, path, stats):
         for item in spec["sentences"]:
             kana(item["reading"])
             sid, text = item["sent_id"], item["text"]
-            if not sid.startswith("reviewed:") or not text or not item["translation"] or text.count(item["surface"]) != 1:
+            target_form = item.get("target_form", item["surface"])
+            target_reading = item.get("target_reading", item["reading"])
+            kana(target_reading)
+            if not sid.startswith("reviewed:") or not text or not item["translation"] or text.count(target_form) != 1:
                 raise ValueError(f"Invalid/ambiguous reviewed sentence: {sid}")
             row = conn.execute("SELECT word_id,reading FROM word WHERE ent_seq=? AND surface=?",
                                (item["ent_seq"], item["surface"])).fetchone()
@@ -72,8 +77,8 @@ def apply_reviewed_content(conn, path, stats):
                     "SELECT 1 FROM word WHERE ent_seq=? AND surface=?", (token["entry_ref"], token["lemma"])
                 ).fetchone():
                     raise ValueError(f"Unknown token entry: {sid} {form}")
-                if form == item["surface"]:
-                    if (token["lemma"], token["reading"], token["entry_ref"]) != (form, item["reading"], item["ent_seq"]):
+                if form == target_form:
+                    if (token["lemma"], token["reading"], token["entry_ref"]) != (item["surface"], target_reading, item["ent_seq"]):
                         raise ValueError(f"Conflicting target token: {sid}")
                     target_count += 1
             if target_count != 1 or any(KANJI_RE.fullmatch(ch) and i not in covered for i, ch in enumerate(text)):
@@ -89,7 +94,7 @@ def apply_reviewed_content(conn, path, stats):
         conn.execute("ROLLBACK TO reviewed_content")
         conn.execute("RELEASE reviewed_content")
         raise
-    stats["reviewed_sentences"] = len(spec["sentences"])
-    stats["reviewed_occurrence_repairs"] = len(spec["patches"])
+    stats["reviewed_sentences"] = stats.get("reviewed_sentences", 0) + len(spec["sentences"])
+    stats["reviewed_occurrence_repairs"] = stats.get("reviewed_occurrence_repairs", 0) + len(spec["patches"])
     stats["sentences_with_tokens"] = stats.get("sentences_with_tokens", 0) + len(spec["sentences"])
     stats["tokens"] = stats.get("tokens", 0) + sum(len(item["tokens"]) for item in spec["sentences"])

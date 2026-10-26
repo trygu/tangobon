@@ -67,7 +67,7 @@ files exist, and the curated reading supplement whenever the TSV exists.
 
 ## Schema and contract views
 
-`PRAGMA user_version` is 1005 and must be bumped on any schema change —
+`PRAGMA user_version` is 1006 and must be bumped on any schema change —
 check it before relying on a specific layout.
 
 ### Tables
@@ -209,7 +209,8 @@ and verified by SHA-256; all 25 approved answers must match their final Japanese
 English and occurrence reading. This adds 23 stable `reviewed:` sentence IDs,
 corrects two existing English/token pairs, and leaves dictionary readings intact.
 An approved occurrence does not choose a global default for an ambiguous word.
-It does not alter the upstream snapshots or schema1005.
+It does not alter the upstream snapshots. Schema1006 adds the lexical contracts
+below; the original sentence identities remain unchanged.
 
 Every new target has exactly one occurrence, an exact dictionary entry and kana
 reading, and ordered context tokens covering every kanji. Context transcription
@@ -238,6 +239,23 @@ transcriptions, not a claim of another human review.
 
 `uv run pytest tests/test_reviewed_n3.py` verifies the real snapshot import,
 exact occurrences, previous batches and unchanged dictionary defaults. The app
-also needs exact reviewed irregular-reading breakdowns; import success alone
+also needs exact verified irregular-reading breakdowns; import success alone
 does not prove selectable exercises or safe ruby. The proposed 68-character
 N3→N1 move was withdrawn and is not encoded here.
+
+## Verified occurrence contract (schema1006)
+
+`verified_occurrences` exposes `sent_id, entry_ref, lemma, lemma_reading, form,
+reading, provenance_sha256`. `occurrence_reading_parts` exposes that exact
+occurrence identity plus `pos, written_part, reading_part, kind`. The ordered
+parts must concatenate to the complete written form and occurrence reading.
+The 22 nontrivial N3 breakdowns are input data, not application source code.
+
+These contracts record lexical evidence only. They carry no focus-character
+curriculum, learner level, fallback permission or reviewer-specific rule.
+Consuming apps own pedagogical suitability. IDs are opaque join keys; changing
+a reviewer's name or ID spelling must not change lexical validity or selection.
+The provenance digest links evidence to retained review material without granting
+runtime privileges. `tests/test_verified_occurrences.py` checks opaque IDs,
+changed reviewer metadata, exact-entry binding and atomic rejection of malformed
+parts. Import success alone does not establish lesson suitability.

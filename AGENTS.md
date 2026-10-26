@@ -14,7 +14,7 @@ snapshots → SQLite.
 
 - Standard library only. No runtime dependencies.
 - Streaming parses; do not load whole snapshot files into memory.
-- Schema changes require bumping `PRAGMA user_version` (currently 1005) and
+- Schema changes require bumping `PRAGMA user_version` (currently 1006) and
   updating the tests.
 - The contract views (`kanji_words`, `word_sentences`) are the app's
   interface; keep them stable. Extend, don't break.

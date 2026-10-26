@@ -3317,6 +3317,23 @@
           "reading": "さんじゅっさい",
           "entry_ref": "1294940"
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "三",
+          "reading": "さん",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "十",
+          "reading": "じゅっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "歳",
+          "reading": "さい",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -3481,6 +3498,18 @@
           "reading": "そと",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "良",
+          "reading": "い",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "い",
+          "reading": "い",
+          "kind": "Kana"
+        }
       ]
     },
     {
@@ -3527,6 +3556,18 @@
           "form": "失敗",
           "reading": "しっぱい",
           "entry_ref": "1320140"
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "失",
+          "reading": "しっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "敗",
+          "reading": "ぱい",
+          "kind": "Reviewed word reading"
         }
       ]
     },
@@ -3627,6 +3668,23 @@
           "form": "笑った",
           "reading": "わらった",
           "entry_ref": null
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "殺",
+          "reading": "ころ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "し",
+          "reading": "し",
+          "kind": "Kana"
+        },
+        {
+          "form": "て",
+          "reading": "て",
+          "kind": "Kana"
         }
       ]
     },
@@ -3862,6 +3920,18 @@
           "reading": "つかえません",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "一",
+          "reading": "いっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "般",
+          "reading": "ぱん",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -3931,6 +4001,18 @@
           "form": "豊富",
           "reading": "ほうふ",
           "entry_ref": null
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "種",
+          "reading": "しゅ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "類",
+          "reading": "るい",
+          "kind": "Reviewed word reading"
         }
       ]
     },
@@ -4196,6 +4278,18 @@
           "reading": "さんぽ",
           "entry_ref": "1303620"
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "散",
+          "reading": "さん",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "歩",
+          "reading": "ぽ",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -4454,6 +4548,18 @@
           "reading": "しゅっぱん",
           "entry_ref": "1340030"
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "出",
+          "reading": "しゅっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "版",
+          "reading": "ぱん",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -4583,6 +4689,18 @@
           "reading": "すき",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "雑",
+          "reading": "ざっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "誌",
+          "reading": "し",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -4677,6 +4795,18 @@
           "reading": "とった",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "二",
+          "reading": "に",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "枚",
+          "reading": "まい",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -4758,6 +4888,18 @@
           "form": "飲みません",
           "reading": "のみません",
           "entry_ref": null
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "一",
+          "reading": "いっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "緒",
+          "reading": "しょ",
+          "kind": "Reviewed word reading"
         }
       ]
     },
@@ -4881,6 +5023,18 @@
           "form": "双子",
           "reading": "ふたご",
           "entry_ref": "1398750"
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "双",
+          "reading": "ふた",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "子",
+          "reading": "ご",
+          "kind": "Reviewed word reading"
         }
       ]
     },
@@ -5122,6 +5276,28 @@
           "form": "埋まって",
           "reading": "うまって",
           "entry_ref": "1584340"
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "埋",
+          "reading": "う",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "ま",
+          "reading": "ま",
+          "kind": "Kana"
+        },
+        {
+          "form": "っ",
+          "reading": "っ",
+          "kind": "Kana"
+        },
+        {
+          "form": "て",
+          "reading": "て",
+          "kind": "Kana"
         }
       ]
     },
@@ -5470,6 +5646,18 @@
           "reading": "のんで",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "一",
+          "reading": "いっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "杯",
+          "reading": "ぱい",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -5629,6 +5817,18 @@
           "reading": "かって",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "一",
+          "reading": "いっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "冊",
+          "reading": "さつ",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -5675,6 +5875,23 @@
           "form": "見つけた",
           "reading": "みつけた",
           "entry_ref": null
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "喫",
+          "reading": "きっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "茶",
+          "reading": "さ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "店",
+          "reading": "てん",
+          "kind": "Reviewed word reading"
         }
       ]
     },
@@ -5799,6 +6016,18 @@
           "reading": "さかえていた",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "鉱",
+          "reading": "こう",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "山",
+          "reading": "ざん",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -5858,6 +6087,18 @@
           "reading": "かっている",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "二",
+          "reading": "に",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "匹",
+          "reading": "ひき",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -5911,6 +6152,13 @@
           "reading": "かくとく",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "銅",
+          "reading": "どう",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -5951,6 +6199,18 @@
           "form": "多くて",
           "reading": "おおくて",
           "entry_ref": null
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "湿",
+          "reading": "しっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "気",
+          "reading": "け",
+          "kind": "Reviewed word reading"
         }
       ]
     },
@@ -6440,6 +6700,18 @@
           "reading": "かわない",
           "entry_ref": null
         }
+      ],
+      "reading_parts": [
+        {
+          "form": "切",
+          "reading": "きっ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "符",
+          "reading": "ぷ",
+          "kind": "Reviewed word reading"
+        }
       ]
     },
     {
@@ -6692,6 +6964,23 @@
           "form": "閉じた",
           "reading": "とじた",
           "entry_ref": null
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "挟",
+          "reading": "はさ",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "ん",
+          "reading": "ん",
+          "kind": "Kana"
+        },
+        {
+          "form": "で",
+          "reading": "で",
+          "kind": "Kana"
         }
       ]
     },

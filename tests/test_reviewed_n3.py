@@ -36,4 +36,4 @@ def test_n3_full_batch_preserves_prior_content(tmp_path):
         # Alternate approved occurrences never replace the dictionary's default.
         assert conn.execute("SELECT reading FROM word WHERE surface='良い' AND ent_seq='1605820'").fetchone() == ("よい",)
         assert conn.execute("SELECT reading FROM word WHERE surface='銅' AND ent_seq='1582390'").fetchone() == ("あかがね",)
-        assert conn.execute("PRAGMA user_version").fetchone()[0] == 1005
+        assert conn.execute("PRAGMA user_version").fetchone()[0] == 1006

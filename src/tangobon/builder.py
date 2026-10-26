@@ -84,7 +84,7 @@ import sqlite3
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-USER_VERSION = 1005
+USER_VERSION = 1006
 
 # CJK ideographs (main block, Extension A, compatibility block). Surfaces
 # outside these ranges are treated as non-kanji.
@@ -171,6 +171,36 @@ SELECT st.sent_id AS sent_id,
        st.reading AS reading,
        st.entry_ref AS entry_ref
 FROM sentence_token AS st;
+
+-- Verified lexical occurrence evidence. Pedagogical focus/level approvals
+-- belong to the consuming app's content catalog, not this dictionary layer.
+CREATE TABLE verified_occurrence(
+    sent_id TEXT NOT NULL REFERENCES sentence(sent_id),
+    entry_ref TEXT NOT NULL,
+    lemma TEXT NOT NULL,
+    lemma_reading TEXT NOT NULL,
+    form TEXT NOT NULL,
+    reading TEXT NOT NULL,
+    provenance_sha256 TEXT NOT NULL,
+    PRIMARY KEY(sent_id, entry_ref, lemma, form, reading)
+);
+CREATE VIEW verified_occurrences AS SELECT * FROM verified_occurrence;
+
+CREATE TABLE occurrence_reading_part(
+    sent_id TEXT NOT NULL,
+    entry_ref TEXT NOT NULL,
+    lemma TEXT NOT NULL,
+    form TEXT NOT NULL,
+    reading TEXT NOT NULL,
+    pos INTEGER NOT NULL,
+    written_part TEXT NOT NULL,
+    reading_part TEXT NOT NULL,
+    kind TEXT NOT NULL,
+    PRIMARY KEY(sent_id, entry_ref, lemma, form, reading, pos),
+    FOREIGN KEY(sent_id, entry_ref, lemma, form, reading)
+        REFERENCES verified_occurrence(sent_id, entry_ref, lemma, form, reading)
+);
+CREATE VIEW occurrence_reading_parts AS SELECT * FROM occurrence_reading_part;
 
 CREATE TABLE jlpt_word(
     word TEXT NOT NULL,

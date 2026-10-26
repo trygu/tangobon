@@ -58,7 +58,7 @@ def apply_reviewed_content(conn, path, stats):
             target_form = item.get("target_form", item["surface"])
             target_reading = item.get("target_reading", item["reading"])
             kana(target_reading)
-            if not sid.startswith("reviewed:") or not text or not item["translation"] or text.count(target_form) != 1:
+            if not sid or not text or not item["translation"] or text.count(target_form) != 1:
                 raise ValueError(f"Invalid/ambiguous reviewed sentence: {sid}")
             row = conn.execute("SELECT word_id,reading FROM word WHERE ent_seq=? AND surface=?",
                                (item["ent_seq"], item["surface"])).fetchone()
@@ -83,11 +83,26 @@ def apply_reviewed_content(conn, path, stats):
                     target_count += 1
             if target_count != 1 or any(KANJI_RE.fullmatch(ch) and i not in covered for i, ch in enumerate(text)):
                 raise ValueError(f"Incomplete kanji/target annotation: {sid}")
+            parts = item.get("reading_parts", [])
+            if parts:
+                for part in parts:
+                    kana(part["reading"])
+                    if len(part["form"]) != 1 or part["kind"] not in ("Kana", "Reviewed word reading", "On’yomi", "Kun’yomi"):
+                        raise ValueError(f"Invalid reading breakdown: {sid}")
+                if ("".join(p["form"] for p in parts), "".join(p["reading"] for p in parts)) != (target_form, target_reading):
+                    raise ValueError(f"Misaligned reading breakdown: {sid}")
             conn.execute("INSERT INTO sentence VALUES(?,?,?,?)", (sid, sid, text, item["translation"]))
             conn.execute("INSERT INTO word_example VALUES(?,?)", (row[0], sid))
             conn.executemany("INSERT INTO sentence_token VALUES(?,?,?,?,?,?)", [
                 (sid, i, t["lemma"], t["form"], t["reading"], t["entry_ref"])
                 for i, t in enumerate(item["tokens"])
+            ])
+            identity = (sid, item["ent_seq"], item["surface"], target_form, target_reading)
+            conn.execute("INSERT INTO verified_occurrence VALUES(?,?,?,?,?,?,?)",
+                         (sid, item["ent_seq"], item["surface"], item["reading"], target_form,
+                          target_reading, spec["review_sha256"]))
+            conn.executemany("INSERT INTO occurrence_reading_part VALUES(?,?,?,?,?,?,?,?,?)", [
+                (*identity, i, part["form"], part["reading"], part["kind"]) for i, part in enumerate(parts)
             ])
         conn.execute("RELEASE reviewed_content")
     except Exception:

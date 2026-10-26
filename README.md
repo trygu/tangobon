@@ -251,6 +251,16 @@ occurrence identity plus `pos, written_part, reading_part, kind`. The ordered
 parts must concatenate to the complete written form and occurrence reading.
 The 22 nontrivial N3 breakdowns are input data, not application source code.
 
+The N2 batch is `data/reviewed_n2_content.json`: 141 approved pairs covering
+146 focus-kanji paths (CR131–CR271, distinct N2 sentence identities). Both
+`make build` and the default CLI include it. Original submitted bytes are kept
+under `data/reviews/`; normalized review records explicitly use corrected pairs
+where supplied and rebind changed occurrence forms/readings. N2 sentence text
+is at most 23 characters; this does not change consuming applications' generic
+length policies. `tests/test_reviewed_n2.py` checks prior batches, exact target
+evidence and the transitive 慰める / rainbow 虹 entry bindings. No character
+level mapping or reference-only policy is changed by this batch.
+
 These contracts record lexical evidence only. They carry no focus-character
 curriculum, learner level, fallback permission or reviewer-specific rule.
 Consuming apps own pedagogical suitability. IDs are opaque join keys; changing

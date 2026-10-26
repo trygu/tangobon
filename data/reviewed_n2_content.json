@@ -1,0 +1,5255 @@
+{
+  "schema_version": 1,
+  "source_review": "reviews/trygve-n2-2026-10-26.json",
+  "review_sha256": "7992b47fba172194a718ae39cadd1a462941a143387080fc44498d93e406ec28",
+  "submission_sha256": "0ad25c652cee83e93ca938b3cd612883cf72304a4a876846fd2447ec69310512",
+  "patches": [],
+  "sentences": [
+    {
+      "review_id": "CR131",
+      "sent_id": "reviewed:20261026:n2:CR131",
+      "focus_kanji": [
+        "氏"
+      ],
+      "source_sentence_id": "246379_168115",
+      "text": "田中氏が会議に出席した。",
+      "translation": "Mr. Tanaka attended the meeting.",
+      "ent_seq": "2101130",
+      "surface": "氏",
+      "reading": "し",
+      "target_form": "氏",
+      "target_reading": "し",
+      "tokens": [
+        {
+          "lemma": "田中",
+          "form": "田中",
+          "reading": "たなか",
+          "entry_ref": null
+        },
+        {
+          "lemma": "氏",
+          "form": "氏",
+          "reading": "し",
+          "entry_ref": "2101130"
+        },
+        {
+          "lemma": "会議",
+          "form": "会議",
+          "reading": "かいぎ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "出席した",
+          "form": "出席した",
+          "reading": "しゅっせきした",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR132",
+      "sent_id": "reviewed:20261026:n2:CR132",
+      "focus_kanji": [
+        "策"
+      ],
+      "source_sentence_id": "327823_75895",
+      "text": "早めに対策を考えよう。",
+      "translation": "Let's think of countermeasures early.",
+      "ent_seq": "1410050",
+      "surface": "対策",
+      "reading": "たいさく",
+      "target_form": "対策",
+      "target_reading": "たいさく",
+      "tokens": [
+        {
+          "lemma": "早め",
+          "form": "早め",
+          "reading": "はやめ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "対策",
+          "form": "対策",
+          "reading": "たいさく",
+          "entry_ref": "1410050"
+        },
+        {
+          "lemma": "考えよう",
+          "form": "考えよう",
+          "reading": "かんがえよう",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR133",
+      "sent_id": "reviewed:20261026:n2:CR133",
+      "focus_kanji": [
+        "鮮"
+      ],
+      "source_sentence_id": "269328_145235",
+      "text": "この店の魚はいつも新鮮だ。",
+      "translation": "The fish at this place is always fresh.",
+      "ent_seq": "1362100",
+      "surface": "新鮮",
+      "reading": "しんせん",
+      "target_form": "新鮮",
+      "target_reading": "しんせん",
+      "tokens": [
+        {
+          "lemma": "店",
+          "form": "店",
+          "reading": "みせ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "魚",
+          "form": "魚",
+          "reading": "さかな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "新鮮",
+          "form": "新鮮",
+          "reading": "しんせん",
+          "entry_ref": "1362100"
+        }
+      ]
+    },
+    {
+      "review_id": "CR134",
+      "sent_id": "reviewed:20261026:n2:CR134",
+      "focus_kanji": [
+        "株"
+      ],
+      "source_sentence_id": "301273_102421",
+      "text": "彼は大金を株に投資した。",
+      "translation": "He invested a lot of money in stocks.",
+      "ent_seq": "1208920",
+      "surface": "株",
+      "reading": "かぶ",
+      "target_form": "株",
+      "target_reading": "かぶ",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "大金",
+          "form": "大金",
+          "reading": "たいきん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "株",
+          "form": "株",
+          "reading": "かぶ",
+          "entry_ref": "1208920"
+        },
+        {
+          "lemma": "投資した",
+          "form": "投資した",
+          "reading": "とうしした",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR135",
+      "sent_id": "reviewed:20261026:n2:CR135",
+      "focus_kanji": [
+        "松"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "庭に古い松がある。",
+      "translation": "There is an old pine tree in the garden.",
+      "ent_seq": "1349860",
+      "surface": "松",
+      "reading": "まつ",
+      "target_form": "松",
+      "target_reading": "まつ",
+      "tokens": [
+        {
+          "lemma": "庭",
+          "form": "庭",
+          "reading": "にわ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "古い",
+          "form": "古い",
+          "reading": "ふるい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "松",
+          "form": "松",
+          "reading": "まつ",
+          "entry_ref": "1349860"
+        }
+      ]
+    },
+    {
+      "review_id": "CR136",
+      "sent_id": "reviewed:20261026:n2:CR136",
+      "focus_kanji": [
+        "士"
+      ],
+      "source_sentence_id": "319452_84263",
+      "text": "その映画は武士が主役だ。",
+      "translation": "A samurai is the main character in that movie.",
+      "ent_seq": "1583680",
+      "surface": "武士",
+      "reading": "ぶし",
+      "target_form": "武士",
+      "target_reading": "ぶし",
+      "tokens": [
+        {
+          "lemma": "映画",
+          "form": "映画",
+          "reading": "えいが",
+          "entry_ref": null
+        },
+        {
+          "lemma": "武士",
+          "form": "武士",
+          "reading": "ぶし",
+          "entry_ref": "1583680"
+        },
+        {
+          "lemma": "主役",
+          "form": "主役",
+          "reading": "しゅやく",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR137",
+      "sent_id": "reviewed:20261026:n2:CR137",
+      "focus_kanji": [
+        "及"
+      ],
+      "source_sentence_id": "26541_189390",
+      "text": "睡眠不足は健康に悪影響を及ぼす。",
+      "translation": "Lack of sleep has a bad effect on your health.",
+      "ent_seq": "1228180",
+      "surface": "及ぼす",
+      "reading": "およぼす",
+      "target_form": "及ぼす",
+      "target_reading": "およぼす",
+      "tokens": [
+        {
+          "lemma": "睡眠不足",
+          "form": "睡眠不足",
+          "reading": "すいみんぶそく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "健康",
+          "form": "健康",
+          "reading": "けんこう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "悪影響",
+          "form": "悪影響",
+          "reading": "あくえいきょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "及ぼす",
+          "form": "及ぼす",
+          "reading": "およぼす",
+          "entry_ref": "1228180"
+        }
+      ]
+    },
+    {
+      "review_id": "CR138",
+      "sent_id": "reviewed:20261026:n2:CR138",
+      "focus_kanji": [
+        "系"
+      ],
+      "source_sentence_id": "305820_97884",
+      "text": "料金の体系がわかりやすい。",
+      "translation": "The pricing structure is easy to understand.",
+      "ent_seq": "1409390",
+      "surface": "体系",
+      "reading": "たいけい",
+      "target_form": "体系",
+      "target_reading": "たいけい",
+      "tokens": [
+        {
+          "lemma": "料金",
+          "form": "料金",
+          "reading": "りょうきん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "体系",
+          "form": "体系",
+          "reading": "たいけい",
+          "entry_ref": "1409390"
+        }
+      ]
+    },
+    {
+      "review_id": "CR139",
+      "sent_id": "reviewed:20261026:n2:CR139",
+      "focus_kanji": [
+        "振"
+      ],
+      "source_sentence_id": "259702_154837",
+      "text": "笑顔で友達に手を振った。",
+      "translation": "I waved to my friend with a smile.",
+      "ent_seq": "1361330",
+      "surface": "振る",
+      "reading": "ふる",
+      "target_form": "振った",
+      "target_reading": "ふった",
+      "tokens": [
+        {
+          "lemma": "笑顔",
+          "form": "笑顔",
+          "reading": "えがお",
+          "entry_ref": null
+        },
+        {
+          "lemma": "友達",
+          "form": "友達",
+          "reading": "ともだち",
+          "entry_ref": null
+        },
+        {
+          "lemma": "手",
+          "form": "手",
+          "reading": "て",
+          "entry_ref": null
+        },
+        {
+          "lemma": "振る",
+          "form": "振った",
+          "reading": "ふった",
+          "entry_ref": "1361330"
+        }
+      ]
+    },
+    {
+      "review_id": "CR140",
+      "sent_id": "reviewed:20261026:n2:CR140",
+      "focus_kanji": [
+        "厳"
+      ],
+      "source_sentence_id": "33443_196264",
+      "text": "今日のスケジュールは厳しい。",
+      "translation": "Today's schedule is tight.",
+      "ent_seq": "1262530",
+      "surface": "厳しい",
+      "reading": "きびしい",
+      "target_form": "厳しい",
+      "target_reading": "きびしい",
+      "tokens": [
+        {
+          "lemma": "今日",
+          "form": "今日",
+          "reading": "きょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "厳しい",
+          "form": "厳しい",
+          "reading": "きびしい",
+          "entry_ref": "1262530"
+        }
+      ]
+    },
+    {
+      "review_id": "CR141",
+      "sent_id": "reviewed:20261026:n2:CR141",
+      "focus_kanji": [
+        "遣"
+      ],
+      "source_sentence_id": "267597_146965",
+      "text": "今月はお小遣いが足りない。",
+      "translation": "I'm short on pocket money this month.",
+      "ent_seq": "1348030",
+      "surface": "小遣い",
+      "reading": "こづかい",
+      "target_form": "小遣い",
+      "target_reading": "こづかい",
+      "tokens": [
+        {
+          "lemma": "今月",
+          "form": "今月",
+          "reading": "こんげつ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "小遣い",
+          "form": "小遣い",
+          "reading": "こづかい",
+          "entry_ref": "1348030"
+        },
+        {
+          "lemma": "足りない",
+          "form": "足りない",
+          "reading": "たりない",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR142",
+      "sent_id": "reviewed:20261026:n2:CR142",
+      "focus_kanji": [
+        "僚"
+      ],
+      "source_sentence_id": "251553_162960",
+      "text": "仕事帰りに同僚と飲んだ。",
+      "translation": "I went for a drink with a coworker after work.",
+      "ent_seq": "1453580",
+      "surface": "同僚",
+      "reading": "どうりょう",
+      "target_form": "同僚",
+      "target_reading": "どうりょう",
+      "tokens": [
+        {
+          "lemma": "仕事帰り",
+          "form": "仕事帰り",
+          "reading": "しごとがえり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "同僚",
+          "form": "同僚",
+          "reading": "どうりょう",
+          "entry_ref": "1453580"
+        },
+        {
+          "lemma": "飲んだ",
+          "form": "飲んだ",
+          "reading": "のんだ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR143",
+      "sent_id": "reviewed:20261026:n2:CR143",
+      "focus_kanji": [
+        "臨"
+      ],
+      "source_sentence_id": "254266_160255",
+      "text": "臨時の電車がすぐ来た。",
+      "translation": "A special extra train came right away.",
+      "ent_seq": "1555610",
+      "surface": "臨時",
+      "reading": "りんじ",
+      "target_form": "臨時の",
+      "target_reading": "りんじの",
+      "tokens": [
+        {
+          "lemma": "臨時",
+          "form": "臨時の",
+          "reading": "りんじの",
+          "entry_ref": "1555610"
+        },
+        {
+          "lemma": "電車",
+          "form": "電車",
+          "reading": "でんしゃ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "来た",
+          "form": "来た",
+          "reading": "きた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR144",
+      "sent_id": "reviewed:20261026:n2:CR144",
+      "focus_kanji": [
+        "継"
+      ],
+      "source_sentence_id": "240297_174173",
+      "text": "契約をそのまま継続した。",
+      "translation": "I renewed and continued the contract as is.",
+      "ent_seq": "1251810",
+      "surface": "継続",
+      "reading": "けいぞく",
+      "target_form": "継続",
+      "target_reading": "けいぞく",
+      "tokens": [
+        {
+          "lemma": "契約",
+          "form": "契約",
+          "reading": "けいやく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "継続",
+          "form": "継続",
+          "reading": "けいぞく",
+          "entry_ref": "1251810"
+        }
+      ]
+    },
+    {
+      "review_id": "CR145",
+      "sent_id": "reviewed:20261026:n2:CR145",
+      "focus_kanji": [
+        "筋"
+      ],
+      "source_sentence_id": "270879_143688",
+      "text": "運動しすぎて筋肉が痛い。",
+      "translation": "My muscles are sore from exercising too much.",
+      "ent_seq": "1241810",
+      "surface": "筋肉",
+      "reading": "きんにく",
+      "target_form": "筋肉",
+      "target_reading": "きんにく",
+      "tokens": [
+        {
+          "lemma": "運動",
+          "form": "運動",
+          "reading": "うんどう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "筋肉",
+          "form": "筋肉",
+          "reading": "きんにく",
+          "entry_ref": "1241810"
+        },
+        {
+          "lemma": "痛い",
+          "form": "痛い",
+          "reading": "いたい",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR146",
+      "sent_id": "reviewed:20261026:n2:CR146",
+      "focus_kanji": [
+        "崩"
+      ],
+      "source_sentence_id": "33044_195869",
+      "text": "午後から天気が崩れそうだ。",
+      "translation": "It looks like the weather will turn bad this afternoon.",
+      "ent_seq": "1516270",
+      "surface": "崩れる",
+      "reading": "くずれる",
+      "target_form": "崩れ",
+      "target_reading": "くずれ",
+      "tokens": [
+        {
+          "lemma": "午後",
+          "form": "午後",
+          "reading": "ごご",
+          "entry_ref": null
+        },
+        {
+          "lemma": "天気",
+          "form": "天気",
+          "reading": "てんき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "崩れる",
+          "form": "崩れ",
+          "reading": "くずれ",
+          "entry_ref": "1516270"
+        }
+      ]
+    },
+    {
+      "review_id": "CR147",
+      "sent_id": "reviewed:20261026:n2:CR147",
+      "focus_kanji": [
+        "脱"
+      ],
+      "source_sentence_id": "319519_84196",
+      "text": "玄関で靴を脱いでね。",
+      "translation": "Take your shoes off at the entrance.",
+      "ent_seq": "1416400",
+      "surface": "脱ぐ",
+      "reading": "ぬぐ",
+      "target_form": "脱いで",
+      "target_reading": "ぬいで",
+      "tokens": [
+        {
+          "lemma": "玄関",
+          "form": "玄関",
+          "reading": "げんかん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "靴",
+          "form": "靴",
+          "reading": "くつ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "脱ぐ",
+          "form": "脱いで",
+          "reading": "ぬいで",
+          "entry_ref": "1416400"
+        }
+      ]
+    },
+    {
+      "review_id": "CR148",
+      "sent_id": "reviewed:20261026:n2:CR148",
+      "focus_kanji": [
+        "削"
+      ],
+      "source_sentence_id": "53475_216172",
+      "text": "無駄な出費をもう少し削る。",
+      "translation": "I'll cut back a bit more on wasteful spending.",
+      "ent_seq": "1298090",
+      "surface": "削る",
+      "reading": "けずる",
+      "target_form": "削る",
+      "target_reading": "けずる",
+      "tokens": [
+        {
+          "lemma": "無駄な",
+          "form": "無駄な",
+          "reading": "むだな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "出費",
+          "form": "出費",
+          "reading": "しゅっぴ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "少し",
+          "form": "少し",
+          "reading": "すこし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "削る",
+          "form": "削る",
+          "reading": "けずる",
+          "entry_ref": "1298090"
+        }
+      ]
+    },
+    {
+      "review_id": "CR149",
+      "sent_id": "reviewed:20261026:n2:CR149",
+      "focus_kanji": [
+        "為"
+      ],
+      "source_sentence_id": "240639_173831",
+      "text": "念の為に確認しておこう。",
+      "translation": "Let's double-check just in case.",
+      "ent_seq": "1157080",
+      "surface": "為",
+      "reading": "ため",
+      "target_form": "為",
+      "target_reading": "ため",
+      "tokens": [
+        {
+          "lemma": "念",
+          "form": "念",
+          "reading": "ねん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "為",
+          "form": "為",
+          "reading": "ため",
+          "entry_ref": "1157080"
+        },
+        {
+          "lemma": "確認",
+          "form": "確認",
+          "reading": "かくにん",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR150",
+      "sent_id": "reviewed:20261026:n2:CR150",
+      "focus_kanji": [
+        "弾"
+      ],
+      "source_sentence_id": "262093_152456",
+      "text": "夕食後にピアノを弾きます。",
+      "translation": "I play the piano after dinner.",
+      "ent_seq": "1419370",
+      "surface": "弾く",
+      "reading": "ひく",
+      "target_form": "弾きます",
+      "target_reading": "ひきます",
+      "tokens": [
+        {
+          "lemma": "夕食後",
+          "form": "夕食後",
+          "reading": "ゆうしょくご",
+          "entry_ref": null
+        },
+        {
+          "lemma": "弾く",
+          "form": "弾きます",
+          "reading": "ひきます",
+          "entry_ref": "1419370"
+        }
+      ]
+    },
+    {
+      "review_id": "CR151",
+      "sent_id": "reviewed:20261026:n2:CR151",
+      "focus_kanji": [
+        "刑"
+      ],
+      "source_sentence_id": "44937_207684",
+      "text": "昨日、面白い刑事ドラマを見た。",
+      "translation": "I watched an interesting detective drama yesterday.",
+      "ent_seq": "1249660",
+      "surface": "刑事",
+      "reading": "けいじ",
+      "target_form": "刑事",
+      "target_reading": "けいじ",
+      "tokens": [
+        {
+          "lemma": "昨日",
+          "form": "昨日",
+          "reading": "きのう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "面白い",
+          "form": "面白い",
+          "reading": "おもしろい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "刑事",
+          "form": "刑事",
+          "reading": "けいじ",
+          "entry_ref": "1249660"
+        },
+        {
+          "lemma": "見た",
+          "form": "見た",
+          "reading": "みた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR152",
+      "sent_id": "reviewed:20261026:n2:CR152",
+      "focus_kanji": [
+        "街"
+      ],
+      "source_sentence_id": "259501_155038",
+      "text": "週末は夜の街を歩いた。",
+      "translation": "I walked around town at night over the weekend.",
+      "ent_seq": "1603990",
+      "surface": "街",
+      "reading": "まち",
+      "target_form": "街",
+      "target_reading": "まち",
+      "tokens": [
+        {
+          "lemma": "週末",
+          "form": "週末",
+          "reading": "しゅうまつ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "夜",
+          "form": "夜",
+          "reading": "よる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "街",
+          "form": "街",
+          "reading": "まち",
+          "entry_ref": "1603990"
+        },
+        {
+          "lemma": "歩いた",
+          "form": "歩いた",
+          "reading": "あるいた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR153",
+      "sent_id": "reviewed:20261026:n2:CR153",
+      "focus_kanji": [
+        "緩"
+      ],
+      "source_sentence_id": "59581_222254",
+      "text": "この靴は少し緩い。",
+      "translation": "These shoes are a little loose.",
+      "ent_seq": "1214410",
+      "surface": "緩い",
+      "reading": "ゆるい",
+      "target_form": "緩い",
+      "target_reading": "ゆるい",
+      "tokens": [
+        {
+          "lemma": "靴",
+          "form": "靴",
+          "reading": "くつ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "少し",
+          "form": "少し",
+          "reading": "すこし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "緩い",
+          "form": "緩い",
+          "reading": "ゆるい",
+          "entry_ref": "1214410"
+        }
+      ]
+    },
+    {
+      "review_id": "CR154",
+      "sent_id": "reviewed:20261026:n2:CR154",
+      "focus_kanji": [
+        "却"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "薬を飲んだら却って眠くなった。",
+      "translation": "Taking the medicine actually made me sleepier.",
+      "ent_seq": "1226610",
+      "surface": "却って",
+      "reading": "かえって",
+      "target_form": "却って",
+      "target_reading": "かえって",
+      "tokens": [
+        {
+          "lemma": "薬",
+          "form": "薬",
+          "reading": "くすり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "飲んだら",
+          "form": "飲んだら",
+          "reading": "のんだら",
+          "entry_ref": null
+        },
+        {
+          "lemma": "却って",
+          "form": "却って",
+          "reading": "かえって",
+          "entry_ref": "1226610"
+        },
+        {
+          "lemma": "眠く",
+          "form": "眠く",
+          "reading": "ねむく",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR155",
+      "sent_id": "reviewed:20261026:n2:CR155",
+      "focus_kanji": [
+        "端"
+      ],
+      "source_sentence_id": "61462_224126",
+      "text": "こっちの端を持っててくれる？",
+      "translation": "Could you hold this end for me?",
+      "ent_seq": "1581610",
+      "surface": "端",
+      "reading": "はし",
+      "target_form": "端",
+      "target_reading": "はし",
+      "tokens": [
+        {
+          "lemma": "端",
+          "form": "端",
+          "reading": "はし",
+          "entry_ref": "1581610"
+        },
+        {
+          "lemma": "持ってて",
+          "form": "持ってて",
+          "reading": "もってて",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR156",
+      "sent_id": "reviewed:20261026:n2:CR156",
+      "focus_kanji": [
+        "郡"
+      ],
+      "source_sentence_id": "55404_218093",
+      "text": "これは豊能郡の地図です。",
+      "translation": "This is a map of the Toyono district.",
+      "ent_seq": "1249230",
+      "surface": "郡",
+      "reading": "ぐん",
+      "target_form": "郡",
+      "target_reading": "ぐん",
+      "tokens": [
+        {
+          "lemma": "豊能",
+          "form": "豊能",
+          "reading": "とよの",
+          "entry_ref": null
+        },
+        {
+          "lemma": "郡",
+          "form": "郡",
+          "reading": "ぐん",
+          "entry_ref": "1249230"
+        },
+        {
+          "lemma": "地図",
+          "form": "地図",
+          "reading": "ちず",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR157",
+      "sent_id": "reviewed:20261026:n2:CR157",
+      "focus_kanji": [
+        "譲"
+      ],
+      "source_sentence_id": "490358_147917",
+      "text": "電車でお年寄りに席を譲った。",
+      "translation": "I gave up my seat to an elderly person on the train.",
+      "ent_seq": "1357030",
+      "surface": "譲る",
+      "reading": "ゆずる",
+      "target_form": "譲った",
+      "target_reading": "ゆずった",
+      "tokens": [
+        {
+          "lemma": "電車",
+          "form": "電車",
+          "reading": "でんしゃ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "年寄り",
+          "form": "年寄り",
+          "reading": "としより",
+          "entry_ref": null
+        },
+        {
+          "lemma": "席",
+          "form": "席",
+          "reading": "せき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "譲る",
+          "form": "譲った",
+          "reading": "ゆずった",
+          "entry_ref": "1357030"
+        }
+      ]
+    },
+    {
+      "review_id": "CR158",
+      "sent_id": "reviewed:20261026:n2:CR158",
+      "focus_kanji": [
+        "誘"
+      ],
+      "source_sentence_id": "329652_74068",
+      "text": "今度、彼女を映画に誘う。",
+      "translation": "I'm going to ask her out to a movie next time.",
+      "ent_seq": "1541900",
+      "surface": "誘う",
+      "reading": "さそう",
+      "target_form": "誘う",
+      "target_reading": "さそう",
+      "tokens": [
+        {
+          "lemma": "今度",
+          "form": "今度",
+          "reading": "こんど",
+          "entry_ref": null
+        },
+        {
+          "lemma": "彼女",
+          "form": "彼女",
+          "reading": "かのじょ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "映画",
+          "form": "映画",
+          "reading": "えいが",
+          "entry_ref": null
+        },
+        {
+          "lemma": "誘う",
+          "form": "誘う",
+          "reading": "さそう",
+          "entry_ref": "1541900"
+        }
+      ]
+    },
+    {
+      "review_id": "CR159",
+      "sent_id": "reviewed:20261026:n2:CR159",
+      "focus_kanji": [
+        "慎"
+      ],
+      "source_sentence_id": "63056_225718",
+      "text": "大事なことは慎重に決めよう。",
+      "translation": "Let's decide important things carefully.",
+      "ent_seq": "1361110",
+      "surface": "慎重",
+      "reading": "しんちょう",
+      "target_form": "慎重に",
+      "target_reading": "しんちょうに",
+      "tokens": [
+        {
+          "lemma": "大事な",
+          "form": "大事な",
+          "reading": "だいじな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "慎重",
+          "form": "慎重に",
+          "reading": "しんちょうに",
+          "entry_ref": "1361110"
+        },
+        {
+          "lemma": "決めよう",
+          "form": "決めよう",
+          "reading": "きめよう",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR160",
+      "sent_id": "reviewed:20261026:n2:CR160",
+      "focus_kanji": [
+        "銃"
+      ],
+      "source_sentence_id": "306843_96861",
+      "text": "日本では銃の所持が禁止だ。",
+      "translation": "Owning guns is banned in Japan.",
+      "ent_seq": "1337000",
+      "surface": "銃",
+      "reading": "じゅう",
+      "target_form": "銃",
+      "target_reading": "じゅう",
+      "tokens": [
+        {
+          "lemma": "日本",
+          "form": "日本",
+          "reading": "にほん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "銃",
+          "form": "銃",
+          "reading": "じゅう",
+          "entry_ref": "1337000"
+        },
+        {
+          "lemma": "所持",
+          "form": "所持",
+          "reading": "しょじ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "禁止",
+          "form": "禁止",
+          "reading": "きんし",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR161",
+      "sent_id": "reviewed:20261026:n2:CR161",
+      "focus_kanji": [
+        "侵"
+      ],
+      "source_sentence_id": "293450_110238",
+      "text": "夜中に泥棒が家に侵入した。",
+      "translation": "A burglar broke into the house in the middle of the night.",
+      "ent_seq": "1359850",
+      "surface": "侵入",
+      "reading": "しんにゅう",
+      "target_form": "侵入",
+      "target_reading": "しんにゅう",
+      "tokens": [
+        {
+          "lemma": "夜中",
+          "form": "夜中",
+          "reading": "よなか",
+          "entry_ref": null
+        },
+        {
+          "lemma": "泥棒",
+          "form": "泥棒",
+          "reading": "どろぼう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "家",
+          "form": "家",
+          "reading": "いえ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "侵入",
+          "form": "侵入",
+          "reading": "しんにゅう",
+          "entry_ref": "1359850"
+        }
+      ]
+    },
+    {
+      "review_id": "CR162",
+      "sent_id": "reviewed:20261026:n2:CR162",
+      "focus_kanji": [
+        "透"
+      ],
+      "source_sentence_id": "57644_220324",
+      "text": "海の底が見えるほど透明な水だ。",
+      "translation": "The water is so clear you can see the bottom of the sea.",
+      "ent_seq": "1450590",
+      "surface": "透明",
+      "reading": "とうめい",
+      "target_form": "透明な",
+      "target_reading": "とうめいな",
+      "tokens": [
+        {
+          "lemma": "海",
+          "form": "海",
+          "reading": "うみ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "底",
+          "form": "底",
+          "reading": "そこ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "見える",
+          "form": "見える",
+          "reading": "みえる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "透明",
+          "form": "透明な",
+          "reading": "とうめいな",
+          "entry_ref": "1450590"
+        },
+        {
+          "lemma": "水",
+          "form": "水",
+          "reading": "みず",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR163",
+      "sent_id": "reviewed:20261026:n2:CR163",
+      "focus_kanji": [
+        "稲"
+      ],
+      "source_sentence_id": "27170_190014",
+      "text": "秋になって稲が黄金色に実った。",
+      "translation": "Autumn came and the rice plants ripened to a golden color.",
+      "ent_seq": "1167820",
+      "surface": "稲",
+      "reading": "いね",
+      "target_form": "稲",
+      "target_reading": "いね",
+      "tokens": [
+        {
+          "lemma": "秋",
+          "form": "秋",
+          "reading": "あき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "稲",
+          "form": "稲",
+          "reading": "いね",
+          "entry_ref": "1167820"
+        },
+        {
+          "lemma": "黄金色",
+          "form": "黄金色",
+          "reading": "こがねいろ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "実った",
+          "form": "実った",
+          "reading": "みのった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR164",
+      "sent_id": "reviewed:20261026:n2:CR164",
+      "focus_kanji": [
+        "裂"
+      ],
+      "source_sentence_id": "46474_209213",
+      "text": "古い布を細く裂いた。",
+      "translation": "I tore the old cloth into thin strips.",
+      "ent_seq": "1207730",
+      "surface": "裂く",
+      "reading": "さく",
+      "target_form": "裂いた",
+      "target_reading": "さいた",
+      "tokens": [
+        {
+          "lemma": "古い",
+          "form": "古い",
+          "reading": "ふるい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "布",
+          "form": "布",
+          "reading": "ぬの",
+          "entry_ref": null
+        },
+        {
+          "lemma": "細く",
+          "form": "細く",
+          "reading": "ほそく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "裂く",
+          "form": "裂いた",
+          "reading": "さいた",
+          "entry_ref": "1207730"
+        }
+      ]
+    },
+    {
+      "review_id": "CR165",
+      "sent_id": "reviewed:20261026:n2:CR165",
+      "focus_kanji": [
+        "堅"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "彼は本当に口が堅い人だ。",
+      "translation": "He can really keep a secret.",
+      "ent_seq": "1257110",
+      "surface": "堅い",
+      "reading": "かたい",
+      "target_form": "堅い",
+      "target_reading": "かたい",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "本当",
+          "form": "本当",
+          "reading": "ほんとう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "口",
+          "form": "口",
+          "reading": "くち",
+          "entry_ref": null
+        },
+        {
+          "lemma": "堅い",
+          "form": "堅い",
+          "reading": "かたい",
+          "entry_ref": "1257110"
+        },
+        {
+          "lemma": "人",
+          "form": "人",
+          "reading": "ひと",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR166",
+      "sent_id": "reviewed:20261026:n2:CR166",
+      "focus_kanji": [
+        "綱"
+      ],
+      "source_sentence_id": "240989_173481",
+      "text": "太い綱をしっかり引っ張った。",
+      "translation": "I pulled hard on the thick rope.",
+      "ent_seq": "1280880",
+      "surface": "綱",
+      "reading": "つな",
+      "target_form": "綱",
+      "target_reading": "つな",
+      "tokens": [
+        {
+          "lemma": "太い",
+          "form": "太い",
+          "reading": "ふとい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "綱",
+          "form": "綱",
+          "reading": "つな",
+          "entry_ref": "1280880"
+        },
+        {
+          "lemma": "引っ張った",
+          "form": "引っ張った",
+          "reading": "ひっぱった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR167",
+      "sent_id": "reviewed:20261026:n2:CR167",
+      "focus_kanji": [
+        "郷"
+      ],
+      "source_sentence_id": "294896_108793",
+      "text": "お盆に故郷へ帰省した。",
+      "translation": "I went back to my hometown for Obon.",
+      "ent_seq": "2853884",
+      "surface": "故郷",
+      "reading": "こきょう",
+      "target_form": "故郷",
+      "target_reading": "こきょう",
+      "tokens": [
+        {
+          "lemma": "盆",
+          "form": "盆",
+          "reading": "ぼん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "故郷",
+          "form": "故郷",
+          "reading": "こきょう",
+          "entry_ref": "2853884"
+        },
+        {
+          "lemma": "帰省した",
+          "form": "帰省した",
+          "reading": "きせいした",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR168",
+      "sent_id": "reviewed:20261026:n2:CR168",
+      "focus_kanji": [
+        "既"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "チケットは既に売り切れていた。",
+      "translation": "The tickets were already sold out.",
+      "ent_seq": "1220310",
+      "surface": "既に",
+      "reading": "すでに",
+      "target_form": "既に",
+      "target_reading": "すでに",
+      "tokens": [
+        {
+          "lemma": "既に",
+          "form": "既に",
+          "reading": "すでに",
+          "entry_ref": "1220310"
+        },
+        {
+          "lemma": "売り切れていた",
+          "form": "売り切れていた",
+          "reading": "うりきれていた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR169",
+      "sent_id": "reviewed:20261026:n2:CR169",
+      "focus_kanji": [
+        "華",
+        "豪"
+      ],
+      "source_sentence_id": "241347_173124",
+      "text": "豪華客船が港に入った。",
+      "translation": "A luxury cruise ship entered the port.",
+      "ent_seq": "1285520",
+      "surface": "豪華",
+      "reading": "ごうか",
+      "target_form": "豪華",
+      "target_reading": "ごうか",
+      "tokens": [
+        {
+          "lemma": "豪華",
+          "form": "豪華",
+          "reading": "ごうか",
+          "entry_ref": "1285520"
+        },
+        {
+          "lemma": "客船",
+          "form": "客船",
+          "reading": "きゃくせん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "港",
+          "form": "港",
+          "reading": "みなと",
+          "entry_ref": null
+        },
+        {
+          "lemma": "入った",
+          "form": "入った",
+          "reading": "はいった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR170",
+      "sent_id": "reviewed:20261026:n2:CR170",
+      "focus_kanji": [
+        "徳"
+      ],
+      "source_sentence_id": "271857_142713",
+      "text": "小学校で道徳の授業があった。",
+      "translation": "We had morals class in elementary school.",
+      "ent_seq": "1454240",
+      "surface": "道徳",
+      "reading": "どうとく",
+      "target_form": "道徳",
+      "target_reading": "どうとく",
+      "tokens": [
+        {
+          "lemma": "小学校",
+          "form": "小学校",
+          "reading": "しょうがっこう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "道徳",
+          "form": "道徳",
+          "reading": "どうとく",
+          "entry_ref": "1454240"
+        },
+        {
+          "lemma": "授業",
+          "form": "授業",
+          "reading": "じゅぎょう",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR171",
+      "sent_id": "reviewed:20261026:n2:CR171",
+      "focus_kanji": [
+        "杉"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "春は杉の花粉が本当にひどい。",
+      "translation": "Cedar pollen is really awful in the spring.",
+      "ent_seq": "1373520",
+      "surface": "杉",
+      "reading": "すぎ",
+      "target_form": "杉",
+      "target_reading": "すぎ",
+      "tokens": [
+        {
+          "lemma": "春",
+          "form": "春",
+          "reading": "はる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "杉",
+          "form": "杉",
+          "reading": "すぎ",
+          "entry_ref": "1373520"
+        },
+        {
+          "lemma": "花粉",
+          "form": "花粉",
+          "reading": "かふん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "本当",
+          "form": "本当",
+          "reading": "ほんとう",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR172",
+      "sent_id": "reviewed:20261026:n2:CR172",
+      "focus_kanji": [
+        "妥"
+      ],
+      "source_sentence_id": "309523_94182",
+      "text": "この値段なら妥当だと思う。",
+      "translation": "I think this price is reasonable.",
+      "ent_seq": "1408540",
+      "surface": "妥当",
+      "reading": "だとう",
+      "target_form": "妥当",
+      "target_reading": "だとう",
+      "tokens": [
+        {
+          "lemma": "値段",
+          "form": "値段",
+          "reading": "ねだん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "妥当",
+          "form": "妥当",
+          "reading": "だとう",
+          "entry_ref": "1408540"
+        },
+        {
+          "lemma": "思う",
+          "form": "思う",
+          "reading": "おもう",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR173",
+      "sent_id": "reviewed:20261026:n2:CR173",
+      "focus_kanji": [
+        "倉"
+      ],
+      "source_sentence_id": "45617_208360",
+      "text": "古い家具を倉庫にしまった。",
+      "translation": "I put the old furniture away in the storage shed.",
+      "ent_seq": "1399120",
+      "surface": "倉庫",
+      "reading": "そうこ",
+      "target_form": "倉庫",
+      "target_reading": "そうこ",
+      "tokens": [
+        {
+          "lemma": "古い",
+          "form": "古い",
+          "reading": "ふるい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "家具",
+          "form": "家具",
+          "reading": "かぐ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "倉庫",
+          "form": "倉庫",
+          "reading": "そうこ",
+          "entry_ref": "1399120"
+        }
+      ]
+    },
+    {
+      "review_id": "CR174",
+      "sent_id": "reviewed:20261026:n2:CR174",
+      "focus_kanji": [
+        "柄"
+      ],
+      "source_sentence_id": "58188_220866",
+      "text": "包丁の柄をしっかり握る。",
+      "translation": "Grip the handle of the kitchen knife firmly.",
+      "ent_seq": "1508290",
+      "surface": "柄",
+      "reading": "え",
+      "target_form": "柄",
+      "target_reading": "え",
+      "tokens": [
+        {
+          "lemma": "包丁",
+          "form": "包丁",
+          "reading": "ほうちょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "柄",
+          "form": "柄",
+          "reading": "え",
+          "entry_ref": "1508290"
+        },
+        {
+          "lemma": "握る",
+          "form": "握る",
+          "reading": "にぎる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR175",
+      "sent_id": "reviewed:20261026:n2:CR175",
+      "focus_kanji": [
+        "慰"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "落ち込む友達を優しく慰めた。",
+      "translation": "I gently comforted my friend who was feeling down.",
+      "ent_seq": "1156890",
+      "surface": "慰める",
+      "reading": "なぐさめる",
+      "target_form": "慰めた",
+      "target_reading": "なぐさめた",
+      "tokens": [
+        {
+          "lemma": "落ち込む",
+          "form": "落ち込む",
+          "reading": "おちこむ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "友達",
+          "form": "友達",
+          "reading": "ともだち",
+          "entry_ref": null
+        },
+        {
+          "lemma": "優しく",
+          "form": "優しく",
+          "reading": "やさしく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "慰める",
+          "form": "慰めた",
+          "reading": "なぐさめた",
+          "entry_ref": "1156890"
+        }
+      ]
+    },
+    {
+      "review_id": "CR176",
+      "sent_id": "reviewed:20261026:n2:CR176",
+      "focus_kanji": [
+        "敵"
+      ],
+      "source_sentence_id": "268183_146379",
+      "text": "油断こそ最大の敵だ。",
+      "translation": "Carelessness is our biggest enemy.",
+      "ent_seq": "1582000",
+      "surface": "敵",
+      "reading": "てき",
+      "target_form": "敵",
+      "target_reading": "てき",
+      "tokens": [
+        {
+          "lemma": "油断",
+          "form": "油断",
+          "reading": "ゆだん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "最大",
+          "form": "最大",
+          "reading": "さいだい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "敵",
+          "form": "敵",
+          "reading": "てき",
+          "entry_ref": "1582000"
+        }
+      ]
+    },
+    {
+      "review_id": "CR177",
+      "sent_id": "reviewed:20261026:n2:CR177",
+      "focus_kanji": [
+        "敷"
+      ],
+      "source_sentence_id": "252202_162312",
+      "text": "寝る前に布団を敷く。",
+      "translation": "I lay out the futon before going to bed.",
+      "ent_seq": "1497020",
+      "surface": "敷く",
+      "reading": "しく",
+      "target_form": "敷く",
+      "target_reading": "しく",
+      "tokens": [
+        {
+          "lemma": "寝る",
+          "form": "寝る",
+          "reading": "ねる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "前",
+          "form": "前",
+          "reading": "まえ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "布団",
+          "form": "布団",
+          "reading": "ふとん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "敷く",
+          "form": "敷く",
+          "reading": "しく",
+          "entry_ref": "1497020"
+        }
+      ]
+    },
+    {
+      "review_id": "CR178",
+      "sent_id": "reviewed:20261026:n2:CR178",
+      "focus_kanji": [
+        "僕"
+      ],
+      "source_sentence_id": "321909_81806",
+      "text": "僕は猫背だ。",
+      "translation": "I have a slouch.",
+      "ent_seq": "1521400",
+      "surface": "僕",
+      "reading": "ぼく",
+      "target_form": "僕",
+      "target_reading": "ぼく",
+      "tokens": [
+        {
+          "lemma": "僕",
+          "form": "僕",
+          "reading": "ぼく",
+          "entry_ref": "1521400"
+        },
+        {
+          "lemma": "猫背",
+          "form": "猫背",
+          "reading": "ねこぜ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR179",
+      "sent_id": "reviewed:20261026:n2:CR179",
+      "focus_kanji": [
+        "滑"
+      ],
+      "source_sentence_id": "254022_160499",
+      "text": "滑って足首を捻挫した。",
+      "translation": "I slipped and twisted my ankle.",
+      "ent_seq": "1208640",
+      "surface": "滑る",
+      "reading": "すべる",
+      "target_form": "滑って",
+      "target_reading": "すべって",
+      "tokens": [
+        {
+          "lemma": "滑る",
+          "form": "滑って",
+          "reading": "すべって",
+          "entry_ref": "1208640"
+        },
+        {
+          "lemma": "足首",
+          "form": "足首",
+          "reading": "あしくび",
+          "entry_ref": null
+        },
+        {
+          "lemma": "捻挫した",
+          "form": "捻挫した",
+          "reading": "ねんざした",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR180",
+      "sent_id": "reviewed:20261026:n2:CR180",
+      "focus_kanji": [
+        "炎"
+      ],
+      "source_sentence_id": "25908_188762",
+      "text": "赤い炎が高く上がった。",
+      "translation": "Red flames shot up high.",
+      "ent_seq": "1177070",
+      "surface": "炎",
+      "reading": "ほのお",
+      "target_form": "炎",
+      "target_reading": "ほのお",
+      "tokens": [
+        {
+          "lemma": "赤い",
+          "form": "赤い",
+          "reading": "あかい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "炎",
+          "form": "炎",
+          "reading": "ほのお",
+          "entry_ref": "1177070"
+        },
+        {
+          "lemma": "高く",
+          "form": "高く",
+          "reading": "たかく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "上がった",
+          "form": "上がった",
+          "reading": "あがった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR181",
+      "sent_id": "reviewed:20261026:n2:CR181",
+      "focus_kanji": [
+        "寿"
+      ],
+      "source_sentence_id": "244314_170170",
+      "text": "そろそろスマホの寿命かな。",
+      "translation": "I think my phone is nearing the end of its life.",
+      "ent_seq": "1330240",
+      "surface": "寿命",
+      "reading": "じゅみょう",
+      "target_form": "寿命",
+      "target_reading": "じゅみょう",
+      "tokens": [
+        {
+          "lemma": "寿命",
+          "form": "寿命",
+          "reading": "じゅみょう",
+          "entry_ref": "1330240"
+        }
+      ]
+    },
+    {
+      "review_id": "CR182",
+      "sent_id": "reviewed:20261026:n2:CR182",
+      "focus_kanji": [
+        "鎖"
+      ],
+      "source_sentence_id": "52962_215660",
+      "text": "自転車に鎖で鍵をかけた。",
+      "translation": "I locked my bike with a chain.",
+      "ent_seq": "1291730",
+      "surface": "鎖",
+      "reading": "くさり",
+      "target_form": "鎖",
+      "target_reading": "くさり",
+      "tokens": [
+        {
+          "lemma": "自転車",
+          "form": "自転車",
+          "reading": "じてんしゃ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "鎖",
+          "form": "鎖",
+          "reading": "くさり",
+          "entry_ref": "1291730"
+        },
+        {
+          "lemma": "鍵",
+          "form": "鍵",
+          "reading": "かぎ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR183",
+      "sent_id": "reviewed:20261026:n2:CR183",
+      "focus_kanji": [
+        "蓄"
+      ],
+      "source_sentence_id": "21076_183950",
+      "text": "将来のために資金を蓄えた。",
+      "translation": "I saved up funds for the future.",
+      "ent_seq": "1596860",
+      "surface": "蓄える",
+      "reading": "たくわえる",
+      "target_form": "蓄えた",
+      "target_reading": "たくわえた",
+      "tokens": [
+        {
+          "lemma": "将来",
+          "form": "将来",
+          "reading": "しょうらい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "資金",
+          "form": "資金",
+          "reading": "しきん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "蓄える",
+          "form": "蓄えた",
+          "reading": "たくわえた",
+          "entry_ref": "1596860"
+        }
+      ]
+    },
+    {
+      "review_id": "CR184",
+      "sent_id": "reviewed:20261026:n2:CR184",
+      "focus_kanji": [
+        "堀"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "城の周りに堀がある。",
+      "translation": "There is a moat around the castle.",
+      "ent_seq": "1522060",
+      "surface": "堀",
+      "reading": "ほり",
+      "target_form": "堀",
+      "target_reading": "ほり",
+      "tokens": [
+        {
+          "lemma": "城",
+          "form": "城",
+          "reading": "しろ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "周り",
+          "form": "周り",
+          "reading": "まわり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "堀",
+          "form": "堀",
+          "reading": "ほり",
+          "entry_ref": "1522060"
+        }
+      ]
+    },
+    {
+      "review_id": "CR185",
+      "sent_id": "reviewed:20261026:n2:CR185",
+      "focus_kanji": [
+        "絞"
+      ],
+      "source_sentence_id": "29116_191954",
+      "text": "濡れたタオルを固く絞った。",
+      "translation": "I wrung out the wet towel tightly.",
+      "ent_seq": "1594520",
+      "surface": "絞る",
+      "reading": "しぼる",
+      "target_form": "絞った",
+      "target_reading": "しぼった",
+      "tokens": [
+        {
+          "lemma": "濡れた",
+          "form": "濡れた",
+          "reading": "ぬれた",
+          "entry_ref": null
+        },
+        {
+          "lemma": "固く",
+          "form": "固く",
+          "reading": "かたく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "絞る",
+          "form": "絞った",
+          "reading": "しぼった",
+          "entry_ref": "1594520"
+        }
+      ]
+    },
+    {
+      "review_id": "CR186",
+      "sent_id": "reviewed:20261026:n2:CR186",
+      "focus_kanji": [
+        "縁"
+      ],
+      "source_sentence_id": "18606_179747",
+      "text": "黒の太い縁のメガネを買った。",
+      "translation": "I bought glasses with thick black frames.",
+      "ent_seq": "1177500",
+      "surface": "縁",
+      "reading": "ふち",
+      "target_form": "縁",
+      "target_reading": "ふち",
+      "tokens": [
+        {
+          "lemma": "黒",
+          "form": "黒",
+          "reading": "くろ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "太い",
+          "form": "太い",
+          "reading": "ふとい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "縁",
+          "form": "縁",
+          "reading": "ふち",
+          "entry_ref": "1177500"
+        },
+        {
+          "lemma": "買った",
+          "form": "買った",
+          "reading": "かった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR187",
+      "sent_id": "reviewed:20261026:n2:CR187",
+      "focus_kanji": [
+        "丁",
+        "寧"
+      ],
+      "source_sentence_id": "277719_126273",
+      "text": "いつも丁寧な対応で助かる。",
+      "translation": "Their polite service is always a big help.",
+      "ent_seq": "1427360",
+      "surface": "丁寧",
+      "reading": "ていねい",
+      "target_form": "丁寧な",
+      "target_reading": "ていねいな",
+      "tokens": [
+        {
+          "lemma": "丁寧",
+          "form": "丁寧な",
+          "reading": "ていねいな",
+          "entry_ref": "1427360"
+        },
+        {
+          "lemma": "対応",
+          "form": "対応",
+          "reading": "たいおう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "助かる",
+          "form": "助かる",
+          "reading": "たすかる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR188",
+      "sent_id": "reviewed:20261026:n2:CR188",
+      "focus_kanji": [
+        "潜"
+      ],
+      "source_sentence_id": "32542_195368",
+      "text": "寒いから布団の中に潜る。",
+      "translation": "It's cold, so I'm crawling under the covers.",
+      "ent_seq": "1609715",
+      "surface": "潜る",
+      "reading": "もぐる",
+      "target_form": "潜る",
+      "target_reading": "もぐる",
+      "tokens": [
+        {
+          "lemma": "寒い",
+          "form": "寒い",
+          "reading": "さむい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "布団",
+          "form": "布団",
+          "reading": "ふとん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "中",
+          "form": "中",
+          "reading": "なか",
+          "entry_ref": null
+        },
+        {
+          "lemma": "潜る",
+          "form": "潜る",
+          "reading": "もぐる",
+          "entry_ref": "1609715"
+        }
+      ]
+    },
+    {
+      "review_id": "CR189",
+      "sent_id": "reviewed:20261026:n2:CR189",
+      "focus_kanji": [
+        "概"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "大学で経済学の概論を取った。",
+      "translation": "I took Intro to Economics at university.",
+      "ent_seq": "1204520",
+      "surface": "概論",
+      "reading": "がいろん",
+      "target_form": "概論",
+      "target_reading": "がいろん",
+      "tokens": [
+        {
+          "lemma": "大学",
+          "form": "大学",
+          "reading": "だいがく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "経済学",
+          "form": "経済学",
+          "reading": "けいざいがく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "概論",
+          "form": "概論",
+          "reading": "がいろん",
+          "entry_ref": "1204520"
+        },
+        {
+          "lemma": "取った",
+          "form": "取った",
+          "reading": "とった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR190",
+      "sent_id": "reviewed:20261026:n2:CR190",
+      "focus_kanji": [
+        "墓"
+      ],
+      "source_sentence_id": "240944_173526",
+      "text": "週末に家族でお墓参りに行く。",
+      "translation": "I'm going with my family to visit the grave this weekend.",
+      "ent_seq": "1514840",
+      "surface": "墓",
+      "reading": "はか",
+      "target_form": "墓",
+      "target_reading": "はか",
+      "tokens": [
+        {
+          "lemma": "週末",
+          "form": "週末",
+          "reading": "しゅうまつ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "家族",
+          "form": "家族",
+          "reading": "かぞく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "墓",
+          "form": "墓",
+          "reading": "はか",
+          "entry_ref": "1514840"
+        },
+        {
+          "lemma": "参り",
+          "form": "参り",
+          "reading": "まいり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "行く",
+          "form": "行く",
+          "reading": "いく",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR191",
+      "sent_id": "reviewed:20261026:n2:CR191",
+      "focus_kanji": [
+        "殊"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "彼は特殊な能力を持っている。",
+      "translation": "He has a special ability.",
+      "ent_seq": "1454970",
+      "surface": "特殊",
+      "reading": "とくしゅ",
+      "target_form": "特殊な",
+      "target_reading": "とくしゅな",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "特殊",
+          "form": "特殊な",
+          "reading": "とくしゅな",
+          "entry_ref": "1454970"
+        },
+        {
+          "lemma": "能力",
+          "form": "能力",
+          "reading": "のうりょく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "持っている",
+          "form": "持っている",
+          "reading": "もっている",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR192",
+      "sent_id": "reviewed:20261026:n2:CR192",
+      "focus_kanji": [
+        "殖"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "投資で少しずつ資産が殖えた。",
+      "translation": "My assets grew little by little through investing.",
+      "ent_seq": "1602440",
+      "surface": "殖える",
+      "reading": "ふえる",
+      "target_form": "殖えた",
+      "target_reading": "ふえた",
+      "tokens": [
+        {
+          "lemma": "投資",
+          "form": "投資",
+          "reading": "とうし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "少し",
+          "form": "少し",
+          "reading": "すこし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "資産",
+          "form": "資産",
+          "reading": "しさん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "殖える",
+          "form": "殖えた",
+          "reading": "ふえた",
+          "entry_ref": "1602440"
+        }
+      ]
+    },
+    {
+      "review_id": "CR193",
+      "sent_id": "reviewed:20261026:n2:CR193",
+      "focus_kanji": [
+        "穴"
+      ],
+      "source_sentence_id": "448981_448980",
+      "text": "靴下に小さな穴が開いていた。",
+      "translation": "There was a small hole in my sock.",
+      "ent_seq": "1254480",
+      "surface": "穴",
+      "reading": "あな",
+      "target_form": "穴",
+      "target_reading": "あな",
+      "tokens": [
+        {
+          "lemma": "靴下",
+          "form": "靴下",
+          "reading": "くつした",
+          "entry_ref": null
+        },
+        {
+          "lemma": "小さな",
+          "form": "小さな",
+          "reading": "ちいさな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "穴",
+          "form": "穴",
+          "reading": "あな",
+          "entry_ref": "1254480"
+        },
+        {
+          "lemma": "開いていた",
+          "form": "開いていた",
+          "reading": "あいていた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR194",
+      "sent_id": "reviewed:20261026:n2:CR194",
+      "focus_kanji": [
+        "奇"
+      ],
+      "source_sentence_id": "20629_183506",
+      "text": "夜中に外で奇妙な音がした。",
+      "translation": "I heard a strange sound outside in the middle of the night.",
+      "ent_seq": "1219490",
+      "surface": "奇妙",
+      "reading": "きみょう",
+      "target_form": "奇妙な",
+      "target_reading": "きみょうな",
+      "tokens": [
+        {
+          "lemma": "夜中",
+          "form": "夜中",
+          "reading": "よなか",
+          "entry_ref": null
+        },
+        {
+          "lemma": "外",
+          "form": "外",
+          "reading": "そと",
+          "entry_ref": null
+        },
+        {
+          "lemma": "奇妙",
+          "form": "奇妙な",
+          "reading": "きみょうな",
+          "entry_ref": "1219490"
+        },
+        {
+          "lemma": "音",
+          "form": "音",
+          "reading": "おと",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR195",
+      "sent_id": "reviewed:20261026:n2:CR195",
+      "focus_kanji": [
+        "拍"
+      ],
+      "source_sentence_id": "20028_182907",
+      "text": "会場から大きな拍手が起きた。",
+      "translation": "Loud applause broke out from the audience.",
+      "ent_seq": "1474820",
+      "surface": "拍手",
+      "reading": "はくしゅ",
+      "target_form": "拍手",
+      "target_reading": "はくしゅ",
+      "tokens": [
+        {
+          "lemma": "会場",
+          "form": "会場",
+          "reading": "かいじょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "大きな",
+          "form": "大きな",
+          "reading": "おおきな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "拍手",
+          "form": "拍手",
+          "reading": "はくしゅ",
+          "entry_ref": "1474820"
+        },
+        {
+          "lemma": "起きた",
+          "form": "起きた",
+          "reading": "おきた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR196",
+      "sent_id": "reviewed:20261026:n2:CR196",
+      "focus_kanji": [
+        "朗"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "彼女は朗らかな性格だ。",
+      "translation": "She has a cheerful personality.",
+      "ent_seq": "1560710",
+      "surface": "朗らか",
+      "reading": "ほがらか",
+      "target_form": "朗らかな",
+      "target_reading": "ほがらかな",
+      "tokens": [
+        {
+          "lemma": "彼女",
+          "form": "彼女",
+          "reading": "かのじょ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "朗らか",
+          "form": "朗らかな",
+          "reading": "ほがらかな",
+          "entry_ref": "1560710"
+        },
+        {
+          "lemma": "性格",
+          "form": "性格",
+          "reading": "せいかく",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR197",
+      "sent_id": "reviewed:20261026:n2:CR197",
+      "focus_kanji": [
+        "丈"
+      ],
+      "source_sentence_id": "299709_103983",
+      "text": "この傘は軽くてすごく丈夫だ。",
+      "translation": "This umbrella is light and super sturdy.",
+      "ent_seq": "1580480",
+      "surface": "丈夫",
+      "reading": "じょうぶ",
+      "target_form": "丈夫",
+      "target_reading": "じょうぶ",
+      "tokens": [
+        {
+          "lemma": "傘",
+          "form": "傘",
+          "reading": "かさ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "軽くて",
+          "form": "軽くて",
+          "reading": "かるくて",
+          "entry_ref": null
+        },
+        {
+          "lemma": "丈夫",
+          "form": "丈夫",
+          "reading": "じょうぶ",
+          "entry_ref": "1580480"
+        }
+      ]
+    },
+    {
+      "review_id": "CR198",
+      "sent_id": "reviewed:20261026:n2:CR198",
+      "focus_kanji": [
+        "覆"
+      ],
+      "source_sentence_id": "20533_183410",
+      "text": "空が厚い雲に覆われている。",
+      "translation": "The sky is covered with thick clouds.",
+      "ent_seq": "1588840",
+      "surface": "覆う",
+      "reading": "おおう",
+      "target_form": "覆われている",
+      "target_reading": "おおわれている",
+      "tokens": [
+        {
+          "lemma": "空",
+          "form": "空",
+          "reading": "そら",
+          "entry_ref": null
+        },
+        {
+          "lemma": "厚い",
+          "form": "厚い",
+          "reading": "あつい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "雲",
+          "form": "雲",
+          "reading": "くも",
+          "entry_ref": null
+        },
+        {
+          "lemma": "覆う",
+          "form": "覆われている",
+          "reading": "おおわれている",
+          "entry_ref": "1588840"
+        }
+      ]
+    },
+    {
+      "review_id": "CR199",
+      "sent_id": "reviewed:20261026:n2:CR199",
+      "focus_kanji": [
+        "丘"
+      ],
+      "source_sentence_id": "237800_176662",
+      "text": "丘の上から海がよく見える。",
+      "translation": "You can see the ocean clearly from the top of the hill.",
+      "ent_seq": "1588920",
+      "surface": "丘",
+      "reading": "おか",
+      "target_form": "丘",
+      "target_reading": "おか",
+      "tokens": [
+        {
+          "lemma": "丘",
+          "form": "丘",
+          "reading": "おか",
+          "entry_ref": "1588920"
+        },
+        {
+          "lemma": "上",
+          "form": "上",
+          "reading": "うえ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "海",
+          "form": "海",
+          "reading": "うみ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "見える",
+          "form": "見える",
+          "reading": "みえる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR200",
+      "sent_id": "reviewed:20261026:n2:CR200",
+      "focus_kanji": [
+        "遂"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "遂に新しいスマホを買った。",
+      "translation": "I finally bought a new smartphone.",
+      "ent_seq": "1372630",
+      "surface": "遂に",
+      "reading": "ついに",
+      "target_form": "遂に",
+      "target_reading": "ついに",
+      "tokens": [
+        {
+          "lemma": "遂に",
+          "form": "遂に",
+          "reading": "ついに",
+          "entry_ref": "1372630"
+        },
+        {
+          "lemma": "新しい",
+          "form": "新しい",
+          "reading": "あたらしい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "買った",
+          "form": "買った",
+          "reading": "かった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR201",
+      "sent_id": "reviewed:20261026:n2:CR201",
+      "focus_kanji": [
+        "緯"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "この町は札幌と同じ緯度だ。",
+      "translation": "This town is at the same latitude as Sapporo.",
+      "ent_seq": "1158490",
+      "surface": "緯度",
+      "reading": "いど",
+      "target_form": "緯度",
+      "target_reading": "いど",
+      "tokens": [
+        {
+          "lemma": "町",
+          "form": "町",
+          "reading": "まち",
+          "entry_ref": null
+        },
+        {
+          "lemma": "札幌",
+          "form": "札幌",
+          "reading": "さっぽろ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "同じ",
+          "form": "同じ",
+          "reading": "おなじ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "緯度",
+          "form": "緯度",
+          "reading": "いど",
+          "entry_ref": "1158490"
+        }
+      ]
+    },
+    {
+      "review_id": "CR202",
+      "sent_id": "reviewed:20261026:n2:CR202",
+      "focus_kanji": [
+        "径"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "円の半径を測った。",
+      "translation": "I measured the radius of the circle.",
+      "ent_seq": "1479230",
+      "surface": "半径",
+      "reading": "はんけい",
+      "target_form": "半径",
+      "target_reading": "はんけい",
+      "tokens": [
+        {
+          "lemma": "円",
+          "form": "円",
+          "reading": "えん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "半径",
+          "form": "半径",
+          "reading": "はんけい",
+          "entry_ref": "1479230"
+        },
+        {
+          "lemma": "測った",
+          "form": "測った",
+          "reading": "はかった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR203",
+      "sent_id": "reviewed:20261026:n2:CR203",
+      "focus_kanji": [
+        "淡"
+      ],
+      "source_sentence_id": "25726_188581",
+      "text": "この魚は淡水でしか生きられない。",
+      "translation": "This fish can only live in fresh water.",
+      "ent_seq": "1418460",
+      "surface": "淡水",
+      "reading": "たんすい",
+      "target_form": "淡水",
+      "target_reading": "たんすい",
+      "tokens": [
+        {
+          "lemma": "魚",
+          "form": "魚",
+          "reading": "さかな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "淡水",
+          "form": "淡水",
+          "reading": "たんすい",
+          "entry_ref": "1418460"
+        },
+        {
+          "lemma": "生きられない",
+          "form": "生きられない",
+          "reading": "いきられない",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR204",
+      "sent_id": "reviewed:20261026:n2:CR204",
+      "focus_kanji": [
+        "抽"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "彼の説明はいつも抽象的だ。",
+      "translation": "His explanations are always abstract.",
+      "ent_seq": "1426190",
+      "surface": "抽象",
+      "reading": "ちゅうしょう",
+      "target_form": "抽象",
+      "target_reading": "ちゅうしょう",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "説明",
+          "form": "説明",
+          "reading": "せつめい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "抽象",
+          "form": "抽象",
+          "reading": "ちゅうしょう",
+          "entry_ref": "1426190"
+        },
+        {
+          "lemma": "的",
+          "form": "的",
+          "reading": "てき",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR205",
+      "sent_id": "reviewed:20261026:n2:CR205",
+      "focus_kanji": [
+        "浸"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "布を水に浸けた。",
+      "translation": "I soaked the cloth in water.",
+      "ent_seq": "1433680",
+      "surface": "浸ける",
+      "reading": "つける",
+      "target_form": "浸けた",
+      "target_reading": "つけた",
+      "tokens": [
+        {
+          "lemma": "布",
+          "form": "布",
+          "reading": "ぬの",
+          "entry_ref": null
+        },
+        {
+          "lemma": "水",
+          "form": "水",
+          "reading": "みず",
+          "entry_ref": null
+        },
+        {
+          "lemma": "浸ける",
+          "form": "浸けた",
+          "reading": "つけた",
+          "entry_ref": "1433680"
+        }
+      ]
+    },
+    {
+      "review_id": "CR206",
+      "sent_id": "reviewed:20261026:n2:CR206",
+      "focus_kanji": [
+        "虚",
+        "謙"
+      ],
+      "source_sentence_id": "62827_225490",
+      "text": "彼はいつも謙虚な態度だ。",
+      "translation": "He always has a humble attitude.",
+      "ent_seq": "1260190",
+      "surface": "謙虚",
+      "reading": "けんきょ",
+      "target_form": "謙虚な",
+      "target_reading": "けんきょな",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "謙虚",
+          "form": "謙虚な",
+          "reading": "けんきょな",
+          "entry_ref": "1260190"
+        },
+        {
+          "lemma": "態度",
+          "form": "態度",
+          "reading": "たいど",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR207",
+      "sent_id": "reviewed:20261026:n2:CR207",
+      "focus_kanji": [
+        "帳"
+      ],
+      "source_sentence_id": "241504_172969",
+      "text": "予定を手帳に書き込んだ。",
+      "translation": "I wrote the plans down in my planner.",
+      "ent_seq": "1598330",
+      "surface": "手帳",
+      "reading": "てちょう",
+      "target_form": "手帳",
+      "target_reading": "てちょう",
+      "tokens": [
+        {
+          "lemma": "予定",
+          "form": "予定",
+          "reading": "よてい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "手帳",
+          "form": "手帳",
+          "reading": "てちょう",
+          "entry_ref": "1598330"
+        },
+        {
+          "lemma": "書き込んだ",
+          "form": "書き込んだ",
+          "reading": "かきこんだ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR208",
+      "sent_id": "reviewed:20261026:n2:CR208",
+      "focus_kanji": [
+        "雷"
+      ],
+      "source_sentence_id": "246088_168404",
+      "text": "遠くで雷の音が聞こえる。",
+      "translation": "I can hear thunder in the distance.",
+      "ent_seq": "1585060",
+      "surface": "雷",
+      "reading": "かみなり",
+      "target_form": "雷",
+      "target_reading": "かみなり",
+      "tokens": [
+        {
+          "lemma": "遠く",
+          "form": "遠く",
+          "reading": "とおく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "雷",
+          "form": "雷",
+          "reading": "かみなり",
+          "entry_ref": "1585060"
+        },
+        {
+          "lemma": "音",
+          "form": "音",
+          "reading": "おと",
+          "entry_ref": null
+        },
+        {
+          "lemma": "聞こえる",
+          "form": "聞こえる",
+          "reading": "きこえる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR209",
+      "sent_id": "reviewed:20261026:n2:CR209",
+      "focus_kanji": [
+        "冠"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "王様が金の冠をかぶった。",
+      "translation": "The king put on a gold crown.",
+      "ent_seq": "1577620",
+      "surface": "冠",
+      "reading": "かんむり",
+      "target_form": "冠",
+      "target_reading": "かんむり",
+      "tokens": [
+        {
+          "lemma": "王様",
+          "form": "王様",
+          "reading": "おうさま",
+          "entry_ref": null
+        },
+        {
+          "lemma": "金",
+          "form": "金",
+          "reading": "きん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "冠",
+          "form": "冠",
+          "reading": "かんむり",
+          "entry_ref": "1577620"
+        }
+      ]
+    },
+    {
+      "review_id": "CR210",
+      "sent_id": "reviewed:20261026:n2:CR210",
+      "focus_kanji": [
+        "斜"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "紙に斜めに線を引く。",
+      "translation": "Draw a diagonal line on the paper.",
+      "ent_seq": "1322410",
+      "surface": "斜めに",
+      "reading": "ななめに",
+      "target_form": "斜めに",
+      "target_reading": "ななめに",
+      "tokens": [
+        {
+          "lemma": "紙",
+          "form": "紙",
+          "reading": "かみ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "斜めに",
+          "form": "斜めに",
+          "reading": "ななめに",
+          "entry_ref": "1322410"
+        },
+        {
+          "lemma": "線",
+          "form": "線",
+          "reading": "せん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "引く",
+          "form": "引く",
+          "reading": "ひく",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR211",
+      "sent_id": "reviewed:20261026:n2:CR211",
+      "focus_kanji": [
+        "卸"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "父は野菜を卸す仕事をしている。",
+      "translation": "My father works selling vegetables wholesale.",
+      "ent_seq": "1183050",
+      "surface": "卸す",
+      "reading": "おろす",
+      "target_form": "卸す",
+      "target_reading": "おろす",
+      "tokens": [
+        {
+          "lemma": "父",
+          "form": "父",
+          "reading": "ちち",
+          "entry_ref": null
+        },
+        {
+          "lemma": "野菜",
+          "form": "野菜",
+          "reading": "やさい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "卸す",
+          "form": "卸す",
+          "reading": "おろす",
+          "entry_ref": "1183050"
+        },
+        {
+          "lemma": "仕事",
+          "form": "仕事",
+          "reading": "しごと",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR212",
+      "sent_id": "reviewed:20261026:n2:CR212",
+      "focus_kanji": [
+        "逸"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "話がすっかり逸れたね。",
+      "translation": "We got completely sidetracked, didn't we?",
+      "ent_seq": "1576360",
+      "surface": "逸れる",
+      "reading": "それる",
+      "target_form": "逸れた",
+      "target_reading": "それた",
+      "tokens": [
+        {
+          "lemma": "話",
+          "form": "話",
+          "reading": "はなし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "逸れる",
+          "form": "逸れた",
+          "reading": "それた",
+          "entry_ref": "1576360"
+        }
+      ]
+    },
+    {
+      "review_id": "CR213",
+      "sent_id": "reviewed:20261026:n2:CR213",
+      "focus_kanji": [
+        "瓶"
+      ],
+      "source_sentence_id": "23698_186562",
+      "text": "テーブルの花瓶に花を飾った。",
+      "translation": "I put flowers in the vase on the table.",
+      "ent_seq": "1194870",
+      "surface": "花瓶",
+      "reading": "かびん",
+      "target_form": "花瓶",
+      "target_reading": "かびん",
+      "tokens": [
+        {
+          "lemma": "花瓶",
+          "form": "花瓶",
+          "reading": "かびん",
+          "entry_ref": "1194870"
+        },
+        {
+          "lemma": "花",
+          "form": "花",
+          "reading": "はな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "飾った",
+          "form": "飾った",
+          "reading": "かざった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR214",
+      "sent_id": "reviewed:20261026:n2:CR214",
+      "focus_kanji": [
+        "穏"
+      ],
+      "source_sentence_id": "22227_185097",
+      "text": "今日は風もなくて穏やかな日だ。",
+      "translation": "There's no wind today and it's a calm day.",
+      "ent_seq": "1183590",
+      "surface": "穏やか",
+      "reading": "おだやか",
+      "target_form": "穏やかな",
+      "target_reading": "おだやかな",
+      "tokens": [
+        {
+          "lemma": "今日",
+          "form": "今日",
+          "reading": "きょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "風",
+          "form": "風",
+          "reading": "かぜ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "穏やか",
+          "form": "穏やかな",
+          "reading": "おだやかな",
+          "entry_ref": "1183590"
+        },
+        {
+          "lemma": "日",
+          "form": "日",
+          "reading": "ひ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR215",
+      "sent_id": "reviewed:20261026:n2:CR215",
+      "focus_kanji": [
+        "缶"
+      ],
+      "source_sentence_id": "48863_211587",
+      "text": "自販機でコーヒーの缶を買った。",
+      "translation": "I bought a can of coffee from the vending machine.",
+      "ent_seq": "1214540",
+      "surface": "缶",
+      "reading": "かん",
+      "target_form": "缶",
+      "target_reading": "かん",
+      "tokens": [
+        {
+          "lemma": "自販機",
+          "form": "自販機",
+          "reading": "じはんき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "缶",
+          "form": "缶",
+          "reading": "かん",
+          "entry_ref": "1214540"
+        },
+        {
+          "lemma": "買った",
+          "form": "買った",
+          "reading": "かった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR216",
+      "sent_id": "reviewed:20261026:n2:CR216",
+      "focus_kanji": [
+        "遭"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "昨日、事故に遭った。",
+      "translation": "Yesterday, I was in an accident.",
+      "ent_seq": "1198180",
+      "surface": "遭う",
+      "reading": "あう",
+      "target_form": "遭った",
+      "target_reading": "あった",
+      "tokens": [
+        {
+          "lemma": "昨日",
+          "form": "昨日",
+          "reading": "きのう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "事故",
+          "form": "事故",
+          "reading": "じこ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "遭う",
+          "form": "遭った",
+          "reading": "あった",
+          "entry_ref": "1198180"
+        }
+      ]
+    },
+    {
+      "review_id": "CR217",
+      "sent_id": "reviewed:20261026:n2:CR217",
+      "focus_kanji": [
+        "架"
+      ],
+      "source_sentence_id": "68930_231563",
+      "text": "この物語の舞台は架空の町だ。",
+      "translation": "This story is set in a fictional town.",
+      "ent_seq": "1193130",
+      "surface": "架空",
+      "reading": "かくう",
+      "target_form": "架空の",
+      "target_reading": "かくうの",
+      "tokens": [
+        {
+          "lemma": "物語",
+          "form": "物語",
+          "reading": "ものがたり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "舞台",
+          "form": "舞台",
+          "reading": "ぶたい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "架空",
+          "form": "架空の",
+          "reading": "かくうの",
+          "entry_ref": "1193130"
+        },
+        {
+          "lemma": "町",
+          "form": "町",
+          "reading": "まち",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR218",
+      "sent_id": "reviewed:20261026:n2:CR218",
+      "focus_kanji": [
+        "鬼"
+      ],
+      "source_sentence_id": "20065_182946",
+      "text": "子供たちと公園で鬼ごっこをした。",
+      "translation": "I played tag with the kids in the park.",
+      "ent_seq": "1224190",
+      "surface": "鬼",
+      "reading": "おに",
+      "target_form": "鬼",
+      "target_reading": "おに",
+      "tokens": [
+        {
+          "lemma": "子供たち",
+          "form": "子供たち",
+          "reading": "こどもたち",
+          "entry_ref": null
+        },
+        {
+          "lemma": "公園",
+          "form": "公園",
+          "reading": "こうえん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "鬼",
+          "form": "鬼",
+          "reading": "おに",
+          "entry_ref": "1224190"
+        }
+      ]
+    },
+    {
+      "review_id": "CR219",
+      "sent_id": "reviewed:20261026:n2:CR219",
+      "focus_kanji": [
+        "稚"
+      ],
+      "source_sentence_id": "324806_78910",
+      "text": "そんな幼稚な言い訳はやめなよ。",
+      "translation": "Stop making such childish excuses.",
+      "ent_seq": "1545250",
+      "surface": "幼稚",
+      "reading": "ようち",
+      "target_form": "幼稚な",
+      "target_reading": "ようちな",
+      "tokens": [
+        {
+          "lemma": "幼稚",
+          "form": "幼稚な",
+          "reading": "ようちな",
+          "entry_ref": "1545250"
+        },
+        {
+          "lemma": "言い訳",
+          "form": "言い訳",
+          "reading": "いいわけ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR220",
+      "sent_id": "reviewed:20261026:n2:CR220",
+      "focus_kanji": [
+        "謡"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "古い歌謡曲が好きだ。",
+      "translation": "I like old Japanese pop songs.",
+      "ent_seq": "1193460",
+      "surface": "歌謡曲",
+      "reading": "かようきょく",
+      "target_form": "歌謡曲",
+      "target_reading": "かようきょく",
+      "tokens": [
+        {
+          "lemma": "古い",
+          "form": "古い",
+          "reading": "ふるい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "歌謡曲",
+          "form": "歌謡曲",
+          "reading": "かようきょく",
+          "entry_ref": "1193460"
+        },
+        {
+          "lemma": "好き",
+          "form": "好き",
+          "reading": "すき",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR221",
+      "sent_id": "reviewed:20261026:n2:CR221",
+      "focus_kanji": [
+        "巣"
+      ],
+      "source_sentence_id": "275530_137706",
+      "text": "木の上に鳥が巣を作っていた。",
+      "translation": "A bird was building a nest up in the tree.",
+      "ent_seq": "1400390",
+      "surface": "巣",
+      "reading": "す",
+      "target_form": "巣",
+      "target_reading": "す",
+      "tokens": [
+        {
+          "lemma": "木",
+          "form": "木",
+          "reading": "き",
+          "entry_ref": null
+        },
+        {
+          "lemma": "上",
+          "form": "上",
+          "reading": "うえ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "鳥",
+          "form": "鳥",
+          "reading": "とり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "巣",
+          "form": "巣",
+          "reading": "す",
+          "entry_ref": "1400390"
+        },
+        {
+          "lemma": "作っていた",
+          "form": "作っていた",
+          "reading": "つくっていた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR222",
+      "sent_id": "reviewed:20261026:n2:CR222",
+      "focus_kanji": [
+        "琴"
+      ],
+      "source_sentence_id": "314508_89198",
+      "text": "祖母は昔から琴を弾いている。",
+      "translation": "My grandmother has played the koto for a long time.",
+      "ent_seq": "1241450",
+      "surface": "琴",
+      "reading": "こと",
+      "target_form": "琴",
+      "target_reading": "こと",
+      "tokens": [
+        {
+          "lemma": "祖母",
+          "form": "祖母",
+          "reading": "そぼ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "昔",
+          "form": "昔",
+          "reading": "むかし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "琴",
+          "form": "琴",
+          "reading": "こと",
+          "entry_ref": "1241450"
+        },
+        {
+          "lemma": "弾いている",
+          "form": "弾いている",
+          "reading": "ひいている",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR223",
+      "sent_id": "reviewed:20261026:n2:CR223",
+      "focus_kanji": [
+        "墨"
+      ],
+      "source_sentence_id": "322032_81683",
+      "text": "白いシャツに墨がついてしまった。",
+      "translation": "I got sumi ink on my white shirt.",
+      "ent_seq": "1521510",
+      "surface": "墨",
+      "reading": "すみ",
+      "target_form": "墨",
+      "target_reading": "すみ",
+      "tokens": [
+        {
+          "lemma": "白い",
+          "form": "白い",
+          "reading": "しろい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "墨",
+          "form": "墨",
+          "reading": "すみ",
+          "entry_ref": "1521510"
+        }
+      ]
+    },
+    {
+      "review_id": "CR224",
+      "sent_id": "reviewed:20261026:n2:CR224",
+      "focus_kanji": [
+        "盆"
+      ],
+      "source_sentence_id": "71926_234551",
+      "text": "料理をお盆にのせて運んだ。",
+      "translation": "I carried the food on a tray.",
+      "ent_seq": "1523700",
+      "surface": "盆",
+      "reading": "ぼん",
+      "target_form": "盆",
+      "target_reading": "ぼん",
+      "tokens": [
+        {
+          "lemma": "料理",
+          "form": "料理",
+          "reading": "りょうり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "盆",
+          "form": "盆",
+          "reading": "ぼん",
+          "entry_ref": "1523700"
+        },
+        {
+          "lemma": "運んだ",
+          "form": "運んだ",
+          "reading": "はこんだ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR225",
+      "sent_id": "reviewed:20261026:n2:CR225",
+      "focus_kanji": [
+        "尻"
+      ],
+      "source_sentence_id": "299459_104232",
+      "text": "氷の上で転んでお尻を打った。",
+      "translation": "I slipped on the ice and landed on my rear.",
+      "ent_seq": "1358760",
+      "surface": "尻",
+      "reading": "しり",
+      "target_form": "尻",
+      "target_reading": "しり",
+      "tokens": [
+        {
+          "lemma": "氷",
+          "form": "氷",
+          "reading": "こおり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "上",
+          "form": "上",
+          "reading": "うえ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "転んで",
+          "form": "転んで",
+          "reading": "ころんで",
+          "entry_ref": null
+        },
+        {
+          "lemma": "尻",
+          "form": "尻",
+          "reading": "しり",
+          "entry_ref": "1358760"
+        },
+        {
+          "lemma": "打った",
+          "form": "打った",
+          "reading": "うった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR226",
+      "sent_id": "reviewed:20261026:n2:CR226",
+      "focus_kanji": [
+        "傘"
+      ],
+      "source_sentence_id": "308880_94828",
+      "text": "電車に傘を忘れてしまった。",
+      "translation": "I accidentally left my umbrella on the train.",
+      "ent_seq": "1301940",
+      "surface": "傘",
+      "reading": "かさ",
+      "target_form": "傘",
+      "target_reading": "かさ",
+      "tokens": [
+        {
+          "lemma": "電車",
+          "form": "電車",
+          "reading": "でんしゃ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "傘",
+          "form": "傘",
+          "reading": "かさ",
+          "entry_ref": "1301940"
+        },
+        {
+          "lemma": "忘れて",
+          "form": "忘れて",
+          "reading": "わすれて",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR227",
+      "sent_id": "reviewed:20261026:n2:CR227",
+      "focus_kanji": [
+        "寮"
+      ],
+      "source_sentence_id": "251410_163102",
+      "text": "私の大学には寮があります。",
+      "translation": "My university has a dorm.",
+      "ent_seq": "1554230",
+      "surface": "寮",
+      "reading": "りょう",
+      "target_form": "寮",
+      "target_reading": "りょう",
+      "tokens": [
+        {
+          "lemma": "私",
+          "form": "私",
+          "reading": "わたし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "大学",
+          "form": "大学",
+          "reading": "だいがく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "寮",
+          "form": "寮",
+          "reading": "りょう",
+          "entry_ref": "1554230"
+        }
+      ]
+    },
+    {
+      "review_id": "CR228",
+      "sent_id": "reviewed:20261026:n2:CR228",
+      "focus_kanji": [
+        "哀"
+      ],
+      "source_sentence_id": "329652_74068",
+      "text": "雨に濡れた子犬が哀れな姿だ。",
+      "translation": "The puppy soaked in the rain looked pitiful.",
+      "ent_seq": "1150110",
+      "surface": "哀れ",
+      "reading": "あわれ",
+      "target_form": "哀れな",
+      "target_reading": "あわれな",
+      "tokens": [
+        {
+          "lemma": "雨",
+          "form": "雨",
+          "reading": "あめ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "濡れた",
+          "form": "濡れた",
+          "reading": "ぬれた",
+          "entry_ref": null
+        },
+        {
+          "lemma": "子犬",
+          "form": "子犬",
+          "reading": "こいぬ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "哀れ",
+          "form": "哀れな",
+          "reading": "あわれな",
+          "entry_ref": "1150110"
+        },
+        {
+          "lemma": "姿",
+          "form": "姿",
+          "reading": "すがた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR229",
+      "sent_id": "reviewed:20261026:n2:CR229",
+      "focus_kanji": [
+        "垂"
+      ],
+      "source_sentence_id": "33891_196712",
+      "text": "壁に対して垂直に柱を立てた。",
+      "translation": "We put up the post perpendicular to the wall.",
+      "ent_seq": "1370980",
+      "surface": "垂直",
+      "reading": "すいちょく",
+      "target_form": "垂直に",
+      "target_reading": "すいちょくに",
+      "tokens": [
+        {
+          "lemma": "壁",
+          "form": "壁",
+          "reading": "かべ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "対して",
+          "form": "対して",
+          "reading": "たいして",
+          "entry_ref": null
+        },
+        {
+          "lemma": "垂直",
+          "form": "垂直に",
+          "reading": "すいちょくに",
+          "entry_ref": "1370980"
+        },
+        {
+          "lemma": "柱",
+          "form": "柱",
+          "reading": "はしら",
+          "entry_ref": null
+        },
+        {
+          "lemma": "立てた",
+          "form": "立てた",
+          "reading": "たてた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR230",
+      "sent_id": "reviewed:20261026:n2:CR230",
+      "focus_kanji": [
+        "凡"
+      ],
+      "source_sentence_id": "43813_206565",
+      "text": "平凡な毎日が一番幸せだ。",
+      "translation": "Ordinary everyday life is the happiest.",
+      "ent_seq": "1507910",
+      "surface": "平凡",
+      "reading": "へいぼん",
+      "target_form": "平凡な",
+      "target_reading": "へいぼんな",
+      "tokens": [
+        {
+          "lemma": "平凡",
+          "form": "平凡な",
+          "reading": "へいぼんな",
+          "entry_ref": "1507910"
+        },
+        {
+          "lemma": "毎日",
+          "form": "毎日",
+          "reading": "まいにち",
+          "entry_ref": null
+        },
+        {
+          "lemma": "一番",
+          "form": "一番",
+          "reading": "いちばん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "幸せ",
+          "form": "幸せ",
+          "reading": "しあわせ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR231",
+      "sent_id": "reviewed:20261026:n2:CR231",
+      "focus_kanji": [
+        "臭"
+      ],
+      "source_sentence_id": "72055_234678",
+      "text": "靴が濡れてすごく臭い。",
+      "translation": "My shoes got wet and smell awful.",
+      "ent_seq": "1333150",
+      "surface": "臭い",
+      "reading": "くさい",
+      "target_form": "臭い",
+      "target_reading": "くさい",
+      "tokens": [
+        {
+          "lemma": "靴",
+          "form": "靴",
+          "reading": "くつ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "濡れて",
+          "form": "濡れて",
+          "reading": "ぬれて",
+          "entry_ref": null
+        },
+        {
+          "lemma": "臭い",
+          "form": "臭い",
+          "reading": "くさい",
+          "entry_ref": "1333150"
+        }
+      ]
+    },
+    {
+      "review_id": "CR232",
+      "sent_id": "reviewed:20261026:n2:CR232",
+      "focus_kanji": [
+        "釜"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "釜で米を炊いた。",
+      "translation": "I cooked rice in an iron pot.",
+      "ent_seq": "1209080",
+      "surface": "釜",
+      "reading": "かま",
+      "target_form": "釜",
+      "target_reading": "かま",
+      "tokens": [
+        {
+          "lemma": "釜",
+          "form": "釜",
+          "reading": "かま",
+          "entry_ref": "1209080"
+        },
+        {
+          "lemma": "米",
+          "form": "米",
+          "reading": "こめ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "炊いた",
+          "form": "炊いた",
+          "reading": "たいた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR233",
+      "sent_id": "reviewed:20261026:n2:CR233",
+      "focus_kanji": [
+        "粋"
+      ],
+      "source_sentence_id": "327691_76027",
+      "text": "純粋に音楽を楽しみたい。",
+      "translation": "I just want to purely enjoy the music.",
+      "ent_seq": "1341930",
+      "surface": "純粋",
+      "reading": "じゅんすい",
+      "target_form": "純粋に",
+      "target_reading": "じゅんすいに",
+      "tokens": [
+        {
+          "lemma": "純粋",
+          "form": "純粋に",
+          "reading": "じゅんすいに",
+          "entry_ref": "1341930"
+        },
+        {
+          "lemma": "音楽",
+          "form": "音楽",
+          "reading": "おんがく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "楽しみたい",
+          "form": "楽しみたい",
+          "reading": "たのしみたい",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR234",
+      "sent_id": "reviewed:20261026:n2:CR234",
+      "focus_kanji": [
+        "猿"
+      ],
+      "source_sentence_id": "25871_188724",
+      "text": "温泉に入る猿の写真を見た。",
+      "translation": "I saw a photo of monkeys bathing in a hot spring.",
+      "ent_seq": "1177390",
+      "surface": "猿",
+      "reading": "さる",
+      "target_form": "猿",
+      "target_reading": "さる",
+      "tokens": [
+        {
+          "lemma": "温泉",
+          "form": "温泉",
+          "reading": "おんせん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "入る",
+          "form": "入る",
+          "reading": "はいる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "猿",
+          "form": "猿",
+          "reading": "さる",
+          "entry_ref": "1177390"
+        },
+        {
+          "lemma": "写真",
+          "form": "写真",
+          "reading": "しゃしん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "見た",
+          "form": "見た",
+          "reading": "みた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR235",
+      "sent_id": "reviewed:20261026:n2:CR235",
+      "focus_kanji": [
+        "鼓"
+      ],
+      "source_sentence_id": "275020_138215",
+      "text": "遠くから祭りの太鼓が聞こえる。",
+      "translation": "I can hear the festival drums from afar.",
+      "ent_seq": "1408280",
+      "surface": "太鼓",
+      "reading": "たいこ",
+      "target_form": "太鼓",
+      "target_reading": "たいこ",
+      "tokens": [
+        {
+          "lemma": "遠く",
+          "form": "遠く",
+          "reading": "とおく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "祭り",
+          "form": "祭り",
+          "reading": "まつり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "太鼓",
+          "form": "太鼓",
+          "reading": "たいこ",
+          "entry_ref": "1408280"
+        },
+        {
+          "lemma": "聞こえる",
+          "form": "聞こえる",
+          "reading": "きこえる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR236",
+      "sent_id": "reviewed:20261026:n2:CR236",
+      "focus_kanji": [
+        "幣"
+      ],
+      "source_sentence_id": "72534_235157",
+      "text": "この自販機は新紙幣が使える。",
+      "translation": "This vending machine accepts the new bills.",
+      "ent_seq": "1311600",
+      "surface": "紙幣",
+      "reading": "しへい",
+      "target_form": "紙幣",
+      "target_reading": "しへい",
+      "tokens": [
+        {
+          "lemma": "自販機",
+          "form": "自販機",
+          "reading": "じはんき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "新",
+          "form": "新",
+          "reading": "しん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "紙幣",
+          "form": "紙幣",
+          "reading": "しへい",
+          "entry_ref": "1311600"
+        },
+        {
+          "lemma": "使える",
+          "form": "使える",
+          "reading": "つかえる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR237",
+      "sent_id": "reviewed:20261026:n2:CR237",
+      "focus_kanji": [
+        "脇"
+      ],
+      "source_sentence_id": "280402_123595",
+      "text": "道の脇に寄せてください。",
+      "translation": "Pull over to the side, please.",
+      "ent_seq": "1562530",
+      "surface": "脇",
+      "reading": "わき",
+      "target_form": "脇",
+      "target_reading": "わき",
+      "tokens": [
+        {
+          "lemma": "道",
+          "form": "道",
+          "reading": "みち",
+          "entry_ref": null
+        },
+        {
+          "lemma": "脇",
+          "form": "脇",
+          "reading": "わき",
+          "entry_ref": "1562530"
+        },
+        {
+          "lemma": "寄せて",
+          "form": "寄せて",
+          "reading": "よせて",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR238",
+      "sent_id": "reviewed:20261026:n2:CR238",
+      "focus_kanji": [
+        "漬"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "きゅうりを浅漬けに漬けた。",
+      "translation": "I lightly pickled some cucumbers.",
+      "ent_seq": "1433680",
+      "surface": "漬ける",
+      "reading": "つける",
+      "target_form": "漬けた",
+      "target_reading": "つけた",
+      "tokens": [
+        {
+          "lemma": "浅漬け",
+          "form": "浅漬け",
+          "reading": "あさづけ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "漬ける",
+          "form": "漬けた",
+          "reading": "つけた",
+          "entry_ref": "1433680"
+        }
+      ]
+    },
+    {
+      "review_id": "CR239",
+      "sent_id": "reviewed:20261026:n2:CR239",
+      "focus_kanji": [
+        "紺"
+      ],
+      "source_sentence_id": "27985_190825",
+      "text": "面接用に紺のスーツを買った。",
+      "translation": "I bought a navy blue suit for the interview.",
+      "ent_seq": "1290590",
+      "surface": "紺",
+      "reading": "こん",
+      "target_form": "紺",
+      "target_reading": "こん",
+      "tokens": [
+        {
+          "lemma": "面接用",
+          "form": "面接用",
+          "reading": "めんせつよう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "紺",
+          "form": "紺",
+          "reading": "こん",
+          "entry_ref": "1290590"
+        },
+        {
+          "lemma": "買った",
+          "form": "買った",
+          "reading": "かった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR240",
+      "sent_id": "reviewed:20261026:n2:CR240",
+      "focus_kanji": [
+        "豚"
+      ],
+      "source_sentence_id": "41426_204184",
+      "text": "今夜は豚肉とキャベツを炒める。",
+      "translation": "Tonight I'm stir-frying pork and cabbage.",
+      "ent_seq": "1457440",
+      "surface": "豚肉",
+      "reading": "ぶたにく",
+      "target_form": "豚肉",
+      "target_reading": "ぶたにく",
+      "tokens": [
+        {
+          "lemma": "今夜",
+          "form": "今夜",
+          "reading": "こんや",
+          "entry_ref": null
+        },
+        {
+          "lemma": "豚肉",
+          "form": "豚肉",
+          "reading": "ぶたにく",
+          "entry_ref": "1457440"
+        },
+        {
+          "lemma": "炒める",
+          "form": "炒める",
+          "reading": "いためる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR241",
+      "sent_id": "reviewed:20261026:n2:CR241",
+      "focus_kanji": [
+        "鉢"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "ベランダに花の鉢を並べた。",
+      "translation": "I lined up flowerpots on the balcony.",
+      "ent_seq": "1477090",
+      "surface": "鉢",
+      "reading": "はち",
+      "target_form": "鉢",
+      "target_reading": "はち",
+      "tokens": [
+        {
+          "lemma": "花",
+          "form": "花",
+          "reading": "はな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "鉢",
+          "form": "鉢",
+          "reading": "はち",
+          "entry_ref": "1477090"
+        },
+        {
+          "lemma": "並べた",
+          "form": "並べた",
+          "reading": "ならべた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR242",
+      "sent_id": "reviewed:20261026:n2:CR242",
+      "focus_kanji": [
+        "殻"
+      ],
+      "source_sentence_id": "27113_189957",
+      "text": "ゆで卵の殻がきれいにむけた。",
+      "translation": "The boiled egg's shell peeled off cleanly.",
+      "ent_seq": "1205740",
+      "surface": "殻",
+      "reading": "から",
+      "target_form": "殻",
+      "target_reading": "から",
+      "tokens": [
+        {
+          "lemma": "卵",
+          "form": "卵",
+          "reading": "たまご",
+          "entry_ref": null
+        },
+        {
+          "lemma": "殻",
+          "form": "殻",
+          "reading": "から",
+          "entry_ref": "1205740"
+        }
+      ]
+    },
+    {
+      "review_id": "CR243",
+      "sent_id": "reviewed:20261026:n2:CR243",
+      "focus_kanji": [
+        "沙",
+        "汰"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "大変御無沙汰しております。",
+      "translation": "It has been a very long time since we last spoke.",
+      "ent_seq": "1270650",
+      "surface": "御無沙汰",
+      "reading": "ごぶさた",
+      "target_form": "御無沙汰",
+      "target_reading": "ごぶさた",
+      "tokens": [
+        {
+          "lemma": "大変",
+          "form": "大変",
+          "reading": "たいへん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "御無沙汰",
+          "form": "御無沙汰",
+          "reading": "ごぶさた",
+          "entry_ref": "1270650"
+        }
+      ]
+    },
+    {
+      "review_id": "CR244",
+      "sent_id": "reviewed:20261026:n2:CR244",
+      "focus_kanji": [
+        "絹"
+      ],
+      "source_sentence_id": "57450_220131",
+      "text": "このスカーフは絹でできている。",
+      "translation": "This scarf is made of silk.",
+      "ent_seq": "1258710",
+      "surface": "絹",
+      "reading": "きぬ",
+      "target_form": "絹",
+      "target_reading": "きぬ",
+      "tokens": [
+        {
+          "lemma": "絹",
+          "form": "絹",
+          "reading": "きぬ",
+          "entry_ref": "1258710"
+        }
+      ]
+    },
+    {
+      "review_id": "CR245",
+      "sent_id": "reviewed:20261026:n2:CR245",
+      "focus_kanji": [
+        "笛"
+      ],
+      "source_sentence_id": "62620_225283",
+      "text": "審判が試合終了の笛を吹いた。",
+      "translation": "The referee blew the final whistle.",
+      "ent_seq": "1437310",
+      "surface": "笛",
+      "reading": "ふえ",
+      "target_form": "笛",
+      "target_reading": "ふえ",
+      "tokens": [
+        {
+          "lemma": "審判",
+          "form": "審判",
+          "reading": "しんぱん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "試合終了",
+          "form": "試合終了",
+          "reading": "しあいしゅうりょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "笛",
+          "form": "笛",
+          "reading": "ふえ",
+          "entry_ref": "1437310"
+        },
+        {
+          "lemma": "吹いた",
+          "form": "吹いた",
+          "reading": "ふいた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR246",
+      "sent_id": "reviewed:20261026:n2:CR246",
+      "focus_kanji": [
+        "渇"
+      ],
+      "source_sentence_id": "1690392_2310151",
+      "text": "お腹が空いたし、のども渇いた。",
+      "translation": "I'm hungry and thirsty.",
+      "ent_seq": "1208520",
+      "surface": "渇く",
+      "reading": "かわく",
+      "target_form": "渇いた",
+      "target_reading": "かわいた",
+      "tokens": [
+        {
+          "lemma": "腹",
+          "form": "腹",
+          "reading": "なか",
+          "entry_ref": null
+        },
+        {
+          "lemma": "空いた",
+          "form": "空いた",
+          "reading": "すいた",
+          "entry_ref": null
+        },
+        {
+          "lemma": "渇く",
+          "form": "渇いた",
+          "reading": "かわいた",
+          "entry_ref": "1208520"
+        }
+      ]
+    },
+    {
+      "review_id": "CR247",
+      "sent_id": "reviewed:20261026:n2:CR247",
+      "focus_kanji": [
+        "岬"
+      ],
+      "source_sentence_id": "45665_208407",
+      "text": "岬の先に白い灯台が見える。",
+      "translation": "You can see a white lighthouse at the tip of the cape.",
+      "ent_seq": "1611700",
+      "surface": "岬",
+      "reading": "みさき",
+      "target_form": "岬",
+      "target_reading": "みさき",
+      "tokens": [
+        {
+          "lemma": "岬",
+          "form": "岬",
+          "reading": "みさき",
+          "entry_ref": "1611700"
+        },
+        {
+          "lemma": "先",
+          "form": "先",
+          "reading": "さき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "白い",
+          "form": "白い",
+          "reading": "しろい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "灯台",
+          "form": "灯台",
+          "reading": "とうだい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "見える",
+          "form": "見える",
+          "reading": "みえる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR248",
+      "sent_id": "reviewed:20261026:n2:CR248",
+      "focus_kanji": [
+        "愉"
+      ],
+      "source_sentence_id": "69380_232012",
+      "text": "彼は本当に愉快な人だね。",
+      "translation": "He's a really fun person, isn't he?",
+      "ent_seq": "1538560",
+      "surface": "愉快",
+      "reading": "ゆかい",
+      "target_form": "愉快な",
+      "target_reading": "ゆかいな",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "本当",
+          "form": "本当",
+          "reading": "ほんとう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "愉快",
+          "form": "愉快な",
+          "reading": "ゆかいな",
+          "entry_ref": "1538560"
+        },
+        {
+          "lemma": "人",
+          "form": "人",
+          "reading": "ひと",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR249",
+      "sent_id": "reviewed:20261026:n2:CR249",
+      "focus_kanji": [
+        "胡"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "肉に胡椒を振る。",
+      "translation": "Sprinkle pepper on the meat.",
+      "ent_seq": "1267600",
+      "surface": "胡椒",
+      "reading": "こしょう",
+      "target_form": "胡椒",
+      "target_reading": "こしょう",
+      "tokens": [
+        {
+          "lemma": "肉",
+          "form": "肉",
+          "reading": "にく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "胡椒",
+          "form": "胡椒",
+          "reading": "こしょう",
+          "entry_ref": "1267600"
+        },
+        {
+          "lemma": "振る",
+          "form": "振る",
+          "reading": "ふる",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR250",
+      "sent_id": "reviewed:20261026:n2:CR250",
+      "focus_kanji": [
+        "煩"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "隣の部屋のテレビが煩い。",
+      "translation": "The TV in the next room is loud.",
+      "ent_seq": "1481920",
+      "surface": "煩い",
+      "reading": "うるさい",
+      "target_form": "煩い",
+      "target_reading": "うるさい",
+      "tokens": [
+        {
+          "lemma": "隣",
+          "form": "隣",
+          "reading": "となり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "部屋",
+          "form": "部屋",
+          "reading": "へや",
+          "entry_ref": null
+        },
+        {
+          "lemma": "煩い",
+          "form": "煩い",
+          "reading": "うるさい",
+          "entry_ref": "1481920"
+        }
+      ]
+    },
+    {
+      "review_id": "CR251",
+      "sent_id": "reviewed:20261026:n2:CR251",
+      "focus_kanji": [
+        "丼"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "お昼に大きな丼でご飯を食べた。",
+      "translation": "I ate a big rice bowl for lunch.",
+      "ent_seq": "1562970",
+      "surface": "丼",
+      "reading": "どんぶり",
+      "target_form": "丼",
+      "target_reading": "どんぶり",
+      "tokens": [
+        {
+          "lemma": "昼",
+          "form": "昼",
+          "reading": "ひる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "大きな",
+          "form": "大きな",
+          "reading": "おおきな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "丼",
+          "form": "丼",
+          "reading": "どんぶり",
+          "entry_ref": "1562970"
+        },
+        {
+          "lemma": "飯",
+          "form": "飯",
+          "reading": "はん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "食べた",
+          "form": "食べた",
+          "reading": "たべた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR252",
+      "sent_id": "reviewed:20261026:n2:CR252",
+      "focus_kanji": [
+        "虹"
+      ],
+      "source_sentence_id": "281038_122964",
+      "text": "雨上がりにきれいな虹が出た。",
+      "translation": "A beautiful rainbow came out after the rain.",
+      "ent_seq": "1463740",
+      "surface": "虹",
+      "reading": "にじ",
+      "target_form": "虹",
+      "target_reading": "にじ",
+      "tokens": [
+        {
+          "lemma": "雨上がり",
+          "form": "雨上がり",
+          "reading": "あめあがり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "虹",
+          "form": "虹",
+          "reading": "にじ",
+          "entry_ref": "1463740"
+        },
+        {
+          "lemma": "出た",
+          "form": "出た",
+          "reading": "でた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR253",
+      "sent_id": "reviewed:20261026:n2:CR253",
+      "focus_kanji": [
+        "斬"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "侍が刀で敵を斬った。",
+      "translation": "The samurai slashed the enemy with a sword.",
+      "ent_seq": "1304400",
+      "surface": "斬る",
+      "reading": "きる",
+      "target_form": "斬った",
+      "target_reading": "きった",
+      "tokens": [
+        {
+          "lemma": "侍",
+          "form": "侍",
+          "reading": "さむらい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "刀",
+          "form": "刀",
+          "reading": "かたな",
+          "entry_ref": null
+        },
+        {
+          "lemma": "敵",
+          "form": "敵",
+          "reading": "てき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "斬る",
+          "form": "斬った",
+          "reading": "きった",
+          "entry_ref": "1304400"
+        }
+      ]
+    },
+    {
+      "review_id": "CR254",
+      "sent_id": "reviewed:20261026:n2:CR254",
+      "focus_kanji": [
+        "凸",
+        "凹"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "この道は凸凹していて歩きにくい。",
+      "translation": "This road is bumpy and hard to walk on.",
+      "ent_seq": "1582410",
+      "surface": "凸凹",
+      "reading": "でこぼこ",
+      "target_form": "凸凹",
+      "target_reading": "でこぼこ",
+      "tokens": [
+        {
+          "lemma": "道",
+          "form": "道",
+          "reading": "みち",
+          "entry_ref": null
+        },
+        {
+          "lemma": "凸凹",
+          "form": "凸凹",
+          "reading": "でこぼこ",
+          "entry_ref": "1582410"
+        },
+        {
+          "lemma": "歩きにくい",
+          "form": "歩きにくい",
+          "reading": "あるきにくい",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR255",
+      "sent_id": "reviewed:20261026:n2:CR255",
+      "focus_kanji": [
+        "餅"
+      ],
+      "source_sentence_id": "304208_99490",
+      "text": "お正月にお餅をたくさん食べた。",
+      "translation": "I ate a lot of mochi over New Year's.",
+      "ent_seq": "1535790",
+      "surface": "餅",
+      "reading": "もち",
+      "target_form": "餅",
+      "target_reading": "もち",
+      "tokens": [
+        {
+          "lemma": "正月",
+          "form": "正月",
+          "reading": "しょうがつ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "餅",
+          "form": "餅",
+          "reading": "もち",
+          "entry_ref": "1535790"
+        },
+        {
+          "lemma": "食べた",
+          "form": "食べた",
+          "reading": "たべた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR256",
+      "sent_id": "reviewed:20261026:n2:CR256",
+      "focus_kanji": [
+        "艶"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "髪に艶がある。",
+      "translation": "Her hair has a nice sheen.",
+      "ent_seq": "1177680",
+      "surface": "艶",
+      "reading": "つや",
+      "target_form": "艶",
+      "target_reading": "つや",
+      "tokens": [
+        {
+          "lemma": "髪",
+          "form": "髪",
+          "reading": "かみ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "艶",
+          "form": "艶",
+          "reading": "つや",
+          "entry_ref": "1177680"
+        }
+      ]
+    },
+    {
+      "review_id": "CR257",
+      "sent_id": "reviewed:20261026:n2:CR257",
+      "focus_kanji": [
+        "匂"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "部屋がなんだか変に匂うね。",
+      "translation": "The room smells kind of funny, doesn't it?",
+      "ent_seq": "1599780",
+      "surface": "匂う",
+      "reading": "におう",
+      "target_form": "匂う",
+      "target_reading": "におう",
+      "tokens": [
+        {
+          "lemma": "部屋",
+          "form": "部屋",
+          "reading": "へや",
+          "entry_ref": null
+        },
+        {
+          "lemma": "変",
+          "form": "変",
+          "reading": "へん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "匂う",
+          "form": "匂う",
+          "reading": "におう",
+          "entry_ref": "1599780"
+        }
+      ]
+    },
+    {
+      "review_id": "CR258",
+      "sent_id": "reviewed:20261026:n2:CR258",
+      "focus_kanji": [
+        "稀"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "こんなに雪が降るのは稀だ。",
+      "translation": "It's rare for it to snow this much.",
+      "ent_seq": "1604280",
+      "surface": "稀",
+      "reading": "まれ",
+      "target_form": "稀",
+      "target_reading": "まれ",
+      "tokens": [
+        {
+          "lemma": "雪",
+          "form": "雪",
+          "reading": "ゆき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "降る",
+          "form": "降る",
+          "reading": "ふる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "稀",
+          "form": "稀",
+          "reading": "まれ",
+          "entry_ref": "1604280"
+        }
+      ]
+    },
+    {
+      "review_id": "CR259",
+      "sent_id": "reviewed:20261026:n2:CR259",
+      "focus_kanji": [
+        "憧"
+      ],
+      "source_sentence_id": "271574_142994",
+      "text": "海が見える暮らしに憧れる。",
+      "translation": "I dream of living somewhere with an ocean view.",
+      "ent_seq": "1453810",
+      "surface": "憧れる",
+      "reading": "あこがれる",
+      "target_form": "憧れる",
+      "target_reading": "あこがれる",
+      "tokens": [
+        {
+          "lemma": "海",
+          "form": "海",
+          "reading": "うみ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "見える",
+          "form": "見える",
+          "reading": "みえる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "暮らし",
+          "form": "暮らし",
+          "reading": "くらし",
+          "entry_ref": null
+        },
+        {
+          "lemma": "憧れる",
+          "form": "憧れる",
+          "reading": "あこがれる",
+          "entry_ref": "1453810"
+        }
+      ]
+    },
+    {
+      "review_id": "CR260",
+      "sent_id": "reviewed:20261026:n2:CR260",
+      "focus_kanji": [
+        "酌"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "相手の事情を酌んで許した。",
+      "translation": "I took their circumstances into consideration and forgave them.",
+      "ent_seq": "1324210",
+      "surface": "酌む",
+      "reading": "くむ",
+      "target_form": "酌んで",
+      "target_reading": "くんで",
+      "tokens": [
+        {
+          "lemma": "相手",
+          "form": "相手",
+          "reading": "あいて",
+          "entry_ref": null
+        },
+        {
+          "lemma": "事情",
+          "form": "事情",
+          "reading": "じじょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "酌む",
+          "form": "酌んで",
+          "reading": "くんで",
+          "entry_ref": "1324210"
+        },
+        {
+          "lemma": "許した",
+          "form": "許した",
+          "reading": "ゆるした",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR261",
+      "sent_id": "reviewed:20261026:n2:CR261",
+      "focus_kanji": [
+        "凄"
+      ],
+      "source_sentence_id": "328156_75562",
+      "text": "今日の映画、凄く面白かったね。",
+      "translation": "Today's movie was super good, wasn't it?",
+      "ent_seq": "1374550",
+      "surface": "凄い",
+      "reading": "すごい",
+      "target_form": "凄く",
+      "target_reading": "すごく",
+      "tokens": [
+        {
+          "lemma": "今日",
+          "form": "今日",
+          "reading": "きょう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "映画",
+          "form": "映画",
+          "reading": "えいが",
+          "entry_ref": null
+        },
+        {
+          "lemma": "凄い",
+          "form": "凄く",
+          "reading": "すごく",
+          "entry_ref": "1374550"
+        },
+        {
+          "lemma": "面白かった",
+          "form": "面白かった",
+          "reading": "おもしろかった",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR262",
+      "sent_id": "reviewed:20261026:n2:CR262",
+      "focus_kanji": [
+        "蒔"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "春に庭で種を蒔いた。",
+      "translation": "I sowed seeds in the garden in spring.",
+      "ent_seq": "2611890",
+      "surface": "蒔く",
+      "reading": "まく",
+      "target_form": "蒔いた",
+      "target_reading": "まいた",
+      "tokens": [
+        {
+          "lemma": "春",
+          "form": "春",
+          "reading": "はる",
+          "entry_ref": null
+        },
+        {
+          "lemma": "庭",
+          "form": "庭",
+          "reading": "にわ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "種",
+          "form": "種",
+          "reading": "たね",
+          "entry_ref": null
+        },
+        {
+          "lemma": "蒔く",
+          "form": "蒔いた",
+          "reading": "まいた",
+          "entry_ref": "2611890"
+        }
+      ]
+    },
+    {
+      "review_id": "CR263",
+      "sent_id": "reviewed:20261026:n2:CR263",
+      "focus_kanji": [
+        "稽"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "週末は剣道の稽古に通っている。",
+      "translation": "I go to kendo practice on the weekends.",
+      "ent_seq": "1250990",
+      "surface": "稽古",
+      "reading": "けいこ",
+      "target_form": "稽古",
+      "target_reading": "けいこ",
+      "tokens": [
+        {
+          "lemma": "週末",
+          "form": "週末",
+          "reading": "しゅうまつ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "剣道",
+          "form": "剣道",
+          "reading": "けんどう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "稽古",
+          "form": "稽古",
+          "reading": "けいこ",
+          "entry_ref": "1250990"
+        },
+        {
+          "lemma": "通っている",
+          "form": "通っている",
+          "reading": "かよっている",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR264",
+      "sent_id": "reviewed:20261026:n2:CR264",
+      "focus_kanji": [
+        "蹴"
+      ],
+      "source_sentence_id": "297786_105900",
+      "text": "ボールを思いきり強く蹴った。",
+      "translation": "I kicked the ball as hard as I could.",
+      "ent_seq": "1333400",
+      "surface": "蹴る",
+      "reading": "ける",
+      "target_form": "蹴った",
+      "target_reading": "けった",
+      "tokens": [
+        {
+          "lemma": "思いきり",
+          "form": "思いきり",
+          "reading": "おもいきり",
+          "entry_ref": null
+        },
+        {
+          "lemma": "強く",
+          "form": "強く",
+          "reading": "つよく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "蹴る",
+          "form": "蹴った",
+          "reading": "けった",
+          "entry_ref": "1333400"
+        }
+      ]
+    },
+    {
+      "review_id": "CR265",
+      "sent_id": "reviewed:20261026:n2:CR265",
+      "focus_kanji": [
+        "蓋"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "鍋に蓋をした。",
+      "translation": "I put the lid on the pot.",
+      "ent_seq": "1204540",
+      "surface": "蓋",
+      "reading": "ふた",
+      "target_form": "蓋",
+      "target_reading": "ふた",
+      "tokens": [
+        {
+          "lemma": "鍋",
+          "form": "鍋",
+          "reading": "なべ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "蓋",
+          "form": "蓋",
+          "reading": "ふた",
+          "entry_ref": "1204540"
+        }
+      ]
+    },
+    {
+      "review_id": "CR266",
+      "sent_id": "reviewed:20261026:n2:CR266",
+      "focus_kanji": [
+        "附"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "大学に附属の高校がある。",
+      "translation": "There is a high school affiliated with the university.",
+      "ent_seq": "1602700",
+      "surface": "附属",
+      "reading": "ふぞく",
+      "target_form": "附属の",
+      "target_reading": "ふぞくの",
+      "tokens": [
+        {
+          "lemma": "大学",
+          "form": "大学",
+          "reading": "だいがく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "附属",
+          "form": "附属の",
+          "reading": "ふぞくの",
+          "entry_ref": "1602700"
+        },
+        {
+          "lemma": "高校",
+          "form": "高校",
+          "reading": "こうこう",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR267",
+      "sent_id": "reviewed:20261026:n2:CR267",
+      "focus_kanji": [
+        "但"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "参加は自由、但し予約が必要だ。",
+      "translation": "Anyone can join, provided you make a reservation.",
+      "ent_seq": "1416190",
+      "surface": "但し",
+      "reading": "ただし",
+      "target_form": "但し",
+      "target_reading": "ただし",
+      "tokens": [
+        {
+          "lemma": "参加",
+          "form": "参加",
+          "reading": "さんか",
+          "entry_ref": null
+        },
+        {
+          "lemma": "自由",
+          "form": "自由",
+          "reading": "じゆう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "但し",
+          "form": "但し",
+          "reading": "ただし",
+          "entry_ref": "1416190"
+        },
+        {
+          "lemma": "予約",
+          "form": "予約",
+          "reading": "よやく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "必要",
+          "form": "必要",
+          "reading": "ひつよう",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR268",
+      "sent_id": "reviewed:20261026:n2:CR268",
+      "focus_kanji": [
+        "貼"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "壁にポスターを貼った。",
+      "translation": "I put a poster on the wall.",
+      "ent_seq": "1427900",
+      "surface": "貼る",
+      "reading": "はる",
+      "target_form": "貼った",
+      "target_reading": "はった",
+      "tokens": [
+        {
+          "lemma": "壁",
+          "form": "壁",
+          "reading": "かべ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "貼る",
+          "form": "貼った",
+          "reading": "はった",
+          "entry_ref": "1427900"
+        }
+      ]
+    },
+    {
+      "review_id": "CR269",
+      "sent_id": "reviewed:20261026:n2:CR269",
+      "focus_kanji": [
+        "倣"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "前例に倣って手続きを進めた。",
+      "translation": "I proceeded with the paperwork following precedent.",
+      "ent_seq": "1599680",
+      "surface": "倣う",
+      "reading": "ならう",
+      "target_form": "倣って",
+      "target_reading": "ならって",
+      "tokens": [
+        {
+          "lemma": "前例",
+          "form": "前例",
+          "reading": "ぜんれい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "倣う",
+          "form": "倣って",
+          "reading": "ならって",
+          "entry_ref": "1599680"
+        },
+        {
+          "lemma": "手続き",
+          "form": "手続き",
+          "reading": "てつづき",
+          "entry_ref": null
+        },
+        {
+          "lemma": "進めた",
+          "form": "進めた",
+          "reading": "すすめた",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "CR270",
+      "sent_id": "reviewed:20261026:n2:CR270",
+      "focus_kanji": [
+        "煎"
+      ],
+      "source_sentence_id": "new draft",
+      "text": "フライパンでごまを軽く煎る。",
+      "translation": "Lightly toast the sesame seeds in a frying pan.",
+      "ent_seq": "1391500",
+      "surface": "煎る",
+      "reading": "いる",
+      "target_form": "煎る",
+      "target_reading": "いる",
+      "tokens": [
+        {
+          "lemma": "軽く",
+          "form": "軽く",
+          "reading": "かるく",
+          "entry_ref": null
+        },
+        {
+          "lemma": "煎る",
+          "form": "煎る",
+          "reading": "いる",
+          "entry_ref": "1391500"
+        }
+      ]
+    },
+    {
+      "review_id": "CR271",
+      "sent_id": "reviewed:20261026:n2:CR271",
+      "focus_kanji": [
+        "嗅"
+      ],
+      "source_sentence_id": "39021_201810",
+      "text": "犬が地面の匂いを嗅いだ。",
+      "translation": "The dog sniffed the ground.",
+      "ent_seq": "1565480",
+      "surface": "嗅ぐ",
+      "reading": "かぐ",
+      "target_form": "嗅いだ",
+      "target_reading": "かいだ",
+      "tokens": [
+        {
+          "lemma": "犬",
+          "form": "犬",
+          "reading": "いぬ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "地面",
+          "form": "地面",
+          "reading": "じめん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "匂い",
+          "form": "匂い",
+          "reading": "におい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "嗅ぐ",
+          "form": "嗅いだ",
+          "reading": "かいだ",
+          "entry_ref": "1565480"
+        }
+      ]
+    }
+  ]
+}

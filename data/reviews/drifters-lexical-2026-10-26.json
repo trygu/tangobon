@@ -3,7 +3,8 @@
     "reviewer": "Agent lexical preparation",
     "reviewed_at": "2026-10-26",
     "scope": "Lexical preparation of the user-selected quotations; not a human linguistic or rights sign-off.",
-    "source_sha256": "f3600738db52f0b0927ae812dec0de7e7830e8e7c31c13e062b2e490eecd02da"
+    "source_sha256": "6c2e9e790f0e9ea52c5d760b6c5fd8e447ea738b904611c5eb67be845f80fc66",
+    "previous_source_sha256": "f3600738db52f0b0927ae812dec0de7e7830e8e7c31c13e062b2e490eecd02da"
   },
   "items": [
     {
@@ -147,6 +148,32 @@
     {
       "id": "audience-shimura-ushiro",
       "reason": "Repeated 後ろ target and performer name; retained as source material, not an unambiguous quiz occurrence."
+    }
+  ],
+  "lexical_corrections": [
+    {
+      "date": "2026-10-26",
+      "phrase_id": "group-ending-chant",
+      "form": "入れよ",
+      "previous_lemma": "入れる",
+      "previous_reading": "いれよ",
+      "lemma": "入る",
+      "reading": "はいれよ",
+      "entry_ref": "1465590",
+      "reason": "Take a bath uses 入る/はいる imperative 入れ/はいれ plus sentence-final よ, not transitive 入れる/いれる.",
+      "origin": "Independent architect finding; agent verified dictionary identity and context"
+    },
+    {
+      "date": "2026-10-26",
+      "phrase_id": "kato-furo-ireyo",
+      "form": "入れよ",
+      "previous_lemma": "入れる",
+      "previous_reading": "いれよ",
+      "lemma": "入る",
+      "reading": "はいれよ",
+      "entry_ref": "1465590",
+      "reason": "Take a bath uses 入る/はいる imperative 入れ/はいれ plus sentence-final よ, not transitive 入れる/いれる.",
+      "origin": "Independent architect finding; agent verified dictionary identity and context"
     }
   ]
 }

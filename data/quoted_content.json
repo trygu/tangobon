@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/drifters-lexical-2026-10-26.json",
-  "review_sha256": "d128aa3d50fcff920b04b258246bdab94fd98976bf5e0c0b9d090655d6fa4676",
+  "review_sha256": "99fb7a398764c33527694a335df8f889f23c4a57ab1b197ed0bfbf1c261adbeb",
   "patches": [],
   "sentences": [
     {
@@ -81,10 +81,10 @@
           "entry_ref": "1500100"
         },
         {
-          "lemma": "入れる",
+          "lemma": "入る",
           "form": "入れよ",
-          "reading": "いれよ",
-          "entry_ref": null
+          "reading": "はいれよ",
+          "entry_ref": "1465590"
         },
         {
           "lemma": "頭",
@@ -179,10 +179,10 @@
           "entry_ref": "1500100"
         },
         {
-          "lemma": "入れる",
+          "lemma": "入る",
           "form": "入れよ",
-          "reading": "いれよ",
-          "entry_ref": null
+          "reading": "はいれよ",
+          "entry_ref": "1465590"
         }
       ]
     },

@@ -27,4 +27,8 @@ def test_quotes_join_normal_contracts_and_keep_provenance(tmp_path):
     assert conn.execute("SELECT lemma,form,reading FROM sentence_tokens WHERE sent_id=? ORDER BY pos", (sid,)).fetchall() == [
         ("秒", "秒", "びょう"), ("前", "前", "まえ")]
     assert conn.execute("SELECT reading FROM word WHERE ent_seq='1392580' AND surface='前'").fetchone() == ("まえ",)
+    for identity in ("group-ending-chant", "kato-furo-ireyo"):
+        assert conn.execute("SELECT lemma,reading,entry_ref FROM sentence_tokens WHERE sent_id=? AND form='入れよ'",
+                            ("quotation:drifters-80s:" + identity,)).fetchall() == [("入る", "はいれよ", "1465590")]
+    assert conn.execute("SELECT reading FROM word WHERE ent_seq='1465590' AND surface='入る'").fetchone() == ("はいる",)
     conn.close()

@@ -53,3 +53,10 @@ reviews/trygve-n4-submission-2026-10-25.txt
   snapshot: 2026-10-25, existing pinned dictionary/corpus snapshots unchanged
   authorship: project editorial curation with original candidate source IDs;
               retain underlying corpus attribution. No new rights grant inferred.
+Bath quotation annotation correction, 2026-10-26
+  content: group-ending-chant and kato-furo-ireyo retain their quoted Japanese
+           and English; 入れよ now binds 入る (entry1465590), readingはいれよ.
+           Canonical bonus readings and ordinary sentence tokens agree.
+  provenance: reviews/drifters-lexical-2026-10-26.json retains the prior source
+              hash and explicit correction history; CHECKSUMS updated.
+  scope: no snapshot re-fetch, schema change, curriculum exception or app rule.

@@ -270,7 +270,9 @@ build` and the default CLI build include this batch and the N5/N4/N3 batches.
 `data/reviews/drifters-lexical-2026-10-26.json` records source attribution,
 translations, lexical preparation and exclusions. This is agent preparation
 of the user-selected quotations, not a human linguistic or rights sign-off.
-The original 14-item bonus set remains unchanged provenance. Two repeated-target
+The original 14 quotations remain; bath-command reading annotations were corrected
+on26 October, with the prior source hash and correction history retained in the
+lexical preparation record. Two repeated-target
 phrases are excluded from quiz occurrence preparation; the long ending chant
 is available lexically but remains subject to the app's ordinary length limit.
 Pedagogical approvals and priority remain in the consuming app's catalog.

@@ -13,6 +13,7 @@ build:
 		--input-reviewed-content data/reviewed_content.json \
 		--input-reviewed-content data/reviewed_n4_content.json \
 		--input-reviewed-content data/reviewed_n3_content.json \
+		--input-reviewed-content data/quoted_content.json \
 		--db output/tangobon.sqlite
 
 stats:

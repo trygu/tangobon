@@ -1,0 +1,152 @@
+{
+  "review_metadata": {
+    "reviewer": "Agent lexical preparation",
+    "reviewed_at": "2026-10-26",
+    "scope": "Lexical preparation of the user-selected quotations; not a human linguistic or rights sign-off.",
+    "source_sha256": "f3600738db52f0b0927ae812dec0de7e7830e8e7c31c13e062b2e490eecd02da"
+  },
+  "items": [
+    {
+      "id": "ikaria-tsugi-itte-miyou",
+      "status": "answered",
+      "original_ja": "次いってみよう",
+      "original_en": "Next, let’s go!",
+      "occurrence_reading": "つぎ",
+      "target_surface": "次",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "いかりや長介",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "group-hachiji-dayo",
+      "status": "answered",
+      "original_ja": "8時だヨ！全員、集合〜！",
+      "original_en": "It’s eight o’clock! Everyone, gather round!",
+      "occurrence_reading": "じ",
+      "target_surface": "時",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "ザ・ドリフターズ（オープニング）",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "group-ending-chant",
+      "status": "answered",
+      "original_ja": "風邪ひくなよ～！お風呂入れよ～！頭洗えよ～！歯みがけよ～！宿題やれ～！また来週～！",
+      "original_en": "Don’t catch a cold! Take a bath! Wash your hair! Brush your teeth! Do your homework! See you next week!",
+      "occurrence_reading": "かぜ",
+      "target_surface": "風邪",
+      "source": "https://www.tbs.co.jp/tbs-ch/item/v2872/",
+      "speaker": "ザ・ドリフターズ（エンディング）",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "kato-ikkia-ni-okorareta",
+      "status": "answered",
+      "original_ja": "いっきやに怒られた",
+      "original_en": "I got scolded by Ikkiya.",
+      "occurrence_reading": "おこられた",
+      "target_surface": "怒られた",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "加藤茶",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "kato-furo-ireyo",
+      "status": "answered",
+      "original_ja": "風呂入れよ！",
+      "original_en": "Take a bath!",
+      "occurrence_reading": "ふろ",
+      "target_surface": "風呂",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "加藤茶",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "kato-itaino",
+      "status": "answered",
+      "original_ja": "痛いの痛いの飛んでけ〜",
+      "original_en": "Pain, pain, fly away!",
+      "occurrence_reading": "とんでけ",
+      "target_surface": "飛んでけ",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "加藤茶",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "kato-shimura-pikapika",
+      "status": "answered",
+      "original_ja": "ピカピカの一年生",
+      "original_en": "A sparkling new first-year student.",
+      "occurrence_reading": "いちねんせい",
+      "target_surface": "一年生",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "加藤茶・志村けん",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "kato-gobyomae",
+      "status": "answered",
+      "original_ja": "5秒前、4、3、2、1、デーン",
+      "original_en": "Five seconds to go: four, three, two, one—boom!",
+      "occurrence_reading": "まえ",
+      "target_surface": "前",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "加藤茶",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "kato-shimura-mou-sake",
+      "status": "answered",
+      "original_ja": "もう酒／やめますか？やめられない？",
+      "original_en": "Alcohol again? Will you quit? Can’t you quit?",
+      "occurrence_reading": "さけ",
+      "target_surface": "酒",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "加藤茶・志村けん",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "shimura-sore-wa-nai-daro",
+      "status": "answered",
+      "original_ja": "お前、それはないだろ〜！",
+      "original_en": "Come on, you can’t be serious!",
+      "occurrence_reading": "おまえ",
+      "target_surface": "お前",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "志村けん",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "shimura-isoshiha-goo",
+      "status": "answered",
+      "original_ja": "最初はグー",
+      "original_en": "Start with rock!",
+      "occurrence_reading": "さいしょ",
+      "target_surface": "最初",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "志村けん・仲本工事",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    },
+    {
+      "id": "shimura-karasu-no-katte",
+      "status": "answered",
+      "original_ja": "カラスなぜ泣くの カラスの勝手でしょ",
+      "original_en": "Why does the crow cry? Because it feels like it!",
+      "occurrence_reading": "なく",
+      "target_surface": "泣く",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "speaker": "志村けん",
+      "notes": "Exact source quotation; translation and token annotations prepared by agent. Source provenance flag alone is not linguistic approval."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "ikaria-kouhan-shuppatsu",
+      "reason": "Repeated target 後半. Source reading ごかん is incorrect; こうはん required. No ambiguous quiz target admitted."
+    },
+    {
+      "id": "audience-shimura-ushiro",
+      "reason": "Repeated 後ろ target and performer name; retained as source material, not an unambiguous quiz occurrence."
+    }
+  ]
+}

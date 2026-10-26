@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "source_review": "reviews/drifters-lexical-2026-10-26.json",
+  "review_sha256": "d128aa3d50fcff920b04b258246bdab94fd98976bf5e0c0b9d090655d6fa4676",
+  "patches": [],
+  "sentences": [
+    {
+      "review_id": "ikaria-tsugi-itte-miyou",
+      "sent_id": "quotation:drifters-80s:ikaria-tsugi-itte-miyou",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "次いってみよう",
+      "translation": "Next, let’s go!",
+      "ent_seq": "1316380",
+      "surface": "次",
+      "reading": "つぎ",
+      "target_form": "次",
+      "target_reading": "つぎ",
+      "tokens": [
+        {
+          "lemma": "次",
+          "form": "次",
+          "reading": "つぎ",
+          "entry_ref": "1316380"
+        }
+      ]
+    },
+    {
+      "review_id": "group-hachiji-dayo",
+      "sent_id": "quotation:drifters-80s:group-hachiji-dayo",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "8時だヨ！全員、集合〜！",
+      "translation": "It’s eight o’clock! Everyone, gather round!",
+      "ent_seq": "2020680",
+      "surface": "時",
+      "reading": "じ",
+      "target_form": "時",
+      "target_reading": "じ",
+      "tokens": [
+        {
+          "lemma": "時",
+          "form": "時",
+          "reading": "じ",
+          "entry_ref": "2020680"
+        },
+        {
+          "lemma": "全員",
+          "form": "全員",
+          "reading": "ぜんいん",
+          "entry_ref": "1394840"
+        },
+        {
+          "lemma": "集合",
+          "form": "集合",
+          "reading": "しゅうごう",
+          "entry_ref": "1333680"
+        }
+      ]
+    },
+    {
+      "review_id": "group-ending-chant",
+      "sent_id": "quotation:drifters-80s:group-ending-chant",
+      "source": "https://www.tbs.co.jp/tbs-ch/item/v2872/",
+      "text": "風邪ひくなよ～！お風呂入れよ～！頭洗えよ～！歯みがけよ～！宿題やれ～！また来週～！",
+      "translation": "Don’t catch a cold! Take a bath! Wash your hair! Brush your teeth! Do your homework! See you next week!",
+      "ent_seq": "1583720",
+      "surface": "風邪",
+      "reading": "かぜ",
+      "target_form": "風邪",
+      "target_reading": "かぜ",
+      "tokens": [
+        {
+          "lemma": "風邪",
+          "form": "風邪",
+          "reading": "かぜ",
+          "entry_ref": "1583720"
+        },
+        {
+          "lemma": "風呂",
+          "form": "風呂",
+          "reading": "ふろ",
+          "entry_ref": "1500100"
+        },
+        {
+          "lemma": "入れる",
+          "form": "入れよ",
+          "reading": "いれよ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "頭",
+          "form": "頭",
+          "reading": "あたま",
+          "entry_ref": "1582310"
+        },
+        {
+          "lemma": "洗う",
+          "form": "洗えよ",
+          "reading": "あらえよ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "歯",
+          "form": "歯",
+          "reading": "は",
+          "entry_ref": "1313000"
+        },
+        {
+          "lemma": "宿題",
+          "form": "宿題",
+          "reading": "しゅくだい",
+          "entry_ref": "1337270"
+        },
+        {
+          "lemma": "来週",
+          "form": "来週",
+          "reading": "らいしゅう",
+          "entry_ref": "1548010"
+        }
+      ]
+    },
+    {
+      "review_id": "kato-ikkia-ni-okorareta",
+      "sent_id": "quotation:drifters-80s:kato-ikkia-ni-okorareta",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "いっきやに怒られた",
+      "translation": "I got scolded by Ikkiya.",
+      "ent_seq": "1445690",
+      "surface": "怒る",
+      "reading": "おこる",
+      "target_form": "怒られた",
+      "target_reading": "おこられた",
+      "tokens": [
+        {
+          "lemma": "怒る",
+          "form": "怒られた",
+          "reading": "おこられた",
+          "entry_ref": "1445690"
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "怒",
+          "reading": "おこ",
+          "kind": "Kun’yomi"
+        },
+        {
+          "form": "ら",
+          "reading": "ら",
+          "kind": "Kana"
+        },
+        {
+          "form": "れ",
+          "reading": "れ",
+          "kind": "Kana"
+        },
+        {
+          "form": "た",
+          "reading": "た",
+          "kind": "Kana"
+        }
+      ]
+    },
+    {
+      "review_id": "kato-furo-ireyo",
+      "sent_id": "quotation:drifters-80s:kato-furo-ireyo",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "風呂入れよ！",
+      "translation": "Take a bath!",
+      "ent_seq": "1500100",
+      "surface": "風呂",
+      "reading": "ふろ",
+      "target_form": "風呂",
+      "target_reading": "ふろ",
+      "tokens": [
+        {
+          "lemma": "風呂",
+          "form": "風呂",
+          "reading": "ふろ",
+          "entry_ref": "1500100"
+        },
+        {
+          "lemma": "入れる",
+          "form": "入れよ",
+          "reading": "いれよ",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "kato-itaino",
+      "sent_id": "quotation:drifters-80s:kato-itaino",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "痛いの痛いの飛んでけ〜",
+      "translation": "Pain, pain, fly away!",
+      "ent_seq": "1429700",
+      "surface": "飛ぶ",
+      "reading": "とぶ",
+      "target_form": "飛んでけ",
+      "target_reading": "とんでけ",
+      "tokens": [
+        {
+          "lemma": "痛い",
+          "form": "痛い",
+          "reading": "いたい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "痛い",
+          "form": "痛い",
+          "reading": "いたい",
+          "entry_ref": null
+        },
+        {
+          "lemma": "飛ぶ",
+          "form": "飛んでけ",
+          "reading": "とんでけ",
+          "entry_ref": "1429700"
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "飛",
+          "reading": "と",
+          "kind": "Kun’yomi"
+        },
+        {
+          "form": "ん",
+          "reading": "ん",
+          "kind": "Kana"
+        },
+        {
+          "form": "で",
+          "reading": "で",
+          "kind": "Kana"
+        },
+        {
+          "form": "け",
+          "reading": "け",
+          "kind": "Kana"
+        }
+      ]
+    },
+    {
+      "review_id": "kato-shimura-pikapika",
+      "sent_id": "quotation:drifters-80s:kato-shimura-pikapika",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "ピカピカの一年生",
+      "translation": "A sparkling new first-year student.",
+      "ent_seq": "1165580",
+      "surface": "一年生",
+      "reading": "いちねんせい",
+      "target_form": "一年生",
+      "target_reading": "いちねんせい",
+      "tokens": [
+        {
+          "lemma": "一年生",
+          "form": "一年生",
+          "reading": "いちねんせい",
+          "entry_ref": "1165580"
+        }
+      ]
+    },
+    {
+      "review_id": "kato-gobyomae",
+      "sent_id": "quotation:drifters-80s:kato-gobyomae",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "5秒前、4、3、2、1、デーン",
+      "translation": "Five seconds to go: four, three, two, one—boom!",
+      "ent_seq": "1392580",
+      "surface": "前",
+      "reading": "まえ",
+      "target_form": "前",
+      "target_reading": "まえ",
+      "tokens": [
+        {
+          "lemma": "秒",
+          "form": "秒",
+          "reading": "びょう",
+          "entry_ref": "1490430"
+        },
+        {
+          "lemma": "前",
+          "form": "前",
+          "reading": "まえ",
+          "entry_ref": "1392580"
+        }
+      ]
+    },
+    {
+      "review_id": "kato-shimura-mou-sake",
+      "sent_id": "quotation:drifters-80s:kato-shimura-mou-sake",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "もう酒／やめますか？やめられない？",
+      "translation": "Alcohol again? Will you quit? Can’t you quit?",
+      "ent_seq": "1329010",
+      "surface": "酒",
+      "reading": "さけ",
+      "target_form": "酒",
+      "target_reading": "さけ",
+      "tokens": [
+        {
+          "lemma": "酒",
+          "form": "酒",
+          "reading": "さけ",
+          "entry_ref": "1329010"
+        }
+      ]
+    },
+    {
+      "review_id": "shimura-sore-wa-nai-daro",
+      "sent_id": "quotation:drifters-80s:shimura-sore-wa-nai-daro",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "お前、それはないだろ〜！",
+      "translation": "Come on, you can’t be serious!",
+      "ent_seq": "1002290",
+      "surface": "お前",
+      "reading": "おまえ",
+      "target_form": "お前",
+      "target_reading": "おまえ",
+      "tokens": [
+        {
+          "lemma": "お前",
+          "form": "お前",
+          "reading": "おまえ",
+          "entry_ref": "1002290"
+        }
+      ]
+    },
+    {
+      "review_id": "shimura-isoshiha-goo",
+      "sent_id": "quotation:drifters-80s:shimura-isoshiha-goo",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "最初はグー",
+      "translation": "Start with rock!",
+      "ent_seq": "1293990",
+      "surface": "最初",
+      "reading": "さいしょ",
+      "target_form": "最初",
+      "target_reading": "さいしょ",
+      "tokens": [
+        {
+          "lemma": "最初",
+          "form": "最初",
+          "reading": "さいしょ",
+          "entry_ref": "1293990"
+        }
+      ]
+    },
+    {
+      "review_id": "shimura-karasu-no-katte",
+      "sent_id": "quotation:drifters-80s:shimura-karasu-no-katte",
+      "source": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+      "text": "カラスなぜ泣くの カラスの勝手でしょ",
+      "translation": "Why does the crow cry? Because it feels like it!",
+      "ent_seq": "1229840",
+      "surface": "泣く",
+      "reading": "なく",
+      "target_form": "泣く",
+      "target_reading": "なく",
+      "tokens": [
+        {
+          "lemma": "泣く",
+          "form": "泣く",
+          "reading": "なく",
+          "entry_ref": "1229840"
+        },
+        {
+          "lemma": "勝手",
+          "form": "勝手",
+          "reading": "かって",
+          "entry_ref": "1346190"
+        }
+      ]
+    }
+  ]
+}

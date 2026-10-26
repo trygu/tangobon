@@ -259,3 +259,18 @@ The provenance digest links evidence to retained review material without grantin
 runtime privileges. `tests/test_verified_occurrences.py` checks opaque IDs,
 changed reviewer metadata, exact-entry binding and atomic rejection of malformed
 parts. Import success alone does not establish lesson suitability.
+# Quotation sentence integration (26 October 2026)
+
+`data/quoted_content.json` prepares 12 of the existing Drifters source quotations
+as ordinary `word_sentences`, `sentence_tokens` and `verified_occurrences` rows.
+It uses the existing generic editorial importer and exact dictionary entries;
+there is no source-name branch or app curriculum in the pipeline. Both `make
+build` and the default CLI build include this batch and the N5/N4/N3 batches.
+
+`data/reviews/drifters-lexical-2026-10-26.json` records source attribution,
+translations, lexical preparation and exclusions. This is agent preparation
+of the user-selected quotations, not a human linguistic or rights sign-off.
+The original 14-item bonus set remains unchanged provenance. Two repeated-target
+phrases are excluded from quiz occurrence preparation; the long ending chant
+is available lexically but remains subject to the app's ordinary length limit.
+Pedagogical approvals and priority remain in the consuming app's catalog.

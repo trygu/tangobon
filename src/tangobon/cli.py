@@ -19,7 +19,10 @@ def _cmd_build(args: argparse.Namespace) -> None:
     )
     stats = build_sqlite(
         Path(args.input_jmdict), Path(args.input_examples), Path(args.db),
-        jlpt_dir, bonus_dir, supplement, args.input_reviewed_content or ["data/reviewed_content.json", "data/reviewed_n4_content.json"],
+        jlpt_dir, bonus_dir, supplement, args.input_reviewed_content or [
+            "data/reviewed_content.json", "data/reviewed_n4_content.json",
+            "data/reviewed_n3_content.json", "data/quoted_content.json",
+        ],
     )
     print(f"Built {args.db}")
     for key in ("entries", "words", "words_with_examples", "sentences", "sentences_with_tokens", "tokens", "jlpt_words", "bonus_phrases", "supplemented_readings", "user_version"):

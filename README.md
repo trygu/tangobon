@@ -225,3 +225,19 @@ The supplied revised N5 answers are retained for provenance but are not imported
 CR026's approved normalization is 回らない/まわらない, with dictionary lemma
 回る/まわる. Target form/reading fields also preserve 進んでいる/すすんでいる
 separately from 進む/すすむ. All dictionary defaults remain unchanged.
+
+The N3 batch is `data/reviewed_n3_content.json`: 161 sentence pairs, CR050–CR210.
+`make build` applies N5, N4, then N3 (208 new reviewed sentences in total).
+The unchanged complete submission and normalized applied answers are retained
+under `data/reviews/`; hashes distinguish source from application. Twenty
+authorized shortened sentences fit the existing 26-character app limit. CR199
+uses the approved single-occurrence 粒 replacement. Seven changed targets are
+rebound to their actual written forms/readings; counters retain their dictionary
+lemma separately from the full occurrence. Context readings are agent
+transcriptions, not a claim of another human review.
+
+`uv run pytest tests/test_reviewed_n3.py` verifies the real snapshot import,
+exact occurrences, previous batches and unchanged dictionary defaults. The app
+also needs exact reviewed irregular-reading breakdowns; import success alone
+does not prove selectable exercises or safe ruby. The proposed 68-character
+N3→N1 move was withdrawn and is not encoded here.

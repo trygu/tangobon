@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "source": "https://www.edrdg.org/pub/Nihongo/JMnedict.xml.gz",
+  "retrieved_at": "2026-10-27",
+  "snapshot_sha256": "eb6d2015bbface016a62cd1cec342f06ca07893a8370cdb7aa8d883de256b17e",
+  "purpose": "Exact proper-name dictionary entries required by existing reviewed sentences; no fabricated lexical IDs.",
+  "entries_xml": [
+    "<entry>\n<ent_seq>5543705</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>たなか</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<name_type>place name</name_type>\n<trans_det>Tanaka</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5543706</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>たなた</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<trans_det>Tanata</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5543707</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>たんか</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<trans_det>Tanka</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5543708</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>だなか</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<trans_det>Danaka</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5543709</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>でんちゅう</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<name_type>given name or forename, gender not specified</name_type>\n<trans_det>Denchuu</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5543710</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>なたか</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<trans_det>Nataka</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5543711</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>ぬなか</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<trans_det>Nunaka</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5543712</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>のなか</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<trans_det>Nonaka</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5543713</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>ひろか</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<trans_det>Hiroka</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5543714</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>やなか</reb>\n</r_ele>\n<trans>\n<name_type>family or surname</name_type>\n<trans_det>Yanaka</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5640943</ent_seq>\n<k_ele>\n<keb>豊能</keb>\n</k_ele>\n<r_ele>\n<reb>とよの</reb>\n</r_ele>\n<trans>\n<name_type>place name</name_type>\n<name_type>family or surname</name_type>\n<trans_det>Toyono</trans_det>\n</trans>\n</entry>\n",
+    "<entry>\n<ent_seq>5747840</ent_seq>\n<k_ele>\n<keb>田中</keb>\n</k_ele>\n<r_ele>\n<reb>ティエンジョン</reb>\n</r_ele>\n<trans>\n<name_type>place name</name_type>\n<trans_det>Tianzhong (Taiwan)</trans_det>\n</trans>\n</entry>\n"
+  ]
+}

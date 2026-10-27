@@ -29,4 +29,4 @@ def test_n4_batch_and_n5_preservation(tmp_path):
             assert conn.execute("SELECT text,translation FROM sentence WHERE sent_id=?", (item["sent_id"],)).fetchone() == (item["text"], item["translation"])
         assert conn.execute("SELECT reading FROM word WHERE ent_seq='1311110' AND surface='私'").fetchone() == (None,)
         assert conn.execute("SELECT reading FROM word WHERE ent_seq='2842390' AND surface='私'").fetchone() == (None,)
-        assert conn.execute("PRAGMA user_version").fetchone()[0] == 1006
+        assert conn.execute("PRAGMA user_version").fetchone()[0] == 1007

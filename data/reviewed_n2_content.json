@@ -4062,9 +4062,15 @@
       "target_reading": "こん",
       "tokens": [
         {
-          "lemma": "面接用",
-          "form": "面接用",
-          "reading": "めんせつよう",
+          "lemma": "面接",
+          "form": "面接",
+          "reading": "めんせつ",
+          "entry_ref": null
+        },
+        {
+          "lemma": "用",
+          "form": "用",
+          "reading": "よう",
           "entry_ref": null
         },
         {
@@ -4290,9 +4296,9 @@
       "target_reading": "かわいた",
       "tokens": [
         {
-          "lemma": "腹",
-          "form": "腹",
-          "reading": "なか",
+          "lemma": "お腹",
+          "form": "お腹",
+          "reading": "おなか",
           "entry_ref": null
         },
         {
@@ -4501,9 +4507,9 @@
           "entry_ref": "1562970"
         },
         {
-          "lemma": "飯",
-          "form": "飯",
-          "reading": "はん",
+          "lemma": "ご飯",
+          "form": "ご飯",
+          "reading": "ごはん",
           "entry_ref": null
         },
         {

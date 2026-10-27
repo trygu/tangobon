@@ -2564,10 +2564,10 @@
           "entry_ref": null
         },
         {
-          "lemma": "降って",
+          "lemma": "降る",
           "form": "降って",
           "reading": "ふって",
-          "entry_ref": null
+          "entry_ref": "1282790"
         },
         {
           "lemma": "店",
@@ -3833,9 +3833,21 @@
           "entry_ref": null
         },
         {
-          "lemma": "三十度",
-          "form": "三十度",
-          "reading": "さんじゅうど",
+          "lemma": "三",
+          "form": "三",
+          "reading": "さん",
+          "entry_ref": null
+        },
+        {
+          "lemma": "十",
+          "form": "十",
+          "reading": "じゅう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "度",
+          "form": "度",
+          "reading": "ど",
           "entry_ref": null
         },
         {
@@ -6577,9 +6589,15 @@
       "target_reading": "かれて",
       "tokens": [
         {
-          "lemma": "旅行中",
-          "form": "旅行中",
-          "reading": "りょこうちゅう",
+          "lemma": "旅行",
+          "form": "旅行",
+          "reading": "りょこう",
+          "entry_ref": null
+        },
+        {
+          "lemma": "中",
+          "form": "中",
+          "reading": "ちゅう",
           "entry_ref": null
         },
         {

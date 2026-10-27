@@ -288,3 +288,23 @@ def test_jlpt_joins_to_word_table(conn):
         " WHERE j.word = '食べる' AND w.surface = '食べる'"
     ).fetchone()
     assert row is not None and row[0] == 5
+
+
+def test_context_ruby_never_uses_the_21_standalone_homographs(conn):
+    # The old form-first shortcut selected these unrelated pronunciations.
+    # Ambiguous/unsupported cases must stay missing, not become a first choice.
+    cases = [
+        ('来る','来','らい'),('難しい','難し','かたし'),('寒い','寒','かん'),
+        ('暑い','暑','しょ'),('若い','若く','しく'),('良い','良','りょう'),
+        ('寝る','寝','ぬ'),('早い','速','そく'),('引く','引き','びき'),
+        ('暗い','暗','あん'),('多い','多','た'),('賢い','賢','けん'),
+        ('愛する','愛し','はし'),('低い','低','てい'),('保つ','保ち','もち'),
+        ('越える','越え','ごえ'),('入り込む','入り込み','いりごみ'),
+        ('見る','観','かん'),('高い','高','こう'),('弱い','弱','じゃく'),
+        ('詰める','詰め','づめ')]
+    for lemma,form,wrong in cases:
+        rows=conn.execute('SELECT status,reading FROM sentence_token_readings WHERE lemma=? AND form=?',(lemma,form)).fetchall()
+        assert rows, (lemma,form,'fixture disappeared')
+        assert all(reading != wrong for _,reading in rows), (lemma,form,wrong)
+        assert all(reading is None for status,reading in rows if status!='resolved')
+    assert conn.execute("SELECT reading,status FROM sentence_token_readings WHERE sent_id='281338_122664' AND pos=6").fetchone()==('ひく','resolved')

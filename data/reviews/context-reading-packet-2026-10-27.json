@@ -1,0 +1,5276 @@
+[
+  {
+    "sent_id": "25652_188508",
+    "pos": 1,
+    "text": "その王がその国を治めていた。",
+    "lemma": "王",
+    "form": "王",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1629200",
+        "王",
+        "おう",
+        "おう"
+      ],
+      [
+        "1785780",
+        "王",
+        "おおきみ",
+        "おおきみ"
+      ],
+      [
+        "1785780",
+        "王",
+        "おおぎみ",
+        "おおぎみ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "国",
+    "prior_target": "国"
+  },
+  {
+    "sent_id": "281338_122664",
+    "pos": 0,
+    "text": "日本の天井は外国人には低すぎる。",
+    "lemma": "日本",
+    "form": "日本",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582710",
+        "日本",
+        "にっぽん",
+        "にっぽん"
+      ],
+      [
+        "1582710",
+        "日本",
+        "にほん",
+        "にほん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "外",
+    "prior_target": "外国人"
+  },
+  {
+    "sent_id": "303549_100148",
+    "pos": 2,
+    "text": "彼は壁に本棚を取り付けた。",
+    "lemma": "壁",
+    "form": "壁",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1509290",
+        "壁",
+        "かべ",
+        "かべ"
+      ],
+      [
+        "1509290",
+        "壁",
+        "へき",
+        "へき"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "本",
+    "prior_target": "本棚"
+  },
+  {
+    "sent_id": "263935_150623",
+    "pos": 4,
+    "text": "時間が刻々と迫っている。",
+    "lemma": "迫る",
+    "form": "迫っている",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1475720",
+        "迫る",
+        "せまる",
+        "せまっている"
+      ],
+      [
+        "1475720",
+        "迫る",
+        "せる",
+        "せっている"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "間",
+    "prior_target": "時間"
+  },
+  {
+    "sent_id": "64585_227236",
+    "pos": 2,
+    "text": "お金は明日返すよ。",
+    "lemma": "明日",
+    "form": "明日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1584660",
+        "明日",
+        "あした",
+        "あした"
+      ],
+      [
+        "1584660",
+        "明日",
+        "あす",
+        "あす"
+      ],
+      [
+        "1584660",
+        "明日",
+        "みょうにち",
+        "みょうにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "返",
+    "prior_target": "返す"
+  },
+  {
+    "sent_id": "318783_84930",
+    "pos": 0,
+    "text": "富士山は日本で一番高い山です。",
+    "lemma": "富士山",
+    "form": "富士山",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1496800",
+        "富士山",
+        "ふじさん",
+        "ふじさん"
+      ],
+      [
+        "1496800",
+        "富士山",
+        "ふじやま",
+        "ふじやま"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "高",
+    "prior_target": "高い"
+  },
+  {
+    "sent_id": "318783_84930",
+    "pos": 2,
+    "text": "富士山は日本で一番高い山です。",
+    "lemma": "日本",
+    "form": "日本",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582710",
+        "日本",
+        "にっぽん",
+        "にっぽん"
+      ],
+      [
+        "1582710",
+        "日本",
+        "にほん",
+        "にほん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "高",
+    "prior_target": "高い"
+  },
+  {
+    "sent_id": "57635_220315",
+    "pos": 3,
+    "text": "この動物は日本語で何と言いますか。",
+    "lemma": "日本語",
+    "form": "日本語",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1464530",
+        "日本語",
+        "にっぽんご",
+        "にっぽんご"
+      ],
+      [
+        "1464530",
+        "日本語",
+        "にほんご",
+        "にほんご"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "言",
+    "prior_target": "言います"
+  },
+  {
+    "sent_id": "242939_171537",
+    "pos": 0,
+    "text": "今日が天気ならいいのに。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "天",
+    "prior_target": "天気"
+  },
+  {
+    "sent_id": "248190_166314",
+    "pos": 0,
+    "text": "私たちはたらふく食べた。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "食",
+    "prior_target": "食べた"
+  },
+  {
+    "sent_id": "265623_148935",
+    "pos": 0,
+    "text": "車を買うために貯金をしている。",
+    "lemma": "車",
+    "form": "車",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1323080",
+        "車",
+        "くるま",
+        "くるま"
+      ],
+      [
+        "2773260",
+        "車",
+        "しゃ",
+        "しゃ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "買",
+    "prior_target": "買う"
+  },
+  {
+    "sent_id": "248496_166008",
+    "pos": 0,
+    "text": "私たちは会場の後ろに座った。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "場",
+    "prior_target": "会場"
+  },
+  {
+    "sent_id": "256501_158029",
+    "pos": 6,
+    "text": "私は家の中で何かが動くのを感じた。",
+    "lemma": "何か",
+    "form": "何か",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1188270",
+        "何か",
+        "なにか",
+        "なにか"
+      ],
+      [
+        "1188270",
+        "何か",
+        "なんか",
+        "なんか"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "動",
+    "prior_target": "動く"
+  },
+  {
+    "sent_id": "275833_137403",
+    "pos": 3,
+    "text": "大体君と同じ年頃の若い娘だった。",
+    "lemma": "同じ",
+    "form": "同じ",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1451750",
+        "同じ",
+        "おなじ",
+        "おなじ"
+      ],
+      [
+        "1451750",
+        "同じ",
+        "おんなじ",
+        "おんなじ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "体",
+    "prior_target": "大体"
+  },
+  {
+    "sent_id": "248930_165575",
+    "pos": 0,
+    "text": "私たちは数回会合を持った。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "持",
+    "prior_target": "持った"
+  },
+  {
+    "sent_id": "324119_79598",
+    "pos": 4,
+    "text": "野菜の値段は日々変わる。",
+    "lemma": "日々",
+    "form": "日々",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1602120",
+        "日々",
+        "にちにち",
+        "にちにち"
+      ],
+      [
+        "1602120",
+        "日々",
+        "ひび",
+        "ひび"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "野",
+    "prior_target": "野菜"
+  },
+  {
+    "sent_id": "281540_122463",
+    "pos": 0,
+    "text": "日本は産業国である。",
+    "lemma": "日本",
+    "form": "日本",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582710",
+        "日本",
+        "にっぽん",
+        "にっぽん"
+      ],
+      [
+        "1582710",
+        "日本",
+        "にほん",
+        "にほん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "産",
+    "prior_target": "産業"
+  },
+  {
+    "sent_id": "287478_116191",
+    "pos": 0,
+    "text": "彼の文章はとても主観的だ。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "章",
+    "prior_target": "文章",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "266257_148302",
+    "pos": 0,
+    "text": "囚人は拷問で死んだ。",
+    "lemma": "囚人",
+    "form": "囚人",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1330470",
+        "囚人",
+        "しゅうじん",
+        "しゅうじん"
+      ],
+      [
+        "1330470",
+        "囚人",
+        "めしうど",
+        "めしうど"
+      ],
+      [
+        "1330470",
+        "囚人",
+        "めしゅうど",
+        "めしゅうど"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "死",
+    "prior_target": "死んだ"
+  },
+  {
+    "sent_id": "58143_220822",
+    "pos": 1,
+    "text": "この川の流れは急だ。",
+    "lemma": "川",
+    "form": "川",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1390020",
+        "川",
+        "かわ",
+        "かわ"
+      ],
+      [
+        "1390020",
+        "川",
+        "がわ",
+        "がわ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "急",
+    "prior_target": "急"
+  },
+  {
+    "sent_id": "523820_221309",
+    "pos": 3,
+    "text": "この手紙を日本に送ってくれませんか。",
+    "lemma": "日本",
+    "form": "日本",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582710",
+        "日本",
+        "にっぽん",
+        "にっぽん"
+      ],
+      [
+        "1582710",
+        "日本",
+        "にほん",
+        "にほん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "送",
+    "prior_target": "送って"
+  },
+  {
+    "sent_id": "73353_235972",
+    "pos": 0,
+    "text": "１１時の列車に乗るつもりです。",
+    "lemma": "時",
+    "form": "時の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "じ",
+    "source_entry": null,
+    "prior_focus": "乗",
+    "prior_target": "乗る",
+    "dictionary_pairs": [
+      [
+        "1315840",
+        "時",
+        "とき"
+      ],
+      [
+        "2020680",
+        "時",
+        "じ"
+      ],
+      [
+        "2273940",
+        "時",
+        "どき"
+      ]
+    ]
+  },
+  {
+    "sent_id": "298949_104741",
+    "pos": 7,
+    "text": "彼は質問するために手を挙げた。",
+    "lemma": "上げる",
+    "form": "挙げた",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "質",
+    "prior_target": "質問",
+    "dictionary_pairs": [
+      [
+        "1352320",
+        "上げる",
+        "あげる"
+      ]
+    ]
+  },
+  {
+    "sent_id": "259156_155382",
+    "pos": 2,
+    "text": "私は祖母が大好きです。",
+    "lemma": "祖母",
+    "form": "祖母",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1396860",
+        "祖母",
+        "うば",
+        "うば"
+      ],
+      [
+        "1396860",
+        "祖母",
+        "おおば",
+        "おおば"
+      ],
+      [
+        "1396860",
+        "祖母",
+        "おば",
+        "おば"
+      ],
+      [
+        "1396860",
+        "祖母",
+        "そぼ",
+        "そぼ"
+      ],
+      [
+        "1396860",
+        "祖母",
+        "ばば",
+        "ばば"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "好",
+    "prior_target": "大好き"
+  },
+  {
+    "sent_id": "59852_222523",
+    "pos": 1,
+    "text": "この机は私にはちょっと低い。",
+    "lemma": "机",
+    "form": "机",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1220210",
+        "机",
+        "つき",
+        "つき"
+      ],
+      [
+        "1220210",
+        "机",
+        "つくえ",
+        "つくえ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "低",
+    "prior_target": "低い"
+  },
+  {
+    "sent_id": "280881_123119",
+    "pos": 0,
+    "text": "二人の医者が医学の話をしていた。",
+    "lemma": "二人",
+    "form": "二人",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582670",
+        "二人",
+        "ににん",
+        "ににん"
+      ],
+      [
+        "1582670",
+        "二人",
+        "ふたり",
+        "ふたり"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "医",
+    "prior_target": "医学"
+  },
+  {
+    "sent_id": "327580_76138",
+    "pos": 0,
+    "text": "今日は漢字の書き取りがある。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "漢",
+    "prior_target": "漢字"
+  },
+  {
+    "sent_id": "268363_146199",
+    "pos": 3,
+    "text": "上部前方で何かが光っている。",
+    "lemma": "何か",
+    "form": "何か",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1188270",
+        "何か",
+        "なにか",
+        "なにか"
+      ],
+      [
+        "1188270",
+        "何か",
+        "なんか",
+        "なんか"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "光",
+    "prior_target": "光っている"
+  },
+  {
+    "sent_id": "275424_137812",
+    "pos": 2,
+    "text": "台風が勢いを増した。",
+    "lemma": "勢い",
+    "form": "勢い",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1375040",
+        "勢い",
+        "いきおい",
+        "いきおい"
+      ],
+      [
+        "1375040",
+        "勢い",
+        "いきよい",
+        "いきよい"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "風",
+    "prior_target": "台風"
+  },
+  {
+    "sent_id": "32650_226939",
+    "pos": 0,
+    "text": "お前はまだ「青い」な。",
+    "lemma": "お前",
+    "form": "お前",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1002290",
+        "お前",
+        "おまい",
+        "おまい"
+      ],
+      [
+        "1002290",
+        "お前",
+        "おまえ",
+        "おまえ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "青",
+    "prior_target": "青い"
+  },
+  {
+    "sent_id": "64311_226963",
+    "pos": 0,
+    "text": "お前に新しい洋服を作ってあげよう。",
+    "lemma": "お前",
+    "form": "お前",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1002290",
+        "お前",
+        "おまい",
+        "おまい"
+      ],
+      [
+        "1002290",
+        "お前",
+        "おまえ",
+        "おまえ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "服",
+    "prior_target": "洋服"
+  },
+  {
+    "sent_id": "272210_142360",
+    "pos": 6,
+    "text": "石が池に波紋を描いた。",
+    "lemma": "描く",
+    "form": "描いた",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1583460",
+        "描く",
+        "えがく",
+        "えがいた"
+      ],
+      [
+        "1583460",
+        "描く",
+        "かく",
+        "かいた"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "池",
+    "prior_target": "池"
+  },
+  {
+    "sent_id": "269678_144886",
+    "pos": 5,
+    "text": "神経細胞は弱い刺激に反応する。",
+    "lemma": "反応",
+    "form": "反応",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1480210",
+        "反応",
+        "はんおう",
+        "はんおう"
+      ],
+      [
+        "1480210",
+        "反応",
+        "はんのう",
+        "はんのう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "弱",
+    "prior_target": "弱い"
+  },
+  {
+    "sent_id": "19502_182323",
+    "pos": 0,
+    "text": "牛は我々に牛乳を与えてくれる。",
+    "lemma": "牛",
+    "form": "牛",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1231490",
+        "牛",
+        "うし",
+        "うし"
+      ],
+      [
+        "1231490",
+        "牛",
+        "ぎゅう",
+        "ぎゅう"
+      ],
+      [
+        "2085820",
+        "牛",
+        "ぎゅう",
+        "ぎゅう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "乳",
+    "prior_target": "牛乳"
+  },
+  {
+    "sent_id": "49672_212388",
+    "pos": 3,
+    "text": "その位置に誰を選ぶか考えがありますか。",
+    "lemma": "誰",
+    "form": "誰",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1416830",
+        "誰",
+        "だあれ",
+        "だあれ"
+      ],
+      [
+        "1416830",
+        "誰",
+        "だれ",
+        "だれ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "選",
+    "prior_target": "選ぶ"
+  },
+  {
+    "sent_id": "503853_150948",
+    "pos": 2,
+    "text": "歯医者に行く必要はないですよ。",
+    "lemma": "行く",
+    "form": "行く",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1578850",
+        "行く",
+        "いく",
+        "いく"
+      ],
+      [
+        "1578850",
+        "行く",
+        "ゆく",
+        "ゆく"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "必",
+    "prior_target": "必要"
+  },
+  {
+    "sent_id": "321819_81896",
+    "pos": 2,
+    "text": "僕は今日この機械を試験するつもりです。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "械",
+    "prior_target": "機械"
+  },
+  {
+    "sent_id": "71141_233766",
+    "pos": 4,
+    "text": "あなたにはそこに行く権利がない。",
+    "lemma": "行く",
+    "form": "行く",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1578850",
+        "行く",
+        "いく",
+        "いく"
+      ],
+      [
+        "1578850",
+        "行く",
+        "ゆく",
+        "ゆく"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "権",
+    "prior_target": "権利"
+  },
+  {
+    "sent_id": "287011_116657",
+    "pos": 0,
+    "text": "彼の説明は要点を外れています。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "点",
+    "prior_target": "要点",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "327574_76144",
+    "pos": 0,
+    "text": "今日の活動は、これでお開き。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "活",
+    "prior_target": "活動"
+  },
+  {
+    "sent_id": "280920_123080",
+    "pos": 0,
+    "text": "二人の反目の原因は金だ。",
+    "lemma": "二人",
+    "form": "二人",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582670",
+        "二人",
+        "ににん",
+        "ににん"
+      ],
+      [
+        "1582670",
+        "二人",
+        "ふたり",
+        "ふたり"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "原",
+    "prior_target": "原因"
+  },
+  {
+    "sent_id": "248622_165882",
+    "pos": 0,
+    "text": "私たちは結婚を前提として交際しています。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "際",
+    "prior_target": "交際"
+  },
+  {
+    "sent_id": "28279_191119",
+    "pos": 2,
+    "text": "委員は全員出席している。",
+    "lemma": "全員",
+    "form": "全員",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1394840",
+        "全員",
+        "ぜいいん",
+        "ぜいいん"
+      ],
+      [
+        "1394840",
+        "全員",
+        "ぜんいん",
+        "ぜんいん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "委",
+    "prior_target": "委員"
+  },
+  {
+    "sent_id": "322190_81525",
+    "pos": 0,
+    "text": "本当に参りましたね。",
+    "lemma": "本当に",
+    "form": "本当に",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1611580",
+        "本当に",
+        "ほんとうに",
+        "ほんとうに"
+      ],
+      [
+        "1611580",
+        "本当に",
+        "ほんとに",
+        "ほんとに"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "参",
+    "prior_target": "参りました"
+  },
+  {
+    "sent_id": "249346_165160",
+    "pos": 0,
+    "text": "私たちは平和を求めている。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "求",
+    "prior_target": "求めている"
+  },
+  {
+    "sent_id": "249346_165160",
+    "pos": 2,
+    "text": "私たちは平和を求めている。",
+    "lemma": "平和",
+    "form": "平和",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1508070",
+        "平和",
+        "へいわ",
+        "へいわ"
+      ],
+      [
+        "2749750",
+        "平和",
+        "ぴんふ",
+        "ぴんふ"
+      ],
+      [
+        "2749750",
+        "平和",
+        "ぴんほー",
+        "ぴんほー"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "求",
+    "prior_target": "求めている"
+  },
+  {
+    "sent_id": "280937_123063",
+    "pos": 0,
+    "text": "二人は同じ結論に到達した。",
+    "lemma": "二人",
+    "form": "二人",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582670",
+        "二人",
+        "ににん",
+        "ににん"
+      ],
+      [
+        "1582670",
+        "二人",
+        "ふたり",
+        "ふたり"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "論",
+    "prior_target": "結論"
+  },
+  {
+    "sent_id": "280937_123063",
+    "pos": 2,
+    "text": "二人は同じ結論に到達した。",
+    "lemma": "同じ",
+    "form": "同じ",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1451750",
+        "同じ",
+        "おなじ",
+        "おなじ"
+      ],
+      [
+        "1451750",
+        "同じ",
+        "おんなじ",
+        "おんなじ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "論",
+    "prior_target": "結論"
+  },
+  {
+    "sent_id": "295250_108436",
+    "pos": 4,
+    "text": "彼は給料の良い会社に変わった。",
+    "lemma": "良い",
+    "form": "良い",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1605820",
+        "良い",
+        "えい",
+        "えい"
+      ],
+      [
+        "1605820",
+        "良い",
+        "よい",
+        "よい"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "変",
+    "prior_target": "変わった"
+  },
+  {
+    "sent_id": "70615_233244",
+    "pos": 4,
+    "text": "あなたの時計は明日までには直しておきますよ。",
+    "lemma": "明日",
+    "form": "明日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1584660",
+        "明日",
+        "あした",
+        "あした"
+      ],
+      [
+        "1584660",
+        "明日",
+        "あす",
+        "あす"
+      ],
+      [
+        "1584660",
+        "明日",
+        "みょうにち",
+        "みょうにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "直",
+    "prior_target": "直して"
+  },
+  {
+    "sent_id": "298316_105373",
+    "pos": 2,
+    "text": "彼は事故でその式に出席できなかった。",
+    "lemma": "事故",
+    "form": "事故",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1313850",
+        "事故",
+        "ことゆえ",
+        "ことゆえ"
+      ],
+      [
+        "1313850",
+        "事故",
+        "じこ",
+        "じこ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "式",
+    "prior_target": "式"
+  },
+  {
+    "sent_id": "237909_176555",
+    "pos": 8,
+    "text": "契約の内容について弁護士が交渉団に助言を与えた。",
+    "lemma": "助言",
+    "form": "助言",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1580230",
+        "助言",
+        "じょげん",
+        "じょげん"
+      ],
+      [
+        "1580230",
+        "助言",
+        "じょごん",
+        "じょごん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "容",
+    "prior_target": "内容"
+  },
+  {
+    "sent_id": "20668_183544",
+    "pos": 2,
+    "text": "喜んでご招待に応じます。",
+    "lemma": "招待",
+    "form": "招待",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1349610",
+        "招待",
+        "しょうたい",
+        "しょうたい"
+      ],
+      [
+        "1349610",
+        "招待",
+        "しょうだい",
+        "しょうだい"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "応",
+    "prior_target": "応じます"
+  },
+  {
+    "sent_id": "33561_196384",
+    "pos": 2,
+    "text": "僕の言葉をまだ疑っているんですか。",
+    "lemma": "言葉",
+    "form": "言葉",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1264540",
+        "言葉",
+        "けとば",
+        "けとば"
+      ],
+      [
+        "1264540",
+        "言葉",
+        "ことば",
+        "ことば"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "疑",
+    "prior_target": "疑っている"
+  },
+  {
+    "sent_id": "48154_210883",
+    "pos": 1,
+    "text": "その古家はひどい状態であった。",
+    "lemma": "古家",
+    "form": "古家",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1265170",
+        "古家",
+        "こか",
+        "こか"
+      ],
+      [
+        "1265170",
+        "古家",
+        "ふるいえ",
+        "ふるいえ"
+      ],
+      [
+        "1265170",
+        "古家",
+        "ふるえ",
+        "ふるえ"
+      ],
+      [
+        "1265170",
+        "古家",
+        "ふるや",
+        "ふるや"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "状",
+    "prior_target": "状態"
+  },
+  {
+    "sent_id": "4496353_186714",
+    "pos": 4,
+    "text": "火災の理由は何か。",
+    "lemma": "何か",
+    "form": "何か",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1188270",
+        "何か",
+        "なにか",
+        "なにか"
+      ],
+      [
+        "1188270",
+        "何か",
+        "なんか",
+        "なんか"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "災",
+    "prior_target": "火災"
+  },
+  {
+    "sent_id": "264381_150176",
+    "pos": 0,
+    "text": "治療よりも予防。",
+    "lemma": "治療",
+    "form": "治療",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1316890",
+        "治療",
+        "じりょう",
+        "じりょう"
+      ],
+      [
+        "1316890",
+        "治療",
+        "ちりょう",
+        "ちりょう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "防",
+    "prior_target": "予防"
+  },
+  {
+    "sent_id": "284015_119647",
+    "pos": 6,
+    "text": "彼が仲裁してその場は丸く収めた。",
+    "lemma": "丸い",
+    "form": "丸く",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1604230",
+        "丸い",
+        "まるい",
+        "まるく"
+      ],
+      [
+        "1604230",
+        "丸い",
+        "まろい",
+        "まろく"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "収",
+    "prior_target": "収めた"
+  },
+  {
+    "sent_id": "300488_103205",
+    "pos": 2,
+    "text": "彼は生死の境をさ迷った。",
+    "lemma": "生死",
+    "form": "生死",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1379060",
+        "生死",
+        "しょうし",
+        "しょうし"
+      ],
+      [
+        "1379060",
+        "生死",
+        "しょうじ",
+        "しょうじ"
+      ],
+      [
+        "1379060",
+        "生死",
+        "せいし",
+        "せいし"
+      ],
+      [
+        "1829780",
+        "生死",
+        "いきしに",
+        "いきしに"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "境",
+    "prior_target": "境"
+  },
+  {
+    "sent_id": "249396_165110",
+    "pos": 0,
+    "text": "私たちは毎年展覧会を開く。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "覧",
+    "prior_target": "展覧会"
+  },
+  {
+    "sent_id": "249396_165110",
+    "pos": 2,
+    "text": "私たちは毎年展覧会を開く。",
+    "lemma": "毎年",
+    "form": "毎年",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1584360",
+        "毎年",
+        "まいとし",
+        "まいとし"
+      ],
+      [
+        "1584360",
+        "毎年",
+        "まいねん",
+        "まいねん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "覧",
+    "prior_target": "展覧会"
+  },
+  {
+    "sent_id": "389526_86286",
+    "pos": 2,
+    "text": "彼女は両親から独立している。",
+    "lemma": "両親",
+    "form": "両親",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1602710",
+        "両親",
+        "ふたおや",
+        "ふたおや"
+      ],
+      [
+        "1602710",
+        "両親",
+        "りょうしん",
+        "りょうしん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "独",
+    "prior_target": "独立"
+  },
+  {
+    "sent_id": "72961_235580",
+    "pos": 4,
+    "text": "２０人の警官が現場に現れた。",
+    "lemma": "現場",
+    "form": "現場",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1263760",
+        "現場",
+        "げんじょう",
+        "げんじょう"
+      ],
+      [
+        "1263760",
+        "現場",
+        "げんば",
+        "げんば"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "警",
+    "prior_target": "警官"
+  },
+  {
+    "sent_id": "260189_154354",
+    "pos": 6,
+    "text": "私は彼とは訪問し合う仲だ。",
+    "lemma": "合う",
+    "form": "合う",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1284430",
+        "合う",
+        "あう",
+        "あう"
+      ],
+      [
+        "1284430",
+        "合う",
+        "おう",
+        "おう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "訪",
+    "prior_target": "訪問"
+  },
+  {
+    "sent_id": "249192_151347",
+    "pos": 0,
+    "text": "私達は彼に少しケーキを残してあげた。",
+    "lemma": "私たち",
+    "form": "私達",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私達",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私達",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "残",
+    "prior_target": "残して"
+  },
+  {
+    "sent_id": "23010_185878",
+    "pos": 2,
+    "text": "我々は言葉によって思想を表現する。",
+    "lemma": "言葉",
+    "form": "言葉",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1264540",
+        "言葉",
+        "けとば",
+        "けとば"
+      ],
+      [
+        "1264540",
+        "言葉",
+        "ことば",
+        "ことば"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "想",
+    "prior_target": "思想"
+  },
+  {
+    "sent_id": "267094_147466",
+    "pos": 3,
+    "text": "暑い日は冷たいビールに限る。",
+    "lemma": "冷たい",
+    "form": "冷たい",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1556730",
+        "冷たい",
+        "つべたい",
+        "つべたい"
+      ],
+      [
+        "1556730",
+        "冷たい",
+        "つめたい",
+        "つめたい"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "限",
+    "prior_target": "限る"
+  },
+  {
+    "sent_id": "275399_137837",
+    "pos": 0,
+    "text": "台所でお母さんの手伝いをしていたの。",
+    "lemma": "台所",
+    "form": "台所",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1412640",
+        "台所",
+        "だいどこ",
+        "だいどこ"
+      ],
+      [
+        "1412640",
+        "台所",
+        "だいどころ",
+        "だいどころ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "伝",
+    "prior_target": "手伝い"
+  },
+  {
+    "sent_id": "276294_136942",
+    "pos": 0,
+    "text": "誰が営業部を担当しているのですか。",
+    "lemma": "誰",
+    "form": "誰",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1416830",
+        "誰",
+        "だあれ",
+        "だあれ"
+      ],
+      [
+        "1416830",
+        "誰",
+        "だれ",
+        "だれ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "担",
+    "prior_target": "担当"
+  },
+  {
+    "sent_id": "48003_210733",
+    "pos": 1,
+    "text": "その工場は玩具を製造している。",
+    "lemma": "工場",
+    "form": "工場",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1578700",
+        "工場",
+        "こうじょう",
+        "こうじょう"
+      ],
+      [
+        "1578700",
+        "工場",
+        "こうば",
+        "こうば"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "造",
+    "prior_target": "製造"
+  },
+  {
+    "sent_id": "328839_74880",
+    "pos": 0,
+    "text": "風邪を人に移すと治るって本当？",
+    "lemma": "風邪",
+    "form": "風邪",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1583720",
+        "風邪",
+        "かぜ",
+        "かぜ"
+      ],
+      [
+        "1583720",
+        "風邪",
+        "ふうじゃ",
+        "ふうじゃ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "移",
+    "prior_target": "移す"
+  },
+  {
+    "sent_id": "328839_74880",
+    "pos": 8,
+    "text": "風邪を人に移すと治るって本当？",
+    "lemma": "本当",
+    "form": "本当",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1523060",
+        "本当",
+        "ほんと",
+        "ほんと"
+      ],
+      [
+        "1523060",
+        "本当",
+        "ほんとう",
+        "ほんとう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "移",
+    "prior_target": "移す"
+  },
+  {
+    "sent_id": "66633_229275",
+    "pos": 4,
+    "text": "いかに粗末であろうとも、我が家は我が家である。",
+    "lemma": "我が家",
+    "form": "我が家",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1606650",
+        "我が家",
+        "わがいえ",
+        "わがいえ"
+      ],
+      [
+        "1606650",
+        "我が家",
+        "わがや",
+        "わがや"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "末",
+    "prior_target": "粗末"
+  },
+  {
+    "sent_id": "66633_229275",
+    "pos": 6,
+    "text": "いかに粗末であろうとも、我が家は我が家である。",
+    "lemma": "我が家",
+    "form": "我が家",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1606650",
+        "我が家",
+        "わがいえ",
+        "わがいえ"
+      ],
+      [
+        "1606650",
+        "我が家",
+        "わがや",
+        "わがや"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "末",
+    "prior_target": "粗末"
+  },
+  {
+    "sent_id": "296617_107069",
+    "pos": 2,
+    "text": "彼は今日外野を守っている。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "守",
+    "prior_target": "守っている"
+  },
+  {
+    "sent_id": "286714_116953",
+    "pos": 0,
+    "text": "彼の助言は命令も同然だ。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "命",
+    "prior_target": "命令",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "286714_116953",
+    "pos": 1,
+    "text": "彼の助言は命令も同然だ。",
+    "lemma": "助言",
+    "form": "助言",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1580230",
+        "助言",
+        "じょげん",
+        "じょげん"
+      ],
+      [
+        "1580230",
+        "助言",
+        "じょごん",
+        "じょごん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "命",
+    "prior_target": "命令"
+  },
+  {
+    "sent_id": "320929_82787",
+    "pos": 2,
+    "text": "母親は赤ん坊をベッドに横にした。",
+    "lemma": "赤ん坊",
+    "form": "赤ん坊",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1383310",
+        "赤ん坊",
+        "あかんぼ",
+        "あかんぼ"
+      ],
+      [
+        "1383310",
+        "赤ん坊",
+        "あかんぼう",
+        "あかんぼう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "横",
+    "prior_target": "横"
+  },
+  {
+    "sent_id": "276094_137142",
+    "pos": 2,
+    "text": "谷は彼の呼び声でこだました。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "谷",
+    "prior_target": "谷",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "25230_188091",
+    "pos": 0,
+    "text": "何がそんなに不満ですか。",
+    "lemma": "何",
+    "form": "何",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1577100",
+        "何",
+        "なに",
+        "なに"
+      ],
+      [
+        "2846738",
+        "何",
+        "なん",
+        "なん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "満",
+    "prior_target": "不満"
+  },
+  {
+    "sent_id": "265418_149140",
+    "pos": 0,
+    "text": "車がトラックに衝突した。",
+    "lemma": "車",
+    "form": "車",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1323080",
+        "車",
+        "くるま",
+        "くるま"
+      ],
+      [
+        "2773260",
+        "車",
+        "しゃ",
+        "しゃ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "衝",
+    "prior_target": "衝突"
+  },
+  {
+    "sent_id": "25394_188253",
+    "pos": 0,
+    "text": "音楽家は一般に批評に敏感である。",
+    "lemma": "音楽家",
+    "form": "音楽家",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1649500",
+        "音楽家",
+        "おんがくか",
+        "おんがくか"
+      ],
+      [
+        "1649500",
+        "音楽家",
+        "おんがっか",
+        "おんがっか"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "批",
+    "prior_target": "批評"
+  },
+  {
+    "sent_id": "248153_166350",
+    "pos": 0,
+    "text": "私たちはその部屋の中央に座った。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "央",
+    "prior_target": "中央"
+  },
+  {
+    "sent_id": "62596_225260",
+    "pos": 0,
+    "text": "今朝は露が降りた。",
+    "lemma": "今朝",
+    "form": "今朝",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579100",
+        "今朝",
+        "けさ",
+        "けさ"
+      ],
+      [
+        "1579100",
+        "今朝",
+        "こんちょう",
+        "こんちょう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "降",
+    "prior_target": "降りた"
+  },
+  {
+    "sent_id": "243158_236817",
+    "pos": 0,
+    "text": "今年は事業が５０％拡大した。",
+    "lemma": "今年",
+    "form": "今年",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579130",
+        "今年",
+        "ことし",
+        "ことし"
+      ],
+      [
+        "1579130",
+        "今年",
+        "こんねん",
+        "こんねん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "拡",
+    "prior_target": "拡大"
+  },
+  {
+    "sent_id": "58837_221513",
+    "pos": 4,
+    "text": "この辞書は簡約版だ。",
+    "lemma": "版",
+    "form": "版",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1481480",
+        "版",
+        "はん",
+        "はん"
+      ],
+      [
+        "1481480",
+        "版",
+        "ばん",
+        "ばん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "辞",
+    "prior_target": "辞書"
+  },
+  {
+    "sent_id": "42972_205727",
+    "pos": 1,
+    "text": "それで事故の原因が分かった。",
+    "lemma": "事故",
+    "form": "事故",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1313850",
+        "事故",
+        "ことゆえ",
+        "ことゆえ"
+      ],
+      [
+        "1313850",
+        "事故",
+        "じこ",
+        "じこ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "因",
+    "prior_target": "原因"
+  },
+  {
+    "sent_id": "54671_217362",
+    "pos": 5,
+    "text": "こんな荒れ模様の日に外出するなんて君は馬鹿だよ。",
+    "lemma": "外出",
+    "form": "外出",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1203800",
+        "外出",
+        "がいしゅつ",
+        "がいしゅつ"
+      ],
+      [
+        "1203800",
+        "外出",
+        "そとで",
+        "そとで"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "鹿",
+    "prior_target": "馬鹿"
+  },
+  {
+    "sent_id": "281607_122396",
+    "pos": 0,
+    "text": "日本は貿易に頼っている。",
+    "lemma": "日本",
+    "form": "日本",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582710",
+        "日本",
+        "にっぽん",
+        "にっぽん"
+      ],
+      [
+        "1582710",
+        "日本",
+        "にほん",
+        "にほん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "貿",
+    "prior_target": "貿易"
+  },
+  {
+    "sent_id": "631764_631762",
+    "pos": 0,
+    "text": "今年タイ航空は５０周年記念を祝います。",
+    "lemma": "今年",
+    "form": "今年",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579130",
+        "今年",
+        "ことし",
+        "ことし"
+      ],
+      [
+        "1579130",
+        "今年",
+        "こんねん",
+        "こんねん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "祝",
+    "prior_target": "祝います"
+  },
+  {
+    "sent_id": "247437_167065",
+    "pos": 0,
+    "text": "私たちの家は快適ですが、やっぱり前の家がなつかしい。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "適",
+    "prior_target": "快適"
+  },
+  {
+    "sent_id": "271705_142864",
+    "pos": 2,
+    "text": "清潔は日本人の習性だ。",
+    "lemma": "日本人",
+    "form": "日本人",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1464700",
+        "日本人",
+        "にっぽんじん",
+        "にっぽんじん"
+      ],
+      [
+        "1464700",
+        "日本人",
+        "にほんじん",
+        "にほんじん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "潔",
+    "prior_target": "清潔"
+  },
+  {
+    "sent_id": "243108_171367",
+    "pos": 0,
+    "text": "今年の冬は気温が平均以上だ。",
+    "lemma": "今年",
+    "form": "今年",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579130",
+        "今年",
+        "ことし",
+        "ことし"
+      ],
+      [
+        "1579130",
+        "今年",
+        "こんねん",
+        "こんねん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "均",
+    "prior_target": "平均"
+  },
+  {
+    "sent_id": "23911_186775",
+    "pos": 5,
+    "text": "歌舞伎は古くからの日本の芸術だ。",
+    "lemma": "日本",
+    "form": "日本",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582710",
+        "日本",
+        "にっぽん",
+        "にっぽん"
+      ],
+      [
+        "1582710",
+        "日本",
+        "にほん",
+        "にほん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "芸",
+    "prior_target": "芸術"
+  },
+  {
+    "sent_id": "913535_188002",
+    "pos": 0,
+    "text": "何が起こるか予測できない。",
+    "lemma": "何",
+    "form": "何",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1577100",
+        "何",
+        "なに",
+        "なに"
+      ],
+      [
+        "2846738",
+        "何",
+        "なん",
+        "なん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "測",
+    "prior_target": "予測"
+  },
+  {
+    "sent_id": "324140_79578",
+    "pos": 0,
+    "text": "矢が厚い板を貫通した。",
+    "lemma": "矢",
+    "form": "矢",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1537760",
+        "矢",
+        "さ",
+        "さ"
+      ],
+      [
+        "1537760",
+        "矢",
+        "や",
+        "や"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "板",
+    "prior_target": "板"
+  },
+  {
+    "sent_id": "249214_236826",
+    "pos": 0,
+    "text": "私たちは彼の順番をわざと飛ばした。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "順",
+    "prior_target": "順番"
+  },
+  {
+    "sent_id": "249214_236826",
+    "pos": 2,
+    "text": "私たちは彼の順番をわざと飛ばした。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "順",
+    "prior_target": "順番",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "67782_230415",
+    "pos": 5,
+    "text": "あの老人は食べ物に難しい。",
+    "lemma": "難しい",
+    "form": "難しい",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1460850",
+        "難しい",
+        "むずかしい",
+        "むずかしい"
+      ],
+      [
+        "1460850",
+        "難しい",
+        "むつかしい",
+        "むつかしい"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "老",
+    "prior_target": "老人"
+  },
+  {
+    "sent_id": "247655_166847",
+    "pos": 0,
+    "text": "私たちの庭には２本の桜の木があります。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "庭",
+    "prior_target": "庭"
+  },
+  {
+    "sent_id": "248624_165880",
+    "pos": 0,
+    "text": "私たちは血がつながっている。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "血",
+    "prior_target": "血"
+  },
+  {
+    "sent_id": "57068_219748",
+    "pos": 5,
+    "text": "この本の著者は誰ですか。",
+    "lemma": "誰",
+    "form": "誰",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1416830",
+        "誰",
+        "だあれ",
+        "だあれ"
+      ],
+      [
+        "1416830",
+        "誰",
+        "だれ",
+        "だれ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "著",
+    "prior_target": "著者"
+  },
+  {
+    "sent_id": "247502_167000",
+    "pos": 0,
+    "text": "私たちの計画に賛成してくれますか。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "賛",
+    "prior_target": "賛成"
+  },
+  {
+    "sent_id": "246164_168329",
+    "pos": 2,
+    "text": "市長は私達の願いを聞き入れてくれた。",
+    "lemma": "私たち",
+    "form": "私達",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私達",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私達",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "願",
+    "prior_target": "願い"
+  },
+  {
+    "sent_id": "25256_188117",
+    "pos": 0,
+    "text": "何かが足に触れるのを感じた。",
+    "lemma": "何か",
+    "form": "何か",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1188270",
+        "何か",
+        "なにか",
+        "なにか"
+      ],
+      [
+        "1188270",
+        "何か",
+        "なんか",
+        "なんか"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "触",
+    "prior_target": "触れる"
+  },
+  {
+    "sent_id": "63405_226066",
+    "pos": 4,
+    "text": "ぎこちない笑いをした店員が答えた。",
+    "lemma": "店員",
+    "form": "店員",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1440670",
+        "店員",
+        "ていいん",
+        "ていいん"
+      ],
+      [
+        "1440670",
+        "店員",
+        "てんいん",
+        "てんいん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "笑",
+    "prior_target": "笑い"
+  },
+  {
+    "sent_id": "266250_148309",
+    "pos": 0,
+    "text": "囚人が牢獄から逃げた。",
+    "lemma": "囚人",
+    "form": "囚人",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1330470",
+        "囚人",
+        "しゅうじん",
+        "しゅうじん"
+      ],
+      [
+        "1330470",
+        "囚人",
+        "めしうど",
+        "めしうど"
+      ],
+      [
+        "1330470",
+        "囚人",
+        "めしゅうど",
+        "めしゅうど"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "逃",
+    "prior_target": "逃げた"
+  },
+  {
+    "sent_id": "67907_230540",
+    "pos": 5,
+    "text": "あの店は８人の店員を雇っている。",
+    "lemma": "店員",
+    "form": "店員",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1440670",
+        "店員",
+        "ていいん",
+        "ていいん"
+      ],
+      [
+        "1440670",
+        "店員",
+        "てんいん",
+        "てんいん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "雇",
+    "prior_target": "雇っている"
+  },
+  {
+    "sent_id": "61067_223731",
+    "pos": 5,
+    "text": "このコンピューターの操作は難しい。",
+    "lemma": "難しい",
+    "form": "難しい",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1460850",
+        "難しい",
+        "むずかしい",
+        "むずかしい"
+      ],
+      [
+        "1460850",
+        "難しい",
+        "むつかしい",
+        "むつかしい"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "操",
+    "prior_target": "操作"
+  },
+  {
+    "sent_id": "71827_234451",
+    "pos": 0,
+    "text": "明日は晴れるだろう。",
+    "lemma": "明日",
+    "form": "明日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1584660",
+        "明日",
+        "あした",
+        "あした"
+      ],
+      [
+        "1584660",
+        "明日",
+        "あす",
+        "あす"
+      ],
+      [
+        "1584660",
+        "明日",
+        "みょうにち",
+        "みょうにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "晴",
+    "prior_target": "晴れる"
+  },
+  {
+    "sent_id": "45848_142199",
+    "pos": 0,
+    "text": "赤ん坊は１日中寝ていた。",
+    "lemma": "赤ん坊",
+    "form": "赤ん坊",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1383310",
+        "赤ん坊",
+        "あかんぼ",
+        "あかんぼ"
+      ],
+      [
+        "1383310",
+        "赤ん坊",
+        "あかんぼう",
+        "あかんぼう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "寝",
+    "prior_target": "寝ていた"
+  },
+  {
+    "sent_id": "287910_115760",
+    "pos": 0,
+    "text": "彼の話は単純そのものだった。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "純",
+    "prior_target": "単純",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "242815_171660",
+    "pos": 0,
+    "text": "今日は汗ばむような陽気だ。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "陽",
+    "prior_target": "陽気"
+  },
+  {
+    "sent_id": "282248_121757",
+    "pos": 3,
+    "text": "悩んでも何の利益にもならない。",
+    "lemma": "利益",
+    "form": "利益",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1549470",
+        "利益",
+        "りえき",
+        "りえき"
+      ],
+      [
+        "1549470",
+        "利益",
+        "りやく",
+        "りやく"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "悩",
+    "prior_target": "悩んで"
+  },
+  {
+    "sent_id": "243034_171440",
+    "pos": 0,
+    "text": "今日歯医者へ行きました。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "歯",
+    "prior_target": "歯医者"
+  },
+  {
+    "sent_id": "243034_171440",
+    "pos": 3,
+    "text": "今日歯医者へ行きました。",
+    "lemma": "行く",
+    "form": "行きました",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1578850",
+        "行く",
+        "いく",
+        "いきました"
+      ],
+      [
+        "1578850",
+        "行く",
+        "ゆく",
+        "ゆきました"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "歯",
+    "prior_target": "歯医者"
+  },
+  {
+    "sent_id": "243057_171417",
+    "pos": 0,
+    "text": "今日忘れ物をした。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "忘",
+    "prior_target": "忘れ物"
+  },
+  {
+    "sent_id": "407195_203358",
+    "pos": 1,
+    "text": "たぶん、明日は雪が降るだろう。",
+    "lemma": "明日",
+    "form": "明日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1584660",
+        "明日",
+        "あした",
+        "あした"
+      ],
+      [
+        "1584660",
+        "明日",
+        "あす",
+        "あす"
+      ],
+      [
+        "1584660",
+        "明日",
+        "みょうにち",
+        "みょうにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "雪",
+    "prior_target": "雪"
+  },
+  {
+    "sent_id": "248746_237466",
+    "pos": 0,
+    "text": "私たちは昨日防火訓練をした。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "訓",
+    "prior_target": "訓練"
+  },
+  {
+    "sent_id": "248746_237466",
+    "pos": 2,
+    "text": "私たちは昨日防火訓練をした。",
+    "lemma": "昨日",
+    "form": "昨日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579260",
+        "昨日",
+        "きのう",
+        "きのう"
+      ],
+      [
+        "1579260",
+        "昨日",
+        "さくじつ",
+        "さくじつ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "訓",
+    "prior_target": "訓練"
+  },
+  {
+    "sent_id": "285900_117764",
+    "pos": 0,
+    "text": "彼の胸は期待に弾んだ。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "胸",
+    "prior_target": "胸",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "243612_170868",
+    "pos": 4,
+    "text": "砂漠の真ん中で私たちの車はガス欠になった。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "漠",
+    "prior_target": "砂漠"
+  },
+  {
+    "sent_id": "329566_74154",
+    "pos": 0,
+    "text": "東京ミッドタウンは緑がいっぱい！",
+    "lemma": "東京",
+    "form": "東京",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1447690",
+        "東京",
+        "とうきょう",
+        "とうきょう"
+      ],
+      [
+        "1447690",
+        "東京",
+        "とうけい",
+        "とうけい"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "緑",
+    "prior_target": "緑"
+  },
+  {
+    "sent_id": "61628_224293",
+    "pos": 3,
+    "text": "ここは昔、畑だった。",
+    "lemma": "畑",
+    "form": "畑",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1476520",
+        "畑",
+        "はた",
+        "はた"
+      ],
+      [
+        "1476520",
+        "畑",
+        "はたけ",
+        "はたけ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "昔",
+    "prior_target": "昔"
+  },
+  {
+    "sent_id": "259667_154872",
+    "pos": 2,
+    "text": "私は東京の郊外に住んでいる。",
+    "lemma": "東京",
+    "form": "東京",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1447690",
+        "東京",
+        "とうきょう",
+        "とうきょう"
+      ],
+      [
+        "1447690",
+        "東京",
+        "とうけい",
+        "とうけい"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "郊",
+    "prior_target": "郊外"
+  },
+  {
+    "sent_id": "248269_166235",
+    "pos": 0,
+    "text": "私たちはパリ・オペラ座の踊りのレッスンを見ています。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "踊",
+    "prior_target": "踊り"
+  },
+  {
+    "sent_id": "260763_153779",
+    "pos": 2,
+    "text": "私は彼の勇気に驚愕した。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "勇",
+    "prior_target": "勇気",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "55499_218188",
+    "pos": 5,
+    "text": "これは珍しい種類の魚です。",
+    "lemma": "魚",
+    "form": "魚",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1578010",
+        "魚",
+        "うお",
+        "うお"
+      ],
+      [
+        "1578010",
+        "魚",
+        "さかな",
+        "さかな"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "珍",
+    "prior_target": "珍しい"
+  },
+  {
+    "sent_id": "262811_151744",
+    "pos": 0,
+    "text": "私達はついに頂上へたどり着いた。",
+    "lemma": "私たち",
+    "form": "私達",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私達",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私達",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "頂",
+    "prior_target": "頂上"
+  },
+  {
+    "sent_id": "reviewed:trygve:20261026:n3:CR114",
+    "pos": 2,
+    "text": "急に雨が降ってきたので、お店の軒下で雨宿りした。",
+    "lemma": "降って",
+    "form": "降って",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "ふって",
+    "source_entry": null,
+    "prior_focus": "軒",
+    "prior_target": "軒",
+    "dictionary_pairs": [
+      [
+        "2257460",
+        "降って",
+        "くだって"
+      ]
+    ]
+  },
+  {
+    "sent_id": "59688_222361",
+    "pos": 1,
+    "text": "この魚は毒がない。",
+    "lemma": "魚",
+    "form": "魚",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1578010",
+        "魚",
+        "うお",
+        "うお"
+      ],
+      [
+        "1578010",
+        "魚",
+        "さかな",
+        "さかな"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "毒",
+    "prior_target": "毒"
+  },
+  {
+    "sent_id": "273213_141358",
+    "pos": 0,
+    "text": "川は泥で濁っていた。",
+    "lemma": "川",
+    "form": "川",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1390020",
+        "川",
+        "かわ",
+        "かわ"
+      ],
+      [
+        "1390020",
+        "川",
+        "がわ",
+        "がわ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "濁",
+    "prior_target": "濁っていた"
+  },
+  {
+    "sent_id": "21357_184229",
+    "pos": 2,
+    "text": "学生は読書の技能を磨くべきだ。",
+    "lemma": "読書",
+    "form": "読書",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1456420",
+        "読書",
+        "とくしょ",
+        "とくしょ"
+      ],
+      [
+        "1456420",
+        "読書",
+        "どくしょ",
+        "どくしょ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "磨",
+    "prior_target": "磨く"
+  },
+  {
+    "sent_id": "58463_221141",
+    "pos": 3,
+    "text": "この小麦は粉にされる。",
+    "lemma": "粉",
+    "form": "粉",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1504770",
+        "粉",
+        "こ",
+        "こ"
+      ],
+      [
+        "1504770",
+        "粉",
+        "こな",
+        "こな"
+      ],
+      [
+        "2072450",
+        "粉",
+        "でしめーとる",
+        "でしめーとる"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "麦",
+    "prior_target": "小麦"
+  },
+  {
+    "sent_id": "242947_171528",
+    "pos": 0,
+    "text": "今日は曇っている。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "曇",
+    "prior_target": "曇っている"
+  },
+  {
+    "sent_id": "281360_122642",
+    "pos": 0,
+    "text": "日本の企業は階級性を重要視する。",
+    "lemma": "日本",
+    "form": "日本",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582710",
+        "日本",
+        "にっぽん",
+        "にっぽん"
+      ],
+      [
+        "1582710",
+        "日本",
+        "にほん",
+        "にほん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "企",
+    "prior_target": "企業"
+  },
+  {
+    "sent_id": "287282_116387",
+    "pos": 0,
+    "text": "彼の日々の振る舞いは彼の主義主張と合致していない。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "義",
+    "prior_target": "主義",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "287282_116387",
+    "pos": 1,
+    "text": "彼の日々の振る舞いは彼の主義主張と合致していない。",
+    "lemma": "日々",
+    "form": "日々",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1602120",
+        "日々",
+        "にちにち",
+        "にちにち"
+      ],
+      [
+        "1602120",
+        "日々",
+        "ひび",
+        "ひび"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "義",
+    "prior_target": "主義"
+  },
+  {
+    "sent_id": "287282_116387",
+    "pos": 5,
+    "text": "彼の日々の振る舞いは彼の主義主張と合致していない。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "義",
+    "prior_target": "主義",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "242564_171912",
+    "pos": 0,
+    "text": "今日の催しのチケットはありますか。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "催",
+    "prior_target": "催し"
+  },
+  {
+    "sent_id": "248524_165980",
+    "pos": 0,
+    "text": "私たちは学校で早めに弁当を食べた。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "弁",
+    "prior_target": "弁当"
+  },
+  {
+    "sent_id": "24727_187590",
+    "pos": 0,
+    "text": "何をするにも順序を踏んでやりなさい。",
+    "lemma": "何",
+    "form": "何",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1577100",
+        "何",
+        "なに",
+        "なに"
+      ],
+      [
+        "2846738",
+        "何",
+        "なん",
+        "なん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "踏",
+    "prior_target": "踏んで"
+  },
+  {
+    "sent_id": "22226_185095",
+    "pos": 0,
+    "text": "海は各種の資源を与えてくれる。",
+    "lemma": "海",
+    "form": "海",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1201190",
+        "海",
+        "うみ",
+        "うみ"
+      ],
+      [
+        "1201190",
+        "海",
+        "み",
+        "み"
+      ],
+      [
+        "1201190",
+        "海",
+        "わた",
+        "わた"
+      ],
+      [
+        "1201190",
+        "海",
+        "わだ",
+        "わだ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "源",
+    "prior_target": "資源"
+  },
+  {
+    "sent_id": "59507_222182",
+    "pos": 3,
+    "text": "この劇は三幕からなる。",
+    "lemma": "三",
+    "form": "三",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579350",
+        "三",
+        "さん",
+        "さん"
+      ],
+      [
+        "1579350",
+        "三",
+        "み",
+        "み"
+      ],
+      [
+        "2747950",
+        "三",
+        "さん",
+        "さん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "幕",
+    "prior_target": "幕"
+  },
+  {
+    "sent_id": "285795_117869",
+    "pos": 0,
+    "text": "彼の額の傷は目立つ。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "傷",
+    "prior_target": "傷",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "323537_80180",
+    "pos": 3,
+    "text": "毛深いまゆ毛が彼の顔の特徴だった。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "徴",
+    "prior_target": "特徴",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "51365_214074",
+    "pos": 2,
+    "text": "セーターが洗濯で縮んだ。",
+    "lemma": "洗濯",
+    "form": "洗濯",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1390980",
+        "洗濯",
+        "せんたく",
+        "せんたく"
+      ],
+      [
+        "1390980",
+        "洗濯",
+        "せんだく",
+        "せんだく"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "縮",
+    "prior_target": "縮んだ"
+  },
+  {
+    "sent_id": "4496353_186714",
+    "pos": 2,
+    "text": "火災の理由は何か。",
+    "lemma": "理由",
+    "form": "理由",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1550140",
+        "理由",
+        "りゆう",
+        "りゆう"
+      ],
+      [
+        "1550140",
+        "理由",
+        "わけ",
+        "わけ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "災",
+    "prior_target": "火災"
+  },
+  {
+    "sent_id": "305031_98669",
+    "pos": 2,
+    "text": "彼らが眠っている間私がハンドルを握った。",
+    "lemma": "眠る",
+    "form": "眠っている",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1529390",
+        "眠る",
+        "ねぶる",
+        "ねぶっている"
+      ],
+      [
+        "1529390",
+        "眠る",
+        "ねむる",
+        "ねむっている"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "握",
+    "prior_target": "握った"
+  },
+  {
+    "sent_id": "256813_157718",
+    "pos": 6,
+    "text": "私は貴方が汽車で行くことを勧めます。",
+    "lemma": "行く",
+    "form": "行く",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1578850",
+        "行く",
+        "いく",
+        "いく"
+      ],
+      [
+        "1578850",
+        "行く",
+        "ゆく",
+        "ゆく"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "汽",
+    "prior_target": "汽車"
+  },
+  {
+    "sent_id": "263235_151321",
+    "pos": 0,
+    "text": "私達は彼を議長に推薦した。",
+    "lemma": "私たち",
+    "form": "私達",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私達",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私達",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "薦",
+    "prior_target": "推薦"
+  },
+  {
+    "sent_id": "277030_127060",
+    "pos": 4,
+    "text": "知事は委員会の反応に驚いた。",
+    "lemma": "反応",
+    "form": "反応",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1480210",
+        "反応",
+        "はんおう",
+        "はんおう"
+      ],
+      [
+        "1480210",
+        "反応",
+        "はんのう",
+        "はんのう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "驚",
+    "prior_target": "驚いた"
+  },
+  {
+    "sent_id": "32809_195635",
+    "pos": 2,
+    "text": "まずご両親に話してみるのが順序というものだろう。",
+    "lemma": "両親",
+    "form": "両親",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1602710",
+        "両親",
+        "ふたおや",
+        "ふたおや"
+      ],
+      [
+        "1602710",
+        "両親",
+        "りょうしん",
+        "りょうしん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "序",
+    "prior_target": "順序"
+  },
+  {
+    "sent_id": "72371_234994",
+    "pos": 0,
+    "text": "７月の上旬は、海に行くのは早いかな？",
+    "lemma": "七月",
+    "form": "７月",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1319280",
+        "７月",
+        "しちがつ",
+        "しちがつ"
+      ],
+      [
+        "1319280",
+        "７月",
+        "なながつ",
+        "なながつ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "旬",
+    "prior_target": "上旬"
+  },
+  {
+    "sent_id": "72371_234994",
+    "pos": 4,
+    "text": "７月の上旬は、海に行くのは早いかな？",
+    "lemma": "海",
+    "form": "海",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1201190",
+        "海",
+        "うみ",
+        "うみ"
+      ],
+      [
+        "1201190",
+        "海",
+        "み",
+        "み"
+      ],
+      [
+        "1201190",
+        "海",
+        "わた",
+        "わた"
+      ],
+      [
+        "1201190",
+        "海",
+        "わだ",
+        "わだ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "旬",
+    "prior_target": "上旬"
+  },
+  {
+    "sent_id": "72371_234994",
+    "pos": 6,
+    "text": "７月の上旬は、海に行くのは早いかな？",
+    "lemma": "行く",
+    "form": "行く",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1578850",
+        "行く",
+        "いく",
+        "いく"
+      ],
+      [
+        "1578850",
+        "行く",
+        "ゆく",
+        "ゆく"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "旬",
+    "prior_target": "上旬"
+  },
+  {
+    "sent_id": "328771_74948",
+    "pos": 0,
+    "text": "今日は、ばーさんのお使いを兼ねて街で買い物。",
+    "lemma": "今日",
+    "form": "今日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579110",
+        "今日",
+        "きょう",
+        "きょう"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんじつ",
+        "こんじつ"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんち",
+        "こんち"
+      ],
+      [
+        "1579110",
+        "今日",
+        "こんにち",
+        "こんにち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "兼",
+    "prior_target": "兼ねて"
+  },
+  {
+    "sent_id": "328771_74948",
+    "pos": 9,
+    "text": "今日は、ばーさんのお使いを兼ねて街で買い物。",
+    "lemma": "買い物",
+    "form": "買い物",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1589730",
+        "買い物",
+        "かいもの",
+        "かいもの"
+      ],
+      [
+        "1589730",
+        "買い物",
+        "かいもん",
+        "かいもん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "兼",
+    "prior_target": "兼ねて"
+  },
+  {
+    "sent_id": "28380_191219",
+    "pos": 0,
+    "text": "以下は大統領の演説の要旨だ。",
+    "lemma": "以下",
+    "form": "以下",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1155060",
+        "以下",
+        "いか",
+        "いか"
+      ],
+      [
+        "1155060",
+        "以下",
+        "いげ",
+        "いげ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "旨",
+    "prior_target": "要旨"
+  },
+  {
+    "sent_id": "72728_235350",
+    "pos": 2,
+    "text": "３ヶ月すれば、私たちの新しい校舎が完成するでしょう。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "舎",
+    "prior_target": "校舎"
+  },
+  {
+    "sent_id": "1973021_164973",
+    "pos": 0,
+    "text": "私たち自身が部屋を飾ったのです。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "飾",
+    "prior_target": "飾った"
+  },
+  {
+    "sent_id": "287843_115827",
+    "pos": 0,
+    "text": "彼の話し方が嫌なの。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "嫌",
+    "prior_target": "嫌",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "439010_439009",
+    "pos": 0,
+    "text": "日本は唯一の被爆国である。",
+    "lemma": "日本",
+    "form": "日本",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1582710",
+        "日本",
+        "にっぽん",
+        "にっぽん"
+      ],
+      [
+        "1582710",
+        "日本",
+        "にほん",
+        "にほん"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "唯",
+    "prior_target": "唯一"
+  },
+  {
+    "sent_id": "324147_79571",
+    "pos": 6,
+    "text": "矢印が進むべき方向を指示する。",
+    "lemma": "指示",
+    "form": "指示",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1309800",
+        "指示",
+        "しし",
+        "しし"
+      ],
+      [
+        "1309800",
+        "指示",
+        "しじ",
+        "しじ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "矢",
+    "prior_target": "矢印"
+  },
+  {
+    "sent_id": "19510_182330",
+    "pos": 0,
+    "text": "牛が牧場で草を食べている。",
+    "lemma": "牛",
+    "form": "牛",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1231490",
+        "牛",
+        "うし",
+        "うし"
+      ],
+      [
+        "1231490",
+        "牛",
+        "ぎゅう",
+        "ぎゅう"
+      ],
+      [
+        "2085820",
+        "牛",
+        "ぎゅう",
+        "ぎゅう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "牧",
+    "prior_target": "牧場"
+  },
+  {
+    "sent_id": "260322_154221",
+    "pos": 8,
+    "text": "私は彼にどこへ駐車したら良いか尋ねた。",
+    "lemma": "良い",
+    "form": "良い",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1605820",
+        "良い",
+        "えい",
+        "えい"
+      ],
+      [
+        "1605820",
+        "良い",
+        "よい",
+        "よい"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "尋",
+    "prior_target": "尋ねた"
+  },
+  {
+    "sent_id": "37416_200215",
+    "pos": 9,
+    "text": "トムが玄関にいるのでなかに入るように言ってください。",
+    "lemma": "言う",
+    "form": "言って",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1587040",
+        "言う",
+        "いう",
+        "いって"
+      ],
+      [
+        "1587040",
+        "言う",
+        "ゆう",
+        "ゆって"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "玄",
+    "prior_target": "玄関"
+  },
+  {
+    "sent_id": "25481_226934",
+    "pos": 0,
+    "text": "お前は恩を仇で返したな。",
+    "lemma": "お前",
+    "form": "お前",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1002290",
+        "お前",
+        "おまい",
+        "おまい"
+      ],
+      [
+        "1002290",
+        "お前",
+        "おまえ",
+        "おまえ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "恩",
+    "prior_target": "恩"
+  },
+  {
+    "sent_id": "239772_174696",
+    "pos": 0,
+    "text": "言葉の意味は文脈によって変わりうる。",
+    "lemma": "言葉",
+    "form": "言葉",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1264540",
+        "言葉",
+        "けとば",
+        "けとば"
+      ],
+      [
+        "1264540",
+        "言葉",
+        "ことば",
+        "ことば"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "脈",
+    "prior_target": "文脈"
+  },
+  {
+    "sent_id": "274320_140253",
+    "pos": 2,
+    "text": "騒音が彼の睡眠を妨げた。",
+    "lemma": "彼",
+    "form": "彼の",
+    "status": "unsupported",
+    "candidates": [],
+    "source_reading": "かれ",
+    "source_entry": null,
+    "prior_focus": "妨",
+    "prior_target": "妨げた",
+    "dictionary_pairs": [
+      [
+        "1000580",
+        "彼",
+        "あれ"
+      ],
+      [
+        "1483070",
+        "彼",
+        "かれ"
+      ],
+      [
+        "2845746",
+        "彼",
+        "かの"
+      ]
+    ]
+  },
+  {
+    "sent_id": "22225_185094",
+    "pos": 0,
+    "text": "海は鏡のようになめらかだった。",
+    "lemma": "海",
+    "form": "海",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1201190",
+        "海",
+        "うみ",
+        "うみ"
+      ],
+      [
+        "1201190",
+        "海",
+        "み",
+        "み"
+      ],
+      [
+        "1201190",
+        "海",
+        "わた",
+        "わた"
+      ],
+      [
+        "1201190",
+        "海",
+        "わだ",
+        "わだ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "鏡",
+    "prior_target": "鏡"
+  },
+  {
+    "sent_id": "257790_156744",
+    "pos": 2,
+    "text": "私は昨日大きな魚を釣った。",
+    "lemma": "昨日",
+    "form": "昨日",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1579260",
+        "昨日",
+        "きのう",
+        "きのう"
+      ],
+      [
+        "1579260",
+        "昨日",
+        "さくじつ",
+        "さくじつ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "釣",
+    "prior_target": "釣った"
+  },
+  {
+    "sent_id": "257790_156744",
+    "pos": 4,
+    "text": "私は昨日大きな魚を釣った。",
+    "lemma": "魚",
+    "form": "魚",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1578010",
+        "魚",
+        "うお",
+        "うお"
+      ],
+      [
+        "1578010",
+        "魚",
+        "さかな",
+        "さかな"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "釣",
+    "prior_target": "釣った"
+  },
+  {
+    "sent_id": "248318_166186",
+    "pos": 0,
+    "text": "私たちはみな収穫の手伝いをした。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "穫",
+    "prior_target": "収穫"
+  },
+  {
+    "sent_id": "322556_81159",
+    "pos": 0,
+    "text": "万一虎がおりから出てきたらどうしますか。",
+    "lemma": "万一",
+    "form": "万一",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1525780",
+        "万一",
+        "ばんいち",
+        "ばんいち"
+      ],
+      [
+        "1525780",
+        "万一",
+        "ばんいつ",
+        "ばんいつ"
+      ],
+      [
+        "1525780",
+        "万一",
+        "まんいち",
+        "まんいち"
+      ],
+      [
+        "1525780",
+        "万一",
+        "まんいつ",
+        "まんいつ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "虎",
+    "prior_target": "虎"
+  },
+  {
+    "sent_id": "295144_108542",
+    "pos": 5,
+    "text": "彼は飢えた者に食を与えた。",
+    "lemma": "食",
+    "form": "食",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1956480",
+        "食",
+        "し",
+        "し"
+      ],
+      [
+        "1956480",
+        "食",
+        "しょく",
+        "しょく"
+      ],
+      [
+        "1956480",
+        "食",
+        "じき",
+        "じき"
+      ],
+      [
+        "2837078",
+        "食",
+        "しょく",
+        "しょく"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "飢",
+    "prior_target": "飢えた"
+  },
+  {
+    "sent_id": "63200_225862",
+    "pos": 9,
+    "text": "きめの粗い材質がその子の柔らかい肌を傷つけた。",
+    "lemma": "肌",
+    "form": "肌",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1476450",
+        "肌",
+        "はだ",
+        "はだ"
+      ],
+      [
+        "1476450",
+        "肌",
+        "はだえ",
+        "はだえ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "粗",
+    "prior_target": "粗い"
+  },
+  {
+    "sent_id": "320748_82968",
+    "pos": 8,
+    "text": "母は私に芝を刈るように言った。",
+    "lemma": "言う",
+    "form": "言った",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1587040",
+        "言う",
+        "いう",
+        "いった"
+      ],
+      [
+        "1587040",
+        "言う",
+        "ゆう",
+        "ゆった"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "刈",
+    "prior_target": "刈る"
+  },
+  {
+    "sent_id": "282252_121753",
+    "pos": 4,
+    "text": "濃い霧のために私たちの飛行機は遅れた。",
+    "lemma": "私たち",
+    "form": "私たち",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私たち",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私たち",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "霧",
+    "prior_target": "霧"
+  },
+  {
+    "sent_id": "11124387_77429",
+    "pos": 2,
+    "text": "煉瓦の壁は透かして見ることはできない。",
+    "lemma": "壁",
+    "form": "壁",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1509290",
+        "壁",
+        "かべ",
+        "かべ"
+      ],
+      [
+        "1509290",
+        "壁",
+        "へき",
+        "へき"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "瓦",
+    "prior_target": "煉瓦"
+  },
+  {
+    "sent_id": "65146_227793",
+    "pos": 6,
+    "text": "オーストラリアは多くの羊毛を輸出している。",
+    "lemma": "輸出",
+    "form": "輸出",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1538820",
+        "輸出",
+        "しゅしゅつ",
+        "しゅしゅつ"
+      ],
+      [
+        "1538820",
+        "輸出",
+        "ゆしゅつ",
+        "ゆしゅつ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "羊",
+    "prior_target": "羊毛"
+  },
+  {
+    "sent_id": "262520_152033",
+    "pos": 0,
+    "text": "私達が峠にさしかかる頃に雨になった。",
+    "lemma": "私たち",
+    "form": "私達",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1311300",
+        "私達",
+        "わたくしたち",
+        "わたくしたち"
+      ],
+      [
+        "1311300",
+        "私達",
+        "わたしたち",
+        "わたしたち"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "峠",
+    "prior_target": "峠"
+  },
+  {
+    "sent_id": "66942_229582",
+    "pos": 5,
+    "text": "あんなことを彼女に言うなんて非常識も甚だしい。",
+    "lemma": "言う",
+    "form": "言う",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1587040",
+        "言う",
+        "いう",
+        "いう"
+      ],
+      [
+        "1587040",
+        "言う",
+        "ゆう",
+        "ゆう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "甚",
+    "prior_target": "甚だしい"
+  },
+  {
+    "sent_id": "41446_204204",
+    "pos": 1,
+    "text": "そんなふうに言うなんて卑怯だ。",
+    "lemma": "言う",
+    "form": "言う",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1587040",
+        "言う",
+        "いう",
+        "いう"
+      ],
+      [
+        "1587040",
+        "言う",
+        "ゆう",
+        "ゆう"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "卑",
+    "prior_target": "卑怯"
+  },
+  {
+    "sent_id": "261987_152562",
+    "pos": 2,
+    "text": "私は夜には決して爪を切らない。",
+    "lemma": "夜",
+    "form": "夜",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1536350",
+        "夜",
+        "よ",
+        "よ"
+      ],
+      [
+        "1536350",
+        "夜",
+        "よる",
+        "よる"
+      ],
+      [
+        "2827999",
+        "夜",
+        "や",
+        "や"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "爪",
+    "prior_target": "爪"
+  },
+  {
+    "sent_id": "261987_152562",
+    "pos": 4,
+    "text": "私は夜には決して爪を切らない。",
+    "lemma": "決して",
+    "form": "決して",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1254130",
+        "決して",
+        "けして",
+        "けして"
+      ],
+      [
+        "1254130",
+        "決して",
+        "けっして",
+        "けっして"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "爪",
+    "prior_target": "爪"
+  },
+  {
+    "sent_id": "329162_74557",
+    "pos": 1,
+    "text": "ハリーは本当に蛍光灯だね。",
+    "lemma": "本当に",
+    "form": "本当に",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1611580",
+        "本当に",
+        "ほんとうに",
+        "ほんとうに"
+      ],
+      [
+        "1611580",
+        "本当に",
+        "ほんとに",
+        "ほんとに"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "蛍",
+    "prior_target": "蛍光灯"
+  },
+  {
+    "sent_id": "274306_140267",
+    "pos": 2,
+    "text": "霜は農作物に悪影響を及ぼしました。",
+    "lemma": "農作物",
+    "form": "農作物",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1827050",
+        "農作物",
+        "のうさくぶつ",
+        "のうさくぶつ"
+      ],
+      [
+        "1827050",
+        "農作物",
+        "のうさくもつ",
+        "のうさくもつ"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "霜",
+    "prior_target": "霜"
+  },
+  {
+    "sent_id": "327603_76115",
+    "pos": 9,
+    "text": "山の麓に日が昇るが早いかただ一人山を登り始めた。",
+    "lemma": "一人",
+    "form": "一人",
+    "status": "ambiguous",
+    "candidates": [
+      [
+        "1576150",
+        "一人",
+        "いちにん",
+        "いちにん"
+      ],
+      [
+        "1576150",
+        "一人",
+        "ひとり",
+        "ひとり"
+      ]
+    ],
+    "source_reading": null,
+    "source_entry": null,
+    "prior_focus": "麓",
+    "prior_target": "麓"
+  }
+]

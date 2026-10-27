@@ -67,7 +67,7 @@ files exist, and the curated reading supplement whenever the TSV exists.
 
 ## Schema and contract views
 
-`PRAGMA user_version` is 1006 and must be bumped on any schema change —
+`PRAGMA user_version` is 1007 and must be bumped on any schema change —
 check it before relying on a specific layout.
 
 ### Tables
@@ -286,3 +286,44 @@ lexical preparation record. Two repeated-target
 phrases are excluded from quiz occurrence preparation; the long ending chant
 is available lexically but remains subject to the app's ordinary length limit.
 Pedagogical approvals and priority remain in the consuming app's catalog.
+
+
+## Position-bound contextual readings (schema1007)
+
+`sentence_token_readings` extends raw tokens with full sentence text, UTF-16
+start/length, resolution status, nullable occurrence reading, bindings_json,
+provenance_sha256 and evidence_kind. Identity is (sent_id,pos). Raw corpus
+annotations stay separate: they may be lemma readings, not occurrence readings.
+Resolution runs after overlays, using pinned JMdict spelling/reading restrictions
+and sense POS. Supported inflections live in the data builder; there is no
+standalone-form shortcut. Ambiguous/unsupported/unbound/unaligned rows carry no
+resolved reading. Compatible corpus annotations are distinguished from reviewed
+positional/target evidence; compatibility is not expert linguistic acceptance.
+
+`context_dictionary_readings` exposes supporting entry/spelling/lemma-reading
+pairs and source identity. Multiple entries with the same occurrence reading
+retain all bindings. data/context_reading_reviews.json records complete positional
+reviews; sentence/token/dictionary identity is validated and conflicting reviews
+fail the build. This is lexical evidence, not curriculum approval.
+
+The small data/context_named_entities.json extract retains12 exact JMnedict
+entries needed by existing reviewed sentences (田中/豊能), including alternative
+readings, official source URL and snapshot hash. Names use jmnedict: identifiers;
+source annotations disambiguate them. JMnedict is an EDRDG dictionary and its
+licence/attribution requirements apply. Builds use only pinned local inputs.
+Approved N2/N3 Japanese/English pairs stay unchanged. Some authored context tokens
+are segmented/rebound correctly (三/十/度,旅行/中,面接/用,お腹,ご飯).
+
+Consumers require resolved status, validate complete sentence identity and exact
+spans, and omit the quiz target. Missing evidence is a coverage gap, never a
+reason to use an unrelated pronunciation. Target-side reading derivation in a
+consumer is outside this contextual-reading migration.
+
+Search-only kana forms remain in `context_dictionary_readings` with their
+`search_only` flag. They are excluded from automatic standard-display candidates,
+not declared impossible; explicit compatible source or reviewed evidence can select
+them. Direct dictionary lemma entries constrain resolution before inverse morphology,
+so a noun such as 回 cannot acquire an unrelated verb-stem reading from 回る.
+A nominal genitive の preserves its bound noun/pronoun/counter reading. A known
+invalid binding can be recorded as `unresolved_binding`; it stays without ruby
+until properly corrected and cannot silently fall back to dictionary guessing.

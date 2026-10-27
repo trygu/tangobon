@@ -44,7 +44,7 @@ def test_approved_content_contract(baseline):
             assert conn.execute("SELECT text,translation FROM sentence WHERE sent_id=?", (item["sent_id"],)).fetchone() == (item["expected_text"], item["translation"])
         # Replacements have new identities; original corpus provenance stays intact.
         assert conn.execute("SELECT text,translation FROM sentence WHERE sent_id='68395_231026'").fetchone() == original
-        assert conn.execute("PRAGMA user_version").fetchone()[0] == 1006
+        assert conn.execute("PRAGMA user_version").fetchone()[0] == 1007
         # An occurrence approval must not replace ambiguous dictionary defaults
         # (e.g. 何 can still bind なに or なん through their own exact evidence).
         assert conn.execute("SELECT reading FROM word WHERE ent_seq='1577100' AND surface='何'").fetchone() == (None,)

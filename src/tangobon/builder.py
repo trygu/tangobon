@@ -84,7 +84,7 @@ import sqlite3
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-USER_VERSION = 1006
+USER_VERSION = 1007
 
 # CJK ideographs (main block, Extension A, compatibility block). Surfaces
 # outside these ranges are treated as non-kanji.
@@ -171,6 +171,37 @@ SELECT st.sent_id AS sent_id,
        st.reading AS reading,
        st.entry_ref AS entry_ref
 FROM sentence_token AS st;
+
+-- Position-bound contextual readings. Raw corpus token annotations stay intact.
+CREATE TABLE context_dictionary_reading(
+    entry_ref TEXT NOT NULL,
+    spelling TEXT NOT NULL,
+    reading TEXT NOT NULL,
+    source_sha256 TEXT NOT NULL,
+    search_only INTEGER NOT NULL CHECK(search_only IN (0,1)),
+    PRIMARY KEY(entry_ref,spelling,reading)
+) WITHOUT ROWID;
+CREATE VIEW context_dictionary_readings AS SELECT * FROM context_dictionary_reading;
+CREATE TABLE token_reading_evidence(
+    sent_id TEXT NOT NULL,
+    pos INTEGER NOT NULL,
+    start_utf16 INTEGER,
+    length_utf16 INTEGER NOT NULL,
+    status TEXT NOT NULL CHECK(status IN ('resolved','ambiguous','unsupported','unbound','unaligned')),
+    reading TEXT,
+    bindings_json TEXT NOT NULL,
+    provenance_sha256 TEXT NOT NULL,
+    evidence_kind TEXT NOT NULL CHECK(evidence_kind IN ('dictionary','source_annotation','reviewed_position','reviewed_target','unresolved')),
+    PRIMARY KEY(sent_id,pos),
+    FOREIGN KEY(sent_id,pos) REFERENCES sentence_token(sent_id,pos),
+    CHECK((status='resolved' AND reading IS NOT NULL) OR (status!='resolved' AND reading IS NULL))
+) WITHOUT ROWID;
+CREATE VIEW sentence_token_readings AS
+SELECT t.sent_id,t.pos,t.lemma,t.form,s.text AS sentence_text,
+       e.start_utf16,e.length_utf16,COALESCE(e.status,'unbound') AS status,
+       e.reading,e.bindings_json,e.provenance_sha256,e.evidence_kind
+FROM sentence_token t JOIN sentence s USING(sent_id)
+LEFT JOIN token_reading_evidence e USING(sent_id,pos);
 
 -- Verified lexical occurrence evidence. Pedagogical focus/level approvals
 -- belong to the consuming app's content catalog, not this dictionary layer.
@@ -296,6 +327,9 @@ def build_sqlite(
     from .reviewed_content import apply_reviewed_content
     for reviewed_path in reviewed_content_path if isinstance(reviewed_content_path, list) else [reviewed_content_path]:
         apply_reviewed_content(conn, reviewed_path, stats)
+    from .context_readings import build_context_readings
+    stats["context_readings"] = build_context_readings(
+        conn, jmdict_path, Path(jmdict_path).parent / "context_reading_reviews.json")
     conn.commit()
 
     stats["words"] = conn.execute("SELECT COUNT(*) FROM word").fetchone()[0]

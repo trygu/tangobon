@@ -24,7 +24,7 @@ def test_n2_batch_preserves_occurrences_and_earlier_batches(tmp_path):
                  jlpt_dir=DATA, supplement_path=DATA / "reading_supplement.tsv",
                  reviewed_content_path=batches)
     with sqlite3.connect(target) as conn:
-        assert conn.execute("PRAGMA user_version").fetchone()[0] == 1006
+        assert conn.execute("PRAGMA user_version").fetchone()[0] == 1007
         assert conn.execute("PRAGMA foreign_key_check").fetchall() == []
         for path in batches:
             for item in json.loads(path.read_text())["sentences"]:
@@ -42,6 +42,17 @@ def test_n2_batch_preserves_occurrences_and_earlier_batches(tmp_path):
                 "SELECT lemma_reading FROM verified_occurrences WHERE sent_id=? AND entry_ref=? AND form=? AND reading=?",
                 (item["sent_id"], item["ent_seq"], item["target_form"], item["target_reading"])
             ).fetchone() == (item["reading"],)
+        from tangobon.builder import KANJI_RE
+        for path in batches:
+            for item in json.loads(path.read_text())["sentences"]:
+                rows = conn.execute("SELECT form,reading,status,bindings_json FROM sentence_token_readings WHERE sent_id=? ORDER BY pos", (item["sent_id"],)).fetchall()
+                for form,reading,status,bindings in rows:
+                    if KANJI_RE.search(form):
+                        assert status == "resolved", (item["sent_id"],form,status)
+                        assert reading
+                        for ref,spelling,lemma_reading,spoken in json.loads(bindings):
+                            assert spoken == reading
+                            assert conn.execute("SELECT 1 FROM context_dictionary_readings WHERE entry_ref=? AND spelling=? AND reading=?",(ref,spelling,lemma_reading)).fetchone()
         by_id = {s["review_id"]: s for s in spec["sentences"]}
         assert (by_id["CR175"]["surface"], by_id["CR175"]["ent_seq"]) == ("慰める", "1156890"), "Comforting a friend is transitive 慰める, not 慰む"
         assert by_id["CR252"]["ent_seq"] == "1463740", "虹 means rainbow, not the homograph second"

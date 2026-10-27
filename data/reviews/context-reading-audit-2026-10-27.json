@@ -1,0 +1,1695 @@
+{
+  "review_metadata": {
+    "reviewer": "Aiko linguistic audit",
+    "reviewed_at": "2026-10-27",
+    "source_packet_sha256": "859cd3da2040412073a39d01b45f564f217423d7b0a598fa695c32d5246dae42",
+    "scope": "189 supplied positional contexts, N5–N2 prior selected sentences. Explicit contextual standard-display selections, not lexical uniqueness or sentence-quality acceptance."
+  },
+  "approved": [
+    {
+      "sent_id": "25652_188508",
+      "pos": 1,
+      "entry_ref": "1629200",
+      "spelling": "王",
+      "lemma_reading": "おう",
+      "reading": "おう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "281338_122664",
+      "pos": 0,
+      "entry_ref": "1582710",
+      "spelling": "日本",
+      "lemma_reading": "にほん",
+      "reading": "にほん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "303549_100148",
+      "pos": 2,
+      "entry_ref": "1509290",
+      "spelling": "壁",
+      "lemma_reading": "かべ",
+      "reading": "かべ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "263935_150623",
+      "pos": 4,
+      "entry_ref": "1475720",
+      "spelling": "迫る",
+      "lemma_reading": "せまる",
+      "reading": "せまっている",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "64585_227236",
+      "pos": 2,
+      "entry_ref": "1584660",
+      "spelling": "明日",
+      "lemma_reading": "あした",
+      "reading": "あした",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "318783_84930",
+      "pos": 0,
+      "entry_ref": "1496800",
+      "spelling": "富士山",
+      "lemma_reading": "ふじさん",
+      "reading": "ふじさん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "318783_84930",
+      "pos": 2,
+      "entry_ref": "1582710",
+      "spelling": "日本",
+      "lemma_reading": "にほん",
+      "reading": "にほん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "57635_220315",
+      "pos": 3,
+      "entry_ref": "1464530",
+      "spelling": "日本語",
+      "lemma_reading": "にほんご",
+      "reading": "にほんご",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "242939_171537",
+      "pos": 0,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248190_166314",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "265623_148935",
+      "pos": 0,
+      "entry_ref": "1323080",
+      "spelling": "車",
+      "lemma_reading": "くるま",
+      "reading": "くるま",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248496_166008",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "256501_158029",
+      "pos": 6,
+      "entry_ref": "1188270",
+      "spelling": "何か",
+      "lemma_reading": "なにか",
+      "reading": "なにか",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "275833_137403",
+      "pos": 3,
+      "entry_ref": "1451750",
+      "spelling": "同じ",
+      "lemma_reading": "おなじ",
+      "reading": "おなじ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248930_165575",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "324119_79598",
+      "pos": 4,
+      "entry_ref": "1602120",
+      "spelling": "日々",
+      "lemma_reading": "ひび",
+      "reading": "ひび",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "281540_122463",
+      "pos": 0,
+      "entry_ref": "1582710",
+      "spelling": "日本",
+      "lemma_reading": "にほん",
+      "reading": "にほん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "266257_148302",
+      "pos": 0,
+      "entry_ref": "1330470",
+      "spelling": "囚人",
+      "lemma_reading": "しゅうじん",
+      "reading": "しゅうじん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "58143_220822",
+      "pos": 1,
+      "entry_ref": "1390020",
+      "spelling": "川",
+      "lemma_reading": "かわ",
+      "reading": "かわ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "523820_221309",
+      "pos": 3,
+      "entry_ref": "1582710",
+      "spelling": "日本",
+      "lemma_reading": "にほん",
+      "reading": "にほん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "259156_155382",
+      "pos": 2,
+      "entry_ref": "1396860",
+      "spelling": "祖母",
+      "lemma_reading": "そぼ",
+      "reading": "そぼ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "59852_222523",
+      "pos": 1,
+      "entry_ref": "1220210",
+      "spelling": "机",
+      "lemma_reading": "つくえ",
+      "reading": "つくえ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "280881_123119",
+      "pos": 0,
+      "entry_ref": "1582670",
+      "spelling": "二人",
+      "lemma_reading": "ふたり",
+      "reading": "ふたり",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "327580_76138",
+      "pos": 0,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "268363_146199",
+      "pos": 3,
+      "entry_ref": "1188270",
+      "spelling": "何か",
+      "lemma_reading": "なにか",
+      "reading": "なにか",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "275424_137812",
+      "pos": 2,
+      "entry_ref": "1375040",
+      "spelling": "勢い",
+      "lemma_reading": "いきおい",
+      "reading": "いきおい",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "32650_226939",
+      "pos": 0,
+      "entry_ref": "1002290",
+      "spelling": "お前",
+      "lemma_reading": "おまえ",
+      "reading": "おまえ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "64311_226963",
+      "pos": 0,
+      "entry_ref": "1002290",
+      "spelling": "お前",
+      "lemma_reading": "おまえ",
+      "reading": "おまえ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "272210_142360",
+      "pos": 6,
+      "entry_ref": "1583460",
+      "spelling": "描く",
+      "lemma_reading": "えがく",
+      "reading": "えがいた",
+      "rationale": "Ripples trace/draw patterns in the pond: 描いた/えがいた is a natural contextual selection."
+    },
+    {
+      "sent_id": "269678_144886",
+      "pos": 5,
+      "entry_ref": "1480210",
+      "spelling": "反応",
+      "lemma_reading": "はんのう",
+      "reading": "はんのう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "19502_182323",
+      "pos": 0,
+      "entry_ref": "1231490",
+      "spelling": "牛",
+      "lemma_reading": "うし",
+      "reading": "うし",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "49672_212388",
+      "pos": 3,
+      "entry_ref": "1416830",
+      "spelling": "誰",
+      "lemma_reading": "だれ",
+      "reading": "だれ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "503853_150948",
+      "pos": 2,
+      "entry_ref": "1578850",
+      "spelling": "行く",
+      "lemma_reading": "いく",
+      "reading": "いく",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "321819_81896",
+      "pos": 2,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "71141_233766",
+      "pos": 4,
+      "entry_ref": "1578850",
+      "spelling": "行く",
+      "lemma_reading": "いく",
+      "reading": "いく",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "327574_76144",
+      "pos": 0,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "280920_123080",
+      "pos": 0,
+      "entry_ref": "1582670",
+      "spelling": "二人",
+      "lemma_reading": "ふたり",
+      "reading": "ふたり",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248622_165882",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "28279_191119",
+      "pos": 2,
+      "entry_ref": "1394840",
+      "spelling": "全員",
+      "lemma_reading": "ぜんいん",
+      "reading": "ぜんいん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "322190_81525",
+      "pos": 0,
+      "entry_ref": "1611580",
+      "spelling": "本当に",
+      "lemma_reading": "ほんとうに",
+      "reading": "ほんとうに",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "249346_165160",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "249346_165160",
+      "pos": 2,
+      "entry_ref": "1508070",
+      "spelling": "平和",
+      "lemma_reading": "へいわ",
+      "reading": "へいわ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "280937_123063",
+      "pos": 0,
+      "entry_ref": "1582670",
+      "spelling": "二人",
+      "lemma_reading": "ふたり",
+      "reading": "ふたり",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "280937_123063",
+      "pos": 2,
+      "entry_ref": "1451750",
+      "spelling": "同じ",
+      "lemma_reading": "おなじ",
+      "reading": "おなじ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "295250_108436",
+      "pos": 4,
+      "entry_ref": "1605820",
+      "spelling": "良い",
+      "lemma_reading": "よい",
+      "reading": "よい",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "70615_233244",
+      "pos": 4,
+      "entry_ref": "1584660",
+      "spelling": "明日",
+      "lemma_reading": "あした",
+      "reading": "あした",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "298316_105373",
+      "pos": 2,
+      "entry_ref": "1313850",
+      "spelling": "事故",
+      "lemma_reading": "じこ",
+      "reading": "じこ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "237909_176555",
+      "pos": 8,
+      "entry_ref": "1580230",
+      "spelling": "助言",
+      "lemma_reading": "じょげん",
+      "reading": "じょげん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "20668_183544",
+      "pos": 2,
+      "entry_ref": "1349610",
+      "spelling": "招待",
+      "lemma_reading": "しょうたい",
+      "reading": "しょうたい",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "33561_196384",
+      "pos": 2,
+      "entry_ref": "1264540",
+      "spelling": "言葉",
+      "lemma_reading": "ことば",
+      "reading": "ことば",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "48154_210883",
+      "pos": 1,
+      "entry_ref": "1265170",
+      "spelling": "古家",
+      "lemma_reading": "ふるや",
+      "reading": "ふるや",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "264381_150176",
+      "pos": 0,
+      "entry_ref": "1316890",
+      "spelling": "治療",
+      "lemma_reading": "ちりょう",
+      "reading": "ちりょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "284015_119647",
+      "pos": 6,
+      "entry_ref": "1604230",
+      "spelling": "丸い",
+      "lemma_reading": "まるい",
+      "reading": "まるく",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "300488_103205",
+      "pos": 2,
+      "entry_ref": "1379060",
+      "spelling": "生死",
+      "lemma_reading": "せいし",
+      "reading": "せいし",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "249396_165110",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "249396_165110",
+      "pos": 2,
+      "entry_ref": "1584360",
+      "spelling": "毎年",
+      "lemma_reading": "まいとし",
+      "reading": "まいとし",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "389526_86286",
+      "pos": 2,
+      "entry_ref": "1602710",
+      "spelling": "両親",
+      "lemma_reading": "りょうしん",
+      "reading": "りょうしん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "72961_235580",
+      "pos": 4,
+      "entry_ref": "1263760",
+      "spelling": "現場",
+      "lemma_reading": "げんば",
+      "reading": "げんば",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "260189_154354",
+      "pos": 6,
+      "entry_ref": "1284430",
+      "spelling": "合う",
+      "lemma_reading": "あう",
+      "reading": "あう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "249192_151347",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私達",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "23010_185878",
+      "pos": 2,
+      "entry_ref": "1264540",
+      "spelling": "言葉",
+      "lemma_reading": "ことば",
+      "reading": "ことば",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "267094_147466",
+      "pos": 3,
+      "entry_ref": "1556730",
+      "spelling": "冷たい",
+      "lemma_reading": "つめたい",
+      "reading": "つめたい",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "275399_137837",
+      "pos": 0,
+      "entry_ref": "1412640",
+      "spelling": "台所",
+      "lemma_reading": "だいどころ",
+      "reading": "だいどころ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "276294_136942",
+      "pos": 0,
+      "entry_ref": "1416830",
+      "spelling": "誰",
+      "lemma_reading": "だれ",
+      "reading": "だれ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "48003_210733",
+      "pos": 1,
+      "entry_ref": "1578700",
+      "spelling": "工場",
+      "lemma_reading": "こうじょう",
+      "reading": "こうじょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "328839_74880",
+      "pos": 0,
+      "entry_ref": "1583720",
+      "spelling": "風邪",
+      "lemma_reading": "かぜ",
+      "reading": "かぜ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "328839_74880",
+      "pos": 8,
+      "entry_ref": "1523060",
+      "spelling": "本当",
+      "lemma_reading": "ほんとう",
+      "reading": "ほんとう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "66633_229275",
+      "pos": 4,
+      "entry_ref": "1606650",
+      "spelling": "我が家",
+      "lemma_reading": "わがや",
+      "reading": "わがや",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "66633_229275",
+      "pos": 6,
+      "entry_ref": "1606650",
+      "spelling": "我が家",
+      "lemma_reading": "わがや",
+      "reading": "わがや",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "296617_107069",
+      "pos": 2,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "286714_116953",
+      "pos": 1,
+      "entry_ref": "1580230",
+      "spelling": "助言",
+      "lemma_reading": "じょげん",
+      "reading": "じょげん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "320929_82787",
+      "pos": 2,
+      "entry_ref": "1383310",
+      "spelling": "赤ん坊",
+      "lemma_reading": "あかんぼう",
+      "reading": "あかんぼう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "25230_188091",
+      "pos": 0,
+      "entry_ref": "1577100",
+      "spelling": "何",
+      "lemma_reading": "なに",
+      "reading": "なに",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "265418_149140",
+      "pos": 0,
+      "entry_ref": "1323080",
+      "spelling": "車",
+      "lemma_reading": "くるま",
+      "reading": "くるま",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "25394_188253",
+      "pos": 0,
+      "entry_ref": "1649500",
+      "spelling": "音楽家",
+      "lemma_reading": "おんがくか",
+      "reading": "おんがくか",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248153_166350",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "62596_225260",
+      "pos": 0,
+      "entry_ref": "1579100",
+      "spelling": "今朝",
+      "lemma_reading": "けさ",
+      "reading": "けさ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "243158_236817",
+      "pos": 0,
+      "entry_ref": "1579130",
+      "spelling": "今年",
+      "lemma_reading": "ことし",
+      "reading": "ことし",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "58837_221513",
+      "pos": 4,
+      "entry_ref": "1481480",
+      "spelling": "版",
+      "lemma_reading": "ばん",
+      "reading": "ばん",
+      "rationale": "版 is the edition suffix in 簡約版: かんやくばん, so this position selects ばん rather than standalone はん."
+    },
+    {
+      "sent_id": "42972_205727",
+      "pos": 1,
+      "entry_ref": "1313850",
+      "spelling": "事故",
+      "lemma_reading": "じこ",
+      "reading": "じこ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "54671_217362",
+      "pos": 5,
+      "entry_ref": "1203800",
+      "spelling": "外出",
+      "lemma_reading": "がいしゅつ",
+      "reading": "がいしゅつ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "281607_122396",
+      "pos": 0,
+      "entry_ref": "1582710",
+      "spelling": "日本",
+      "lemma_reading": "にほん",
+      "reading": "にほん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "631764_631762",
+      "pos": 0,
+      "entry_ref": "1579130",
+      "spelling": "今年",
+      "lemma_reading": "ことし",
+      "reading": "ことし",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "247437_167065",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "271705_142864",
+      "pos": 2,
+      "entry_ref": "1464700",
+      "spelling": "日本人",
+      "lemma_reading": "にほんじん",
+      "reading": "にほんじん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "243108_171367",
+      "pos": 0,
+      "entry_ref": "1579130",
+      "spelling": "今年",
+      "lemma_reading": "ことし",
+      "reading": "ことし",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "23911_186775",
+      "pos": 5,
+      "entry_ref": "1582710",
+      "spelling": "日本",
+      "lemma_reading": "にほん",
+      "reading": "にほん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "913535_188002",
+      "pos": 0,
+      "entry_ref": "1577100",
+      "spelling": "何",
+      "lemma_reading": "なに",
+      "reading": "なに",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "324140_79578",
+      "pos": 0,
+      "entry_ref": "1537760",
+      "spelling": "矢",
+      "lemma_reading": "や",
+      "reading": "や",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "249214_236826",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "67782_230415",
+      "pos": 5,
+      "entry_ref": "1460850",
+      "spelling": "難しい",
+      "lemma_reading": "むずかしい",
+      "reading": "むずかしい",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "247655_166847",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248624_165880",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "57068_219748",
+      "pos": 5,
+      "entry_ref": "1416830",
+      "spelling": "誰",
+      "lemma_reading": "だれ",
+      "reading": "だれ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "247502_167000",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "246164_168329",
+      "pos": 2,
+      "entry_ref": "1311300",
+      "spelling": "私達",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "25256_188117",
+      "pos": 0,
+      "entry_ref": "1188270",
+      "spelling": "何か",
+      "lemma_reading": "なにか",
+      "reading": "なにか",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "63405_226066",
+      "pos": 4,
+      "entry_ref": "1440670",
+      "spelling": "店員",
+      "lemma_reading": "てんいん",
+      "reading": "てんいん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "266250_148309",
+      "pos": 0,
+      "entry_ref": "1330470",
+      "spelling": "囚人",
+      "lemma_reading": "しゅうじん",
+      "reading": "しゅうじん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "67907_230540",
+      "pos": 5,
+      "entry_ref": "1440670",
+      "spelling": "店員",
+      "lemma_reading": "てんいん",
+      "reading": "てんいん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "61067_223731",
+      "pos": 5,
+      "entry_ref": "1460850",
+      "spelling": "難しい",
+      "lemma_reading": "むずかしい",
+      "reading": "むずかしい",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "71827_234451",
+      "pos": 0,
+      "entry_ref": "1584660",
+      "spelling": "明日",
+      "lemma_reading": "あした",
+      "reading": "あした",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "45848_142199",
+      "pos": 0,
+      "entry_ref": "1383310",
+      "spelling": "赤ん坊",
+      "lemma_reading": "あかんぼう",
+      "reading": "あかんぼう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "242815_171660",
+      "pos": 0,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "282248_121757",
+      "pos": 3,
+      "entry_ref": "1549470",
+      "spelling": "利益",
+      "lemma_reading": "りえき",
+      "reading": "りえき",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "243034_171440",
+      "pos": 0,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "243034_171440",
+      "pos": 3,
+      "entry_ref": "1578850",
+      "spelling": "行く",
+      "lemma_reading": "いく",
+      "reading": "いきました",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "243057_171417",
+      "pos": 0,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "407195_203358",
+      "pos": 1,
+      "entry_ref": "1584660",
+      "spelling": "明日",
+      "lemma_reading": "あした",
+      "reading": "あした",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248746_237466",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248746_237466",
+      "pos": 2,
+      "entry_ref": "1579260",
+      "spelling": "昨日",
+      "lemma_reading": "きのう",
+      "reading": "きのう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "243612_170868",
+      "pos": 4,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "329566_74154",
+      "pos": 0,
+      "entry_ref": "1447690",
+      "spelling": "東京",
+      "lemma_reading": "とうきょう",
+      "reading": "とうきょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "61628_224293",
+      "pos": 3,
+      "entry_ref": "1476520",
+      "spelling": "畑",
+      "lemma_reading": "はたけ",
+      "reading": "はたけ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "259667_154872",
+      "pos": 2,
+      "entry_ref": "1447690",
+      "spelling": "東京",
+      "lemma_reading": "とうきょう",
+      "reading": "とうきょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248269_166235",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "55499_218188",
+      "pos": 5,
+      "entry_ref": "1578010",
+      "spelling": "魚",
+      "lemma_reading": "さかな",
+      "reading": "さかな",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "262811_151744",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私達",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "59688_222361",
+      "pos": 1,
+      "entry_ref": "1578010",
+      "spelling": "魚",
+      "lemma_reading": "さかな",
+      "reading": "さかな",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "273213_141358",
+      "pos": 0,
+      "entry_ref": "1390020",
+      "spelling": "川",
+      "lemma_reading": "かわ",
+      "reading": "かわ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "21357_184229",
+      "pos": 2,
+      "entry_ref": "1456420",
+      "spelling": "読書",
+      "lemma_reading": "どくしょ",
+      "reading": "どくしょ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "58463_221141",
+      "pos": 3,
+      "entry_ref": "1504770",
+      "spelling": "粉",
+      "lemma_reading": "こな",
+      "reading": "こな",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "242947_171528",
+      "pos": 0,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "281360_122642",
+      "pos": 0,
+      "entry_ref": "1582710",
+      "spelling": "日本",
+      "lemma_reading": "にほん",
+      "reading": "にほん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "287282_116387",
+      "pos": 1,
+      "entry_ref": "1602120",
+      "spelling": "日々",
+      "lemma_reading": "ひび",
+      "reading": "ひび",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "242564_171912",
+      "pos": 0,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248524_165980",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "24727_187590",
+      "pos": 0,
+      "entry_ref": "1577100",
+      "spelling": "何",
+      "lemma_reading": "なに",
+      "reading": "なに",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "22226_185095",
+      "pos": 0,
+      "entry_ref": "1201190",
+      "spelling": "海",
+      "lemma_reading": "うみ",
+      "reading": "うみ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "59507_222182",
+      "pos": 3,
+      "entry_ref": "1579350",
+      "spelling": "三",
+      "lemma_reading": "さん",
+      "reading": "さん",
+      "rationale": "三 counts the three acts in 三幕: さん, bound to supplied numeric entry1579350."
+    },
+    {
+      "sent_id": "51365_214074",
+      "pos": 2,
+      "entry_ref": "1390980",
+      "spelling": "洗濯",
+      "lemma_reading": "せんたく",
+      "reading": "せんたく",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "4496353_186714",
+      "pos": 2,
+      "entry_ref": "1550140",
+      "spelling": "理由",
+      "lemma_reading": "りゆう",
+      "reading": "りゆう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "305031_98669",
+      "pos": 2,
+      "entry_ref": "1529390",
+      "spelling": "眠る",
+      "lemma_reading": "ねむる",
+      "reading": "ねむっている",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "256813_157718",
+      "pos": 6,
+      "entry_ref": "1578850",
+      "spelling": "行く",
+      "lemma_reading": "いく",
+      "reading": "いく",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "263235_151321",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私達",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "277030_127060",
+      "pos": 4,
+      "entry_ref": "1480210",
+      "spelling": "反応",
+      "lemma_reading": "はんのう",
+      "reading": "はんのう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "32809_195635",
+      "pos": 2,
+      "entry_ref": "1602710",
+      "spelling": "両親",
+      "lemma_reading": "りょうしん",
+      "reading": "りょうしん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "72371_234994",
+      "pos": 0,
+      "entry_ref": "1319280",
+      "spelling": "７月",
+      "lemma_reading": "しちがつ",
+      "reading": "しちがつ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "72371_234994",
+      "pos": 4,
+      "entry_ref": "1201190",
+      "spelling": "海",
+      "lemma_reading": "うみ",
+      "reading": "うみ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "72371_234994",
+      "pos": 6,
+      "entry_ref": "1578850",
+      "spelling": "行く",
+      "lemma_reading": "いく",
+      "reading": "いく",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "328771_74948",
+      "pos": 0,
+      "entry_ref": "1579110",
+      "spelling": "今日",
+      "lemma_reading": "きょう",
+      "reading": "きょう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "328771_74948",
+      "pos": 9,
+      "entry_ref": "1589730",
+      "spelling": "買い物",
+      "lemma_reading": "かいもの",
+      "reading": "かいもの",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "28380_191219",
+      "pos": 0,
+      "entry_ref": "1155060",
+      "spelling": "以下",
+      "lemma_reading": "いか",
+      "reading": "いか",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "72728_235350",
+      "pos": 2,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "1973021_164973",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "439010_439009",
+      "pos": 0,
+      "entry_ref": "1582710",
+      "spelling": "日本",
+      "lemma_reading": "にほん",
+      "reading": "にほん",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "324147_79571",
+      "pos": 6,
+      "entry_ref": "1309800",
+      "spelling": "指示",
+      "lemma_reading": "しじ",
+      "reading": "しじ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "19510_182330",
+      "pos": 0,
+      "entry_ref": "1231490",
+      "spelling": "牛",
+      "lemma_reading": "うし",
+      "reading": "うし",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "260322_154221",
+      "pos": 8,
+      "entry_ref": "1605820",
+      "spelling": "良い",
+      "lemma_reading": "よい",
+      "reading": "よい",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "37416_200215",
+      "pos": 9,
+      "entry_ref": "1587040",
+      "spelling": "言う",
+      "lemma_reading": "いう",
+      "reading": "いって",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "25481_226934",
+      "pos": 0,
+      "entry_ref": "1002290",
+      "spelling": "お前",
+      "lemma_reading": "おまえ",
+      "reading": "おまえ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "239772_174696",
+      "pos": 0,
+      "entry_ref": "1264540",
+      "spelling": "言葉",
+      "lemma_reading": "ことば",
+      "reading": "ことば",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "22225_185094",
+      "pos": 0,
+      "entry_ref": "1201190",
+      "spelling": "海",
+      "lemma_reading": "うみ",
+      "reading": "うみ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "257790_156744",
+      "pos": 2,
+      "entry_ref": "1579260",
+      "spelling": "昨日",
+      "lemma_reading": "きのう",
+      "reading": "きのう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "257790_156744",
+      "pos": 4,
+      "entry_ref": "1578010",
+      "spelling": "魚",
+      "lemma_reading": "さかな",
+      "reading": "さかな",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "248318_166186",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "322556_81159",
+      "pos": 0,
+      "entry_ref": "1525780",
+      "spelling": "万一",
+      "lemma_reading": "まんいち",
+      "reading": "まんいち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "295144_108542",
+      "pos": 5,
+      "entry_ref": "1956480",
+      "spelling": "食",
+      "lemma_reading": "しょく",
+      "reading": "しょく",
+      "rationale": "食 means food given to hungry people here: しょく, food entry1956480; exclude homographic eclipse entry2837078."
+    },
+    {
+      "sent_id": "63200_225862",
+      "pos": 9,
+      "entry_ref": "1476450",
+      "spelling": "肌",
+      "lemma_reading": "はだ",
+      "reading": "はだ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "320748_82968",
+      "pos": 8,
+      "entry_ref": "1587040",
+      "spelling": "言う",
+      "lemma_reading": "いう",
+      "reading": "いった",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "282252_121753",
+      "pos": 4,
+      "entry_ref": "1311300",
+      "spelling": "私たち",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "11124387_77429",
+      "pos": 2,
+      "entry_ref": "1509290",
+      "spelling": "壁",
+      "lemma_reading": "かべ",
+      "reading": "かべ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "65146_227793",
+      "pos": 6,
+      "entry_ref": "1538820",
+      "spelling": "輸出",
+      "lemma_reading": "ゆしゅつ",
+      "reading": "ゆしゅつ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "262520_152033",
+      "pos": 0,
+      "entry_ref": "1311300",
+      "spelling": "私達",
+      "lemma_reading": "わたしたち",
+      "reading": "わたしたち",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "66942_229582",
+      "pos": 5,
+      "entry_ref": "1587040",
+      "spelling": "言う",
+      "lemma_reading": "いう",
+      "reading": "いう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "41446_204204",
+      "pos": 1,
+      "entry_ref": "1587040",
+      "spelling": "言う",
+      "lemma_reading": "いう",
+      "reading": "いう",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "261987_152562",
+      "pos": 2,
+      "entry_ref": "1536350",
+      "spelling": "夜",
+      "lemma_reading": "よる",
+      "reading": "よる",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "261987_152562",
+      "pos": 4,
+      "entry_ref": "1254130",
+      "spelling": "決して",
+      "lemma_reading": "けっして",
+      "reading": "けっして",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "329162_74557",
+      "pos": 1,
+      "entry_ref": "1611580",
+      "spelling": "本当に",
+      "lemma_reading": "ほんとうに",
+      "reading": "ほんとうに",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "274306_140267",
+      "pos": 2,
+      "entry_ref": "1827050",
+      "spelling": "農作物",
+      "lemma_reading": "のうさくもつ",
+      "reading": "のうさくもつ",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    },
+    {
+      "sent_id": "327603_76115",
+      "pos": 9,
+      "entry_ref": "1576150",
+      "spelling": "一人",
+      "lemma_reading": "ひとり",
+      "reading": "ひとり",
+      "rationale": "Explicit standard display reading selected after reviewing this complete sentence; alternatives are not declared invalid or globally overridden."
+    }
+  ],
+  "unresolved": [
+    {
+      "sent_id": "287478_116191",
+      "pos": 0,
+      "text": "彼の文章はとても主観的だ。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "73353_235972",
+      "pos": 0,
+      "text": "１１時の列車に乗るつもりです。",
+      "lemma": "時",
+      "form": "時の",
+      "reason": "Split 時/じ (eleven o’clock) and particle の; supplied candidates are empty."
+    },
+    {
+      "sent_id": "298949_104741",
+      "pos": 7,
+      "text": "彼は質問するために手を挙げた。",
+      "lemma": "上げる",
+      "form": "挙げた",
+      "reason": "Hand-raising occurrence should bind the appropriate 挙げる/あげる entry; current 上げる binding has no supplied valid tuple."
+    },
+    {
+      "sent_id": "287011_116657",
+      "pos": 0,
+      "text": "彼の説明は要点を外れています。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "4496353_186714",
+      "pos": 4,
+      "text": "火災の理由は何か。",
+      "lemma": "何か",
+      "form": "何か",
+      "reason": "The clause asks what the cause is: 何 + interrogative か, rather than supplied lexical 何か/something. Split and bind tokens; do not certify the whole-form entry merely because なにか sounds correct."
+    },
+    {
+      "sent_id": "286714_116953",
+      "pos": 0,
+      "text": "彼の助言は命令も同然だ。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "276094_137142",
+      "pos": 2,
+      "text": "谷は彼の呼び声でこだました。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "249214_236826",
+      "pos": 2,
+      "text": "私たちは彼の順番をわざと飛ばした。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "287910_115760",
+      "pos": 0,
+      "text": "彼の話は単純そのものだった。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "285900_117764",
+      "pos": 0,
+      "text": "彼の胸は期待に弾んだ。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "260763_153779",
+      "pos": 2,
+      "text": "私は彼の勇気に驚愕した。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "reviewed:trygve:20261026:n3:CR114",
+      "pos": 2,
+      "text": "急に雨が降ってきたので、お店の軒下で雨宿りした。",
+      "lemma": "降って",
+      "form": "降って",
+      "reason": "Rain fell: 降る/ふる → 降って/ふって. Direct lexical 降って/くだって is the wrong binding. Repair raw inflected lemma using context-supported 降る entry."
+    },
+    {
+      "sent_id": "287282_116387",
+      "pos": 0,
+      "text": "彼の日々の振る舞いは彼の主義主張と合致していない。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "287282_116387",
+      "pos": 5,
+      "text": "彼の日々の振る舞いは彼の主義主張と合致していない。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "285795_117869",
+      "pos": 0,
+      "text": "彼の額の傷は目立つ。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "323537_80180",
+      "pos": 3,
+      "text": "毛深いまゆ毛が彼の顔の特徴だった。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "287843_115827",
+      "pos": 0,
+      "text": "彼の話し方が嫌なの。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    },
+    {
+      "sent_id": "274320_140253",
+      "pos": 2,
+      "text": "騒音が彼の睡眠を妨げた。",
+      "lemma": "彼",
+      "form": "彼の",
+      "reason": "Split pronoun 彼/かれ and particle の, or provide separately validated bound expression; supplied candidates are empty."
+    }
+  ]
+}

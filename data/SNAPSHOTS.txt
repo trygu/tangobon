@@ -60,3 +60,16 @@ Bath quotation annotation correction, 2026-10-26
   provenance: reviews/drifters-lexical-2026-10-26.json retains the prior source
               hash and explicit correction history; CHECKSUMS updated.
   scope: no snapshot re-fetch, schema change, curriculum exception or app rule.
+
+Contextual reading contract, 2026-10-27 (B29/task094)
+  source dictionaries/corpus: existing pinned JMdict/Tanaka snapshots unchanged.
+  new source: exact JMnedict entries for reviewed-sentence names 田中/豊能,
+              official https://www.edrdg.org/pub/Nihongo/JMnedict.xml.gz,
+              snapshot SHA256 eb6d2015bbface016a62cd1cec342f06ca07893a8370cdb7aa8d883de256b17e.
+  retained input: context_named_entities.json contains all12 matching XML entries,
+                  including alternative readings; extracted27October2026.
+                  JMnedict/EDRDG attribution and licence apply; no build-time network.
+  context_reading_reviews.json records complete positional standard readings;
+  no blanket lexical override. Context token segmentation in N2/N3 is corrected
+  without changing approved Japanese/English pairs or target occurrences.
+  schema1007 adds positional reading evidence and source-bound dictionary pairs.

@@ -198,8 +198,13 @@ def build_context_readings(conn, dictionary_path, overrides_path=None):
                     if spelling in wanted and (not restrictions or spelling in restrictions):
                         lexicon[spelling] = lexicon.get(spelling,())+(Lexeme(ident,spelling,reading,('proper name',)),)
     source_hash = digest.hexdigest()
-    dictionary_bindings = {(l.entry,l.spelling,l.reading):l.search_only
-                           for values in lexicon.values() for l in values}
+    dictionary_bindings = {}
+    for values in lexicon.values():
+        for lexeme in values:
+            key = (lexeme.entry, lexeme.spelling, lexeme.reading)
+            # Kana normalization can merge normal/search-only reading variants.
+            # A normal attestation wins regardless of set/dictionary iteration order.
+            dictionary_bindings[key] = dictionary_bindings.get(key, True) and lexeme.search_only
     overrides = {}
     if overrides_path is not None and Path(overrides_path).exists():
         spec = json.loads(Path(overrides_path).read_text())

@@ -183,3 +183,24 @@ def test_explicit_unresolved_binding_cannot_fall_back_to_dictionary(tmp_path):
     review.write_text(json.dumps({'schema_version':1,'occurrences':[dict(sent_id='s',pos=0,text='低を見る。',lemma='低い',form='低',decision='unresolved_binding')]}))
     build_context_readings(conn,path,review)
     assert conn.execute('SELECT status,reading,evidence_kind FROM sentence_token_readings').fetchone()==('unsupported',None,'reviewed_position')
+
+
+@pytest.mark.parametrize('reverse', [False, True])
+def test_exported_search_only_flag_is_order_independent(tmp_path, monkeypatch, reverse):
+    import tangobon.context_readings as module
+    path = tmp_path / 'dictionary.gz'
+    with gzip.open(path, 'wt') as stream:
+        stream.write('<JMdict/>')
+    normal = Lexeme('1', '袋', 'ふくろ', ('noun',), False)
+    search = Lexeme('1', '袋', 'ふくろ', ('noun',), True)
+    only = Lexeme('2', '袋', 'たい', ('noun',), True)
+    variants = [normal, search, only]
+    if reverse:
+        variants.reverse()
+    monkeypatch.setattr(module, 'dictionary_candidates', lambda *_: {'袋': tuple(variants)})
+    conn = sqlite3.connect(':memory:')
+    conn.executescript(_SCHEMA)
+    conn.execute("INSERT INTO sentence VALUES('s','s','袋','bag')")
+    conn.execute("INSERT INTO sentence_token VALUES('s',0,'袋','袋',NULL,NULL)")
+    build_context_readings(conn, path)
+    assert conn.execute('SELECT entry_ref,reading,search_only FROM context_dictionary_readings ORDER BY entry_ref').fetchall() == [('1', 'ふくろ', 0), ('2', 'たい', 1)]

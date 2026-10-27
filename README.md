@@ -339,3 +339,9 @@ the rejected pair. Validation and retirement share the overlay savepoint, so a
 stale final item rolls back earlier changes. No schema or runtime policy change.
 The 27 October 2026 sentence-quality batch corrects four B32 pairs (夕飯, 洗濯,
 乗客 and figurative 畑); its provenance is in `data/reviews/`.
+
+Normalized dictionary bindings aggregate `search_only` deterministically: a
+binding is search-only only if every compatible attestation of the same entry,
+spelling and normalized reading is search-only. This prevents rebuilds from
+flipping metadata based on set iteration order when kana variants normalize to
+the same reading. No spellings, entries or pronunciations are merged across keys.

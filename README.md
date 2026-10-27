@@ -327,3 +327,15 @@ so a noun such as 回 cannot acquire an unrelated verb-stem reading from 回る.
 A nominal genitive の preserves its bound noun/pronoun/counter reading. A known
 invalid binding can be recorded as `unresolved_binding`; it stays without ruby
 until properly corrected and cannot silently fall back to dictionary guessing.
+
+### Reviewed sentence supersession
+
+An editorial sentence may include `supersedes: {sent_id, text, translation}`,
+matched exactly against its hash-verified source review and the original corpus
+pair. The build retires all word/example links to that old pair and adds the
+replacement under a new reviewed identity. Original sentence/token rows remain
+for historical encounters; new selection through `word_sentences` cannot return
+the rejected pair. Validation and retirement share the overlay savepoint, so a
+stale final item rolls back earlier changes. No schema or runtime policy change.
+The 27 October 2026 sentence-quality batch corrects four B32 pairs (夕飯, 洗濯,
+乗客 and figurative 畑); its provenance is in `data/reviews/`.

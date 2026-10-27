@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "review_metadata": {
+    "reviewer": "Aiko linguistic review",
+    "reviewed_at": "2026-10-27",
+    "scope": "B32 four sentence-pair corrections; contextual readings preserved"
+  },
+  "items": [
+    {
+      "id": "sentence-quality-supper",
+      "status": "answered",
+      "original_ja": "夕飯をせかせる。",
+      "original_en": "Hurry in for supper.",
+      "replacement_ja": "夕飯を急いで食べた。",
+      "replacement_en": "I ate supper in a hurry.",
+      "target_surface": "夕飯",
+      "occurrence_reading": "ゆうはん",
+      "supersedes": {
+        "sent_id": "324658_79060",
+        "text": "夕飯をせかせる。",
+        "translation": "Hurry in for supper."
+      },
+      "notes": "Aiko linguistic review; user authorized B32 repair. Target binding preserved."
+    },
+    {
+      "id": "sentence-quality-washing",
+      "status": "answered",
+      "original_ja": "この綿のシャツは洗濯がよく効く。",
+      "original_en": "This cotton shirt washes well.",
+      "replacement_ja": "この綿のシャツは洗濯しやすい。",
+      "replacement_en": "This cotton shirt is easy to wash.",
+      "target_surface": "洗濯",
+      "occurrence_reading": "せんたく",
+      "supersedes": {
+        "sent_id": "56779_219459",
+        "text": "この綿のシャツは洗濯がよく効く。",
+        "translation": "This cotton shirt washes well."
+      },
+      "notes": "Aiko linguistic review; user authorized B32 repair. Target binding preserved."
+    },
+    {
+      "id": "sentence-quality-passengers",
+      "status": "answered",
+      "original_ja": "乗客はどちらの側にも４人すわっていた。",
+      "original_en": "The passengers sat four aside.",
+      "replacement_ja": "乗客はどちらの側にも４人すわっていた。",
+      "replacement_en": "Four passengers were seated on each side.",
+      "target_surface": "乗客",
+      "occurrence_reading": "じょうきゃく",
+      "supersedes": {
+        "sent_id": "268408_146154",
+        "text": "乗客はどちらの側にも４人すわっていた。",
+        "translation": "The passengers sat four aside."
+      },
+      "notes": "Aiko linguistic review; user authorized B32 repair. Target binding preserved."
+    },
+    {
+      "id": "sentence-quality-education",
+      "status": "answered",
+      "original_ja": "彼は教育畑で育った。",
+      "original_en": "He has had a long teaching career.",
+      "replacement_ja": "彼は教育畑で育った。",
+      "replacement_en": "His background is in education.",
+      "target_surface": "畑",
+      "occurrence_reading": "はたけ",
+      "supersedes": {
+        "sent_id": "295343_108343",
+        "text": "彼は教育畑で育った。",
+        "translation": "He has had a long teaching career."
+      },
+      "notes": "Aiko linguistic review; user authorized B32 repair. Target binding preserved."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "source_review": "reviews/sentence-quality-2026-10-27.json",
+  "review_sha256": "e921dc310820ab5923af06fa37264c9f9b3f5acaa8f2c8729140fb70cc4fcb24",
+  "patches": [],
+  "sentences": [
+    {
+      "review_id": "sentence-quality-supper",
+      "sent_id": "reviewed:sentence-quality:20261027:supper",
+      "text": "夕飯を急いで食べた。",
+      "translation": "I ate supper in a hurry.",
+      "ent_seq": "1584910",
+      "surface": "夕飯",
+      "reading": "ゆうはん",
+      "tokens": [
+        {
+          "lemma": "夕飯",
+          "form": "夕飯",
+          "reading": "ゆうはん",
+          "entry_ref": "1584910"
+        },
+        {
+          "lemma": "急ぐ",
+          "form": "急いで",
+          "reading": "いそいで",
+          "entry_ref": "1228650"
+        },
+        {
+          "lemma": "食べる",
+          "form": "食べた",
+          "reading": "たべた",
+          "entry_ref": "1358280"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "324658_79060",
+        "text": "夕飯をせかせる。",
+        "translation": "Hurry in for supper."
+      },
+      "focus_kanji": [
+        "飯"
+      ],
+      "target_form": "夕飯",
+      "target_reading": "ゆうはん"
+    },
+    {
+      "review_id": "sentence-quality-washing",
+      "sent_id": "reviewed:sentence-quality:20261027:washing",
+      "text": "この綿のシャツは洗濯しやすい。",
+      "translation": "This cotton shirt is easy to wash.",
+      "ent_seq": "1390980",
+      "surface": "洗濯",
+      "reading": "せんたく",
+      "tokens": [
+        {
+          "lemma": "綿",
+          "form": "綿",
+          "reading": "めん",
+          "entry_ref": "1533330"
+        },
+        {
+          "lemma": "洗濯",
+          "form": "洗濯",
+          "reading": "せんたく",
+          "entry_ref": "1390980"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "56779_219459",
+        "text": "この綿のシャツは洗濯がよく効く。",
+        "translation": "This cotton shirt washes well."
+      },
+      "focus_kanji": [
+        "洗",
+        "濯"
+      ],
+      "target_form": "洗濯",
+      "target_reading": "せんたく"
+    },
+    {
+      "review_id": "sentence-quality-passengers",
+      "sent_id": "reviewed:sentence-quality:20261027:passengers",
+      "text": "乗客はどちらの側にも４人すわっていた。",
+      "translation": "Four passengers were seated on each side.",
+      "ent_seq": "1580490",
+      "surface": "乗客",
+      "reading": "じょうきゃく",
+      "tokens": [
+        {
+          "lemma": "乗客",
+          "form": "乗客",
+          "reading": "じょうきゃく",
+          "entry_ref": "1580490"
+        },
+        {
+          "lemma": "側",
+          "form": "側",
+          "reading": "がわ",
+          "entry_ref": "1581310"
+        },
+        {
+          "lemma": "人",
+          "form": "人",
+          "reading": "にん",
+          "entry_ref": "2149890"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "268408_146154",
+        "text": "乗客はどちらの側にも４人すわっていた。",
+        "translation": "The passengers sat four aside."
+      },
+      "focus_kanji": [
+        "客"
+      ],
+      "target_form": "乗客",
+      "target_reading": "じょうきゃく"
+    },
+    {
+      "review_id": "sentence-quality-education",
+      "sent_id": "reviewed:sentence-quality:20261027:education",
+      "text": "彼は教育畑で育った。",
+      "translation": "His background is in education.",
+      "ent_seq": "1476520",
+      "surface": "畑",
+      "reading": "はたけ",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "教育",
+          "form": "教育",
+          "reading": "きょういく",
+          "entry_ref": "1236950"
+        },
+        {
+          "lemma": "畑",
+          "form": "畑",
+          "reading": "はたけ",
+          "entry_ref": "1476520"
+        },
+        {
+          "lemma": "育つ",
+          "form": "育った",
+          "reading": "そだった",
+          "entry_ref": "1160540"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "295343_108343",
+        "text": "彼は教育畑で育った。",
+        "translation": "He has had a long teaching career."
+      },
+      "focus_kanji": [
+        "畑"
+      ],
+      "target_form": "畑",
+      "target_reading": "はたけ"
+    }
+  ]
+}

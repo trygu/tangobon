@@ -27,6 +27,8 @@ def apply_reviewed_content(conn, path, stats):
         answer = approved[item["review_id"]]
         ja = answer.get("replacement_ja") or answer.get("corrected_ja") or answer["original_ja"]
         en = answer.get("replacement_en") or answer.get("corrected_en") or answer["original_en"]
+        if item.get("supersedes") != answer.get("supersedes"):
+            raise ValueError(f"Unapproved supersession: {item['review_id']}")
         text = item.get("text", item.get("expected_text"))
         occurrence = item.get("target_form", item.get("surface", item.get("form")))
         pronunciation = item.get("target_reading", item["reading"])
@@ -91,6 +93,14 @@ def apply_reviewed_content(conn, path, stats):
                         raise ValueError(f"Invalid reading breakdown: {sid}")
                 if ("".join(p["form"] for p in parts), "".join(p["reading"] for p in parts)) != (target_form, target_reading):
                     raise ValueError(f"Misaligned reading breakdown: {sid}")
+            if previous := item.get("supersedes"):
+                old = conn.execute("SELECT tanaka_entry,text,translation FROM sentence WHERE sent_id=?",
+                                   (previous["sent_id"],)).fetchone()
+                if old is None or old[1:] != (previous["text"], previous["translation"]) or previous["sent_id"] == sid:
+                    raise ValueError(f"Stale sentence supersession: {item['review_id']}")
+                # Keep corpus rows/tokens for historical snapshots, but retire every
+                # word-to-example link so a rejected pair cannot return in new selection.
+                conn.execute("DELETE FROM word_example WHERE tanaka_entry=?", (old[0],))
             conn.execute("INSERT INTO sentence VALUES(?,?,?,?)", (sid, sid, text, item["translation"]))
             conn.execute("INSERT INTO word_example VALUES(?,?)", (row[0], sid))
             conn.executemany("INSERT INTO sentence_token VALUES(?,?,?,?,?,?)", [

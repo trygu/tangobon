@@ -74,3 +74,49 @@ def test_invalid_review_rolls_back(baseline, tmp_path, defect):
             apply_reviewed_content(conn, path, {})
         assert conn.execute("SELECT COUNT(*) FROM sentence WHERE sent_id LIKE 'reviewed:%'").fetchone()[0] == 0
         assert conn.execute("SELECT translation FROM sentence WHERE sent_id='62001_224666'").fetchone() == old
+
+
+def test_sentence_supersession_preserves_history_and_retires_all_old_links(baseline):
+    spec = json.loads((DATA / 'reviewed_sentence_quality.json').read_text())
+    with connection(baseline) as conn:
+        originals = {}
+        for item in spec['sentences']:
+            sid = item['supersedes']['sent_id']
+            originals[sid] = (conn.execute('SELECT * FROM sentence WHERE sent_id=?', (sid,)).fetchone(),
+                              conn.execute('SELECT * FROM sentence_token WHERE sent_id=? ORDER BY pos', (sid,)).fetchall())
+            assert conn.execute('SELECT COUNT(*) FROM word_sentences WHERE sent_id=?', (sid,)).fetchone()[0] > 0
+        apply_reviewed_content(conn, DATA / 'reviewed_sentence_quality.json', {})
+        for item in spec['sentences']:
+            sid = item['supersedes']['sent_id']
+            assert conn.execute('SELECT * FROM sentence WHERE sent_id=?', (sid,)).fetchone() == originals[sid][0]
+            assert conn.execute('SELECT * FROM sentence_token WHERE sent_id=? ORDER BY pos', (sid,)).fetchall() == originals[sid][1]
+            assert conn.execute('SELECT COUNT(*) FROM word_sentences WHERE sent_id=?', (sid,)).fetchone()[0] == 0
+            assert conn.execute('SELECT text,translation FROM word_sentences WHERE sent_id=? AND surface=?',
+                                (item['sent_id'], item['surface'])).fetchone() == (item['text'], item['translation'])
+            assert conn.execute('SELECT form,reading,entry_ref FROM sentence_tokens WHERE sent_id=? AND lemma=?',
+                                (item['sent_id'], item['surface'])).fetchone() == (item['surface'], item['reading'], item['ent_seq'])
+
+
+@pytest.mark.parametrize('defect', ['stale_source', 'unapproved_supersession'])
+def test_sentence_supersession_fails_closed_and_rolls_back(baseline, tmp_path, defect):
+    import hashlib
+    spec = json.loads((DATA / 'reviewed_sentence_quality.json').read_text())
+    review = json.loads((DATA / spec['source_review']).read_text())
+    if defect == 'stale_source':
+        # An approved but stale final item must roll back earlier replacements and retirements.
+        spec['sentences'][-1]['supersedes']['translation'] = 'Changed upstream'
+        review['items'][-1]['supersedes']['translation'] = 'Changed upstream'
+    else:
+        spec['sentences'][-1]['supersedes']['sent_id'] = 'unapproved'
+    review_path = tmp_path / 'review.json'
+    review_path.write_text(json.dumps(review))
+    spec['source_review'] = str(review_path)
+    spec['review_sha256'] = hashlib.sha256(review_path.read_bytes()).hexdigest()
+    path = tmp_path / 'spec.json'
+    path.write_text(json.dumps(spec))
+    with connection(baseline) as conn:
+        before = conn.execute('SELECT COUNT(*) FROM word_example').fetchone()
+        with pytest.raises(ValueError, match='supersession'):
+            apply_reviewed_content(conn, path, {})
+        assert conn.execute('SELECT COUNT(*) FROM word_example').fetchone() == before
+        assert conn.execute("SELECT COUNT(*) FROM sentence WHERE sent_id LIKE 'reviewed:sentence-quality:%'").fetchone()[0] == 0

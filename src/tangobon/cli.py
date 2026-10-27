@@ -22,7 +22,7 @@ def _cmd_build(args: argparse.Namespace) -> None:
         jlpt_dir, bonus_dir, supplement, args.input_reviewed_content or [
             "data/reviewed_content.json", "data/reviewed_n4_content.json",
             "data/reviewed_n3_content.json", "data/reviewed_n2_content.json",
-            "data/quoted_content.json",
+            "data/quoted_content.json", "data/reviewed_sentence_quality.json",
         ],
     )
     print(f"Built {args.db}")

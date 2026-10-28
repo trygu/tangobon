@@ -2160,6 +2160,18 @@
       "spelling": "何",
       "lemma_reading": "なに",
       "reading": "なに"
+    },
+    {
+      "sent_id": "50008_212725",
+      "pos": 6,
+      "text": "そのバッグを洗うときは洗濯機に入れないでください。",
+      "lemma": "洗濯機",
+      "form": "洗濯機",
+      "entry_ref": "1390990",
+      "lemma_reading": "せんたくき",
+      "reading": "せんたくき",
+      "spelling": "洗濯機",
+      "rationale": "Explicit standard display reading approved in reviews/ichidan-naide-2026-10-28.json;せんたっき remains valid, not globally rejected."
     }
   ],
   "review_sources": [
@@ -2174,6 +2186,10 @@
     {
       "file": "reviews/interrogative-tokenization-2026-10-28.json",
       "sha256": "a0a69910d5a9efd93cfe8811f41786a9e80cabe93f312ab01de03434cea4e3c1"
+    },
+    {
+      "file": "reviews/ichidan-naide-2026-10-28.json",
+      "sha256": "96846a372aee9a2745540264b7fb187b6628dba24e911772b07f9629560574a7"
     }
   ]
 }

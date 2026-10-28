@@ -98,7 +98,7 @@ def inflections(lexeme):
         elif not reading.endswith('ない'):
             append(word[:-1],reading[:-1],['そう'])
     if 'Ichidan verb' in pos and word.endswith('る') and reading.endswith('る'):
-        append(word[:-1], reading[:-1], ['', 'て', 'た', 'ない', 'なかった', 'ます', 'ました', 'ません', 'ませんでした', 'れば', 'ろ', 'よ', 'よう', 'られる', 'られた', 'られない', 'させる', 'ましょう', 'ている', 'ていた', 'ています', 'ていました', 'そう', 'たら', 'たく', 'たい', 'たかった', 'られて', 'られている', 'られています'])
+        append(word[:-1], reading[:-1], ['', 'て', 'た', 'ない', 'ないで', 'なかった', 'ます', 'ました', 'ません', 'ませんでした', 'れば', 'ろ', 'よ', 'よう', 'られる', 'られた', 'られない', 'させる', 'ましょう', 'ている', 'ていた', 'ています', 'ていました', 'そう', 'たら', 'たく', 'たい', 'たかった', 'られて', 'られている', 'られています'])
     if any(p.startswith('suru verb') for p in pos) and word.endswith('する') and reading.endswith('する'):
         append(word[:-2], reading[:-2], ['し', 'して', 'した', 'しない', 'しなかった', 'します', 'しました', 'しません', 'しませんでした', 'しましょう', 'している', 'していた', 'すれば', 'しろ', 'せよ', 'しよう', 'される', 'された'])
     if any('takes the aux. verb suru' in p for p in pos):

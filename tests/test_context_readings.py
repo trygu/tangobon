@@ -204,3 +204,25 @@ def test_exported_search_only_flag_is_order_independent(tmp_path, monkeypatch, r
     conn.execute("INSERT INTO sentence_token VALUES('s',0,'袋','袋',NULL,NULL)")
     build_context_readings(conn, path)
     assert conn.execute('SELECT entry_ref,reading,search_only FROM context_dictionary_readings ORDER BY entry_ref').fetchall() == [('1', 'ふくろ', 0), ('2', 'たい', 1)]
+
+
+@pytest.mark.parametrize('word,reading,form,expected', [
+    ('入れる', 'いれる', '入れないで', 'いれないで'),
+    ('忘れる', 'わすれる', '忘れないで', 'わすれないで'),
+    ('食べる', 'たべる', '食べないで', 'たべないで'),
+    ('見せる', 'みせる', '見せないで', 'みせないで'),
+])
+def test_ichidan_negative_request_keeps_dictionary_binding(word, reading, form, expected):
+    candidates = {word: (lex(word, reading, 'Ichidan verb', 'approved-entry'),)}
+    assert resolve(candidates, word, form) == ('resolved', expected, [('approved-entry', word, reading, expected)])
+    assert resolve(candidates, word, form, entry_ref='other-entry')[1] is None
+    assert resolve(candidates, word, form, annotation='まちがい')[1] is None
+
+
+def test_negative_request_extension_cannot_select_a_reading_or_conjugation_class():
+    candidates = {'止める': (lex('止める', 'とめる', 'Ichidan verb', 'one'),
+                           lex('止める', 'やめる', 'Ichidan verb', 'two'))}
+    assert resolve(candidates, '止める', '止めないで')[0:2] == ('ambiguous', None)
+    assert resolve({'入る': (lex('入る', 'はいる', "Godan verb with 'ru' ending"),)}, '入る', '入れないで')[1] is None
+    assert inflections(lex('忘れる', 'わすれる', 'noun')).get('忘れないで') is None
+    assert inflections(lex('来る', 'くる', 'Kuru verb - special class')).get('来ないで') is None

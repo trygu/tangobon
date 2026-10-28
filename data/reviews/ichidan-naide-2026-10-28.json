@@ -1,0 +1,44 @@
+{
+  "review_metadata": {
+    "reviewer": "Aiko linguistic review",
+    "reviewed_at": "2026-10-28",
+    "scope": "Ichidan negative-request forms and one exact washing-machine display reading; no default overrides"
+  },
+  "approved": [
+    {
+      "sent_id": "50008_212725",
+      "pos": 8,
+      "text": "そのバッグを洗うときは洗濯機に入れないでください。",
+      "lemma": "入れる",
+      "form": "入れないで",
+      "entry_ref": "1465610",
+      "lemma_reading": "いれる",
+      "reading": "いれないで"
+    },
+    {
+      "sent_id": "279155_124838",
+      "pos": 5,
+      "text": "電気を消すのを忘れないで。",
+      "lemma": "忘れる",
+      "form": "忘れないで",
+      "entry_ref": "1519210",
+      "lemma_reading": "わすれる",
+      "reading": "わすれないで"
+    },
+    {
+      "sent_id": "50008_212725",
+      "pos": 6,
+      "text": "そのバッグを洗うときは洗濯機に入れないでください。",
+      "lemma": "洗濯機",
+      "form": "洗濯機",
+      "entry_ref": "1390990",
+      "lemma_reading": "せんたくき",
+      "reading": "せんたくき"
+    }
+  ],
+  "limits": [
+    "Only Ichidan stem+ないで morphology approved; negative request or without doing interpretation depends on full context.",
+    "洗濯機 display choice is positional;せんたっき remains valid elsewhere.",
+    "Dictionary spelling/entry restrictions and ambiguity must remain intact."
+  ]
+}

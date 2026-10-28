@@ -358,3 +358,16 @@ The 28 October repair splits only the interrogative 何 + か in the reviewed fi
 question. Lexical 何か (“something”) elsewhere is unchanged. Source snapshot files
 are never edited; the corrected built tokens and positional review retain the
 same sentence identity. This adds no schema or app runtime rule.
+
+Ichidan verbs support the bounded negative `ないで` form, preserving dictionary
+entry/spelling restrictions and existing ambiguity/source-annotation checks.
+Other conjugation classes are unchanged. Grammar reference: Japan Foundation
+Irodori Elementary2 Lesson4, L4-22:
+https://www.irodori.jpf.go.jp/assets/data/elementary02/pdf/Z_L04.pdf
+The reviewed washing-machine display choice is sentence-specific; its alternate
+reading remains valid elsewhere.
+
+The malformed32135_194961 sentence found during this review already has no
+word/example links in the pinned snapshot and is therefore absent from new
+selection. No unused retirement mechanism is introduced; the original corpus
+row remains a separately tracked content-review item.

@@ -3,7 +3,7 @@
   "review_metadata": {
     "reviewer": "Aiko linguistic review",
     "reviewed_at": "2026-10-27",
-    "scope": "B32 four sentence-pair corrections; contextual readings preserved"
+    "scope": "B32 four sentence-pair corrections and B35 self/name sentence replacement; reviewed additions dated per item"
   },
   "items": [
     {
@@ -69,6 +69,23 @@
         "translation": "He has had a long teaching career."
       },
       "notes": "Aiko linguistic review; user authorized B32 repair. Target binding preserved."
+    },
+    {
+      "id": "sentence-quality-self",
+      "status": "answered",
+      "original_ja": "今自分を見つめ直し。",
+      "original_en": "Now is the time I got to speak out.",
+      "replacement_ja": "自分の名前を書いてください。",
+      "replacement_en": "Please write your name.",
+      "target_surface": "自分",
+      "occurrence_reading": "じぶん",
+      "supersedes": {
+        "sent_id": "242079_172396",
+        "text": "今自分を見つめ直し。",
+        "translation": "Now is the time I got to speak out."
+      },
+      "reviewed_at": "2026-10-28",
+      "notes": "Aiko approves complete natural instruction; 自分 refers to addressee. Not an attempted reconstruction of truncated source."
     }
   ]
 }

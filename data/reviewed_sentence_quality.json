@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/sentence-quality-2026-10-27.json",
-  "review_sha256": "e921dc310820ab5923af06fa37264c9f9b3f5acaa8f2c8729140fb70cc4fcb24",
+  "review_sha256": "b730d13049c4d62ba7c047f505bd12a8a5bbb81c8d69f6397a9cb10710e409a0",
   "patches": [],
   "sentences": [
     {
@@ -160,6 +160,58 @@
       ],
       "target_form": "畑",
       "target_reading": "はたけ"
+    },
+    {
+      "review_id": "sentence-quality-self",
+      "sent_id": "reviewed:sentence-quality:20261028:self",
+      "text": "自分の名前を書いてください。",
+      "translation": "Please write your name.",
+      "ent_seq": "1318610",
+      "surface": "自分",
+      "reading": "じぶん",
+      "target_form": "自分",
+      "target_reading": "じぶん",
+      "tokens": [
+        {
+          "lemma": "自分",
+          "form": "自分",
+          "reading": "じぶん",
+          "entry_ref": "1318610"
+        },
+        {
+          "lemma": "名前",
+          "form": "名前",
+          "reading": "なまえ",
+          "entry_ref": "1531710"
+        },
+        {
+          "lemma": "書く",
+          "form": "書いて",
+          "reading": "かいて",
+          "entry_ref": "1343950"
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "自",
+          "reading": "じ",
+          "kind": "On’yomi"
+        },
+        {
+          "form": "分",
+          "reading": "ぶん",
+          "kind": "On’yomi"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "242079_172396",
+        "text": "今自分を見つめ直し。",
+        "translation": "Now is the time I got to speak out."
+      },
+      "focus_kanji": [
+        "分",
+        "自"
+      ]
     }
   ]
 }

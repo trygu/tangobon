@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/sentence-quality-2026-10-27.json",
-  "review_sha256": "b730d13049c4d62ba7c047f505bd12a8a5bbb81c8d69f6397a9cb10710e409a0",
+  "review_sha256": "e1a75452524ae8078b0f1441f68903c12c1ee6331d9340d4967e9e3a9e886ec1",
   "patches": [],
   "sentences": [
     {
@@ -212,6 +212,252 @@
         "分",
         "自"
       ]
+    },
+    {
+      "review_id": "sentence-quality-week",
+      "sent_id": "reviewed:sentence-quality:20261028:week",
+      "text": "今週はどちらにいらっしゃいましたか。",
+      "translation": "Where have you been this week?",
+      "ent_seq": "1289220",
+      "surface": "今週",
+      "reading": "こんしゅう",
+      "target_form": "今週",
+      "target_reading": "こんしゅう",
+      "tokens": [
+        {
+          "lemma": "今週",
+          "form": "今週",
+          "reading": "こんしゅう",
+          "entry_ref": "1289220"
+        },
+        {
+          "lemma": "居らっしゃる",
+          "form": "いらっしゃいました",
+          "reading": "いらっしゃいました",
+          "entry_ref": "1000940"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "242101_172375",
+        "text": "今週はどちらにいらしゃいましたか。",
+        "translation": "Where have you been this week?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-era",
+      "sent_id": "reviewed:sentence-quality:20261028:era",
+      "text": "新しい時代が始まった。",
+      "translation": "A new era has begun.",
+      "ent_seq": "1316300",
+      "surface": "時代",
+      "reading": "じだい",
+      "target_form": "時代",
+      "target_reading": "じだい",
+      "tokens": [
+        {
+          "lemma": "新しい",
+          "form": "新しい",
+          "reading": "あたらしい",
+          "entry_ref": "1361490"
+        },
+        {
+          "lemma": "時代",
+          "form": "時代",
+          "reading": "じだい",
+          "entry_ref": "1316300"
+        },
+        {
+          "lemma": "始まる",
+          "form": "始まった",
+          "reading": "はじまった",
+          "entry_ref": "1307500"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "241925_172550",
+        "text": "今や時代との競争になった。",
+        "translation": "It was now a race against time."
+      }
+    },
+    {
+      "review_id": "sentence-quality-shower",
+      "sent_id": "reviewed:sentence-quality:20261028:shower",
+      "text": "通り雨だからすぐ止むよ。",
+      "translation": "It’s just a passing shower, so it’ll stop soon.",
+      "ent_seq": "1310640",
+      "surface": "止む",
+      "reading": "やむ",
+      "target_form": "止む",
+      "target_reading": "やむ",
+      "tokens": [
+        {
+          "lemma": "通り雨",
+          "form": "通り雨",
+          "reading": "とおりあめ",
+          "entry_ref": "1432960"
+        },
+        {
+          "lemma": "止む",
+          "form": "止む",
+          "reading": "やむ",
+          "entry_ref": "1310640"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "278401_125591",
+        "text": "通り雨だからすぐ止むよ。",
+        "translation": "This is a tropical storm. It'll be over soon."
+      }
+    },
+    {
+      "review_id": "sentence-quality-exceptions",
+      "sent_id": "reviewed:sentence-quality:20261028:exceptions",
+      "text": "例外は作るべきではないと思います。",
+      "translation": "I don’t think exceptions should be made.",
+      "ent_seq": "1597890",
+      "surface": "作る",
+      "reading": "つくる",
+      "target_form": "作る",
+      "target_reading": "つくる",
+      "tokens": [
+        {
+          "lemma": "例外",
+          "form": "例外",
+          "reading": "れいがい",
+          "entry_ref": "1556410"
+        },
+        {
+          "lemma": "作る",
+          "form": "作る",
+          "reading": "つくる",
+          "entry_ref": "1597890"
+        },
+        {
+          "lemma": "思う",
+          "form": "思います",
+          "reading": "おもいます",
+          "entry_ref": "1589350"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "326039_77679",
+        "text": "例外は作るべきではないと思います。",
+        "translation": "I insist that exceptions not be made."
+      }
+    },
+    {
+      "review_id": "sentence-quality-cashcow",
+      "sent_id": "reviewed:sentence-quality:20261028:cashcow",
+      "text": "彼は会社のドル箱だ。",
+      "translation": "He is a cash cow for his company.",
+      "ent_seq": "1198550",
+      "surface": "会社",
+      "reading": "かいしゃ",
+      "target_form": "会社",
+      "target_reading": "かいしゃ",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "会社",
+          "form": "会社",
+          "reading": "かいしゃ",
+          "entry_ref": "1198550"
+        },
+        {
+          "lemma": "ドル箱",
+          "form": "ドル箱",
+          "reading": "どるばこ",
+          "entry_ref": "1966470"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "294632_109058",
+        "text": "彼は会社のドル箱だ。",
+        "translation": "He is the cash-box for his company."
+      }
+    },
+    {
+      "review_id": "sentence-quality-annoyed",
+      "sent_id": "reviewed:sentence-quality:20261028:annoyed",
+      "text": "彼は苛立った表情で答えた。",
+      "translation": "He answered with an annoyed expression.",
+      "ent_seq": "1449540",
+      "surface": "答える",
+      "reading": "こたえる",
+      "target_form": "答えた",
+      "target_reading": "こたえた",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "苛立つ",
+          "form": "苛立った",
+          "reading": "いらだった",
+          "entry_ref": "1195200"
+        },
+        {
+          "lemma": "表情",
+          "form": "表情",
+          "reading": "ひょうじょう",
+          "entry_ref": "1489700"
+        },
+        {
+          "lemma": "答える",
+          "form": "答えた",
+          "reading": "こたえた",
+          "entry_ref": "1449540"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "294507_109183",
+        "text": "彼は苛立たしい表現で答えた。",
+        "translation": "He answered with a look of annoyance."
+      }
+    },
+    {
+      "review_id": "sentence-quality-admissions",
+      "sent_id": "reviewed:sentence-quality:20261028:admissions",
+      "text": "入院の受付窓口はどこですか。",
+      "translation": "Where is the hospital admissions desk?",
+      "ent_seq": "1465720",
+      "surface": "入院",
+      "reading": "にゅういん",
+      "target_form": "入院",
+      "target_reading": "にゅういん",
+      "tokens": [
+        {
+          "lemma": "入院",
+          "form": "入院",
+          "reading": "にゅういん",
+          "entry_ref": "1465720"
+        },
+        {
+          "lemma": "受付",
+          "form": "受付",
+          "reading": "うけつけ",
+          "entry_ref": "1588060"
+        },
+        {
+          "lemma": "窓口",
+          "form": "窓口",
+          "reading": "まどぐち",
+          "entry_ref": "1401420"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "281920_122083",
+        "text": "入院の受付窓口はどこですか。",
+        "translation": "Where is the admission's office?"
+      }
     }
   ]
 }

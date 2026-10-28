@@ -3,7 +3,7 @@
   "review_metadata": {
     "reviewer": "Aiko linguistic review",
     "reviewed_at": "2026-10-27",
-    "scope": "B32 four sentence-pair corrections and B35 self/name sentence replacement; reviewed additions dated per item"
+    "scope": "B32/B35 sentence-pair repairs plus task108 N5/N4 corrections; additions dated per item"
   },
   "items": [
     {
@@ -86,6 +86,125 @@
       },
       "reviewed_at": "2026-10-28",
       "notes": "Aiko approves complete natural instruction; 自分 refers to addressee. Not an attempted reconstruction of truncated source."
+    },
+    {
+      "id": "sentence-quality-week",
+      "status": "answered",
+      "reviewed_at": "2026-10-28",
+      "original_ja": "今週はどちらにいらしゃいましたか。",
+      "original_en": "Where have you been this week?",
+      "replacement_ja": "今週はどちらにいらっしゃいましたか。",
+      "replacement_en": "Where have you been this week?",
+      "target_surface": "今週",
+      "occurrence_reading": "こんしゅう",
+      "supersedes": {
+        "sent_id": "242101_172375",
+        "text": "今週はどちらにいらしゃいましたか。",
+        "translation": "Where have you been this week?"
+      },
+      "notes": "Aiko linguistic review; task108. Missing small っ in honorific いらっしゃいました."
+    },
+    {
+      "id": "sentence-quality-era",
+      "status": "answered",
+      "reviewed_at": "2026-10-28",
+      "original_ja": "今や時代との競争になった。",
+      "original_en": "It was now a race against time.",
+      "replacement_ja": "新しい時代が始まった。",
+      "replacement_en": "A new era has begun.",
+      "target_surface": "時代",
+      "occurrence_reading": "じだい",
+      "supersedes": {
+        "sent_id": "241925_172550",
+        "text": "今や時代との競争になった。",
+        "translation": "It was now a race against time."
+      },
+      "notes": "Aiko linguistic review; task108. Replace era/time mismatch with a new complete target-preserving sentence; not a reconstruction."
+    },
+    {
+      "id": "sentence-quality-shower",
+      "status": "answered",
+      "reviewed_at": "2026-10-28",
+      "original_ja": "通り雨だからすぐ止むよ。",
+      "original_en": "This is a tropical storm. It'll be over soon.",
+      "replacement_ja": "通り雨だからすぐ止むよ。",
+      "replacement_en": "It’s just a passing shower, so it’ll stop soon.",
+      "target_surface": "止む",
+      "occurrence_reading": "やむ",
+      "supersedes": {
+        "sent_id": "278401_125591",
+        "text": "通り雨だからすぐ止むよ。",
+        "translation": "This is a tropical storm. It'll be over soon."
+      },
+      "notes": "Aiko linguistic review; task108. 通り雨 is a passing shower, not a tropical storm."
+    },
+    {
+      "id": "sentence-quality-exceptions",
+      "status": "answered",
+      "reviewed_at": "2026-10-28",
+      "original_ja": "例外は作るべきではないと思います。",
+      "original_en": "I insist that exceptions not be made.",
+      "replacement_ja": "例外は作るべきではないと思います。",
+      "replacement_en": "I don’t think exceptions should be made.",
+      "target_surface": "作る",
+      "occurrence_reading": "つくる",
+      "supersedes": {
+        "sent_id": "326039_77679",
+        "text": "例外は作るべきではないと思います。",
+        "translation": "I insist that exceptions not be made."
+      },
+      "notes": "Aiko linguistic review; task108. Preserve 思います stance rather than assert insistence."
+    },
+    {
+      "id": "sentence-quality-cashcow",
+      "status": "answered",
+      "reviewed_at": "2026-10-28",
+      "original_ja": "彼は会社のドル箱だ。",
+      "original_en": "He is the cash-box for his company.",
+      "replacement_ja": "彼は会社のドル箱だ。",
+      "replacement_en": "He is a cash cow for his company.",
+      "target_surface": "会社",
+      "occurrence_reading": "かいしゃ",
+      "supersedes": {
+        "sent_id": "294632_109058",
+        "text": "彼は会社のドル箱だ。",
+        "translation": "He is the cash-box for his company."
+      },
+      "notes": "Aiko linguistic review; task108. ドル箱 describes a lucrative asset/person; cash-box misrepresents the idiom."
+    },
+    {
+      "id": "sentence-quality-annoyed",
+      "status": "answered",
+      "reviewed_at": "2026-10-28",
+      "original_ja": "彼は苛立たしい表現で答えた。",
+      "original_en": "He answered with a look of annoyance.",
+      "replacement_ja": "彼は苛立った表情で答えた。",
+      "replacement_en": "He answered with an annoyed expression.",
+      "target_surface": "答えた",
+      "occurrence_reading": "こたえた",
+      "supersedes": {
+        "sent_id": "294507_109183",
+        "text": "彼は苛立たしい表現で答えた。",
+        "translation": "He answered with a look of annoyance."
+      },
+      "notes": "Aiko linguistic review; task108. Correct irritation state and facial expression rather than irritating wording."
+    },
+    {
+      "id": "sentence-quality-admissions",
+      "status": "answered",
+      "reviewed_at": "2026-10-28",
+      "original_ja": "入院の受付窓口はどこですか。",
+      "original_en": "Where is the admission's office?",
+      "replacement_ja": "入院の受付窓口はどこですか。",
+      "replacement_en": "Where is the hospital admissions desk?",
+      "target_surface": "入院",
+      "occurrence_reading": "にゅういん",
+      "supersedes": {
+        "sent_id": "281920_122083",
+        "text": "入院の受付窓口はどこですか。",
+        "translation": "Where is the admission's office?"
+      },
+      "notes": "Aiko linguistic review; task108. Correct English admission’s office to hospital admissions desk."
     }
   ]
 }

@@ -94,7 +94,7 @@ def test_sentence_supersession_preserves_history_and_retires_all_old_links(basel
             assert conn.execute('SELECT text,translation FROM word_sentences WHERE sent_id=? AND surface=?',
                                 (item['sent_id'], item['surface'])).fetchone() == (item['text'], item['translation'])
             assert conn.execute('SELECT form,reading,entry_ref FROM sentence_tokens WHERE sent_id=? AND lemma=?',
-                                (item['sent_id'], item['surface'])).fetchone() == (item['surface'], item['reading'], item['ent_seq'])
+                                (item['sent_id'], item['surface'])).fetchone() == (item.get('target_form', item['surface']), item.get('target_reading', item['reading']), item['ent_seq'])
 
 
 @pytest.mark.parametrize('defect', ['stale_source', 'unapproved_supersession'])

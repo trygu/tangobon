@@ -327,6 +327,10 @@ def build_sqlite(
     from .reviewed_content import apply_reviewed_content
     for reviewed_path in reviewed_content_path if isinstance(reviewed_content_path, list) else [reviewed_content_path]:
         apply_reviewed_content(conn, reviewed_path, stats)
+    # Tokenization and positional reviews are paired lexical build inputs.
+    tokenizations = Path(jmdict_path).parent / "reviewed_tokenizations.json"
+    if tokenizations.exists():
+        apply_reviewed_content(conn, tokenizations, stats)
     from .context_readings import build_context_readings
     stats["context_readings"] = build_context_readings(
         conn, jmdict_path, Path(jmdict_path).parent / "context_reading_reviews.json")

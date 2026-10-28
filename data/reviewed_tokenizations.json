@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "source_review": "reviews/interrogative-tokenization-2026-10-28.json",
+  "review_sha256": "a0a69910d5a9efd93cfe8811f41786a9e80cabe93f312ab01de03434cea4e3c1",
+  "patches": [],
+  "sentences": [],
+  "tokenizations": [
+    {
+      "review_id": "interrogative-nani-ka",
+      "sent_id": "4496353_186714",
+      "expected_text": "火災の理由は何か。",
+      "expected_translation": "What caused the fire?",
+      "expected_tokens": [
+        {
+          "lemma": "火災",
+          "form": "火災",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "の",
+          "form": "の",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "理由",
+          "form": "理由",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "は",
+          "form": "は",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "何か",
+          "form": "何か",
+          "reading": null,
+          "entry_ref": null
+        }
+      ],
+      "tokens": [
+        {
+          "lemma": "火災",
+          "form": "火災",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "の",
+          "form": "の",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "理由",
+          "form": "理由",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "は",
+          "form": "は",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "何",
+          "form": "何",
+          "reading": "なに",
+          "entry_ref": "1577100"
+        },
+        {
+          "lemma": "か",
+          "form": "か",
+          "reading": "か",
+          "entry_ref": null
+        }
+      ]
+    }
+  ]
+}

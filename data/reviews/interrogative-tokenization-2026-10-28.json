@@ -1,0 +1,90 @@
+{
+  "review_metadata": {
+    "reviewer": "Aiko linguistic review",
+    "reviewed_at": "2026-10-28",
+    "scope": "One fully guarded interrogative tokenization; lexical 何か elsewhere unchanged"
+  },
+  "items": [
+    {
+      "id": "interrogative-nani-ka",
+      "status": "answered",
+      "tokenization": {
+        "review_id": "interrogative-nani-ka",
+        "sent_id": "4496353_186714",
+        "expected_text": "火災の理由は何か。",
+        "expected_translation": "What caused the fire?",
+        "expected_tokens": [
+          {
+            "lemma": "火災",
+            "form": "火災",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "の",
+            "form": "の",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "理由",
+            "form": "理由",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "は",
+            "form": "は",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "何か",
+            "form": "何か",
+            "reading": null,
+            "entry_ref": null
+          }
+        ],
+        "tokens": [
+          {
+            "lemma": "火災",
+            "form": "火災",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "の",
+            "form": "の",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "理由",
+            "form": "理由",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "は",
+            "form": "は",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "何",
+            "form": "何",
+            "reading": "なに",
+            "entry_ref": "1577100"
+          },
+          {
+            "lemma": "か",
+            "form": "か",
+            "reading": "か",
+            "entry_ref": null
+          }
+        ]
+      },
+      "rationale": "Interrogative 何/なに entry1577100 followed by sentence-final question particleか; not lexical something."
+    }
+  ]
+}

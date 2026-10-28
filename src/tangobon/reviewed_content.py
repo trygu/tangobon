@@ -14,7 +14,7 @@ def apply_reviewed_content(conn, path, stats):
     spec = json.loads(Path(path).read_text(encoding="utf-8"))
     if spec["schema_version"] != 1 or not re.fullmatch(r"[0-9a-f]{64}", spec["review_sha256"]):
         raise ValueError("Invalid reviewed-content provenance/version")
-    ids = [x["review_id"] for x in spec["patches"] + spec["sentences"]]
+    ids = [x["review_id"] for x in spec["patches"] + spec["sentences"] + spec.get("tokenizations", [])]
     if len(ids) != len(set(ids)):
         raise ValueError("Duplicate review identity")
     review_bytes = (Path(path).parent / spec["source_review"]).read_bytes()
@@ -35,13 +35,46 @@ def apply_reviewed_content(conn, path, stats):
         if (text, item["translation"], pronunciation, occurrence) != (ja, en, answer["occurrence_reading"], answer["target_surface"]):
             raise ValueError(f"Content differs from approved answer: {item['review_id']}")
 
+    for item in spec.get("tokenizations", []):
+        if item != approved[item["review_id"]].get("tokenization"):
+            raise ValueError(f"Tokenization differs from approved answer: {item['review_id']}")
+
     def kana(value):
         if not KANA_RE.fullmatch(value):
             raise ValueError(f"Reading must be plain kana: {value}")
 
     # A failed validation cannot leave a partially applied editorial overlay.
+    token_delta = 0
     conn.execute("SAVEPOINT reviewed_content")
     try:
+        for item in spec.get("tokenizations", []):
+            sid = item["sent_id"]
+            fields = ("lemma", "form", "reading", "entry_ref")
+            expected = [tuple(t[k] for k in fields) for t in item["expected_tokens"]]
+            replacement = [tuple(t[k] for k in fields) for t in item["tokens"]]
+            actual = conn.execute("SELECT pos,lemma,form,reading,entry_ref FROM sentence_token WHERE sent_id=? ORDER BY pos", (sid,)).fetchall()
+            text = conn.execute("SELECT text,translation FROM sentence WHERE sent_id=?", (sid,)).fetchone()
+            if text != (item["expected_text"], item["expected_translation"]) or actual != [(pos, *token) for pos, token in enumerate(expected)]:
+                raise ValueError(f"Stale tokenization review: {sid}")
+            if not replacement or "".join(t[1] for t in expected) != "".join(t[1] for t in replacement):
+                raise ValueError(f"Tokenization changes written content: {sid}")
+            cursor = 0
+            for token in replacement:
+                lemma, form, reading, ref = token
+                start = text[0].find(form, cursor) if form else -1
+                if start < 0:
+                    raise ValueError(f"Unaligned tokenization: {sid}")
+                cursor = start + len(form)
+                if token not in expected:
+                    kana(reading or "")
+                    if KANJI_RE.search(form) and (ref is None or not conn.execute(
+                        "SELECT 1 FROM word WHERE ent_seq=? AND surface=?", (ref, lemma)
+                    ).fetchone()):
+                        raise ValueError(f"Unbound replacement token: {sid}")
+            conn.execute("DELETE FROM sentence_token WHERE sent_id=?", (sid,))
+            conn.executemany("INSERT INTO sentence_token VALUES(?,?,?,?,?,?)",
+                             [(sid, pos, *token) for pos, token in enumerate(replacement)])
+            token_delta += len(replacement) - len(expected)
         for item in spec["patches"]:
             kana(item["reading"])
             row = conn.execute("SELECT text,translation FROM sentence WHERE sent_id=?", (item["sent_id"],)).fetchone()
@@ -122,4 +155,4 @@ def apply_reviewed_content(conn, path, stats):
     stats["reviewed_sentences"] = stats.get("reviewed_sentences", 0) + len(spec["sentences"])
     stats["reviewed_occurrence_repairs"] = stats.get("reviewed_occurrence_repairs", 0) + len(spec["patches"])
     stats["sentences_with_tokens"] = stats.get("sentences_with_tokens", 0) + len(spec["sentences"])
-    stats["tokens"] = stats.get("tokens", 0) + sum(len(item["tokens"]) for item in spec["sentences"])
+    stats["tokens"] = stats.get("tokens", 0) + token_delta + sum(len(item["tokens"]) for item in spec["sentences"])

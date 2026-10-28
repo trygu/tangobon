@@ -345,3 +345,16 @@ binding is search-only only if every compatible attestation of the same entry,
 spelling and normalized reading is search-only. This prevents rebuilds from
 flipping metadata based on set iteration order when kana variants normalize to
 the same reading. No spellings, entries or pronunciations are merged across keys.
+
+### Reviewed tokenization repairs
+
+`data/reviewed_tokenizations.json`, when present beside the dictionary snapshot,
+uses the same hash-verified editorial overlay and is applied before positional
+context readings in every build entry point. Each repair guards the exact
+sentence/translation and complete ordered source token snapshot. Replacement
+forms must preserve written content and alignment; changed kanji tokens require
+an explicit dictionary entry. The overlay is atomic, including token statistics.
+The 28 October repair splits only the interrogative 何 + か in the reviewed fire
+question. Lexical 何か (“something”) elsewhere is unchanged. Source snapshot files
+are never edited; the corrected built tokens and positional review retain the
+same sentence identity. This adds no schema or app runtime rule.

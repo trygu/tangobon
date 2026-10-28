@@ -2153,10 +2153,13 @@
       "sent_id": "4496353_186714",
       "pos": 4,
       "text": "火災の理由は何か。",
-      "lemma": "何か",
-      "form": "何か",
-      "decision": "unresolved_binding",
-      "rationale": "Interrogative 何 + か, not lexical 何か/something. Do not certify a semantically wrong dictionary binding; preserve safe fallback pending component evidence."
+      "lemma": "何",
+      "form": "何",
+      "rationale": "Reviewed interrogative何 plus sentence-finalか; exact tokenization approval in reviews/interrogative-tokenization-2026-10-28.json. No rule for lexical何か elsewhere.",
+      "entry_ref": "1577100",
+      "spelling": "何",
+      "lemma_reading": "なに",
+      "reading": "なに"
     }
   ],
   "review_sources": [
@@ -2167,6 +2170,10 @@
     {
       "file": "reviews/context-reading-audit-2026-10-27.json",
       "sha256": "fbd6037554efb9dfe8177b2dc7e670a366b5ebc18dcd5c779cfe0613ecc6d78a"
+    },
+    {
+      "file": "reviews/interrogative-tokenization-2026-10-28.json",
+      "sha256": "a0a69910d5a9efd93cfe8811f41786a9e80cabe93f312ab01de03434cea4e3c1"
     }
   ]
 }

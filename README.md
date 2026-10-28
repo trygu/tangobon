@@ -302,9 +302,20 @@ positional/target evidence; compatibility is not expert linguistic acceptance.
 
 `context_dictionary_readings` exposes supporting entry/spelling/lemma-reading
 pairs and source identity. Multiple entries with the same occurrence reading
-retain all bindings. data/context_reading_reviews.json records complete positional
-reviews; sentence/token/dictionary identity is validated and conflicting reviews
-fail the build. This is lexical evidence, not curriculum approval.
+retain all bindings. `data/context_reading_reviews.json` uses input schema2:
+every positional payload must exactly match one canonical `approved_occurrences`
+record in a hash-checked review file. Missing, duplicate, unused or mismatched
+approvals fail the build; historical packets alone grant no import authority.
+Sentence/token/dictionary identity and conflicting target evidence remain checked.
+This is lexical evidence, not curriculum approval. Review-file hashes establish
+consistency with the committed record, not reviewer authenticity or correctness.
+
+Original compressed downloads are unchanged. The generated database is a curated
+derivative: reviewed tokenizations can replace generated `sentence_token` rows.
+The original analysis remains recoverable through `expected_tokens`, review/git
+history and rebuilding from the snapshots. `source_annotation` describes the
+input token annotation, which may include such editorial corrections; it does
+not assert that every generated token is an untouched upstream corpus annotation.
 
 The small data/context_named_entities.json extract retains12 exact JMnedict
 entries needed by existing reviewed sentences (田中/豊能), including alternative

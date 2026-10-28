@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "occurrences": [
     {
       "sent_id": "281338_122664",
@@ -2242,6 +2242,10 @@
     {
       "file": "reviews/five-context-readings-2026-10-28.json",
       "sha256": "7fef3db03728ca56fee543aba54015aa173681a024fd9fd9f6fbe51e34067853"
+    },
+    {
+      "file": "reviews/context-position-approvals-2026-10-28.json",
+      "sha256": "fdb001438d9584db2439cb91fcf3b685f0b3c609ccfc37241a9c72f6bba2d0f3"
     }
   ]
 }

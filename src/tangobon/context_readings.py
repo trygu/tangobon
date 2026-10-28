@@ -1,7 +1,9 @@
 """Build position-bound contextual readings; never infer from an isolated form.
 
-Raw corpus annotations remain untouched. Dictionary restrictions and POS constrain
-candidates; unresolved ambiguity is data, not permission to choose a first reading.
+Original downloads remain unchanged. Generated tokens may include guarded editorial
+corrections, with expected source tokens retained in review inputs. Dictionary
+restrictions and POS constrain candidates; unresolved ambiguity is not permission
+to choose a first reading.
 """
 import gzip
 import hashlib
@@ -212,17 +214,33 @@ def build_context_readings(conn, dictionary_path, overrides_path=None):
     overrides = {}
     if overrides_path is not None and Path(overrides_path).exists():
         spec = json.loads(Path(overrides_path).read_text())
-        if spec['schema_version'] != 1:
+        if spec['schema_version'] != 2:
             raise ValueError('Unsupported contextual reading review version')
+        approved = {}
         for source in spec.get('review_sources',[]):
             payload = (Path(overrides_path).parent / source['file']).read_bytes()
             if hashlib.sha256(payload).hexdigest() != source['sha256']:
                 raise ValueError('Contextual review source hash mismatch')
+            review = json.loads(payload)
+            # Historical packets remain evidence; only canonical approved
+            # payloads authorize positional imports.
+            if isinstance(review, dict) and 'approved_occurrences' in review:
+                if review.get('schema_version') != 1:
+                    raise ValueError('Unsupported positional approval version')
+                for item in review['approved_occurrences']:
+                    key = item['sent_id'], item['pos']
+                    if key in approved:
+                        raise ValueError('Duplicate contextual reading approval')
+                    approved[key] = item
         for item in spec['occurrences']:
             key = item['sent_id'], item['pos']
             if key in overrides:
                 raise ValueError('Duplicate contextual reading review position')
+            if approved.get(key) != item:
+                raise ValueError('Unapproved contextual reading payload')
             overrides[key] = item
+        if set(approved) != set(overrides):
+            raise ValueError('Unused contextual reading approval')
     seen = set()
     @lru_cache(maxsize=100000)
     def cached(lemma,form,annotation,entry):

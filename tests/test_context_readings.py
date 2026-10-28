@@ -1,5 +1,6 @@
 """Reading candidates are entry/POS-bound; surface homographs cannot override them."""
 import gzip
+import hashlib
 import json
 import sqlite3
 from pathlib import Path
@@ -110,10 +111,17 @@ def test_positional_contract_covers_repeated_tokens_and_utf16(tmp_path):
     assert conn.execute('SELECT entry_ref,spelling,reading FROM context_dictionary_readings').fetchall()==[('1','低い','ひくい')]
 
 
+def write_review(path, item):
+    source = path.with_name('approved.json')
+    source.write_text(json.dumps({'schema_version':1,'approved_occurrences':[item]}))
+    path.write_text(json.dumps({'schema_version':2,'occurrences':[item], 'review_sources':[
+        {'file':source.name,'sha256':hashlib.sha256(source.read_bytes()).hexdigest()}]}))
+
+
 def test_stale_positional_review_is_rejected(tmp_path):
     conn,path=evidence_fixture(tmp_path)
     review=tmp_path/'review.json'
-    review.write_text(json.dumps({'schema_version':1,'occurrences':[dict(sent_id='s',pos=0,text='stale',lemma='低い',form='低',entry_ref='1',spelling='低い',lemma_reading='ひくい',reading='ひく')]}))
+    write_review(review, dict(sent_id='s',pos=0,text='stale',lemma='低い',form='低',entry_ref='1',spelling='低い',lemma_reading='ひくい',reading='ひく'))
     with pytest.raises(ValueError,match='Stale'):
         build_context_readings(conn,path,review)
 
@@ -123,7 +131,7 @@ def test_conflicting_reviewed_evidence_is_rejected(tmp_path):
     conn.execute('DELETE FROM sentence_token WHERE pos=1')
     conn.execute('INSERT INTO verified_occurrence VALUES(?,?,?,?,?,?,?)',('s','1','低い','ひくい','低','ひっく','a'*64))
     review=tmp_path/'review.json'
-    review.write_text(json.dumps({'schema_version':1,'occurrences':[dict(sent_id='s',pos=0,text='低を見る。',lemma='低い',form='低',entry_ref='1',spelling='低い',lemma_reading='ひくい',reading='ひく')]}))
+    write_review(review, dict(sent_id='s',pos=0,text='低を見る。',lemma='低い',form='低',entry_ref='1',spelling='低い',lemma_reading='ひくい',reading='ひく'))
     with pytest.raises(ValueError,match='Conflicting'):
         build_context_readings(conn,path,review)
 
@@ -180,7 +188,7 @@ def test_explicit_unresolved_binding_cannot_fall_back_to_dictionary(tmp_path):
     conn,path=evidence_fixture(tmp_path,'低を見る。')
     conn.execute('DELETE FROM sentence_token WHERE pos=1')
     review=tmp_path/'review.json'
-    review.write_text(json.dumps({'schema_version':1,'occurrences':[dict(sent_id='s',pos=0,text='低を見る。',lemma='低い',form='低',decision='unresolved_binding')]}))
+    write_review(review, dict(sent_id='s',pos=0,text='低を見る。',lemma='低い',form='低',decision='unresolved_binding'))
     build_context_readings(conn,path,review)
     assert conn.execute('SELECT status,reading,evidence_kind FROM sentence_token_readings').fetchone()==('unsupported',None,'reviewed_position')
 

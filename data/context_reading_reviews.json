@@ -2172,6 +2172,54 @@
       "reading": "せんたくき",
       "spelling": "洗濯機",
       "rationale": "Explicit standard display reading approved in reviews/ichidan-naide-2026-10-28.json;せんたっき remains valid, not globally rejected."
+    },
+    {
+      "sent_id": "240381_174089",
+      "pos": 4,
+      "text": "光が世にやって来た。",
+      "lemma": "やって来る",
+      "form": "やって来た",
+      "entry_ref": "1012790",
+      "spelling": "やって来る",
+      "lemma_reading": "やってくる",
+      "reading": "やってきた",
+      "rationale": "Existing positional review; compound Kuru past form. Literary/religious register; not neutral everyday copy. Exact review: reviews/five-context-readings-2026-10-28.json."
+    },
+    {
+      "sent_id": "329618_74102",
+      "pos": 5,
+      "text": "気をつけて。警察の犬がかぎ回ってる。",
+      "lemma": "嗅ぎ回る",
+      "form": "かぎ回ってる",
+      "entry_ref": "2219100",
+      "spelling": "かぎ回る",
+      "lemma_reading": "かぎまわる",
+      "reading": "かぎまわってる",
+      "rationale": "Existing positional review of contracted progressive. 警察の犬 is derogatory police informant/spy. Exact review: reviews/five-context-readings-2026-10-28.json."
+    },
+    {
+      "sent_id": "54353_217046",
+      "pos": 8,
+      "text": "ご都合のよいときにお茶を飲みにお寄りになりませんか。",
+      "lemma": "寄る",
+      "form": "お寄り",
+      "entry_ref": "1219680",
+      "spelling": "寄る",
+      "lemma_reading": "よる",
+      "reading": "おより",
+      "rationale": "Existing positional review of honorific prefix plus continuative in お寄りになりませんか. Exact review: reviews/five-context-readings-2026-10-28.json."
+    },
+    {
+      "sent_id": "72444_235066",
+      "pos": 7,
+      "text": "６歳以上の子供は学校に通わなければならない。",
+      "lemma": "通う",
+      "form": "通わ",
+      "entry_ref": "1432850",
+      "spelling": "通う",
+      "lemma_reading": "かよう",
+      "reading": "かよわ",
+      "rationale": "Existing positional review of irrealis stem before なければならない. Exact review: reviews/five-context-readings-2026-10-28.json."
     }
   ],
   "review_sources": [
@@ -2185,11 +2233,15 @@
     },
     {
       "file": "reviews/interrogative-tokenization-2026-10-28.json",
-      "sha256": "a0a69910d5a9efd93cfe8811f41786a9e80cabe93f312ab01de03434cea4e3c1"
+      "sha256": "31c8e1304eb35083725bc4a3a28cecfeecc5cd159b9f6e92c61ce9a88980d0c3"
     },
     {
       "file": "reviews/ichidan-naide-2026-10-28.json",
       "sha256": "96846a372aee9a2745540264b7fb187b6628dba24e911772b07f9629560574a7"
+    },
+    {
+      "file": "reviews/five-context-readings-2026-10-28.json",
+      "sha256": "7fef3db03728ca56fee543aba54015aa173681a024fd9fd9f6fbe51e34067853"
     }
   ]
 }

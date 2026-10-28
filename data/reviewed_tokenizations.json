@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/interrogative-tokenization-2026-10-28.json",
-  "review_sha256": "a0a69910d5a9efd93cfe8811f41786a9e80cabe93f312ab01de03434cea4e3c1",
+  "review_sha256": "31c8e1304eb35083725bc4a3a28cecfeecc5cd159b9f6e92c61ce9a88980d0c3",
   "patches": [],
   "sentences": [],
   "tokenizations": [
@@ -77,6 +77,82 @@
           "lemma": "か",
           "form": "か",
           "reading": "か",
+          "entry_ref": null
+        }
+      ]
+    },
+    {
+      "review_id": "classical-ki-nari",
+      "sent_id": "263756_150801",
+      "expected_text": "事実は小説よりも奇なり。",
+      "expected_translation": "Fact is stranger than fiction.",
+      "expected_tokens": [
+        {
+          "lemma": "事実",
+          "form": "事実",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "は",
+          "form": "は",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "小説",
+          "form": "小説",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "よりも",
+          "form": "よりも",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "奇なる",
+          "form": "奇なり",
+          "reading": null,
+          "entry_ref": null
+        }
+      ],
+      "tokens": [
+        {
+          "lemma": "事実",
+          "form": "事実",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "は",
+          "form": "は",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "小説",
+          "form": "小説",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "よりも",
+          "form": "よりも",
+          "reading": null,
+          "entry_ref": null
+        },
+        {
+          "lemma": "奇",
+          "form": "奇",
+          "reading": "き",
+          "entry_ref": "2080990"
+        },
+        {
+          "lemma": "なり",
+          "form": "なり",
+          "reading": "なり",
           "entry_ref": null
         }
       ]

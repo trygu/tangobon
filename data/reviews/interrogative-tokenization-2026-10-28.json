@@ -2,7 +2,7 @@
   "review_metadata": {
     "reviewer": "Aiko linguistic review",
     "reviewed_at": "2026-10-28",
-    "scope": "One fully guarded interrogative tokenization; lexical 何か elsewhere unchanged"
+    "scope": "Guarded interrogative and classical-copula tokenizations; exact sentences only. Earlier review retained."
   },
   "items": [
     {
@@ -85,6 +85,87 @@
         ]
       },
       "rationale": "Interrogative 何/なに entry1577100 followed by sentence-final question particleか; not lexical something."
+    },
+    {
+      "id": "classical-ki-nari",
+      "status": "answered",
+      "tokenization": {
+        "review_id": "classical-ki-nari",
+        "sent_id": "263756_150801",
+        "expected_text": "事実は小説よりも奇なり。",
+        "expected_translation": "Fact is stranger than fiction.",
+        "expected_tokens": [
+          {
+            "lemma": "事実",
+            "form": "事実",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "は",
+            "form": "は",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "小説",
+            "form": "小説",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "よりも",
+            "form": "よりも",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "奇なる",
+            "form": "奇なり",
+            "reading": null,
+            "entry_ref": null
+          }
+        ],
+        "tokens": [
+          {
+            "lemma": "事実",
+            "form": "事実",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "は",
+            "form": "は",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "小説",
+            "form": "小説",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "よりも",
+            "form": "よりも",
+            "reading": null,
+            "entry_ref": null
+          },
+          {
+            "lemma": "奇",
+            "form": "奇",
+            "reading": "き",
+            "entry_ref": "2080990"
+          },
+          {
+            "lemma": "なり",
+            "form": "なり",
+            "reading": "なり",
+            "entry_ref": null
+          }
+        ]
+      },
+      "rationale": "Aiko review: 奇/き entry2080990 plus classical copulaなり. 奇なる entry1869360 is pre-noun adjectival, not conjugated. Whole proverb attested entry2111710."
     }
   ]
 }

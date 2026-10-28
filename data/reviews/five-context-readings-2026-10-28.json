@@ -1,0 +1,62 @@
+{
+  "review_metadata": {
+    "reviewer": "Aiko linguistic review",
+    "reviewed_at": "2026-10-28",
+    "scope": "Four exact contextual readings; no global morphology or pedagogical approval."
+  },
+  "approved": [
+    {
+      "sent_id": "240381_174089",
+      "pos": 4,
+      "text": "光が世にやって来た。",
+      "lemma": "やって来る",
+      "form": "やって来た",
+      "entry_ref": "1012790",
+      "spelling": "やって来る",
+      "lemma_reading": "やってくる",
+      "reading": "やってきた",
+      "rationale": "Existing positional review; compound Kuru past form. Literary/religious register; not neutral everyday copy. Exact review: reviews/five-context-readings-2026-10-28.json."
+    },
+    {
+      "sent_id": "329618_74102",
+      "pos": 5,
+      "text": "気をつけて。警察の犬がかぎ回ってる。",
+      "lemma": "嗅ぎ回る",
+      "form": "かぎ回ってる",
+      "entry_ref": "2219100",
+      "spelling": "かぎ回る",
+      "lemma_reading": "かぎまわる",
+      "reading": "かぎまわってる",
+      "rationale": "Existing positional review of contracted progressive. 警察の犬 is derogatory police informant/spy. Exact review: reviews/five-context-readings-2026-10-28.json."
+    },
+    {
+      "sent_id": "54353_217046",
+      "pos": 8,
+      "text": "ご都合のよいときにお茶を飲みにお寄りになりませんか。",
+      "lemma": "寄る",
+      "form": "お寄り",
+      "entry_ref": "1219680",
+      "spelling": "寄る",
+      "lemma_reading": "よる",
+      "reading": "おより",
+      "rationale": "Existing positional review of honorific prefix plus continuative in お寄りになりませんか. Exact review: reviews/five-context-readings-2026-10-28.json."
+    },
+    {
+      "sent_id": "72444_235066",
+      "pos": 7,
+      "text": "６歳以上の子供は学校に通わなければならない。",
+      "lemma": "通う",
+      "form": "通わ",
+      "entry_ref": "1432850",
+      "spelling": "通う",
+      "lemma_reading": "かよう",
+      "reading": "かよわ",
+      "rationale": "Existing positional review of irrealis stem before なければならない. Exact review: reviews/five-context-readings-2026-10-28.json."
+    }
+  ],
+  "limits": [
+    "Conditional compatibility contexts only; not demonstrated current initial exposure.",
+    "警察の犬 is derogatory police informant/spy; 光が世にやって来た has literary/religious register.",
+    "奇なり handled separately by guarded tokenization."
+  ]
+}

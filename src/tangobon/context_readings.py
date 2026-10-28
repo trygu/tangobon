@@ -125,6 +125,10 @@ def inflections(lexeme):
             suffixes += [e+x for x in ['る','た','ない','なかった','ます','ました','て','ている']]
             suffixes += [a+x for x in ['れる','れた','れない','れなかった','れて','れている','れています','れている','せる','せた']]
             append(word[:-1], reading[:-1], suffixes)
+            # Recognize only the observed お+ordinary-Godan continuative.
+            # This establishes pronunciation, not honorific suitability in context.
+            if ordinary_godan.intersection(pos):
+                forms['お'+word[:-1]+i] = 'お'+reading[:-1]+i
     if any('noun' in p or p in ('pronoun','counter') for p in pos):
         append(word,reading,['の'])
     if any('keiyodoshi' in p for p in pos):

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/sentence-quality-2026-10-27.json",
-  "review_sha256": "5bf598414b9ac77fe19fe58c7fc7c52bf7b46f885dd2959954602623fbe8e16a",
+  "review_sha256": "66932b0021ce32fd63d2c0527b98ad816ca44a5ff336199824fe5a7f19f6613d",
   "patches": [],
   "sentences": [
     {
@@ -504,6 +504,270 @@
         "sent_id": "325478_237462",
         "text": "留学生も入れるのかしら。",
         "translation": "Can foreign students be in the club?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-science",
+      "sent_id": "reviewed:sentence-quality:20261029:science",
+      "text": "あなたは理科系の大学に進んだほうがいいよ。",
+      "translation": "You should go on to study science at university.",
+      "ent_seq": "1413240",
+      "surface": "大学",
+      "reading": "だいがく",
+      "target_form": "大学",
+      "target_reading": "だいがく",
+      "tokens": [
+        {
+          "lemma": "理科系",
+          "form": "理科系",
+          "reading": "りかけい",
+          "entry_ref": "2615500"
+        },
+        {
+          "lemma": "大学",
+          "form": "大学",
+          "reading": "だいがく",
+          "entry_ref": "1413240"
+        },
+        {
+          "lemma": "進む",
+          "form": "進んだ",
+          "reading": "すすんだ",
+          "entry_ref": "1365980"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "68860_231493",
+        "text": "あなたは理科系の大学に進んだほうがいいよ。",
+        "translation": "You should go on to a technical college."
+      }
+    },
+    {
+      "review_id": "sentence-quality-name",
+      "sent_id": "reviewed:sentence-quality:20261029:name",
+      "text": "ああ、もしかして名前を呼ばれるのが恥ずかしいって？",
+      "translation": "Ah, could it be you’re embarrassed to be called by your name?",
+      "ent_seq": "1531710",
+      "surface": "名前",
+      "reading": "なまえ",
+      "target_form": "名前",
+      "target_reading": "なまえ",
+      "tokens": [
+        {
+          "lemma": "名前",
+          "form": "名前",
+          "reading": "なまえ",
+          "entry_ref": "1531710"
+        },
+        {
+          "lemma": "呼ぶ",
+          "form": "呼ばれる",
+          "reading": "よばれる",
+          "entry_ref": "1266440"
+        },
+        {
+          "lemma": "恥ずかしい",
+          "form": "恥ずかしい",
+          "reading": "はずかしい",
+          "entry_ref": "1421630"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "326793_76927",
+        "text": "ああ、もしかして名前を呼ばれるのが恥ずかしいって？",
+        "translation": "Ah, could it be you're embarrassed to be called by your first name?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-funds",
+      "sent_id": "reviewed:sentence-quality:20261029:funds",
+      "text": "州知事は黒い金に手をつけました。",
+      "translation": "The governor dipped into illicit funds.",
+      "ent_seq": "1287420",
+      "surface": "黒い",
+      "reading": "くろい",
+      "target_form": "黒い",
+      "target_reading": "くろい",
+      "tokens": [
+        {
+          "lemma": "州",
+          "form": "州",
+          "reading": "しゅう",
+          "entry_ref": "1331840"
+        },
+        {
+          "lemma": "知事",
+          "form": "知事",
+          "reading": "ちじ",
+          "entry_ref": "1420580"
+        },
+        {
+          "lemma": "黒い",
+          "form": "黒い",
+          "reading": "くろい",
+          "entry_ref": "1287420"
+        },
+        {
+          "lemma": "金",
+          "form": "金",
+          "reading": "かね",
+          "entry_ref": "1242590"
+        },
+        {
+          "lemma": "手を付ける",
+          "form": "手をつけました",
+          "reading": "てをつけました",
+          "entry_ref": "2222160"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "266326_148233",
+        "text": "州知事は黒い金に手をつけました。",
+        "translation": "The governor took the money out of a slush fund."
+      }
+    },
+    {
+      "review_id": "sentence-quality-darkroad",
+      "sent_id": "reviewed:sentence-quality:20261029:darkroad",
+      "text": "この道は暗い。",
+      "translation": "This road is dark.",
+      "ent_seq": "1154330",
+      "surface": "暗い",
+      "reading": "くらい",
+      "target_form": "暗い",
+      "target_reading": "くらい",
+      "tokens": [
+        {
+          "lemma": "道",
+          "form": "道",
+          "reading": "みち",
+          "entry_ref": "1454080"
+        },
+        {
+          "lemma": "暗い",
+          "form": "暗い",
+          "reading": "くらい",
+          "entry_ref": "1154330"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "254218_160303",
+        "text": "私はその暗い道を通り過ぎた。",
+        "translation": "I passed over the dark street."
+      }
+    },
+    {
+      "review_id": "sentence-quality-station",
+      "sent_id": "reviewed:sentence-quality:20261029:station",
+      "text": "グランド・セントラル駅までお願いします。",
+      "translation": "Grand Central Station, please.",
+      "ent_seq": "1175140",
+      "surface": "駅",
+      "reading": "えき",
+      "target_form": "駅",
+      "target_reading": "えき",
+      "tokens": [
+        {
+          "lemma": "駅",
+          "form": "駅",
+          "reading": "えき",
+          "entry_ref": "1175140"
+        },
+        {
+          "lemma": "お願い",
+          "form": "お願い",
+          "reading": "おねがい",
+          "entry_ref": "2036870"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "62872_225536",
+        "text": "グランド・セントラル駅までやってください。",
+        "translation": "Grand Central Station, please."
+      }
+    },
+    {
+      "review_id": "sentence-quality-sisters",
+      "sent_id": "reviewed:sentence-quality:20261029:sisters",
+      "text": "私は彼女とその妹を区別できなかった。",
+      "translation": "I couldn’t tell her and her younger sister apart.",
+      "ent_seq": "1244250",
+      "surface": "区別",
+      "reading": "くべつ",
+      "target_form": "区別",
+      "target_reading": "くべつ",
+      "tokens": [
+        {
+          "lemma": "私",
+          "form": "私",
+          "reading": "わたし",
+          "entry_ref": "1311110"
+        },
+        {
+          "lemma": "彼女",
+          "form": "彼女",
+          "reading": "かのじょ",
+          "entry_ref": "1483150"
+        },
+        {
+          "lemma": "妹",
+          "form": "妹",
+          "reading": "いもうと",
+          "entry_ref": "1524590"
+        },
+        {
+          "lemma": "区別",
+          "form": "区別",
+          "reading": "くべつ",
+          "entry_ref": "1244250"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "261123_153421",
+        "text": "私は彼女と妹を区別できなかった。",
+        "translation": "I couldn't tell her from her sister."
+      }
+    },
+    {
+      "review_id": "sentence-quality-heavier",
+      "sent_id": "reviewed:sentence-quality:20261029:heavier",
+      "text": "彼は前より少し太っていた。",
+      "translation": "He was a little heavier than before.",
+      "ent_seq": "1408220",
+      "surface": "太る",
+      "reading": "ふとる",
+      "target_form": "太っていた",
+      "target_reading": "ふとっていた",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "前",
+          "form": "前",
+          "reading": "まえ",
+          "entry_ref": "1392580"
+        },
+        {
+          "lemma": "少し",
+          "form": "少し",
+          "reading": "すこし",
+          "entry_ref": "1348870"
+        },
+        {
+          "lemma": "太る",
+          "form": "太っていた",
+          "reading": "ふとっていた",
+          "entry_ref": "1408220"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "65748_228392",
+        "text": "インシュリンを打つので彼女は太っていた。",
+        "translation": "The insulin was making her fat."
       }
     }
   ]

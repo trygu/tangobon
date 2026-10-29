@@ -3,7 +3,7 @@
   "review_metadata": {
     "reviewer": "Aiko linguistic review",
     "reviewed_at": "2026-10-27",
-    "scope": "B32/B35 sentence-pair repairs plus task108 N5/N4 corrections; additions dated per item; task109 ambiguous 入れる model replacement dated2026-10-29"
+    "scope": "B32/B35 sentence-pair repairs plus task108 N5/N4 corrections; additions dated per item; task109 ambiguous 入れる model replacement dated2026-10-29; task110 seven translation-precision/new-model decisions29October2026, CR047 excluded"
   },
   "items": [
     {
@@ -222,6 +222,125 @@
         "translation": "Can foreign students be in the club?"
       },
       "notes": "Task109 Aiko review: new unambiguous transitive example. Original admits an omitted-agent transitive interpretation; do not label いれる categorically impossible. New identity, original source/tokens/history preserved."
+    },
+    {
+      "id": "sentence-quality-science",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "あなたは理科系の大学に進んだほうがいいよ。",
+      "original_en": "You should go on to a technical college.",
+      "replacement_ja": "あなたは理科系の大学に進んだほうがいいよ。",
+      "replacement_en": "You should go on to study science at university.",
+      "target_surface": "大学",
+      "occurrence_reading": "だいがく",
+      "supersedes": {
+        "sent_id": "68860_231493",
+        "text": "あなたは理科系の大学に進んだほうがいいよ。",
+        "translation": "You should go on to a technical college."
+      },
+      "notes": "Task110 Aiko scoped approval. English precision edit only. The Japanese recommends science/STEM-oriented university study; remove the potentially vocational institution-type claim in technical college. Original not declared categorically impossible in every context."
+    },
+    {
+      "id": "sentence-quality-name",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "ああ、もしかして名前を呼ばれるのが恥ずかしいって？",
+      "original_en": "Ah, could it be you're embarrassed to be called by your first name?",
+      "replacement_ja": "ああ、もしかして名前を呼ばれるのが恥ずかしいって？",
+      "replacement_en": "Ah, could it be you’re embarrassed to be called by your name?",
+      "target_surface": "名前",
+      "occurrence_reading": "なまえ",
+      "supersedes": {
+        "sent_id": "326793_76927",
+        "text": "ああ、もしかして名前を呼ばれるのが恥ずかしいって？",
+        "translation": "Ah, could it be you're embarrassed to be called by your first name?"
+      },
+      "notes": "Task110 Aiko scoped approval. English precision broadening only. Pinned 名前 entry1531710 DOES include given name/first name senses; the old translation is not lexically impossible. Neutral name avoids choosing a narrower sense without additional context."
+    },
+    {
+      "id": "sentence-quality-funds",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "州知事は黒い金に手をつけました。",
+      "original_en": "The governor took the money out of a slush fund.",
+      "replacement_ja": "州知事は黒い金に手をつけました。",
+      "replacement_en": "The governor dipped into illicit funds.",
+      "target_surface": "黒い",
+      "occurrence_reading": "くろい",
+      "supersedes": {
+        "sent_id": "266326_148233",
+        "text": "州知事は黒い金に手をつけました。",
+        "translation": "The governor took the money out of a slush fund."
+      },
+      "notes": "Task110 Aiko scoped approval. Preserve Japanese. Illicit funds preserves 黒い金 without inventing the narrower slush-fund mechanism. Dipped into captures using/touching the funds."
+    },
+    {
+      "id": "sentence-quality-darkroad",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "私はその暗い道を通り過ぎた。",
+      "original_en": "I passed over the dark street.",
+      "replacement_ja": "この道は暗い。",
+      "replacement_en": "This road is dark.",
+      "target_surface": "暗い",
+      "occurrence_reading": "くらい",
+      "supersedes": {
+        "sent_id": "254218_160303",
+        "text": "私はその暗い道を通り過ぎた。",
+        "translation": "I passed over the dark street."
+      },
+      "notes": "Task110 Aiko scoped approval. New simple model intentionally avoids deciding whether the original movement was past, along or through the road. Preserve the literal target暗い/くらい. Do not describe the replacement as a recovered translation of the old route."
+    },
+    {
+      "id": "sentence-quality-station",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "グランド・セントラル駅までやってください。",
+      "original_en": "Grand Central Station, please.",
+      "replacement_ja": "グランド・セントラル駅までお願いします。",
+      "replacement_en": "Grand Central Station, please.",
+      "target_surface": "駅",
+      "occurrence_reading": "えき",
+      "supersedes": {
+        "sent_id": "62872_225536",
+        "text": "グランド・セントラル駅までやってください。",
+        "translation": "Grand Central Station, please."
+      },
+      "notes": "Task110 Aiko scoped approval. Modern conventional destination request preserving the existing English and named destination. The older やってください version is marked/context-dependent, not categorically ungrammatical. お願い is a lexical noun/suru expression; no arbitrary honorific derivation."
+    },
+    {
+      "id": "sentence-quality-sisters",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "私は彼女と妹を区別できなかった。",
+      "original_en": "I couldn't tell her from her sister.",
+      "replacement_ja": "私は彼女とその妹を区別できなかった。",
+      "replacement_en": "I couldn’t tell her and her younger sister apart.",
+      "target_surface": "区別",
+      "occurrence_reading": "くべつ",
+      "supersedes": {
+        "sent_id": "261123_153421",
+        "text": "私は彼女と妹を区別できなかった。",
+        "translation": "I couldn't tell her from her sister."
+      },
+      "notes": "Task110 Aiko scoped approval. Minimal anaphoric clarification: その妹 makes the younger sister refer back to彼女, matching the old English’s intended her sister. Younger is explicit in妹. New reviewed model selects that existing English interpretation rather than claiming the original Japanese had only that interpretation."
+    },
+    {
+      "id": "sentence-quality-heavier",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "インシュリンを打つので彼女は太っていた。",
+      "original_en": "The insulin was making her fat.",
+      "replacement_ja": "彼は前より少し太っていた。",
+      "replacement_en": "He was a little heavier than before.",
+      "target_surface": "太っていた",
+      "occurrence_reading": "ふとっていた",
+      "supersedes": {
+        "sent_id": "65748_228392",
+        "text": "インシュリンを打つので彼女は太っていた。",
+        "translation": "The insulin was making her fat."
+      },
+      "notes": "Task110 Aiko scoped approval. Neutral target-preserving replacement removes an unverified medical causal claim without judging it true or false. Exact observed target太っていた/ふとっていた is preserved. This is an authorized editorial-neutrality choice, not proof of a medical translation defect."
     }
   ]
 }

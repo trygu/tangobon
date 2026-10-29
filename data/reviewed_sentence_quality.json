@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/sentence-quality-2026-10-27.json",
-  "review_sha256": "dd9f1886ba2b4b6b21d929b3e7b7ae39545e05e904f2ef16311ec62a34abc3e4",
+  "review_sha256": "ef76ae7dc213024a46225e716233fe514fb2fb0137f8974930467cf255608c61",
   "patches": [],
   "sentences": [
     {
@@ -798,6 +798,1452 @@
         "sent_id": "reviewed:trygve:20261025:n4:CR047",
         "text": "何人兄弟ですか。",
         "translation": "How many siblings do you have?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-271261",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-271261",
+      "text": "勢いに流されているんですよ。",
+      "translation": "You’re being carried along by the momentum.",
+      "ent_seq": "1375040",
+      "surface": "勢い",
+      "reading": "いきおい",
+      "target_form": "勢い",
+      "target_reading": "いきおい",
+      "tokens": [
+        {
+          "lemma": "勢い",
+          "form": "勢い",
+          "reading": "いきおい",
+          "entry_ref": "1375040"
+        },
+        {
+          "lemma": "流す",
+          "form": "流されている",
+          "reading": "ながされている",
+          "entry_ref": "1552120"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "271261_143307",
+        "text": "勢いに流されているんですよ。",
+        "translation": "You are carried along with the slide."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-22705",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-22705",
+      "text": "私は友達を先生に紹介した。",
+      "translation": "I introduced my friend to the teacher.",
+      "ent_seq": "1351430",
+      "surface": "紹介",
+      "reading": "しょうかい",
+      "target_form": "紹介",
+      "target_reading": "しょうかい",
+      "tokens": [
+        {
+          "lemma": "私",
+          "form": "私",
+          "reading": "わたし",
+          "entry_ref": "1311110"
+        },
+        {
+          "lemma": "友達",
+          "form": "友達",
+          "reading": "ともだち",
+          "entry_ref": "1540170"
+        },
+        {
+          "lemma": "先生",
+          "form": "先生",
+          "reading": "せんせい",
+          "entry_ref": "1387990"
+        },
+        {
+          "lemma": "紹介",
+          "form": "紹介",
+          "reading": "しょうかい",
+          "entry_ref": "1351430"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "22705_185573",
+        "text": "我々は彼を晩餐会に紹介した。",
+        "translation": "We invited him to the dinner party."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-326089",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-326089",
+      "text": "冷房が効きすぎているのですが。",
+      "translation": "The air conditioning is too strong.",
+      "ent_seq": "1557290",
+      "surface": "冷房",
+      "reading": "れいぼう",
+      "target_form": "冷房",
+      "target_reading": "れいぼう",
+      "tokens": [
+        {
+          "lemma": "冷房",
+          "form": "冷房",
+          "reading": "れいぼう",
+          "entry_ref": "1557290"
+        },
+        {
+          "lemma": "効く",
+          "form": "効き",
+          "reading": "きき",
+          "entry_ref": "1591100"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "326089_77629",
+        "text": "冷房が効きすぎているのですが。",
+        "translation": "How do I fix the air-conditioner?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-63405",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-63405",
+      "text": "ぎこちない笑いをした店員が答えた。",
+      "translation": "The clerk answered with an awkward smile.",
+      "ent_seq": "1351280",
+      "surface": "笑い",
+      "reading": "わらい",
+      "target_form": "笑い",
+      "target_reading": "わらい",
+      "tokens": [
+        {
+          "lemma": "笑い",
+          "form": "笑い",
+          "reading": "わらい",
+          "entry_ref": "1351280"
+        },
+        {
+          "lemma": "店員",
+          "form": "店員",
+          "reading": "てんいん",
+          "entry_ref": "1440670"
+        },
+        {
+          "lemma": "答える",
+          "form": "答えた",
+          "reading": "こたえた",
+          "entry_ref": "1449540"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "63405_226066",
+        "text": "ぎこちない笑いをした店員が答えた。",
+        "translation": "The smirking male clerk replied."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-265358",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-265358",
+      "text": "この時計には保証がある。",
+      "translation": "This watch comes with a warranty.",
+      "ent_seq": "1603500",
+      "surface": "保証",
+      "reading": "ほしょう",
+      "target_form": "保証",
+      "target_reading": "ほしょう",
+      "tokens": [
+        {
+          "lemma": "時計",
+          "form": "時計",
+          "reading": "とけい",
+          "entry_ref": "1316140"
+        },
+        {
+          "lemma": "保証",
+          "form": "保証",
+          "reading": "ほしょう",
+          "entry_ref": "1603500"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "265358_149200",
+        "text": "社会保証がきいてあきれるよ。",
+        "translation": "Social security? Who do they think they're kidding."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-18485",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-18485",
+      "text": "金融引き締め政策が実施されている。",
+      "translation": "A monetary tightening policy is being implemented.",
+      "ent_seq": "1243290",
+      "surface": "金融",
+      "reading": "きんゆう",
+      "target_form": "金融",
+      "target_reading": "きんゆう",
+      "tokens": [
+        {
+          "lemma": "金融",
+          "form": "金融",
+          "reading": "きんゆう",
+          "entry_ref": "1243290"
+        },
+        {
+          "lemma": "引き締め",
+          "form": "引き締め",
+          "reading": "ひきしめ",
+          "entry_ref": "1612510"
+        },
+        {
+          "lemma": "政策",
+          "form": "政策",
+          "reading": "せいさく",
+          "entry_ref": "1375950"
+        },
+        {
+          "lemma": "実施",
+          "form": "実施",
+          "reading": "じっし",
+          "entry_ref": "1321140"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "18485_179627",
+        "text": "金融引き締め政策が実施されている。",
+        "translation": "A fiscal tightening policy is being enacted."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-266176",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-266176",
+      "text": "首脳会議は世界平和に貢献した。",
+      "translation": "The summit contributed to world peace.",
+      "ent_seq": "1282410",
+      "surface": "貢献",
+      "reading": "こうけん",
+      "target_form": "貢献",
+      "target_reading": "こうけん",
+      "tokens": [
+        {
+          "lemma": "首脳会議",
+          "form": "首脳会議",
+          "reading": "しゅのうかいぎ",
+          "entry_ref": "1696810"
+        },
+        {
+          "lemma": "世界平和",
+          "form": "世界平和",
+          "reading": "せかいへいわ",
+          "entry_ref": "1939730"
+        },
+        {
+          "lemma": "貢献",
+          "form": "貢献",
+          "reading": "こうけん",
+          "entry_ref": "1282410"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "266176_148383",
+        "text": "首脳会議は世界平和に貢献した。",
+        "translation": "The summit conference was held for world peace."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-305031",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-305031",
+      "text": "彼らが眠っている間私がハンドルを握った。",
+      "translation": "I took the wheel while they were sleeping.",
+      "ent_seq": "1152720",
+      "surface": "握る",
+      "reading": "にぎる",
+      "target_form": "握った",
+      "target_reading": "にぎった",
+      "tokens": [
+        {
+          "lemma": "彼ら",
+          "form": "彼ら",
+          "reading": "かれら",
+          "entry_ref": "1483090"
+        },
+        {
+          "lemma": "眠る",
+          "form": "眠っている",
+          "reading": "ねむっている",
+          "entry_ref": "1529390"
+        },
+        {
+          "lemma": "間",
+          "form": "間",
+          "reading": "あいだ",
+          "entry_ref": "1215230"
+        },
+        {
+          "lemma": "私",
+          "form": "私",
+          "reading": "わたし",
+          "entry_ref": "1311110"
+        },
+        {
+          "lemma": "握る",
+          "form": "握った",
+          "reading": "にぎった",
+          "entry_ref": "1152720"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "305031_98669",
+        "text": "彼らが眠っている間私がハンドルを握った。",
+        "translation": "I took the wheel while he slept."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-44871",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-44871",
+      "text": "その店は瀬戸物を使っている。",
+      "translation": "The shop uses earthenware.",
+      "ent_seq": "1374400",
+      "surface": "瀬戸物",
+      "reading": "せともの",
+      "target_form": "瀬戸物",
+      "target_reading": "せともの",
+      "tokens": [
+        {
+          "lemma": "店",
+          "form": "店",
+          "reading": "みせ",
+          "entry_ref": "1582120"
+        },
+        {
+          "lemma": "瀬戸物",
+          "form": "瀬戸物",
+          "reading": "せともの",
+          "entry_ref": "1374400"
+        },
+        {
+          "lemma": "使う",
+          "form": "使っている",
+          "reading": "つかっている",
+          "entry_ref": "1305990"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "44871_207618",
+        "text": "その店は瀬戸物を使っている。",
+        "translation": "The store carries earthenware."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-22284",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-22284",
+      "text": "懐かしい１２小節のブルース。",
+      "translation": "Nostalgic twelve-bar blues.",
+      "ent_seq": "1200490",
+      "surface": "懐かしい",
+      "reading": "なつかしい",
+      "target_form": "懐かしい",
+      "target_reading": "なつかしい",
+      "tokens": [
+        {
+          "lemma": "懐かしい",
+          "form": "懐かしい",
+          "reading": "なつかしい",
+          "entry_ref": "1200490"
+        },
+        {
+          "lemma": "小節",
+          "form": "小節",
+          "reading": "しょうせつ",
+          "entry_ref": "1348420"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "22284_185153",
+        "text": "懐かしい１２小節のブルース。",
+        "translation": "There go the twelve bars blues."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-56958",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-56958",
+      "text": "この本は戸棚の上です。",
+      "translation": "This book is on top of the cupboard.",
+      "ent_seq": "1267050",
+      "surface": "戸棚",
+      "reading": "とだな",
+      "target_form": "戸棚",
+      "target_reading": "とだな",
+      "tokens": [
+        {
+          "lemma": "本",
+          "form": "本",
+          "reading": "ほん",
+          "entry_ref": "1522150"
+        },
+        {
+          "lemma": "戸棚",
+          "form": "戸棚",
+          "reading": "とだな",
+          "entry_ref": "1267050"
+        },
+        {
+          "lemma": "上",
+          "form": "上",
+          "reading": "うえ",
+          "entry_ref": "1352130"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "56958_219638",
+        "text": "この本は戸棚の上です。",
+        "translation": "This book goes on the top shelf."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-73610",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-73610",
+      "text": "「誰か車の中にいるのですか」「トムがいます」",
+      "translation": "“Is anyone in the car?” “Tom is.”",
+      "ent_seq": "1416840",
+      "surface": "誰か",
+      "reading": "だれか",
+      "target_form": "誰か",
+      "target_reading": "だれか",
+      "tokens": [
+        {
+          "lemma": "誰か",
+          "form": "誰か",
+          "reading": "だれか",
+          "entry_ref": "1416840"
+        },
+        {
+          "lemma": "車",
+          "form": "車",
+          "reading": "くるま",
+          "entry_ref": "1323080"
+        },
+        {
+          "lemma": "中",
+          "form": "中",
+          "reading": "なか",
+          "entry_ref": "1423310"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "73610_236233",
+        "text": "「誰か車の中にいるのですか」「トムがいます」",
+        "translation": "\"Who is in the car?\" \"Tom is.\""
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-10",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-10",
+      "text": "この中から一人を選ぶ。",
+      "translation": "I will choose one person from this group.",
+      "ent_seq": "1588730",
+      "surface": "選ぶ",
+      "reading": "えらぶ",
+      "target_form": "選ぶ",
+      "target_reading": "えらぶ",
+      "tokens": [
+        {
+          "lemma": "中",
+          "form": "中",
+          "reading": "なか",
+          "entry_ref": "1423310"
+        },
+        {
+          "lemma": "一人",
+          "form": "一人",
+          "reading": "ひとり",
+          "entry_ref": "1576150"
+        },
+        {
+          "lemma": "選ぶ",
+          "form": "選ぶ",
+          "reading": "えらぶ",
+          "entry_ref": "1588730"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "49672_212388",
+        "text": "その位置に誰を選ぶか考えがありますか。",
+        "translation": "Do you have any idea who we should single out for the position?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-69",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-69",
+      "text": "彼は彼の洞察力を得意に思っている。",
+      "translation": "He prides himself on his insight.",
+      "ent_seq": "1454510",
+      "surface": "得意",
+      "reading": "とくい",
+      "target_form": "得意",
+      "target_reading": "とくい",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "彼",
+          "form": "彼の",
+          "reading": "かれの",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "洞察力",
+          "form": "洞察力",
+          "reading": "どうさつりょく",
+          "entry_ref": "1687840"
+        },
+        {
+          "lemma": "得意",
+          "form": "得意",
+          "reading": "とくい",
+          "entry_ref": "1454510"
+        },
+        {
+          "lemma": "思う",
+          "form": "思っている",
+          "reading": "おもっている",
+          "entry_ref": "1589350"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "302510_101186",
+        "text": "彼は彼の洞察力を得意に思っている。",
+        "translation": "He congratulates himself on his foresight."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-75",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-75",
+      "text": "子宮癌の検査をしていただきたいのです。",
+      "translation": "I would like to be examined for uterine cancer.",
+      "ent_seq": "1257890",
+      "surface": "検査",
+      "reading": "けんさ",
+      "target_form": "検査",
+      "target_reading": "けんさ",
+      "tokens": [
+        {
+          "lemma": "子宮癌",
+          "form": "子宮癌",
+          "reading": "しきゅうがん",
+          "entry_ref": "1825350"
+        },
+        {
+          "lemma": "検査",
+          "form": "検査",
+          "reading": "けんさ",
+          "entry_ref": "1257890"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "245645_168845",
+        "text": "子宮癌の検査をしていただきたいのです。",
+        "translation": "I'd like to have a Pap smear done."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-104",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-104",
+      "text": "彼は給料の良い会社に変わった。",
+      "translation": "He moved to a company that offered a good salary.",
+      "ent_seq": "1510790",
+      "surface": "変わる",
+      "reading": "かわる",
+      "target_form": "変わった",
+      "target_reading": "かわった",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "給料",
+          "form": "給料",
+          "reading": "きゅうりょう",
+          "entry_ref": "1230360"
+        },
+        {
+          "lemma": "良い",
+          "form": "良い",
+          "reading": "よい",
+          "entry_ref": "1605820"
+        },
+        {
+          "lemma": "会社",
+          "form": "会社",
+          "reading": "かいしゃ",
+          "entry_ref": "1198550"
+        },
+        {
+          "lemma": "変わる",
+          "form": "変わった",
+          "reading": "かわった",
+          "entry_ref": "1510790"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "295250_108436",
+        "text": "彼は給料の良い会社に変わった。",
+        "translation": "He moved to a good company that offered a good salary."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-120",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-120",
+      "text": "お肉の焼き加減は、いかがなさいますか？",
+      "translation": "How would you like your meat cooked?",
+      "ent_seq": "1190080",
+      "surface": "加減",
+      "reading": "かげん",
+      "target_form": "加減",
+      "target_reading": "かげん",
+      "tokens": [
+        {
+          "lemma": "肉",
+          "form": "肉",
+          "reading": "にく",
+          "entry_ref": "1463520"
+        },
+        {
+          "lemma": "焼く",
+          "form": "焼き",
+          "reading": "やき",
+          "entry_ref": "1350600"
+        },
+        {
+          "lemma": "加減",
+          "form": "加減",
+          "reading": "かげん",
+          "entry_ref": "1190080"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "328805_74914",
+        "text": "お肉の焼き加減は、いかがなさいますか？",
+        "translation": "How would you like your steak cooked?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-121",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-121",
+      "text": "仮の議事内容を送付しました。",
+      "translation": "I sent the tentative agenda.",
+      "ent_seq": "1459400",
+      "surface": "内容",
+      "reading": "ないよう",
+      "target_form": "内容",
+      "target_reading": "ないよう",
+      "tokens": [
+        {
+          "lemma": "仮",
+          "form": "仮の",
+          "reading": "かりの",
+          "entry_ref": "1187290"
+        },
+        {
+          "lemma": "議事",
+          "form": "議事",
+          "reading": "ぎじ",
+          "entry_ref": "1226080"
+        },
+        {
+          "lemma": "内容",
+          "form": "内容",
+          "reading": "ないよう",
+          "entry_ref": "1459400"
+        },
+        {
+          "lemma": "送付",
+          "form": "送付",
+          "reading": "そうふ",
+          "entry_ref": "1402840"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "25319_188179",
+        "text": "仮の議事内容を送付しました。",
+        "translation": "Attached is the tentative agenda."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-171",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-171",
+      "text": "向こうの交番で聞いてください。",
+      "translation": "Please ask at the police box over there.",
+      "ent_seq": "1272500",
+      "surface": "交番",
+      "reading": "こうばん",
+      "target_form": "交番",
+      "target_reading": "こうばん",
+      "tokens": [
+        {
+          "lemma": "向こう",
+          "form": "向こう",
+          "reading": "むこう",
+          "entry_ref": "1277140"
+        },
+        {
+          "lemma": "交番",
+          "form": "交番",
+          "reading": "こうばん",
+          "entry_ref": "1272500"
+        },
+        {
+          "lemma": "聞く",
+          "form": "聞いて",
+          "reading": "きいて",
+          "entry_ref": "1591110"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "1584073_173841",
+        "text": "向こうの交番で聞いてください。",
+        "translation": "Ask at the police station over there."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-185",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-185",
+      "text": "彼は親から独立した。",
+      "translation": "He became independent of his parents.",
+      "ent_seq": "1456040",
+      "surface": "独立",
+      "reading": "どくりつ",
+      "target_form": "独立",
+      "target_reading": "どくりつ",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "親",
+          "form": "親",
+          "reading": "おや",
+          "entry_ref": "1365040"
+        },
+        {
+          "lemma": "独立",
+          "form": "独立",
+          "reading": "どくりつ",
+          "entry_ref": "1456040"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "20778_183655",
+        "text": "頑固になればなるほど独立するよ。",
+        "translation": "The more stubborn you are, the more isolated you become."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-196",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-196",
+      "text": "農家の子になりたいかね。",
+      "translation": "Would you like to be a farmer’s child?",
+      "ent_seq": "1470620",
+      "surface": "農家",
+      "reading": "のうか",
+      "target_form": "農家",
+      "target_reading": "のうか",
+      "tokens": [
+        {
+          "lemma": "農家",
+          "form": "農家",
+          "reading": "のうか",
+          "entry_ref": "1470620"
+        },
+        {
+          "lemma": "子",
+          "form": "子",
+          "reading": "こ",
+          "entry_ref": "1307770"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "282294_121711",
+        "text": "農家の子になりたいかね。",
+        "translation": "Would you like to be a farm boy?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-219",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-219",
+      "text": "彼は商売をたたんで引退した。",
+      "translation": "He closed his business and retired.",
+      "ent_seq": "1169610",
+      "surface": "引退",
+      "reading": "いんたい",
+      "target_form": "引退",
+      "target_reading": "いんたい",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "商売",
+          "form": "商売",
+          "reading": "しょうばい",
+          "entry_ref": "1347200"
+        },
+        {
+          "lemma": "引退",
+          "form": "引退",
+          "reading": "いんたい",
+          "entry_ref": "1169610"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "299506_104185",
+        "text": "彼は商売をたたんで引退した。",
+        "translation": "He sold his business and retired."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-409",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-409",
+      "text": "警察は犯罪を防ぐ。",
+      "translation": "The police prevent crime.",
+      "ent_seq": "1481590",
+      "surface": "犯罪",
+      "reading": "はんざい",
+      "target_form": "犯罪",
+      "target_reading": "はんざい",
+      "tokens": [
+        {
+          "lemma": "警察",
+          "form": "警察",
+          "reading": "けいさつ",
+          "entry_ref": "1252390"
+        },
+        {
+          "lemma": "犯罪",
+          "form": "犯罪",
+          "reading": "はんざい",
+          "entry_ref": "1481590"
+        },
+        {
+          "lemma": "防ぐ",
+          "form": "防ぐ",
+          "reading": "ふせぐ",
+          "entry_ref": "1520190"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "44419_207168",
+        "text": "その犯罪は死刑に値する。",
+        "translation": "That crime is punishable by death."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-441",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-441",
+      "text": "次の級に進んだ。",
+      "translation": "I advanced to the next grade.",
+      "ent_seq": "1919590",
+      "surface": "級",
+      "reading": "きゅう",
+      "target_form": "級",
+      "target_reading": "きゅう",
+      "tokens": [
+        {
+          "lemma": "次",
+          "form": "次",
+          "reading": "つぎ",
+          "entry_ref": "1316380"
+        },
+        {
+          "lemma": "級",
+          "form": "級",
+          "reading": "きゅう",
+          "entry_ref": "1919590"
+        },
+        {
+          "lemma": "進む",
+          "form": "進んだ",
+          "reading": "すすんだ",
+          "entry_ref": "1365980"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "288371_115300",
+        "text": "彼は１０年級に在学中だ。",
+        "translation": "He is in the tenth grade."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-443",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-443",
+      "text": "お目にかかれて幸いです。",
+      "translation": "I am pleased to meet you.",
+      "ent_seq": "1278380",
+      "surface": "幸い",
+      "reading": "さいわい",
+      "target_form": "幸い",
+      "target_reading": "さいわい",
+      "tokens": [
+        {
+          "lemma": "お目にかかる",
+          "form": "お目にかかれて",
+          "reading": "おめにかかれて",
+          "entry_ref": "1535140"
+        },
+        {
+          "lemma": "幸い",
+          "form": "幸い",
+          "reading": "さいわい",
+          "entry_ref": "1278380"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "63895_226550",
+        "text": "お目にかかれて幸いです。",
+        "translation": "I'm very happy to know you."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-447",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-447",
+      "text": "彼は過労で倒れた。",
+      "translation": "He collapsed from overwork.",
+      "ent_seq": "1445790",
+      "surface": "倒れる",
+      "reading": "たおれる",
+      "target_form": "倒れた",
+      "target_reading": "たおれた",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "過労",
+          "form": "過労",
+          "reading": "かろう",
+          "entry_ref": "1196490"
+        },
+        {
+          "lemma": "倒れる",
+          "form": "倒れた",
+          "reading": "たおれた",
+          "entry_ref": "1445790"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "294521_109169",
+        "text": "彼は過労で倒れた。",
+        "translation": "My father fell ill because he worked too hard."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-668",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-668",
+      "text": "この町は昔、銀の鉱山で栄えていた。",
+      "translation": "This town once prospered thanks to its silver mine.",
+      "ent_seq": "1282570",
+      "surface": "鉱山",
+      "reading": "こうざん",
+      "target_form": "鉱山",
+      "target_reading": "こうざん",
+      "tokens": [
+        {
+          "lemma": "町",
+          "form": "町",
+          "reading": "まち",
+          "entry_ref": "1603990"
+        },
+        {
+          "lemma": "昔",
+          "form": "昔",
+          "reading": "むかし",
+          "entry_ref": "1382370"
+        },
+        {
+          "lemma": "銀",
+          "form": "銀",
+          "reading": "ぎん",
+          "entry_ref": "1595090"
+        },
+        {
+          "lemma": "鉱山",
+          "form": "鉱山",
+          "reading": "こうざん",
+          "entry_ref": "1282570"
+        },
+        {
+          "lemma": "栄える",
+          "form": "栄えていた",
+          "reading": "さかえていた",
+          "entry_ref": "1173860"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "reviewed:trygve:20261026:n3:CR190",
+        "text": "この町は昔、銀の鉱山としてすごく栄えていたらしい。",
+        "translation": "Apparently this town used to thrive as a silver mine a long time ago."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-812",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-812",
+      "text": "あの博物館に行ってみたい。",
+      "translation": "I would like to visit that museum.",
+      "ent_seq": "1474720",
+      "surface": "博物館",
+      "reading": "はくぶつかん",
+      "target_form": "博物館",
+      "target_reading": "はくぶつかん",
+      "tokens": [
+        {
+          "lemma": "博物館",
+          "form": "博物館",
+          "reading": "はくぶつかん",
+          "entry_ref": "1474720"
+        },
+        {
+          "lemma": "行く",
+          "form": "行って",
+          "reading": "いって",
+          "entry_ref": "1578850"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "44487_230496",
+        "text": "あの博物館はくるに値する。",
+        "translation": "That museum is worth visiting."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-826",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-826",
+      "text": "毛深いまゆ毛が彼の顔の特徴だった。",
+      "translation": "His bushy eyebrows were a distinctive feature of his face.",
+      "ent_seq": "1455170",
+      "surface": "特徴",
+      "reading": "とくちょう",
+      "target_form": "特徴",
+      "target_reading": "とくちょう",
+      "tokens": [
+        {
+          "lemma": "毛深い",
+          "form": "毛深い",
+          "reading": "けぶかい",
+          "entry_ref": "1636740"
+        },
+        {
+          "lemma": "まゆ毛",
+          "form": "まゆ毛",
+          "reading": "まゆげ",
+          "entry_ref": "1486330"
+        },
+        {
+          "lemma": "彼",
+          "form": "彼の",
+          "reading": "かれの",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "顔",
+          "form": "顔",
+          "reading": "かお",
+          "entry_ref": "1217730"
+        },
+        {
+          "lemma": "特徴",
+          "form": "特徴",
+          "reading": "とくちょう",
+          "entry_ref": "1455170"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "323537_80180",
+        "text": "毛深いまゆ毛が彼の顔の特徴だった。",
+        "translation": "His bushy brows accented his face."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-850",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-850",
+      "text": "市は教育施設を拡充した。",
+      "translation": "The city expanded its educational facilities.",
+      "ent_seq": "1205190",
+      "surface": "拡充",
+      "reading": "かくじゅう",
+      "target_form": "拡充",
+      "target_reading": "かくじゅう",
+      "tokens": [
+        {
+          "lemma": "市",
+          "form": "市",
+          "reading": "し",
+          "entry_ref": "1308090"
+        },
+        {
+          "lemma": "教育",
+          "form": "教育",
+          "reading": "きょういく",
+          "entry_ref": "1236950"
+        },
+        {
+          "lemma": "施設",
+          "form": "施設",
+          "reading": "しせつ",
+          "entry_ref": "1310410"
+        },
+        {
+          "lemma": "拡充",
+          "form": "拡充",
+          "reading": "かくじゅう",
+          "entry_ref": "1205190"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "19107_180316",
+        "text": "教育施設を拡充する金をもっと多くと望んでいる。",
+        "translation": "People want more money to expand educational institutions."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-938",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-938",
+      "text": "僕は猫背だ。",
+      "translation": "I have a hunched posture.",
+      "ent_seq": "1521400",
+      "surface": "僕",
+      "reading": "ぼく",
+      "target_form": "僕",
+      "target_reading": "ぼく",
+      "tokens": [
+        {
+          "lemma": "僕",
+          "form": "僕",
+          "reading": "ぼく",
+          "entry_ref": "1521400"
+        },
+        {
+          "lemma": "猫背",
+          "form": "猫背",
+          "reading": "ねこぜ",
+          "entry_ref": "1467680"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR178",
+        "text": "僕は猫背だ。",
+        "translation": "I have a slouch."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-989",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-989",
+      "text": "子供の頃、小犬を飼っていた。",
+      "translation": "I had a puppy when I was a child.",
+      "ent_seq": "1312970",
+      "surface": "飼う",
+      "reading": "かう",
+      "target_form": "飼っていた",
+      "target_reading": "かっていた",
+      "tokens": [
+        {
+          "lemma": "子供の頃",
+          "form": "子供の頃",
+          "reading": "こどものころ",
+          "entry_ref": "2827554"
+        },
+        {
+          "lemma": "小犬",
+          "form": "小犬",
+          "reading": "こいぬ",
+          "entry_ref": "1592900"
+        },
+        {
+          "lemma": "飼う",
+          "form": "飼っていた",
+          "reading": "かっていた",
+          "entry_ref": "1312970"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "245883_168609",
+        "text": "子供の頃、小犬を飼っていた。",
+        "translation": "I had a puppy when I was a boy."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-1092",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-1092",
+      "text": "釜で米を炊いた。",
+      "translation": "I cooked rice in a pot.",
+      "ent_seq": "1209080",
+      "surface": "釜",
+      "reading": "かま",
+      "target_form": "釜",
+      "target_reading": "かま",
+      "tokens": [
+        {
+          "lemma": "釜",
+          "form": "釜",
+          "reading": "かま",
+          "entry_ref": "1209080"
+        },
+        {
+          "lemma": "米",
+          "form": "米",
+          "reading": "こめ",
+          "entry_ref": "1508750"
+        },
+        {
+          "lemma": "炊く",
+          "form": "炊いた",
+          "reading": "たいた",
+          "entry_ref": "1596830"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR232",
+        "text": "釜で米を炊いた。",
+        "translation": "I cooked rice in an iron pot."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-1095",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-1095",
+      "text": "純粋に音楽を楽しみたい。",
+      "translation": "I just want to enjoy music for its own sake.",
+      "ent_seq": "1341930",
+      "surface": "純粋",
+      "reading": "じゅんすい",
+      "target_form": "純粋に",
+      "target_reading": "じゅんすいに",
+      "tokens": [
+        {
+          "lemma": "純粋",
+          "form": "純粋に",
+          "reading": "じゅんすいに",
+          "entry_ref": "1341930"
+        },
+        {
+          "lemma": "音楽",
+          "form": "音楽",
+          "reading": "おんがく",
+          "entry_ref": "1183720"
+        },
+        {
+          "lemma": "楽しむ",
+          "form": "楽しみたい",
+          "reading": "たのしみたい",
+          "entry_ref": "1207270"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR233",
+        "text": "純粋に音楽を楽しみたい。",
+        "translation": "I just want to purely enjoy the music."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-1152",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-1152",
+      "text": "お昼に大きな丼でご飯を食べた。",
+      "translation": "I ate rice from a large bowl for lunch.",
+      "ent_seq": "1562970",
+      "surface": "丼",
+      "reading": "どんぶり",
+      "target_form": "丼",
+      "target_reading": "どんぶり",
+      "tokens": [
+        {
+          "lemma": "昼",
+          "form": "昼",
+          "reading": "ひる",
+          "entry_ref": "1426250"
+        },
+        {
+          "lemma": "大きな",
+          "form": "大きな",
+          "reading": "おおきな",
+          "entry_ref": "1412890"
+        },
+        {
+          "lemma": "丼",
+          "form": "丼",
+          "reading": "どんぶり",
+          "entry_ref": "1562970"
+        },
+        {
+          "lemma": "ご飯",
+          "form": "ご飯",
+          "reading": "ごはん",
+          "entry_ref": "1270590"
+        },
+        {
+          "lemma": "食べる",
+          "form": "食べた",
+          "reading": "たべた",
+          "entry_ref": "1358280"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR251",
+        "text": "お昼に大きな丼でご飯を食べた。",
+        "translation": "I ate a big rice bowl for lunch."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-1161",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-1161",
+      "text": "シャーペンの芯２・３本もらえるかな。",
+      "translation": "Could I have two or three mechanical pencil leads?",
+      "ent_seq": "1595120",
+      "surface": "芯",
+      "reading": "しん",
+      "target_form": "芯",
+      "target_reading": "しん",
+      "tokens": [
+        {
+          "lemma": "芯",
+          "form": "芯",
+          "reading": "しん",
+          "entry_ref": "1595120"
+        },
+        {
+          "lemma": "本",
+          "form": "本",
+          "reading": "ほん",
+          "entry_ref": "1522150"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "53204_215903",
+        "text": "シャーペンの芯２・３本もらえるかな。",
+        "translation": "Could you lend me a few mechanical pencil leads?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-618",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-618",
+      "text": "彼は容器に液体を入れた。",
+      "translation": "He put liquid into the container.",
+      "ent_seq": "1175030",
+      "surface": "液体",
+      "reading": "えきたい",
+      "target_form": "液体",
+      "target_reading": "えきたい",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "容器",
+          "form": "容器",
+          "reading": "ようき",
+          "entry_ref": "1545370"
+        },
+        {
+          "lemma": "液体",
+          "form": "液体",
+          "reading": "えきたい",
+          "entry_ref": "1175030"
+        },
+        {
+          "lemma": "入れる",
+          "form": "入れた",
+          "reading": "いれた",
+          "entry_ref": "1465610"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "reviewed:trygve:20261026:n3:CR182",
+        "text": "国際線では大きな容器の液体を持ち込めない。",
+        "translation": "You can't bring liquids in large containers onto international flights."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-870",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-870",
+      "text": "彼は銃を持っていた。",
+      "translation": "He was carrying a gun.",
+      "ent_seq": "1337000",
+      "surface": "銃",
+      "reading": "じゅう",
+      "target_form": "銃",
+      "target_reading": "じゅう",
+      "tokens": [
+        {
+          "lemma": "彼",
+          "form": "彼",
+          "reading": "かれ",
+          "entry_ref": "1483070"
+        },
+        {
+          "lemma": "銃",
+          "form": "銃",
+          "reading": "じゅう",
+          "entry_ref": "1337000"
+        },
+        {
+          "lemma": "持つ",
+          "form": "持っていた",
+          "reading": "もっていた",
+          "entry_ref": "1315720"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR160",
+        "text": "日本では銃の所持が禁止だ。",
+        "translation": "Owning guns is banned in Japan."
+      }
+    },
+    {
+      "review_id": "sentence-quality-n3n2-extra-1090",
+      "sent_id": "reviewed:sentence-quality:20261029:n3n2-extra-1090",
+      "text": "車掌に切符を見せた。",
+      "translation": "I showed my ticket to the conductor.",
+      "ent_seq": "1323170",
+      "surface": "車掌",
+      "reading": "しゃしょう",
+      "target_form": "車掌",
+      "target_reading": "しゃしょう",
+      "tokens": [
+        {
+          "lemma": "車掌",
+          "form": "車掌",
+          "reading": "しゃしょう",
+          "entry_ref": "1323170"
+        },
+        {
+          "lemma": "切符",
+          "form": "切符",
+          "reading": "きっぷ",
+          "entry_ref": "1385170"
+        },
+        {
+          "lemma": "見せる",
+          "form": "見せた",
+          "reading": "みせた",
+          "entry_ref": "1259210"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "64790_227438",
+        "text": "オレンジカードは車掌が販売している。",
+        "translation": "\"Orange Cards\" are available from the conductor."
       }
     }
   ]

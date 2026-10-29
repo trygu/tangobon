@@ -3,7 +3,7 @@
   "review_metadata": {
     "reviewer": "Aiko linguistic review",
     "reviewed_at": "2026-10-27",
-    "scope": "B32/B35 sentence-pair repairs plus task108 N5/N4 corrections; additions dated per item; task109 ambiguous 入れる model replacement dated2026-10-29; task110 seven translation-precision/new-model decisions29October2026, CR047 excluded; task111 user-approved inclusive sibling-count English29October2026"
+    "scope": "B32/B35 sentence-pair repairs plus task108 N5/N4 corrections; additions dated per item; task109 ambiguous 入れる model replacement dated2026-10-29; task110 seven translation-precision/new-model decisions29October2026, CR047 excluded; task111 user-approved inclusive sibling-count English29October2026; task112 twelve confirmed N3/N2 pair corrections and twenty-seven separately approved editorial improvements29October2026"
   },
   "items": [
     {
@@ -358,6 +358,669 @@
         "translation": "How many siblings do you have?"
       },
       "notes": "Task111: user explicitly chose “Clarify the English to include you” on29October2026. Japanese, readings and sibling-group counting convention preserved. Earlier authored review retained; new identity clarifies English only."
+    },
+    {
+      "id": "sentence-quality-n3n2-271261",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "勢いに流されているんですよ。",
+      "original_en": "You are carried along with the slide.",
+      "replacement_ja": "勢いに流されているんですよ。",
+      "replacement_en": "You’re being carried along by the momentum.",
+      "target_surface": "勢い",
+      "occurrence_reading": "いきおい",
+      "supersedes": {
+        "sent_id": "271261_143307",
+        "text": "勢いに流されているんですよ。",
+        "translation": "You are carried along with the slide."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. Momentum is not a slide."
+    },
+    {
+      "id": "sentence-quality-n3n2-22705",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "我々は彼を晩餐会に紹介した。",
+      "original_en": "We invited him to the dinner party.",
+      "replacement_ja": "私は友達を先生に紹介した。",
+      "replacement_en": "I introduced my friend to the teacher.",
+      "target_surface": "紹介",
+      "occurrence_reading": "しょうかい",
+      "supersedes": {
+        "sent_id": "22705_185573",
+        "text": "我々は彼を晩餐会に紹介した。",
+        "translation": "We invited him to the dinner party."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. 紹介 is introduce, not invite."
+    },
+    {
+      "id": "sentence-quality-n3n2-326089",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "冷房が効きすぎているのですが。",
+      "original_en": "How do I fix the air-conditioner?",
+      "replacement_ja": "冷房が効きすぎているのですが。",
+      "replacement_en": "The air conditioning is too strong.",
+      "target_surface": "冷房",
+      "occurrence_reading": "れいぼう",
+      "supersedes": {
+        "sent_id": "326089_77629",
+        "text": "冷房が効きすぎているのですが。",
+        "translation": "How do I fix the air-conditioner?"
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. Source describes excessive cooling, not a repair question."
+    },
+    {
+      "id": "sentence-quality-n3n2-63405",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "ぎこちない笑いをした店員が答えた。",
+      "original_en": "The smirking male clerk replied.",
+      "replacement_ja": "ぎこちない笑いをした店員が答えた。",
+      "replacement_en": "The clerk answered with an awkward smile.",
+      "target_surface": "笑い",
+      "occurrence_reading": "わらい",
+      "supersedes": {
+        "sent_id": "63405_226066",
+        "text": "ぎこちない笑いをした店員が答えた。",
+        "translation": "The smirking male clerk replied."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. ぎこちない is awkward; smirking and male are unsupported."
+    },
+    {
+      "id": "sentence-quality-n3n2-265358",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "社会保証がきいてあきれるよ。",
+      "original_en": "Social security? Who do they think they're kidding.",
+      "replacement_ja": "この時計には保証がある。",
+      "replacement_en": "This watch comes with a warranty.",
+      "target_surface": "保証",
+      "occurrence_reading": "ほしょう",
+      "supersedes": {
+        "sent_id": "265358_149200",
+        "text": "社会保証がきいてあきれるよ。",
+        "translation": "Social security? Who do they think they're kidding."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. Conventional social-security term is 社会保障; source 社会保証 is an unsuitable conventional collocation although JMdict1603500 includes 保障 as alternative spelling. Warranty model preserves selected 保証 target without relying on disputed collocation."
+    },
+    {
+      "id": "sentence-quality-n3n2-18485",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "金融引き締め政策が実施されている。",
+      "original_en": "A fiscal tightening policy is being enacted.",
+      "replacement_ja": "金融引き締め政策が実施されている。",
+      "replacement_en": "A monetary tightening policy is being implemented.",
+      "target_surface": "金融",
+      "occurrence_reading": "きんゆう",
+      "supersedes": {
+        "sent_id": "18485_179627",
+        "text": "金融引き締め政策が実施されている。",
+        "translation": "A fiscal tightening policy is being enacted."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. 金融 monetary differs from fiscal."
+    },
+    {
+      "id": "sentence-quality-n3n2-266176",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "首脳会議は世界平和に貢献した。",
+      "original_en": "The summit conference was held for world peace.",
+      "replacement_ja": "首脳会議は世界平和に貢献した。",
+      "replacement_en": "The summit contributed to world peace.",
+      "target_surface": "貢献",
+      "occurrence_reading": "こうけん",
+      "supersedes": {
+        "sent_id": "266176_148383",
+        "text": "首脳会議は世界平和に貢献した。",
+        "translation": "The summit conference was held for world peace."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. 貢献 expresses contribution, not only purpose."
+    },
+    {
+      "id": "sentence-quality-n3n2-305031",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "彼らが眠っている間私がハンドルを握った。",
+      "original_en": "I took the wheel while he slept.",
+      "replacement_ja": "彼らが眠っている間私がハンドルを握った。",
+      "replacement_en": "I took the wheel while they were sleeping.",
+      "target_surface": "握った",
+      "occurrence_reading": "にぎった",
+      "supersedes": {
+        "sent_id": "305031_98669",
+        "text": "彼らが眠っている間私がハンドルを握った。",
+        "translation": "I took the wheel while he slept."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. 彼ら is plural."
+    },
+    {
+      "id": "sentence-quality-n3n2-44871",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "その店は瀬戸物を使っている。",
+      "original_en": "The store carries earthenware.",
+      "replacement_ja": "その店は瀬戸物を使っている。",
+      "replacement_en": "The shop uses earthenware.",
+      "target_surface": "瀬戸物",
+      "occurrence_reading": "せともの",
+      "supersedes": {
+        "sent_id": "44871_207618",
+        "text": "その店は瀬戸物を使っている。",
+        "translation": "The store carries earthenware."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. 使う does not mean stock for sale."
+    },
+    {
+      "id": "sentence-quality-n3n2-22284",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "懐かしい１２小節のブルース。",
+      "original_en": "There go the twelve bars blues.",
+      "replacement_ja": "懐かしい１２小節のブルース。",
+      "replacement_en": "Nostalgic twelve-bar blues.",
+      "target_surface": "懐かしい",
+      "occurrence_reading": "なつかしい",
+      "supersedes": {
+        "sent_id": "22284_185153",
+        "text": "懐かしい１２小節のブルース。",
+        "translation": "There go the twelve bars blues."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. Correct malformed English and retain nostalgia; Japanese noun phrase is acceptable."
+    },
+    {
+      "id": "sentence-quality-n3n2-56958",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "この本は戸棚の上です。",
+      "original_en": "This book goes on the top shelf.",
+      "replacement_ja": "この本は戸棚の上です。",
+      "replacement_en": "This book is on top of the cupboard.",
+      "target_surface": "戸棚",
+      "occurrence_reading": "とだな",
+      "supersedes": {
+        "sent_id": "56958_219638",
+        "text": "この本は戸棚の上です。",
+        "translation": "This book goes on the top shelf."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. Location above cupboard differs from top shelf placement instruction."
+    },
+    {
+      "id": "sentence-quality-n3n2-73610",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "「誰か車の中にいるのですか」「トムがいます」",
+      "original_en": "\"Who is in the car?\" \"Tom is.\"",
+      "replacement_ja": "「誰か車の中にいるのですか」「トムがいます」",
+      "replacement_en": "“Is anyone in the car?” “Tom is.”",
+      "target_surface": "誰か",
+      "occurrence_reading": "だれか",
+      "supersedes": {
+        "sent_id": "73610_236233",
+        "text": "「誰か車の中にいるのですか」「トムがいます」",
+        "translation": "\"Who is in the car?\" \"Tom is.\""
+      },
+      "notes": "Task112 Aiko independent pair/binding review. confirmed_defect. 誰か asks whether anyone is present, not who."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-10",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "その位置に誰を選ぶか考えがありますか。",
+      "original_en": "Do you have any idea who we should single out for the position?",
+      "replacement_ja": "この中から一人を選ぶ。",
+      "replacement_en": "I will choose one person from this group.",
+      "target_surface": "選ぶ",
+      "occurrence_reading": "えらぶ",
+      "supersedes": {
+        "sent_id": "49672_212388",
+        "text": "その位置に誰を選ぶか考えがありますか。",
+        "translation": "Do you have any idea who we should single out for the position?"
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. 位置 in role-selection context is awkward; determine intended role before repair."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-69",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "彼は彼の洞察力を得意に思っている。",
+      "original_en": "He congratulates himself on his foresight.",
+      "replacement_ja": "彼は彼の洞察力を得意に思っている。",
+      "replacement_en": "He prides himself on his insight.",
+      "target_surface": "得意",
+      "occurrence_reading": "とくい",
+      "supersedes": {
+        "sent_id": "302510_101186",
+        "text": "彼は彼の洞察力を得意に思っている。",
+        "translation": "He congratulates himself on his foresight."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. 洞察力 insight versus foresight precision requires context."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-75",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "子宮癌の検査をしていただきたいのです。",
+      "original_en": "I'd like to have a Pap smear done.",
+      "replacement_ja": "子宮癌の検査をしていただきたいのです。",
+      "replacement_en": "I would like to be examined for uterine cancer.",
+      "target_surface": "検査",
+      "occurrence_reading": "けんさ",
+      "supersedes": {
+        "sent_id": "245645_168845",
+        "text": "子宮癌の検査をしていただきたいのです。",
+        "translation": "I'd like to have a Pap smear done."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Cervical-cancer examination does not specify Pap-smear method. Medical claims not validated."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-104",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "彼は給料の良い会社に変わった。",
+      "original_en": "He moved to a good company that offered a good salary.",
+      "replacement_ja": "彼は給料の良い会社に変わった。",
+      "replacement_en": "He moved to a company that offered a good salary.",
+      "target_surface": "変わった",
+      "occurrence_reading": "かわった",
+      "supersedes": {
+        "sent_id": "295250_108436",
+        "text": "彼は給料の良い会社に変わった。",
+        "translation": "He moved to a good company that offered a good salary."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Good salary does not independently assert good company; optional specificity review."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-120",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "お肉の焼き加減は、いかがなさいますか？",
+      "original_en": "How would you like your steak cooked?",
+      "replacement_ja": "お肉の焼き加減は、いかがなさいますか？",
+      "replacement_en": "How would you like your meat cooked?",
+      "target_surface": "加減",
+      "occurrence_reading": "かげん",
+      "supersedes": {
+        "sent_id": "328805_74914",
+        "text": "お肉の焼き加減は、いかがなさいますか？",
+        "translation": "How would you like your steak cooked?"
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Meat versus steak specificity may be contextual."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-121",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "仮の議事内容を送付しました。",
+      "original_en": "Attached is the tentative agenda.",
+      "replacement_ja": "仮の議事内容を送付しました。",
+      "replacement_en": "I sent the tentative agenda.",
+      "target_surface": "内容",
+      "occurrence_reading": "ないよう",
+      "supersedes": {
+        "sent_id": "25319_188179",
+        "text": "仮の議事内容を送付しました。",
+        "translation": "Attached is the tentative agenda."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Sending does not itself establish attachment; contextual email usage possible."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-171",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "向こうの交番で聞いてください。",
+      "original_en": "Ask at the police station over there.",
+      "replacement_ja": "向こうの交番で聞いてください。",
+      "replacement_en": "Please ask at the police box over there.",
+      "target_surface": "交番",
+      "occurrence_reading": "こうばん",
+      "supersedes": {
+        "sent_id": "1584073_173841",
+        "text": "向こうの交番で聞いてください。",
+        "translation": "Ask at the police station over there."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Police box versus police station precision."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-185",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "頑固になればなるほど独立するよ。",
+      "original_en": "The more stubborn you are, the more isolated you become.",
+      "replacement_ja": "彼は親から独立した。",
+      "replacement_en": "He became independent of his parents.",
+      "target_surface": "独立",
+      "occurrence_reading": "どくりつ",
+      "supersedes": {
+        "sent_id": "20778_183655",
+        "text": "頑固になればなるほど独立するよ。",
+        "translation": "The more stubborn you are, the more isolated you become."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Pinned JMdict1456040 includes secondary separation/isolation sense. Original is contextually awkward but not categorically a dictionary semantic error. New independence model is an optional unambiguous pedagogical replacement requiring editorial decision."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-196",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "農家の子になりたいかね。",
+      "original_en": "Would you like to be a farm boy?",
+      "replacement_ja": "農家の子になりたいかね。",
+      "replacement_en": "Would you like to be a farmer’s child?",
+      "target_surface": "農家",
+      "occurrence_reading": "のうか",
+      "supersedes": {
+        "sent_id": "282294_121711",
+        "text": "農家の子になりたいかね。",
+        "translation": "Would you like to be a farm boy?"
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Farmer’s child versus farm boy specificity; context may license it."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-219",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "彼は商売をたたんで引退した。",
+      "original_en": "He sold his business and retired.",
+      "replacement_ja": "彼は商売をたたんで引退した。",
+      "replacement_en": "He closed his business and retired.",
+      "target_surface": "引退",
+      "occurrence_reading": "いんたい",
+      "supersedes": {
+        "sent_id": "299506_104185",
+        "text": "彼は商売をたたんで引退した。",
+        "translation": "He sold his business and retired."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Closing need not entail sale; original could fit unstated context."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-409",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "その犯罪は死刑に値する。",
+      "original_en": "That crime is punishable by death.",
+      "replacement_ja": "警察は犯罪を防ぐ。",
+      "replacement_en": "The police prevent crime.",
+      "target_surface": "犯罪",
+      "occurrence_reading": "はんざい",
+      "supersedes": {
+        "sent_id": "44419_207168",
+        "text": "その犯罪は死刑に値する。",
+        "translation": "That crime is punishable by death."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Death-deserving versus legally punishable distinction; capital-punishment suitability separate. No legal certification."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-441",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "彼は１０年級に在学中だ。",
+      "original_en": "He is in the tenth grade.",
+      "replacement_ja": "次の級に進んだ。",
+      "replacement_en": "I advanced to the next grade.",
+      "target_surface": "級",
+      "occurrence_reading": "きゅう",
+      "supersedes": {
+        "sent_id": "288371_115300",
+        "text": "彼は１０年級に在学中だ。",
+        "translation": "He is in the tenth grade."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. １０年級 marked modern usage; avoid country-specific grade assumptions."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-443",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "お目にかかれて幸いです。",
+      "original_en": "I'm very happy to know you.",
+      "replacement_ja": "お目にかかれて幸いです。",
+      "replacement_en": "I am pleased to meet you.",
+      "target_surface": "幸い",
+      "occurrence_reading": "さいわい",
+      "supersedes": {
+        "sent_id": "63895_226550",
+        "text": "お目にかかれて幸いです。",
+        "translation": "I'm very happy to know you."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Meet versus know precision; older English idiom may be defensible."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-447",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "彼は過労で倒れた。",
+      "original_en": "My father fell ill because he worked too hard.",
+      "replacement_ja": "彼は過労で倒れた。",
+      "replacement_en": "He collapsed from overwork.",
+      "target_surface": "倒れた",
+      "occurrence_reading": "たおれた",
+      "supersedes": {
+        "sent_id": "294521_109169",
+        "text": "彼は過労で倒れた。",
+        "translation": "My father fell ill because he worked too hard."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Avoid unsupported father relation and translate 倒れた precisely; contextual father reference is possible."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-668",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "この町は昔、銀の鉱山としてすごく栄えていたらしい。",
+      "original_en": "Apparently this town used to thrive as a silver mine a long time ago.",
+      "replacement_ja": "この町は昔、銀の鉱山で栄えていた。",
+      "replacement_en": "This town once prospered thanks to its silver mine.",
+      "target_surface": "鉱山",
+      "occurrence_reading": "こうざん",
+      "supersedes": {
+        "sent_id": "reviewed:trygve:20261026:n3:CR190",
+        "text": "この町は昔、銀の鉱山としてすごく栄えていたらしい。",
+        "translation": "Apparently this town used to thrive as a silver mine a long time ago."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Town described as silver mine using として is awkward; review wording, preserve 鉱山."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-812",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "あの博物館はくるに値する。",
+      "original_en": "That museum is worth visiting.",
+      "replacement_ja": "あの博物館に行ってみたい。",
+      "replacement_en": "I would like to visit that museum.",
+      "target_surface": "博物館",
+      "occurrence_reading": "はくぶつかん",
+      "supersedes": {
+        "sent_id": "44487_230496",
+        "text": "あの博物館はくるに値する。",
+        "translation": "That museum is worth visiting."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. くるに値する is marked wording; deictic reading possible, needs review."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-826",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "毛深いまゆ毛が彼の顔の特徴だった。",
+      "original_en": "His bushy brows accented his face.",
+      "replacement_ja": "毛深いまゆ毛が彼の顔の特徴だった。",
+      "replacement_en": "His bushy eyebrows were a distinctive feature of his face.",
+      "target_surface": "特徴",
+      "occurrence_reading": "とくちょう",
+      "supersedes": {
+        "sent_id": "323537_80180",
+        "text": "毛深いまゆ毛が彼の顔の特徴だった。",
+        "translation": "His bushy brows accented his face."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Distinguishing feature versus accented nuance; optional precision."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-850",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "教育施設を拡充する金をもっと多くと望んでいる。",
+      "original_en": "People want more money to expand educational institutions.",
+      "replacement_ja": "市は教育施設を拡充した。",
+      "replacement_en": "The city expanded its educational facilities.",
+      "target_surface": "拡充",
+      "occurrence_reading": "かくじゅう",
+      "supersedes": {
+        "sent_id": "19107_180316",
+        "text": "教育施設を拡充する金をもっと多くと望んでいる。",
+        "translation": "People want more money to expand educational institutions."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. もっと多くと望む marked construction; modern wording review."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-938",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "僕は猫背だ。",
+      "original_en": "I have a slouch.",
+      "replacement_ja": "僕は猫背だ。",
+      "replacement_en": "I have a hunched posture.",
+      "target_surface": "僕",
+      "occurrence_reading": "ぼく",
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR178",
+        "text": "僕は猫背だ。",
+        "translation": "I have a slouch."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Editorial naturalness only; slouch is defensible as a noun, not a confirmed semantic error."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-989",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "子供の頃、小犬を飼っていた。",
+      "original_en": "I had a puppy when I was a boy.",
+      "replacement_ja": "子供の頃、小犬を飼っていた。",
+      "replacement_en": "I had a puppy when I was a child.",
+      "target_surface": "飼っていた",
+      "occurrence_reading": "かっていた",
+      "supersedes": {
+        "sent_id": "245883_168609",
+        "text": "子供の頃、小犬を飼っていた。",
+        "translation": "I had a puppy when I was a boy."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Boy versus child gender specificity may be contextual."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-1092",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "釜で米を炊いた。",
+      "original_en": "I cooked rice in an iron pot.",
+      "replacement_ja": "釜で米を炊いた。",
+      "replacement_en": "I cooked rice in a pot.",
+      "target_surface": "釜",
+      "occurrence_reading": "かま",
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR232",
+        "text": "釜で米を炊いた。",
+        "translation": "I cooked rice in an iron pot."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. 釜 does not necessarily specify iron; material specificity review."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-1095",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "純粋に音楽を楽しみたい。",
+      "original_en": "I just want to purely enjoy the music.",
+      "replacement_ja": "純粋に音楽を楽しみたい。",
+      "replacement_en": "I just want to enjoy music for its own sake.",
+      "target_surface": "純粋に",
+      "occurrence_reading": "じゅんすいに",
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR233",
+        "text": "純粋に音楽を楽しみたい。",
+        "translation": "I just want to purely enjoy the music."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. English purely enjoy is awkward; optional editorial improvement."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-1152",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "お昼に大きな丼でご飯を食べた。",
+      "original_en": "I ate a big rice bowl for lunch.",
+      "replacement_ja": "お昼に大きな丼でご飯を食べた。",
+      "replacement_en": "I ate rice from a large bowl for lunch.",
+      "target_surface": "丼",
+      "occurrence_reading": "どんぶり",
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR251",
+        "text": "お昼に大きな丼でご飯を食べた。",
+        "translation": "I ate a big rice bowl for lunch."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Clarifies vesselで; English rice bowl can denote food and is not categorically nonsense."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-1161",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "シャーペンの芯２・３本もらえるかな。",
+      "original_en": "Could you lend me a few mechanical pencil leads?",
+      "replacement_ja": "シャーペンの芯２・３本もらえるかな。",
+      "replacement_en": "Could I have two or three mechanical pencil leads?",
+      "target_surface": "芯",
+      "occurrence_reading": "しん",
+      "supersedes": {
+        "sent_id": "53204_215903",
+        "text": "シャーペンの芯２・３本もらえるかな。",
+        "translation": "Could you lend me a few mechanical pencil leads?"
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Consumable leads: give versus lend colloquial ambiguity; optional precision."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-618",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "国際線では大きな容器の液体を持ち込めない。",
+      "original_en": "You can't bring liquids in large containers onto international flights.",
+      "replacement_ja": "彼は容器に液体を入れた。",
+      "replacement_en": "He put liquid into the container.",
+      "target_surface": "液体",
+      "occurrence_reading": "えきたい",
+      "supersedes": {
+        "sent_id": "reviewed:trygve:20261026:n3:CR182",
+        "text": "国際線では大きな容器の液体を持ち込めない。",
+        "translation": "You can't bring liquids in large containers onto international flights."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_suitability_neutral_model. Optional neutral suitability model, not a claim that original translation was wrong or legal/current-service assertion verified."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-870",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "日本では銃の所持が禁止だ。",
+      "original_en": "Owning guns is banned in Japan.",
+      "replacement_ja": "彼は銃を持っていた。",
+      "replacement_en": "He was carrying a gun.",
+      "target_surface": "銃",
+      "occurrence_reading": "じゅう",
+      "supersedes": {
+        "sent_id": "reviewed:20261026:n2:CR160",
+        "text": "日本では銃の所持が禁止だ。",
+        "translation": "Owning guns is banned in Japan."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_suitability_neutral_model. Optional neutral suitability model, not a claim that original translation was wrong or legal/current-service assertion verified."
+    },
+    {
+      "id": "sentence-quality-n3n2-extra-1090",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "オレンジカードは車掌が販売している。",
+      "original_en": "\"Orange Cards\" are available from the conductor.",
+      "replacement_ja": "車掌に切符を見せた。",
+      "replacement_en": "I showed my ticket to the conductor.",
+      "target_surface": "車掌",
+      "occurrence_reading": "しゃしょう",
+      "supersedes": {
+        "sent_id": "64790_227438",
+        "text": "オレンジカードは車掌が販売している。",
+        "translation": "\"Orange Cards\" are available from the conductor."
+      },
+      "notes": "Task112 Aiko independent pair/binding review. editorial_suitability_neutral_model. Optional neutral suitability model, not a claim that original translation was wrong or legal/current-service assertion verified."
     }
   ]
 }

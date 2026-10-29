@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/sentence-quality-2026-10-27.json",
-  "review_sha256": "54cb01c0b9ff108e48dc97af737f5a3ac5cb65bdbdde5f0b794025d27ed733c4",
+  "review_sha256": "f8e0e5ec1ac521990af954b5ffa5bcb54e9591a2997a769b19358efc5bc42375",
   "patches": [],
   "sentences": [
     {
@@ -2256,6 +2256,114 @@
         "sent_id": "64790_227438",
         "text": "オレンジカードは車掌が販売している。",
         "translation": "\"Orange Cards\" are available from the conductor."
+      }
+    },
+    {
+      "review_id": "sentence-quality-register-281338",
+      "sent_id": "reviewed:sentence-quality:20261029:register-281338",
+      "text": "外国人の友達と話した。",
+      "translation": "I talked with a friend from another country.",
+      "ent_seq": "1203650",
+      "surface": "外国人",
+      "reading": "がいこくじん",
+      "target_form": "外国人",
+      "target_reading": "がいこくじん",
+      "tokens": [
+        {
+          "lemma": "外国人",
+          "form": "外国人",
+          "reading": "がいこくじん",
+          "entry_ref": "1203650"
+        },
+        {
+          "lemma": "友達",
+          "form": "友達",
+          "reading": "ともだち",
+          "entry_ref": "1540170"
+        },
+        {
+          "lemma": "話す",
+          "form": "話した",
+          "reading": "はなした",
+          "entry_ref": "1562350"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "281338_122664",
+        "text": "日本の天井は外国人には低すぎる。",
+        "translation": "In Japan the ceilings are quite low for foreigners."
+      }
+    },
+    {
+      "review_id": "sentence-quality-register-326845",
+      "sent_id": "reviewed:sentence-quality:20261029:register-326845",
+      "text": "あの態度には引く。",
+      "translation": "That attitude puts me off.",
+      "ent_seq": "1169250",
+      "surface": "引く",
+      "reading": "ひく",
+      "target_form": "引く",
+      "target_reading": "ひく",
+      "tokens": [
+        {
+          "lemma": "態度",
+          "form": "態度",
+          "reading": "たいど",
+          "entry_ref": "1410780"
+        },
+        {
+          "lemma": "引く",
+          "form": "引く",
+          "reading": "ひく",
+          "entry_ref": "1169250"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "326845_76875",
+        "text": "あんな本みたらフツーの女は引くもんな！",
+        "translation": "Obviously a normal woman would lose interest if she saw a book like that!"
+      }
+    },
+    {
+      "review_id": "sentence-quality-register-64311",
+      "sent_id": "reviewed:sentence-quality:20261029:register-64311",
+      "text": "お前に新しい洋服を作ってあげよう。",
+      "translation": "I’ll make you some new clothes.",
+      "ent_seq": "1546020",
+      "surface": "洋服",
+      "reading": "ようふく",
+      "target_form": "洋服",
+      "target_reading": "ようふく",
+      "tokens": [
+        {
+          "lemma": "お前",
+          "form": "お前",
+          "reading": "おまえ",
+          "entry_ref": "1002290"
+        },
+        {
+          "lemma": "新しい",
+          "form": "新しい",
+          "reading": "あたらしい",
+          "entry_ref": "1361490"
+        },
+        {
+          "lemma": "洋服",
+          "form": "洋服",
+          "reading": "ようふく",
+          "entry_ref": "1546020"
+        },
+        {
+          "lemma": "作る",
+          "form": "作って",
+          "reading": "つくって",
+          "entry_ref": "1597890"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "64311_226963",
+        "text": "お前に新しい洋服を作ってあげよう。",
+        "translation": "I will make a new suit for you."
       }
     }
   ]

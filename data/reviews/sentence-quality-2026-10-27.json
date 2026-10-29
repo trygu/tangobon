@@ -3,7 +3,7 @@
   "review_metadata": {
     "reviewer": "Aiko linguistic review",
     "reviewed_at": "2026-10-27",
-    "scope": "B32/B35 sentence-pair repairs plus task108 N5/N4 corrections; additions dated per item; task109 ambiguous 入れる model replacement dated2026-10-29; task110 seven translation-precision/new-model decisions29October2026, CR047 excluded; task111 user-approved inclusive sibling-count English29October2026; task112 twelve confirmed N3/N2 pair corrections and twenty-seven separately approved editorial improvements29October2026"
+    "scope": "B32/B35 sentence-pair repairs plus task108 N5/N4 corrections; additions dated per item; task109 ambiguous 入れる model replacement dated2026-10-29; task110 seven translation-precision/new-model decisions29October2026, CR047 excluded; task111 user-approved inclusive sibling-count English29October2026; task112 twelve confirmed N3/N2 pair corrections and twenty-seven separately approved editorial improvements29October2026; task113 three editorial N5/N4 register/precision changes29October2026, three valid literary/idiomatic sources retained"
   },
   "items": [
     {
@@ -1033,6 +1033,57 @@
         "translation": "\"Orange Cards\" are available from the conductor."
       },
       "notes": "Task112 Aiko independent pair/binding review. editorial_suitability_neutral_model. Optional neutral suitability model, not a claim that original translation was wrong or legal/current-service assertion verified."
+    },
+    {
+      "id": "sentence-quality-register-281338",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "日本の天井は外国人には低すぎる。",
+      "original_en": "In Japan the ceilings are quite low for foreigners.",
+      "replacement_ja": "外国人の友達と話した。",
+      "replacement_en": "I talked with a friend from another country.",
+      "target_surface": "外国人",
+      "occurrence_reading": "がいこくじん",
+      "supersedes": {
+        "sent_id": "281338_122664",
+        "text": "日本の天井は外国人には低すぎる。",
+        "translation": "In Japan the ceilings are quite low for foreigners."
+      },
+      "notes": "Task113 editorial register/model choice, not a wrong target reading. Not a reading error. Sweeping ceiling/foreigner generalization is avoidable in a basic model; neutral sentence preserves外国人 exact target."
+    },
+    {
+      "id": "sentence-quality-register-326845",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "あんな本みたらフツーの女は引くもんな！",
+      "original_en": "Obviously a normal woman would lose interest if she saw a book like that!",
+      "replacement_ja": "あの態度には引く。",
+      "replacement_en": "That attitude puts me off.",
+      "target_surface": "引く",
+      "occurrence_reading": "ひく",
+      "supersedes": {
+        "sent_id": "326845_76875",
+        "text": "あんな本みたらフツーの女は引くもんな！",
+        "translation": "Obviously a normal woman would lose interest if she saw a book like that!"
+      },
+      "notes": "Task113 editorial register/model choice, not a wrong target reading. 引くひく has explicitly attested colloquial be-put-off sense. Preserve colloquial learning value while removing normal-woman gender judgment."
+    },
+    {
+      "id": "sentence-quality-register-64311",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "お前に新しい洋服を作ってあげよう。",
+      "original_en": "I will make a new suit for you.",
+      "replacement_ja": "お前に新しい洋服を作ってあげよう。",
+      "replacement_en": "I’ll make you some new clothes.",
+      "target_surface": "洋服",
+      "occurrence_reading": "ようふく",
+      "supersedes": {
+        "sent_id": "64311_226963",
+        "text": "お前に新しい洋服を作ってあげよう。",
+        "translation": "I will make a new suit for you."
+      },
+      "notes": "Task113 editorial register/model choice, not a wrong target reading. 洋服 is Western-style clothing, broader than suit. お前 may be familiar not necessarily hostile; preserve Japanese and broaden clothing translation."
     }
   ]
 }

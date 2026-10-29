@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/sentence-quality-2026-10-27.json",
-  "review_sha256": "e1a75452524ae8078b0f1441f68903c12c1ee6331d9340d4967e9e3a9e886ec1",
+  "review_sha256": "5bf598414b9ac77fe19fe58c7fc7c52bf7b46f885dd2959954602623fbe8e16a",
   "patches": [],
   "sentences": [
     {
@@ -457,6 +457,53 @@
         "sent_id": "281920_122083",
         "text": "入院の受付窓口はどこですか。",
         "translation": "Where is the admission's office?"
+      }
+    },
+    {
+      "review_id": "sentence-quality-ireru",
+      "sent_id": "reviewed:sentence-quality:20261029:ireru",
+      "text": "かばんに本を入れる。",
+      "translation": "I’ll put a book in the bag.",
+      "ent_seq": "1465610",
+      "surface": "入れる",
+      "reading": "いれる",
+      "target_form": "入れる",
+      "target_reading": "いれる",
+      "tokens": [
+        {
+          "lemma": "本",
+          "form": "本",
+          "reading": "ほん",
+          "entry_ref": "1522150"
+        },
+        {
+          "lemma": "入れる",
+          "form": "入れる",
+          "reading": "いれる",
+          "entry_ref": "1465610"
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "入",
+          "reading": "い",
+          "kind": "Kun’yomi"
+        },
+        {
+          "form": "れ",
+          "reading": "れ",
+          "kind": "Kana"
+        },
+        {
+          "form": "る",
+          "reading": "る",
+          "kind": "Kana"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "325478_237462",
+        "text": "留学生も入れるのかしら。",
+        "translation": "Can foreign students be in the club?"
       }
     }
   ]

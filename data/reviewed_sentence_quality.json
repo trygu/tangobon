@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/sentence-quality-2026-10-27.json",
-  "review_sha256": "66932b0021ce32fd63d2c0527b98ad816ca44a5ff336199824fe5a7f19f6613d",
+  "review_sha256": "dd9f1886ba2b4b6b21d929b3e7b7ae39545e05e904f2ef16311ec62a34abc3e4",
   "patches": [],
   "sentences": [
     {
@@ -768,6 +768,36 @@
         "sent_id": "65748_228392",
         "text": "インシュリンを打つので彼女は太っていた。",
         "translation": "The insulin was making her fat."
+      }
+    },
+    {
+      "review_id": "sentence-quality-siblings",
+      "sent_id": "reviewed:sentence-quality:20261029:siblings",
+      "text": "何人兄弟ですか。",
+      "translation": "How many siblings are there in your family, including you?",
+      "ent_seq": "1249960",
+      "surface": "兄弟",
+      "reading": "きょうだい",
+      "target_form": "兄弟",
+      "target_reading": "きょうだい",
+      "tokens": [
+        {
+          "lemma": "何人",
+          "form": "何人",
+          "reading": "なんにん",
+          "entry_ref": "1189100"
+        },
+        {
+          "lemma": "兄弟",
+          "form": "兄弟",
+          "reading": "きょうだい",
+          "entry_ref": "1249960"
+        }
+      ],
+      "supersedes": {
+        "sent_id": "reviewed:trygve:20261025:n4:CR047",
+        "text": "何人兄弟ですか。",
+        "translation": "How many siblings do you have?"
       }
     }
   ]

@@ -79,6 +79,8 @@ def test_invalid_review_rolls_back(baseline, tmp_path, defect):
 def test_sentence_supersession_preserves_history_and_retires_all_old_links(baseline):
     spec = json.loads((DATA / 'reviewed_sentence_quality.json').read_text())
     with connection(baseline) as conn:
+        # Match production order: a later review may supersede an earlier authored N4 model.
+        apply_reviewed_content(conn, DATA / 'reviewed_n4_content.json', {})
         originals = {}
         for item in spec['sentences']:
             sid = item['supersedes']['sent_id']
@@ -115,6 +117,7 @@ def test_sentence_supersession_fails_closed_and_rolls_back(baseline, tmp_path, d
     path = tmp_path / 'spec.json'
     path.write_text(json.dumps(spec))
     with connection(baseline) as conn:
+        apply_reviewed_content(conn, DATA / 'reviewed_n4_content.json', {})
         before = conn.execute('SELECT COUNT(*) FROM word_example').fetchone()
         with pytest.raises(ValueError, match='supersession'):
             apply_reviewed_content(conn, path, {})

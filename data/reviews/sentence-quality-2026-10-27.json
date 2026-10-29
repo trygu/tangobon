@@ -3,7 +3,7 @@
   "review_metadata": {
     "reviewer": "Aiko linguistic review",
     "reviewed_at": "2026-10-27",
-    "scope": "B32/B35 sentence-pair repairs plus task108 N5/N4 corrections; additions dated per item; task109 ambiguous 入れる model replacement dated2026-10-29; task110 seven translation-precision/new-model decisions29October2026, CR047 excluded"
+    "scope": "B32/B35 sentence-pair repairs plus task108 N5/N4 corrections; additions dated per item; task109 ambiguous 入れる model replacement dated2026-10-29; task110 seven translation-precision/new-model decisions29October2026, CR047 excluded; task111 user-approved inclusive sibling-count English29October2026"
   },
   "items": [
     {
@@ -341,6 +341,23 @@
         "translation": "The insulin was making her fat."
       },
       "notes": "Task110 Aiko scoped approval. Neutral target-preserving replacement removes an unverified medical causal claim without judging it true or false. Exact observed target太っていた/ふとっていた is preserved. This is an authorized editorial-neutrality choice, not proof of a medical translation defect."
+    },
+    {
+      "id": "sentence-quality-siblings",
+      "status": "answered",
+      "reviewed_at": "2026-10-29",
+      "original_ja": "何人兄弟ですか。",
+      "original_en": "How many siblings do you have?",
+      "replacement_ja": "何人兄弟ですか。",
+      "replacement_en": "How many siblings are there in your family, including you?",
+      "target_surface": "兄弟",
+      "occurrence_reading": "きょうだい",
+      "supersedes": {
+        "sent_id": "reviewed:trygve:20261025:n4:CR047",
+        "text": "何人兄弟ですか。",
+        "translation": "How many siblings do you have?"
+      },
+      "notes": "Task111: user explicitly chose “Clarify the English to include you” on29October2026. Japanese, readings and sibling-group counting convention preserved. Earlier authored review retained; new identity clarifies English only."
     }
   ]
 }

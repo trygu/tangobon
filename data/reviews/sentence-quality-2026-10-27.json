@@ -816,7 +816,19 @@
         "text": "この町は昔、銀の鉱山としてすごく栄えていたらしい。",
         "translation": "Apparently this town used to thrive as a silver mine a long time ago."
       },
-      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Town described as silver mine using として is awkward; review wording, preserve 鉱山."
+      "notes": "Task112 Aiko independent pair/binding review. editorial_quality_improvement_not_categorical_error. Town described as silver mine using として is awkward; review wording, preserve 鉱山. Carry forward exact prior CR190 approved鉱こう/山ざん parts; no new inference.",
+      "reading_parts": [
+        {
+          "form": "鉱",
+          "reading": "こう",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "山",
+          "reading": "ざん",
+          "kind": "Reviewed word reading"
+        }
+      ]
     },
     {
       "id": "sentence-quality-n3n2-extra-812",

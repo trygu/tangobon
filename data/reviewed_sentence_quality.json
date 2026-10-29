@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_review": "reviews/sentence-quality-2026-10-27.json",
-  "review_sha256": "ef76ae7dc213024a46225e716233fe514fb2fb0137f8974930467cf255608c61",
+  "review_sha256": "54cb01c0b9ff108e48dc97af737f5a3ac5cb65bdbdde5f0b794025d27ed733c4",
   "patches": [],
   "sentences": [
     {
@@ -1794,7 +1794,19 @@
         "sent_id": "reviewed:trygve:20261026:n3:CR190",
         "text": "この町は昔、銀の鉱山としてすごく栄えていたらしい。",
         "translation": "Apparently this town used to thrive as a silver mine a long time ago."
-      }
+      },
+      "reading_parts": [
+        {
+          "form": "鉱",
+          "reading": "こう",
+          "kind": "Reviewed word reading"
+        },
+        {
+          "form": "山",
+          "reading": "ざん",
+          "kind": "Reviewed word reading"
+        }
+      ]
     },
     {
       "review_id": "sentence-quality-n3n2-extra-812",

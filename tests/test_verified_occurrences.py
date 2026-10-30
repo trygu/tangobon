@@ -28,6 +28,10 @@ def fixture(tmp_path, defect=None):
                 patches=[], sentences=[item])
     if defect == "misaligned":
         item["reading_parts"][0]["reading"] = "まちがい"
+    elif defect == "grouped_subspan":
+        first, second, last = item["reading_parts"]
+        item["reading_parts"] = [dict(first, form=first["form"] + second["form"],
+                                      reading=first["reading"] + second["reading"]), last]
     elif defect == "entry":
         item["tokens"] = [dict(t, entry_ref="missing") if t["form"] == item["target_form"] else t for t in item["tokens"]]
     path = tmp_path / "overlay.json"
@@ -51,7 +55,7 @@ def test_different_reviewer_and_opaque_identity_preserve_evidence(tmp_path):
         row[1] for row in conn.execute("PRAGMA table_info(verified_occurrence)"))
 
 
-@pytest.mark.parametrize("defect", ["misaligned", "entry"])
+@pytest.mark.parametrize("defect", ["misaligned", "grouped_subspan", "entry"])
 def test_invalid_evidence_rolls_back_all_contract_rows(tmp_path, defect):
     conn, path, _ = fixture(tmp_path, defect)
     with pytest.raises(ValueError):

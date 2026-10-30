@@ -14,6 +14,7 @@ build:
 		--input-reviewed-content data/reviewed_n4_content.json \
 		--input-reviewed-content data/reviewed_n3_content.json \
 		--input-reviewed-content data/reviewed_n2_content.json \
+		--input-reviewed-content data/reviewed_n1_content.json \
 		--input-reviewed-content data/quoted_content.json \
 		--input-reviewed-content data/reviewed_sentence_quality.json \
 		--db output/tangobon.sqlite

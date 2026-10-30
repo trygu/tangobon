@@ -122,7 +122,11 @@ def apply_reviewed_content(conn, path, stats):
             if parts:
                 for part in parts:
                     kana(part["reading"])
-                    if len(part["form"]) != 1 or part["kind"] not in ("Kana", "Reviewed word reading", "On’yomi", "Kun’yomi"):
+                    if (not part["form"] or
+                        (len(part["form"]) != 1 and not (
+                            len(parts) == 1 and part["form"] == target_form and
+                            part["kind"] == "Reviewed word reading")) or
+                        part["kind"] not in ("Kana", "Reviewed word reading", "On’yomi", "Kun’yomi")):
                         raise ValueError(f"Invalid reading breakdown: {sid}")
                 if ("".join(p["form"] for p in parts), "".join(p["reading"] for p in parts)) != (target_form, target_reading):
                     raise ValueError(f"Misaligned reading breakdown: {sid}")

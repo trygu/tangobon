@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_metadata": {
+    "reviewer": "Trygve",
+    "reviewed_at": "2026-11-09",
+    "source_tangobon": "78934cfbb5fd85334e77afa9146b38cc1c68f326",
+    "audit_ref": "orchestration docs/kanjifuda/docs/bug-queue.md B27"
+  },
+  "annotation_note": "Context tokens are explicit dictionary-bound transcription; sentence, target reading and English approved by Trygve 2026-11-09 (B27 register follow-up).",
+  "source_review": "reviews/trygve-b27-2026-11-09.json",
+  "review_sha256": "e3fd41f1488fdfd9570722311785d6e0e8e6ecc040d57152ca79a16297d18a3e",
+  "submission_sha256": "6565ffd34704c16553f2164a70259c2b8f1baeb6633ec30b5d45168f0cc91965",
+  "patches": [],
+  "sentences": [
+    {
+      "review_id": "CR375",
+      "sent_id": "reviewed:trygve:20261109:b27:CR375",
+      "focus_kanji": [
+        "女"
+      ],
+      "source_sentence_id": null,
+      "source": "agent_draft_2026-11-09",
+      "text": "彼女は優しい女性だ。",
+      "translation": "She is a kind woman.",
+      "ent_seq": "1345250",
+      "surface": "女性",
+      "reading": "じょせい",
+      "target_form": "女性",
+      "target_reading": "じょせい",
+      "tokens": [
+        {
+          "lemma": "彼女",
+          "form": "彼女",
+          "reading": "かのじょ",
+          "entry_ref": "1483150"
+        },
+        {
+          "lemma": "優しい",
+          "form": "優しい",
+          "reading": "やさしい",
+          "entry_ref": "1539040"
+        },
+        {
+          "lemma": "女性",
+          "form": "女性",
+          "reading": "じょせい",
+          "entry_ref": "1345250"
+        }
+      ]
+    }
+  ]
+}

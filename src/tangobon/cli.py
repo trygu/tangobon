@@ -23,6 +23,7 @@ def _cmd_build(args: argparse.Namespace) -> None:
             "data/reviewed_content.json", "data/reviewed_n4_content.json",
             "data/reviewed_n3_content.json", "data/reviewed_n2_content.json",
             "data/reviewed_n1_content.json",
+            "data/reviewed_b27_content.json",
             "data/quoted_content.json", "data/reviewed_sentence_quality.json",
         ],
     )

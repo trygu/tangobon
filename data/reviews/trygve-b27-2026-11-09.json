@@ -1,0 +1,31 @@
+{
+  "review_metadata": {
+    "reviewer": "Trygve",
+    "reviewed_at": "2026-11-09",
+    "source_app_commit": "6f4ce3f0985475094f4abe211d85416d3ad5cd07",
+    "source_tangobon_commit": "78934cfbb5fd85334e77afa9146b38cc1c68f326",
+    "style_policy": "Modern, natural colloquial/everyday Japanese; strict <= 23 character limit on all Japanese sentences",
+    "scope": "B27 follow-up: one verified 女性/じょせい model sentence for the 女 deck (CR375)"
+  },
+  "source_sha256": "6565ffd34704c16553f2164a70259c2b8f1baeb6633ec30b5d45168f0cc91965",
+  "authorization": "Trygve selected 彼女は優しい女性だ。 from three candidates as the verified 女性 model (2026-11-09). The existing 女/おonna N5 card (CR012) is deliberately unchanged.",
+  "items": [
+    {
+      "id": "CR375",
+      "focus_kanji": [
+        "女"
+      ],
+      "estimated_group": "N5",
+      "source": "agent_draft_2026-11-09",
+      "target_occurrence": "女性",
+      "proposed_reading": "じょせい",
+      "decision": "approve",
+      "original_ja": "彼女は優しい女性だ。",
+      "original_en": "She is a kind woman.",
+      "notes": "B27: natural modern 女性 model for the 女 deck; pairs with CR012 あの女の人は先生です and shows the register contrast the user flagged. 9 characters.",
+      "status": "answered",
+      "target_surface": "女性",
+      "occurrence_reading": "じょせい"
+    }
+  ]
+}

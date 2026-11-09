@@ -1,0 +1,21 @@
+B27 follow-up review request (2026-11-09)
+
+Reviewer: Trygve
+Source app commit: 6f4ce3f0985475094f4abe211d85416d3ad5cd07
+Source tangobon commit: 78934cfbb5fd85334e77afa9146b38cc1c68f326
+
+Context: B27 (26 October, user on-device finding): the 女 N5 card model
+sentence あの女の人は先生です (CR012) is reading-correct, but 女の人 is
+blunt as a model in modern Japanese. Decision (2026-11-09, user-confirmed):
+keep the 女/おonna N5 card unchanged; add 女性 (じょせい, JMdict 1345250,
+JLPT N4 word) as its own verified entry with a natural modern model sentence
+for the 女 deck.
+
+Proposal (CR375):
+  focus kanji: 女
+  target:      女性 / じょせい
+  sentence:    彼女は優しい女性だ。
+  translation: She is a kind woman.
+  length:      9 characters (within the 23-character limit)
+  source:      agent draft; chosen by Trygve from three candidates
+               (彼女は優しい女性だ。 / 女性の先生が多い。 / 女性のトイレはどこですか。)

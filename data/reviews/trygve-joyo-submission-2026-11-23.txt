@@ -1,0 +1,56 @@
+Joyo 26-kanji sentence gap - review submission (2026-11-23)
+
+Reviewer: Trygve
+Source app commit: 70d1b8c814271f536c66fef58578c6f406b8ff70
+Source tangobon commit: b8f05a617de71ed754e729753533784583f3f298
+
+Context: the live dealable path (2,522 kanji) left 27 Joyo kanji without any card.
+26 are fixable here; U+20B9F (₹f, variant of mei) has zero JMdict entries and is
+handled as a kanjibon alias to mei (tracked separately).
+
+Mechanics:
+- 4 kanji (nashi/iou/kiku/kaiko) already have a properly linked corpus sentence;
+  they fail only on the NULL word reading (filter F5 no_reading); the reading
+  supplement alone unblocks them (existing sentences listed in the review file).
+- 21 new reviewed sentences (CR376-CR396) via the reviewed-sentence overlay;
+  each target word appears in kanji in its sentence (F1 exact), length <= 26,
+  <= 4 level exceptions.
+- 11 reading_supplement.tsv entries fill NULL JMdict readings.
+
+Decision recorded 2026-11-23 (session review): approve all as presented.
+
+New sentences:
+  CR376 丙 甲乙丙丁/こうおつへいてい  甲乙丙丁で名前をつけた。  [I labeled them A, B, C, D.]
+  CR377 劾 弾劾/だんがい  知事は弾劾された。  [The governor was impeached.]
+  CR378 嫡 嫡子/ちゃくし  嫡子は跡を継いだ。  [The legitimate heir took over.]
+  CR379 弔 弔う/なげう  親族が故人を弔った。  [The relatives mourned the deceased.]
+  CR380 彰 表彰/ひょうしょう  大会で表彰を受けた。  [I received an award at the tournament.]
+  CR381 恭 恭しい/うやうやしい  彼女は恭しい態度で挨拶した。  [She greeted me in a respectful manner.]
+  CR382 摯 真摯/しんし  彼は真摯に謝った。  [He apologized sincerely.]
+  CR383 暁 暁/あかつき  暁に町を出た。  [We left the town at dawn.]
+  CR384 曽 曽孫/そまご  曽孫が生まれた。  [A great-grandchild was born.]
+  CR385 栃 栃木/とちぎ  栃木は山に囲まれている。  [Tochigi is surrounded by mountains.]
+  CR386 桑 桑/くわ  蚕は桑の葉を食べる。  [Silkworms eat mulberry leaves.]
+  CR387 殉 殉職/じゅんしょく  消防士は任務中に殉職した。  [The firefighter died in the line of duty.]
+  CR388 瑠/璃 瑠璃/るり  彼女は瑠璃の指輪をした。  [She was wearing a lapis lazuli ring.]
+  CR389 翁 信天翁/しんてんおう  水族館に信天翁がいた。  [There was an albatross at the aquarium.]
+  CR390 芋 芋/いも  父が芋を掘りに行った。  [My father went digging for potatoes.]
+  CR391 藍 藍色/あいいろ  彼は藍色の服を着ていた。  [He was wearing indigo-blue clothes.]
+  CR392 茨 茨城/いばらき  彼女は茨城に行った。  [She went to Ibaraki.]  [corpus 309941_93766]
+  CR393 諧 滑稽/こっけい  滑稽な話でみんな笑った。  [Everyone laughed at the funny story.]
+  CR394 謄 謄本/とうほん  住民票の謄本を取った。  [I got a certified copy of the residence certificate.]
+  CR395 逓 逓増/ていぞう  この数列は逓増する。  [This sequence increases step by step.]
+  CR396 隆 隆起/りゅうき  地震で地面が隆起した。  [The ground heaved up from the earthquake.]
+
+Reading supplements:
+  1549860 梨 なし
+  1226210 菊 きく
+  1304000 蚕 かいこ
+  1552840 硫黄 いおう
+  1167960 芋 いも
+  1247060 桑 くわ
+  1239280 暁 あかつき
+  1581760 弔う なげう
+  1596430 曽孫 そまご
+  1549410 藍色 あいいろ
+  2845113 茨城 いばらき

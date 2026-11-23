@@ -350,3 +350,16 @@
 1203850	外人	がいじん	10 sents; only tagged reading; others: ガイジン
 1540170	友だち	ともだち	10 sents; only tagged reading; others: トモダチ
 1375040	勢い	いきおい	10 sents; only tagged reading; others: いきよい
+
+# Joyo 26-kanji batch (2026-11-23, Trygve-approved; see reviews/trygve-joyo-2026-11-23.json).
+1549860	梨	なし	Joyo gap 2026-11-23 (Trygve): everyday reading; corpus 282642_121364, 321978_81737
+1226210	菊	きく	Joyo gap 2026-11-23 (Trygve): everyday reading; corpus 19979_182858
+1304000	蚕	かいこ	Joyo gap 2026-11-23 (Trygve): everyday reading; corpus 245173_169313
+1552840	硫黄	いおう	Joyo gap 2026-11-23 (Trygve): standard reading; corpus 325500_78218
+1167960	芋	いも	Joyo gap 2026-11-23 (Trygve): everyday reading (yo is archaic)
+1247060	桑	くわ	Joyo gap 2026-11-23 (Trygve): everyday reading
+1239280	暁	あかつき	Joyo gap 2026-11-23 (Trygve): everyday kun-yomi (gyou is literary)
+1581760	弔う	なげう	Joyo gap 2026-11-23 (Trygve): sole standalone reading (chou only in compounds)
+1596430	曽孫	そまご	Joyo gap 2026-11-23 (Trygve): sole reading
+1549410	藍色	あいいろ	Joyo gap 2026-11-23 (Trygve): everyday color reading
+2845113	茨城	いばらき	Joyo gap 2026-11-23 (Trygve): place-name reading

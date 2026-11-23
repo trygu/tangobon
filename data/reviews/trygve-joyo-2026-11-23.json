@@ -1,0 +1,451 @@
+{
+  "review_metadata": {
+    "reviewer": "Trygve",
+    "reviewed_at": "2026-11-23",
+    "source_app_commit": "70d1b8c814271f536c66fef58578c6f406b8ff70",
+    "source_tangobon_commit": "b8f05a617de71ed754e729753533784583f3f298",
+    "style_policy": "Modern, natural colloquial/everyday Japanese",
+    "scope": "Joyo 26-kanji sentence gap: 21 reviewed sentences (CR376-CR396) + 11 reading supplements; 4 kanji unblocked by supplement alone over existing linked corpus sentences. U+20B9F alias to mei tracked in kanjibon."
+  },
+  "source_sha256": "ed2b1b4fc714151d6f20f569a676f3293462cda1b0160d6263aa01f4ffb01fd1",
+  "authorization": "Trygve approved the full Joyo gap packet (2026-11-23 session review): all 21 sentences as drafted, the 11 reading supplements, and the 4 reading-only fixes over existing corpus sentences. U+20B9F aliased to mei in kanjibon.",
+  "reading_supplement_approvals": [
+    {
+      "ent_seq": "1549860",
+      "surface": "梨",
+      "reading": "なし",
+      "existing_sentence": "282642_121364",
+      "rationale": "Joyo gap 2026-11-23 (Trygve): everyday reading; corpus 282642_121364, 321978_81737"
+    },
+    {
+      "ent_seq": "1226210",
+      "surface": "菊",
+      "reading": "きく",
+      "existing_sentence": "19979_182858",
+      "rationale": "Joyo gap 2026-11-23 (Trygve): everyday reading; corpus 19979_182858"
+    },
+    {
+      "ent_seq": "1304000",
+      "surface": "蚕",
+      "reading": "かいこ",
+      "existing_sentence": "245173_169313",
+      "rationale": "Joyo gap 2026-11-23 (Trygve): everyday reading; corpus 245173_169313"
+    },
+    {
+      "ent_seq": "1552840",
+      "surface": "硫黄",
+      "reading": "いおう",
+      "existing_sentence": "325500_78218",
+      "rationale": "Joyo gap 2026-11-23 (Trygve): standard reading; corpus 325500_78218"
+    },
+    {
+      "ent_seq": "1167960",
+      "surface": "芋",
+      "reading": "いも",
+      "existing_sentence": null,
+      "rationale": "Joyo gap 2026-11-23 (Trygve): everyday reading (yo is archaic)"
+    },
+    {
+      "ent_seq": "1247060",
+      "surface": "桑",
+      "reading": "くわ",
+      "existing_sentence": null,
+      "rationale": "Joyo gap 2026-11-23 (Trygve): everyday reading"
+    },
+    {
+      "ent_seq": "1239280",
+      "surface": "暁",
+      "reading": "あかつき",
+      "existing_sentence": null,
+      "rationale": "Joyo gap 2026-11-23 (Trygve): everyday kun-yomi (gyou is literary)"
+    },
+    {
+      "ent_seq": "1581760",
+      "surface": "弔う",
+      "reading": "なげう",
+      "existing_sentence": null,
+      "rationale": "Joyo gap 2026-11-23 (Trygve): sole standalone reading (chou only in compounds)"
+    },
+    {
+      "ent_seq": "1596430",
+      "surface": "曽孫",
+      "reading": "そまご",
+      "existing_sentence": null,
+      "rationale": "Joyo gap 2026-11-23 (Trygve): sole reading"
+    },
+    {
+      "ent_seq": "1549410",
+      "surface": "藍色",
+      "reading": "あいいろ",
+      "existing_sentence": null,
+      "rationale": "Joyo gap 2026-11-23 (Trygve): everyday color reading"
+    },
+    {
+      "ent_seq": "2845113",
+      "surface": "茨城",
+      "reading": "いばらき",
+      "existing_sentence": null,
+      "rationale": "Joyo gap 2026-11-23 (Trygve): place-name reading"
+    }
+  ],
+  "items": [
+    {
+      "id": "CR376",
+      "focus_kanji": [
+        "丙"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "甲乙丙丁",
+      "proposed_reading": "こうおつへいてい",
+      "decision": "approve",
+      "original_ja": "甲乙丙丁で名前をつけた。",
+      "original_en": "I labeled them A, B, C, D.",
+      "notes": "Joyo gap batch: 甲乙丙丁/こうおつへいてい target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "甲乙丙丁",
+      "occurrence_reading": "こうおつへいてい"
+    },
+    {
+      "id": "CR377",
+      "focus_kanji": [
+        "劾"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "弾劾",
+      "proposed_reading": "だんがい",
+      "decision": "approve",
+      "original_ja": "知事は弾劾された。",
+      "original_en": "The governor was impeached.",
+      "notes": "Joyo gap batch: 弾劾/だんがい target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "弾劾",
+      "occurrence_reading": "だんがい"
+    },
+    {
+      "id": "CR378",
+      "focus_kanji": [
+        "嫡"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "嫡子",
+      "proposed_reading": "ちゃくし",
+      "decision": "approve",
+      "original_ja": "嫡子は跡を継いだ。",
+      "original_en": "The legitimate heir took over.",
+      "notes": "Joyo gap batch: 嫡子/ちゃくし target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "嫡子",
+      "occurrence_reading": "ちゃくし"
+    },
+    {
+      "id": "CR379",
+      "focus_kanji": [
+        "弔"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "弔った",
+      "proposed_reading": "なげう",
+      "decision": "approve",
+      "original_ja": "親族が故人を弔った。",
+      "original_en": "The relatives mourned the deceased.",
+      "notes": "Joyo gap batch: 弔う/なげう target; reading_parts=present",
+      "status": "answered",
+      "target_surface": "弔った",
+      "occurrence_reading": "なげうた"
+    },
+    {
+      "id": "CR380",
+      "focus_kanji": [
+        "彰"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "表彰",
+      "proposed_reading": "ひょうしょう",
+      "decision": "approve",
+      "original_ja": "大会で表彰を受けた。",
+      "original_en": "I received an award at the tournament.",
+      "notes": "Joyo gap batch: 表彰/ひょうしょう target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "表彰",
+      "occurrence_reading": "ひょうしょう"
+    },
+    {
+      "id": "CR381",
+      "focus_kanji": [
+        "恭"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "恭しい",
+      "proposed_reading": "うやうやしい",
+      "decision": "approve",
+      "original_ja": "彼女は恭しい態度で挨拶した。",
+      "original_en": "She greeted me in a respectful manner.",
+      "notes": "Joyo gap batch: 恭しい/うやうやしい target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "恭しい",
+      "occurrence_reading": "うやうやしい"
+    },
+    {
+      "id": "CR382",
+      "focus_kanji": [
+        "摯"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "真摯",
+      "proposed_reading": "しんし",
+      "decision": "approve",
+      "original_ja": "彼は真摯に謝った。",
+      "original_en": "He apologized sincerely.",
+      "notes": "Joyo gap batch: 真摯/しんし target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "真摯",
+      "occurrence_reading": "しんし"
+    },
+    {
+      "id": "CR383",
+      "focus_kanji": [
+        "暁"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "暁",
+      "proposed_reading": "あかつき",
+      "decision": "approve",
+      "original_ja": "暁に町を出た。",
+      "original_en": "We left the town at dawn.",
+      "notes": "Joyo gap batch: 暁/あかつき target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "暁",
+      "occurrence_reading": "あかつき"
+    },
+    {
+      "id": "CR384",
+      "focus_kanji": [
+        "曽"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "曽孫",
+      "proposed_reading": "そまご",
+      "decision": "approve",
+      "original_ja": "曽孫が生まれた。",
+      "original_en": "A great-grandchild was born.",
+      "notes": "Joyo gap batch: 曽孫/そまご target; reading_parts=present",
+      "status": "answered",
+      "target_surface": "曽孫",
+      "occurrence_reading": "そまご"
+    },
+    {
+      "id": "CR385",
+      "focus_kanji": [
+        "栃"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "栃木",
+      "proposed_reading": "とちぎ",
+      "decision": "approve",
+      "original_ja": "栃木は山に囲まれている。",
+      "original_en": "Tochigi is surrounded by mountains.",
+      "notes": "Joyo gap batch: 栃木/とちぎ target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "栃木",
+      "occurrence_reading": "とちぎ"
+    },
+    {
+      "id": "CR386",
+      "focus_kanji": [
+        "桑"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "桑",
+      "proposed_reading": "くわ",
+      "decision": "approve",
+      "original_ja": "蚕は桑の葉を食べる。",
+      "original_en": "Silkworms eat mulberry leaves.",
+      "notes": "Joyo gap batch: 桑/くわ target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "桑",
+      "occurrence_reading": "くわ"
+    },
+    {
+      "id": "CR387",
+      "focus_kanji": [
+        "殉"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "殉職",
+      "proposed_reading": "じゅんしょく",
+      "decision": "approve",
+      "original_ja": "消防士は任務中に殉職した。",
+      "original_en": "The firefighter died in the line of duty.",
+      "notes": "Joyo gap batch: 殉職/じゅんしょく target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "殉職",
+      "occurrence_reading": "じゅんしょく"
+    },
+    {
+      "id": "CR388",
+      "focus_kanji": [
+        "瑠",
+        "璃"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "瑠璃",
+      "proposed_reading": "るり",
+      "decision": "approve",
+      "original_ja": "彼女は瑠璃の指輪をした。",
+      "original_en": "She was wearing a lapis lazuli ring.",
+      "notes": "Joyo gap batch: 瑠璃/るり target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "瑠璃",
+      "occurrence_reading": "るり"
+    },
+    {
+      "id": "CR389",
+      "focus_kanji": [
+        "翁"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "信天翁",
+      "proposed_reading": "しんてんおう",
+      "decision": "approve",
+      "original_ja": "水族館に信天翁がいた。",
+      "original_en": "There was an albatross at the aquarium.",
+      "notes": "Joyo gap batch: 信天翁/しんてんおう target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "信天翁",
+      "occurrence_reading": "しんてんおう"
+    },
+    {
+      "id": "CR390",
+      "focus_kanji": [
+        "芋"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "芋",
+      "proposed_reading": "いも",
+      "decision": "approve",
+      "original_ja": "父が芋を掘りに行った。",
+      "original_en": "My father went digging for potatoes.",
+      "notes": "Joyo gap batch: 芋/いも target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "芋",
+      "occurrence_reading": "いも"
+    },
+    {
+      "id": "CR391",
+      "focus_kanji": [
+        "藍"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "藍色",
+      "proposed_reading": "あいいろ",
+      "decision": "approve",
+      "original_ja": "彼は藍色の服を着ていた。",
+      "original_en": "He was wearing indigo-blue clothes.",
+      "notes": "Joyo gap batch: 藍色/あいいろ target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "藍色",
+      "occurrence_reading": "あいいろ"
+    },
+    {
+      "id": "CR392",
+      "focus_kanji": [
+        "茨"
+      ],
+      "estimated_group": "N3",
+      "source": "corpus_tanaka_309941_93766",
+      "target_occurrence": "茨城",
+      "proposed_reading": "いばらき",
+      "decision": "approve",
+      "original_ja": "彼女は茨城に行った。",
+      "original_en": "She went to Ibaraki.",
+      "notes": "Joyo gap batch: 茨城/いばらき target (corpus text 309941_93766); reading_parts=present",
+      "status": "answered",
+      "target_surface": "茨城",
+      "occurrence_reading": "いばらき"
+    },
+    {
+      "id": "CR393",
+      "focus_kanji": [
+        "諧"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "滑稽",
+      "proposed_reading": "こっけい",
+      "decision": "approve",
+      "original_ja": "滑稽な話でみんな笑った。",
+      "original_en": "Everyone laughed at the funny story.",
+      "notes": "Joyo gap batch: 滑稽/こっけい target; reading_parts=present",
+      "status": "answered",
+      "target_surface": "滑稽",
+      "occurrence_reading": "こっけい"
+    },
+    {
+      "id": "CR394",
+      "focus_kanji": [
+        "謄"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "謄本",
+      "proposed_reading": "とうほん",
+      "decision": "approve",
+      "original_ja": "住民票の謄本を取った。",
+      "original_en": "I got a certified copy of the residence certificate.",
+      "notes": "Joyo gap batch: 謄本/とうほん target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "謄本",
+      "occurrence_reading": "とうほん"
+    },
+    {
+      "id": "CR395",
+      "focus_kanji": [
+        "逓"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "逓増",
+      "proposed_reading": "ていぞう",
+      "decision": "approve",
+      "original_ja": "この数列は逓増する。",
+      "original_en": "This sequence increases step by step.",
+      "notes": "Joyo gap batch: 逓増/ていぞう target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "逓増",
+      "occurrence_reading": "ていぞう"
+    },
+    {
+      "id": "CR396",
+      "focus_kanji": [
+        "隆"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "隆起",
+      "proposed_reading": "りゅうき",
+      "decision": "approve",
+      "original_ja": "地震で地面が隆起した。",
+      "original_en": "The ground heaved up from the earthquake.",
+      "notes": "Joyo gap batch: 隆起/りゅうき target; reading_parts=n/a",
+      "status": "answered",
+      "target_surface": "隆起",
+      "occurrence_reading": "りゅうき"
+    }
+  ]
+}

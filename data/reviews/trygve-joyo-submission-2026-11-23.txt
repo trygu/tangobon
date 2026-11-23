@@ -12,12 +12,15 @@ Mechanics:
 - 4 kanji (nashi/iou/kiku/kaiko) already have a properly linked corpus sentence;
   they fail only on the NULL word reading (filter F5 no_reading); the reading
   supplement alone unblocks them (existing sentences listed in the review file).
-- 21 new reviewed sentences (CR376-CR396) via the reviewed-sentence overlay;
+- 22 new reviewed sentences (CR376-CR397) via the reviewed-sentence overlay;
   each target word appears in kanji in its sentence (F1 exact), length <= 26,
   <= 4 level exceptions.
 - 11 reading_supplement.tsv entries fill NULL JMdict readings.
 
 Decision recorded 2026-11-23 (session review): approve all as presented.
+Correction 2026-11-23 (deal-audit follow-up, Trygve-approved): CR393's focus kanji is 稽, not 諧
+(滑稽 = 滑+稽). 稽 was not in the original gap; the 滑稽 sentence remains approved content for 稽,
+and CR397 (俳諧/はいかい) is added to unblock 諧.
 
 New sentences:
   CR376 丙 甲乙丙丁/こうおつへいてい  甲乙丙丁で名前をつけた。  [I labeled them A, B, C, D.]
@@ -41,6 +44,7 @@ New sentences:
   CR394 謄 謄本/とうほん  住民票の謄本を取った。  [I got a certified copy of the residence certificate.]
   CR395 逓 逓増/ていぞう  この数列は逓増する。  [This sequence increases step by step.]
   CR396 隆 隆起/りゅうき  地震で地面が隆起した。  [The ground heaved up from the earthquake.]
+  CR397 諧 俳諧/はいかい  俳諧は連歌から生まれた。  [Haikai developed out of renga.]  [deal-audit follow-up]
 
 Reading supplements:
   1549860 梨 なし

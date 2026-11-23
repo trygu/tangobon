@@ -6,10 +6,10 @@
     "source_tangobon": "b8f05a617de71ed754e729753533784583f3f298",
     "audit_ref": "orchestration docs/kanjifuda/development/tasks/091-tangobon-slim-bundle.json; user mandate 2026-11-22 (27 Joyo kanji deal no cards)"
   },
-  "annotation_note": "Joyo gap batch: 21 sentence-backed target words (CR376-CR396); 1 corpus-text reuse (CR392 ibaraki), 20 agent drafts. reading_parts where kanjibon primes cannot split the reading (nage-u and kokei as whole-occurrence Reviewed word reading; somago and ibaraki per-char).",
+  "annotation_note": "Joyo gap batch: 22 sentence-backed target words (CR376-CR397); 1 corpus-text reuse (CR392 ibaraki), 21 agent drafts. CR397 (俳諧) added 2026-11-23 after the deal audit showed CR393's 滑稽 contains 稽, not 諧. reading_parts where kanjibon primes cannot split the reading (nage-u and kokei as whole-occurrence Reviewed word reading; somago and ibaraki per-char).",
   "source_review": "reviews/trygve-joyo-2026-11-23.json",
-  "review_sha256": "87cf1d0a9d3c471e86ad6cc1ee8ac6f175825e47eb21d43eb4167db1191d8c85",
-  "submission_sha256": "ed2b1b4fc714151d6f20f569a676f3293462cda1b0160d6263aa01f4ffb01fd1",
+  "review_sha256": "4b593265a09a05a02d41a75af460890c7ec0960a69fa58c28f77c1aff4992a42",
+  "submission_sha256": "0219486e45919b2fb5938dd62ed3ee2960a69cefb918d2621ec447dc74471424",
   "patches": [],
   "sentences": [
     {
@@ -812,6 +812,54 @@
           "form": "隆起",
           "reading": "りゅうき",
           "entry_ref": "1552930"
+        }
+      ]
+    },
+    {
+      "review_id": "CR397",
+      "sent_id": "reviewed:trygve:20261123:joyo:CR397",
+      "focus_kanji": [
+        "諧"
+      ],
+      "source_sentence_id": null,
+      "source": "agent_draft_2026-11-23",
+      "text": "俳諧は連歌から生まれた。",
+      "translation": "Haikai developed out of renga.",
+      "ent_seq": "1471990",
+      "surface": "俳諧",
+      "reading": "はいかい",
+      "target_form": "俳諧",
+      "target_reading": "はいかい",
+      "tokens": [
+        {
+          "lemma": "俳諧",
+          "form": "俳諧",
+          "reading": "はいかい",
+          "entry_ref": "1471990"
+        },
+        {
+          "lemma": "連歌",
+          "form": "連歌",
+          "reading": "れんが",
+          "entry_ref": "1559370"
+        },
+        {
+          "lemma": "生まれる",
+          "form": "生まれた",
+          "reading": "うまった",
+          "entry_ref": "1378690"
+        }
+      ],
+      "reading_parts": [
+        {
+          "form": "俳",
+          "reading": "はい",
+          "kind": "On’yomi"
+        },
+        {
+          "form": "諧",
+          "reading": "かい",
+          "kind": "On’yomi"
         }
       ]
     }

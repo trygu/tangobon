@@ -5,7 +5,7 @@
     "source_app_commit": "70d1b8c814271f536c66fef58578c6f406b8ff70",
     "source_tangobon_commit": "b8f05a617de71ed754e729753533784583f3f298",
     "style_policy": "Modern, natural colloquial/everyday Japanese",
-    "scope": "Joyo 26-kanji sentence gap: 21 reviewed sentences (CR376-CR396) + 11 reading supplements; 4 kanji unblocked by supplement alone over existing linked corpus sentences. U+20B9F alias to mei tracked in kanjibon."
+    "scope": "Joyo 26-kanji sentence gap: 22 reviewed sentences (CR376-CR397) + 11 reading supplements; 4 kanji unblocked by supplement alone over existing linked corpus sentences. U+20B9F alias to mei tracked in kanjibon. CR397 added 2026-11-23 (deal-audit follow-up: 滑稽 fixes 稽, not 諧)."
   },
   "source_sha256": "ed2b1b4fc714151d6f20f569a676f3293462cda1b0160d6263aa01f4ffb01fd1",
   "authorization": "Trygve approved the full Joyo gap packet (2026-11-23 session review): all 21 sentences as drafted, the 11 reading supplements, and the 4 reading-only fixes over existing corpus sentences. U+20B9F aliased to mei in kanjibon.",
@@ -382,7 +382,7 @@
     {
       "id": "CR393",
       "focus_kanji": [
-        "諧"
+        "稽"
       ],
       "estimated_group": "N3",
       "source": "agent_draft_2026-11-23",
@@ -391,7 +391,7 @@
       "decision": "approve",
       "original_ja": "滑稽な話でみんな笑った。",
       "original_en": "Everyone laughed at the funny story.",
-      "notes": "Joyo gap batch: 滑稽/こっけい target; reading_parts=present",
+      "notes": "Joyo gap batch: 滑稽/こっけい target; reading_parts=present. Correction 2026-11-23 (deal-audit follow-up): the focus kanji is 稽, the kanji actually in 滑稽 (滑+稽); first recorded as 諧 in error. 稽 was not in the original gap; 諧 is unblocked by CR397.",
       "status": "answered",
       "target_surface": "滑稽",
       "occurrence_reading": "こっけい"
@@ -446,6 +446,23 @@
       "status": "answered",
       "target_surface": "隆起",
       "occurrence_reading": "りゅうき"
+    },
+    {
+      "id": "CR397",
+      "focus_kanji": [
+        "諧"
+      ],
+      "estimated_group": "N3",
+      "source": "agent_draft_2026-11-23",
+      "target_occurrence": "俳諧",
+      "proposed_reading": "はいかい",
+      "decision": "approve",
+      "original_ja": "俳諧は連歌から生まれた。",
+      "original_en": "Haikai developed out of renga.",
+      "notes": "Joyo gap follow-up 2026-11-23: CR393's 滑稽 contains 稽, not 諧, so 諧 still dealt no cards; this sentence unblocks 諧. Approved by Trygve in the deal-audit follow-up session. reading_parts=present",
+      "status": "answered",
+      "target_surface": "俳諧",
+      "occurrence_reading": "はいかい"
     }
   ]
 }
